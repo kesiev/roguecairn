@@ -1,0 +1,1121 @@
+[
+    {
+        "_":"A beast invading a building.",
+        "type":"event",
+        "tags": [ "event-base" ],
+        "entities":{
+            "where":[ "building" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"beast",
+                    "pick":"beast",
+                    "beast":[ [ [ "biome-any" ] ] ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"beast"
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Caccia ",
+                                    "EN":"Hunt "
+                                },
+                                "value":{
+                                    "entity":"beast"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Libera ",
+                                    "EN":"Free "
+                                },
+                                "value":{
+                                    "entity":"where"
+                                },
+                                "postSentence":{
+                                    "EN":" from beasts.",
+                                    "IT":" dalle bestie."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"beast",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"A boss looking for a magical item.",
+        "type":"event",
+        "tags": [ "event-base" ],
+        "entities":{
+            "who":[ "strength-boss" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"lookFor",
+                    "pick":"relic"
+                },{
+                    "asEntity":"lookFor",
+                    "pick":"spellbook"
+                },{
+                    "asEntity":"lookFor",
+                    "pick":"spellscroll"
+                }
+            ],[
+                {
+                    "asEntity":"who",
+                    "add":{
+                        "to":"notes",
+                        "element":{
+                            "key":{
+                                "IT":"Necessita",
+                                "EN":"Needs"
+                            },
+                            "value":{
+                                "entity":"lookFor"
+                            }
+                        }
+                    }
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Stringi un patto con ",
+                                    "EN":"Make a pact with "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Sventa i piani di ",
+                                    "EN":"Foil the "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":" plan.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Consegna ",
+                                    "EN":"Bring "
+                                },
+                                "value":{
+                                    "entity":"lookFor"
+                                },
+                                "postSentence":{
+                                    "IT":" a chi lo sta cercando.",
+                                    "EN":" to whoever is looking for it."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Usa ",
+                                    "EN":"Use "
+                                },
+                                "value":{
+                                    "entity":"lookFor"
+                                },
+                                "postSentence":{
+                                    "EN":" against those looking for it.",
+                                    "IT":" contro chi lo cerca."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"who",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"A boss looking for someone.",
+        "type":"event",
+        "tags": [ "event-base" ],
+        "entities":{
+            "who":[ "strength-boss" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"lookFor",
+                    "pick":"person"
+                }
+            ],[
+                {
+                    "asEntity":"who",
+                    "add":{
+                        "to":"notes",
+                        "element":{
+                            "key":{
+                                "IT":"Cerca",
+                                "EN":"Looking for"
+                            },
+                            "value":{
+                                "entity":"lookFor"
+                            }
+                        }
+                    }
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Stringi un patto con ",
+                                    "EN":"Make a pact with "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Sventa i piani di ",
+                                    "EN":"Foil the "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":" plan.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scorta ",
+                                    "EN":"Escort "
+                                },
+                                "value":{
+                                    "entity":"lookFor"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Impedisci a ",
+                                    "EN":"Prevent "
+                                },
+                                "value":{
+                                    "entity":"lookFor"
+                                },
+                                "postSentence":{
+                                    "EN":" from reaching its destination.",
+                                    "IT":" di arrivare a destinazione."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Spiega a ",
+                                    "EN":"Explain to "
+                                },
+                                "value":{
+                                    "entity":"lookFor"
+                                },
+                                "postSentence":{
+                                    "IT":" perch&eacute; qualcuno lo sta cercando.",
+                                    "EN":" why someone is looking for it."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"who",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"A boss hunting another boss.",
+        "type":"event",
+        "tags": [ "event-base" ],
+        "entities":{
+            "who":[ "strength-boss" ],
+            "target":[ "strength-boss" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"who",
+                    "add":{
+                        "to":"notes",
+                        "element":{
+                            "key":{
+                                "IT":"Vuole eliminare",
+                                "EN":"Want eliminate"
+                            },
+                            "value":{
+                                "entity":"target"
+                            }
+                        }
+                    }
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Sventa il piano di ",
+                                    "EN":"Foil the "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":" plan.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Stringi un patto con ",
+                                    "EN":"Make a pact with "
+                                },
+                                "value":{
+                                    "entity":"target"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Sbarazzati di ",
+                                    "EN":"Get rid of "
+                                },
+                                "value":{
+                                    "entity":"target"
+                                },
+                                "postSentence":{
+                                    "EN":" and get the reward.",
+                                    "IT":" e recupera la ricompensa."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Metti al sicuro ",
+                                    "EN":"Keep safe "
+                                },
+                                "value":{
+                                    "entity":"target"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Investiga e avvisa ",
+                                    "EN":"Investigate and warn "
+                                },
+                                "value":{
+                                    "entity":"target"
+                                },
+                                "postSentence":{
+                                    "IT":" del pericolo.",
+                                    "EN":" of the danger."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"who",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"Someone hunting a boss.",
+        "type":"event",
+        "tags": [ "event-base" ],
+        "entities":{
+            "target":[ "strength-boss" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"who",
+                    "pick":"professional"
+                }
+            ],
+            [
+                {
+                    "asEntity":"who",
+                    "add":{
+                        "to":"notes",
+                        "element":{
+                            "key":{
+                                "IT":"Vuole eliminare",
+                                "EN":"Want eliminate"
+                            },
+                            "value":{
+                                "entity":"target"
+                            }
+                        }
+                    }
+                }
+            ],[
+                {
+                    "asEntity":"target",
+                    "add":{
+                        "to":"notes",
+                        "element":{
+                            "key":{
+                                "IT":"Cacciato da",
+                                "EN":"Hunted by"
+                            },
+                            "value":{
+                                "entity":"who"
+                            }
+                        }
+                    }
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Ferma ",
+                                    "EN":"Stop "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],[
+                            {
+                                "sentence":{
+                                    "IT":"Aiuta ",
+                                    "EN":"Help "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],[
+                            {
+                                "sentence":{
+                                    "IT":"Scopri il piano di ",
+                                    "EN":"Discover the "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":" plan.",
+                                    "IT":"."
+                                }
+                            }
+                        ],[
+                            {
+                                "sentence":{
+                                    "IT":"Scopri chi sta cacciando ",
+                                    "EN":"Discover who is hunting "
+                                },
+                                "value":{
+                                    "entity":"target"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"target",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"CONTAINER: Locks a pickable item on a container.",
+        "type":"event",
+        "tags": [ "event-base" ],
+        "entities":{
+            "what":[ "pickable", "closable" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"key",
+                    "pick":"key"
+                }
+            ],[
+                {
+                    "asEntity":"container",
+                    "pick":"container",
+                    "openedBy":["key"],
+                    "contains":"what"
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri che fine ha fatto ",
+                                    "EN":"Find out where "
+                                },
+                                "value":{
+                                    "entity":"what"
+                                },
+                                "postSentence":{
+                                    "EN":" went.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Ruba ",
+                                    "EN":"Steal "
+                                },
+                                "value":{
+                                    "entity":"what"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Trova e apri ",
+                                    "EN":"Find and open "
+                                },
+                                "value":{
+                                    "entity":"container"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],[
+                            {
+                                "sentence":{
+                                    "IT":"Trova ",
+                                    "EN":"Find "
+                                },
+                                "value":{
+                                    "entity":"key"
+                                },
+                                "postSentence":{
+                                    "EN":" and discover what opens.",
+                                    "IT":" e scopri cosa apre."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"CONTAINER: Locks a person in a hideout.",
+        "type":"event",
+        "tags": [ "event-base" ],
+        "entities":{
+            "who":[ "person" ],
+            "where":[ "place" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"fragment",
+                    "pick":"fragment",
+                    "fragments":2
+                }
+            ],[
+                {
+                    "asEntity":"hideout",
+                    "pick":"hideout",
+                    "openedBy":["fragment-1","fragment-2"],
+                    "contains":"who"
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"hideout"
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri che fine ha fatto ",
+                                    "EN":"Find out where "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":" went.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Trova ",
+                                    "EN":"Find "
+                                },
+                                "value":{
+                                    "entity":"fragment-1"
+                                },
+                                "postSentence":{
+                                    "EN":" ",
+                                    "IT":" "
+                                }
+                            },{
+                                "sentence":{
+                                    "IT":"e ",
+                                    "EN":"and "
+                                },
+                                "value":{
+                                    "entity":"fragment-2"
+                                },
+                                "postSentence":{
+                                    "EN":" and find out what they are for.",
+                                    "IT":" e scopri a cosa servono."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"who",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"CONTAINER: Locks an item in a hideout.",
+        "type":"event",
+        "tags": [ "event-base" ],
+        "entities":{
+            "what":[ "pickable" ],
+            "where":[ "place" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"fragment",
+                    "pick":"fragment",
+                    "fragments":2
+                }
+            ],[
+                {
+                    "asEntity":"hideout",
+                    "pick":"hideout",
+                    "openedBy":["fragment-1","fragment-2"],
+                    "contains":"what"
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"hideout"
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri che fine ha fatto ",
+                                    "EN":"Find out where "
+                                },
+                                "value":{
+                                    "entity":"what"
+                                },
+                                "postSentence":{
+                                    "EN":" went.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Trova ",
+                                    "EN":"Find "
+                                },
+                                "value":{
+                                    "entity":"fragment-1"
+                                },
+                                "postSentence":{
+                                    "EN":" ",
+                                    "IT":" "
+                                }
+                            },{
+                                "sentence":{
+                                    "IT":"e ",
+                                    "EN":"and "
+                                },
+                                "value":{
+                                    "entity":"fragment-2"
+                                },
+                                "postSentence":{
+                                    "EN":" and find out what they are for.",
+                                    "IT":" e scopri a cosa servono."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"CONTAINER: Someone owning for an item.",
+        "type":"event",
+        "tags": [ "event-base", "event-finalizer" ],
+        "entities":{
+            "who":[ "person" ],
+            "what":[ "pickable" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"who",
+                    "add":{
+                        "to":"notes",
+                        "element":{
+                            "key":{
+                                "IT":"Possiede",
+                                "EN":"Own"
+                            },
+                            "value":{
+                                "own":true,
+                                "entity":"what"
+                            }
+                        }
+                    }
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri che fine ha fatto ",
+                                    "EN":"Find out where "
+                                },
+                                "value":{
+                                    "entity":"what"
+                                },
+                                "postSentence":{
+                                    "EN":" went.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Ruba ",
+                                    "EN":"Steal "
+                                },
+                                "value":{
+                                    "entity":"what"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri l'oggetto custodito da ",
+                                    "EN":"Find out the item guarded by "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"DROP: Trap a person on a midboss.",
+        "type":"event",
+        "tags": [ "event-base", "event-finalizer" ],
+        "entities":{
+            "who":[ "person" ],
+            "byWho":[ "strength-midboss" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"byWho",
+                    "add":{
+                        "to":"notes",
+                        "element":{
+                            "key":{
+                                "IT":"Ha intrappolato",
+                                "EN":"Trapped"
+                            },
+                            "value":{
+                                "own":true,
+                                "entity":"who"
+                            }
+                        }
+                    }
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri che fine ha fatto ",
+                                    "EN":"Find out where "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":" went.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri chi ha intrappolato ",
+                                    "EN":"Find out who trapped "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Libera ",
+                                    "EN":"Free "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri perch&egrave; ",
+                                    "EN":"Find out why "
+                                },
+                                "value":{
+                                    "entity":"byWho"
+                                },
+                                "postSentence":{
+                                    "EN":" trapped someone.",
+                                    "IT":" tiene qualcuno intrappolato."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"who",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"CONTAINER: A boss owning for an item.",
+        "type":"event",
+        "tags": [ "event-base", "event-finalizer" ],
+        "entities":{
+            "who":[ "strength-boss" ],
+            "what":[ "pickable" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"who",
+                    "add":{
+                        "to":"notes",
+                        "element":{
+                            "key":{
+                                "IT":"Possiede",
+                                "EN":"Own"
+                            },
+                            "value":{
+                                "own":true,
+                                "entity":"what"
+                            }
+                        }
+                    }
+                }
+            ],[
+                {
+                    "addBond":[
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri che fine ha fatto ",
+                                    "EN":"Find out where "
+                                },
+                                "value":{
+                                    "entity":"what"
+                                },
+                                "postSentence":{
+                                    "EN":" went.",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Ruba ",
+                                    "EN":"Steal "
+                                },
+                                "value":{
+                                    "entity":"what"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "sentence":{
+                                    "IT":"Scopri l'oggetto custodito da ",
+                                    "EN":"Find out the item guarded by "
+                                },
+                                "value":{
+                                    "entity":"who"
+                                },
+                                "postSentence":{
+                                    "EN":".",
+                                    "IT":"."
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"who",
+                    "ban":true
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "ban":true
+                }
+            ]
+        ]
+    },
+    {
+        "_":"DROP: Drop a pickable item on a place.",
+        "type":"event",
+        "tags": [ "event-base", "event-finalizer" ],
+        "entities":{
+            "what":[ "pickable" ],
+            "where":[ "place" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"where",
+                    "placeEntity":"what"
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "ban":true
+                }
+            ]
+        ]
+    },{
+        "_":"DROP: Drop a person on a place.",
+        "type":"event",
+        "tags": [ "event-base", "event-finalizer" ],
+        "entities":{
+            "what":[ "person" ],
+            "where":[ "place" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"where",
+                    "placeEntity":"what"
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "ban":true
+                }
+            ]
+        ]
+    },{
+        "_":"DROP: Put a pickable item on a container and place it somewhere.",
+        "type":"event",
+        "tags": [ "event-finalizer" ],
+        "entities":{
+            "what":[ "pickable", "closable" ],
+            "where":[ "place" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"container",
+                    "pick":"container",
+                    "contains":"what"
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"container"
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "ban":true
+                }
+            ],[
+                {
+                    "asEntity":"container",
+                    "ban":true
+                }
+            ]
+        ]
+    }
+]

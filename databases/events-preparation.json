@@ -1,0 +1,59 @@
+[
+	{
+        "_":"PREPARATION: Few gold.",
+        "type":"event",
+        "tags": [ "event-preparation" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"coins",
+                    "amount":10
+                }
+            ]
+        ]
+    },{
+        "_":"PREPARATION: Some gold.",
+        "type":"event",
+        "tags": [ "event-preparation" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"coins",
+                    "amount":20
+                }
+            ]
+        ]
+    },{
+        "_":"PREPARATION: More gold.",
+        "type":"event",
+        "tags": [ "event-preparation" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"coins",
+                    "amount":40
+                }
+            ]
+        ]
+    },{
+        "_":"PREPARATION: A lot of gold.",
+        "type":"event",
+        "tags": [ "event-preparation" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"coins",
+                    "amount":80
+                }
+            ]
+        ]
+    }
+]

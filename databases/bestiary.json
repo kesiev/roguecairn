@@ -1,0 +1,5895 @@
+[
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Kraken",
+			"IT": "Polpo Gigante"
+		},
+		"hp": 16,
+		"str": 15,
+		"dex": 13,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "arms (d10, <em>blast</em>)",
+				"IT": "braccia (d10, <em>scoppio</em>)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Titanic, eight-armed saltwater monstrosities that build enormous “castles” deep below the ocean.",
+				"IT": "Titanica mostruosità d'acqua salata con otto braccia che costruiscono enormi “castelli” nelle profondità dell’oceano."
+			},
+			{
+				"EN": "Terrorize ships and coastal cities alike in their obsessive search for building materials.",
+				"IT": "Terrorizzano le navi e le città costiere nella loro ossessiva ricerca di materiali da costruzione."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-coast"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Acolyte",
+			"IT": "Accolito"
+		},
+		"hp": 4,
+		"str": 8,
+		"dex": 11,
+		"wil": 14,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "ceremonial dagger (d6)",
+				"IT": "pugnale cerimoniale (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Holy servants bound to a particular deity. Typically travel in groups of four or more.",
+				"IT": "Servitori sacri legati a una divinità particolare. Di solito viaggiano in gruppi di quattro o più persone."
+			},
+			{
+				"EN": "Carry a holy symbol (<em>Ward</em> once per day).",
+				"IT": "Porta con sé un simbolo sacro (<em>Sigillo</em> una volta al giorno)."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-cult"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-ward"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Air Elemental",
+			"IT": "Elementale, Aria"
+		},
+		"hp": 16,
+		"str": 11,
+		"dex": 15,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "<em>detachment</em>",
+				"IT": "<em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Living vortexes of whirling air and gas. Lighter creatures are swept away by their mere presence.",
+				"IT": "Vortici viventi di aria e gas vorticosi. Le creature più leggere vengono spazzate via dalla loro sola presenza."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Whirlwind",
+					"IT": "Turbine"
+				},
+				"value": {
+					"EN": "All nearby targets that fail a STR save are blown away.",
+					"IT": "Tutti i bersagli vicini che falliscono un tiro salvezza su FOR vengono spazzati via."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Aranea",
+			"IT": "Aranea"
+		},
+		"hp": 6,
+		"str": 13,
+		"dex": 12,
+		"wil": 15,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d8)",
+				"IT": "morso (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Enormous spiders with greenish-black skin and large brains. Can shape shift into human form at will.",
+				"IT": "Enormi ragni con pelle nero-verdastra e grandi cervelli. Possono trasformarsi in forma umana a piacimento."
+			},
+			{
+				"EN": "Conduct their magical research in dark, web-filled caverns. Carry the <em>Charm</em> and <em>Command</em> spellbooks at all times.",
+				"IT": "Conducono le loro ricerche magiche in caverne buie e piene di ragnatele. Porta sempre con sé i libri degli incantesimi <em>Affascinare</em> e <em>Comando</em>."
+			},
+			{
+				"EN": "Fire damage against Aranea is <em>enhanced</em>.",
+				"IT": "I danni da fuoco contro Aranea sono <em>potenziati</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-cave",
+			"biome-dungeon"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-charm"
+			},
+			{
+				"type": "spell",
+				"id": "spell-command"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Bandit",
+			"IT": "Bucaniere"
+		},
+		"hp": 4,
+		"str": 12,
+		"dex": 12,
+		"wil": 9,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "shortsword (d6) or short bow (d6)",
+				"IT": "spada corta (d6) o arco corto (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Outlaws who raid settlements, attack ships, or ambush travelers. Groups of four or more are a <em>detachment</em>.",
+				"IT": "Fuorilegge che razziano gli insediamenti, attaccano le navi o tendono imboscate ai viaggiatori. Gruppi di quattro o più persone costituiscono una <em>formazione</em>."
+			},
+			{
+				"EN": "A detachment always travels with one leader wearing chainmail or similar (2 Armor) and a long sword (d10) or crossbow (d8).",
+				"IT": "Una formazione viaggia sempre con un capo che indossa una cotta di maglia o simile (2 Armatura) e una spada lunga (d10) o una balestra (d8)."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Loyal",
+					"IT": "Leale"
+				},
+				"value": {
+					"EN": "When testing Morale, save using the leader’s WIL (13). If the leader dies, the others will flee.",
+					"IT": "Quando metti alla prova il morale, esegue il tiro salvezza usando la VOL del leader (13). Se il leader muore, gli altri fuggiranno."
+				}
+			}
+		],
+		"tags": [
+			"strength-minion",
+			"biome-settlement",
+			"biome-ruin",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Banshee",
+			"IT": "Banshee"
+		},
+		"hp": 8,
+		"str": 6,
+		"dex": 12,
+		"wil": 15,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "ghostly touch (d8)",
+				"IT": "tocco spettrale (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Incorporeal spirits that linger long after death to haunt the living.",
+				"IT": "Spiriti incorporei che persistono a lungo dopo la morte per perseguitare i vivi."
+			},
+			{
+				"EN": "Unharmed by cold, heat, or the elements. Iron weapon damage is <em>enhanced</em>.",
+				"IT": "Illeso dal freddo, dal caldo o dagli elementi. Il danno delle armi di ferro è <em>potenziato</em>."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Wail",
+					"IT": "Lamento"
+				},
+				"value": {
+					"EN": "Anyone in earshot must make a WIL save or fall unconscious.",
+					"IT": "Chiunque si trovi a portata d'orecchio deve effettuare un tiro salvezza su VOL o perdere i sensi."
+				}
+			}
+		],
+		"tags": [
+			"strength-minion",
+			"biome-tomb"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Basilisk",
+			"IT": "Basilisco"
+		},
+		"hp": 10,
+		"str": 12,
+		"dex": 13,
+		"wil": 13,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bite (d10)",
+				"IT": "morso (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Long, serpentine lizards that nest deep below the earth or in brambles just underfoot.",
+				"IT": "Lucertole lunghe e serpentine che nidificano in profondità sotto terra o nei rovi appena sotto i piedi."
+			},
+			{
+				"EN": "Fighting a <strong>Basilisk</strong> without meeting its gaze is difficult. (Attacks facing it are <em>impaired</em>.)",
+				"IT": "Combattere un <strong>Basilisco</strong> senza incrociare il suo sguardo è difficile. (Gli attacchi diretti verso di lui sono <em>compromessi</em>.)"
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Gaze",
+					"IT": "Sguardo"
+				},
+				"value": {
+					"EN": "A target facing the Basilisk is slowly petrified from the bottom up and completely frozen after three rounds. An antidote can be brewed from the Basilisk’s gizzards. The creature’s reflection is harmless.",
+					"IT": "un bersaglio di fronte al Basilisco viene lentamente pietrificato dal basso verso l'alto e completamente congelato dopo tre round. Un antidoto può essere preparato dalle viscere del Basilisco. Il riflesso della creatura è innocuo."
+				}
+			}
+		],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Berserker",
+			"IT": "Berserker"
+		},
+		"hp": 10,
+		"str": 14,
+		"dex": 13,
+		"wil": 15,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "twin axes (d8+d8)",
+				"IT": "asce gemelle (d8+d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Ruthless warriors that derive their power from the skins they wear: bears, wolves, boars, etc.",
+				"IT": "Guerrieri spietati che traggono il loro potere dalle pelli che indossano: orsi, lupi, cinghiali, ecc."
+			},
+			{
+				"EN": "Ignore the <strong>Morale</strong> rule and are never treated as part of a <em>detachment</em>.",
+				"IT": "Ignorano la regola del <strong>Morale</strong> e non vengono mai trattati come parte di una <em>formazione</em>."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Rage",
+					"IT": "Rabbia"
+				},
+				"value": {
+					"EN": "A Berserker’s first attack has both the <em>enhanced</em> and <em>blast</em> qualities.",
+					"IT": "il primo attacco di un Berserker ha sia la qualità <em>potenziata</em> che quella <em>scoppio</em>."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Black Bear",
+			"IT": "Orso, nero"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 12,
+		"wil": 6,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6)",
+				"IT": "artigli (d6+d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "A large chunk of flesh is bitten off (d6 STR damage).",
+				"IT": "Un grosso pezzo di carne viene staccato con un morso (d6 danni FOR)."
+			}
+		],
+		"description": [
+			{
+				"EN": "Waist-high bears that subsist mostly on berries and roots. Drawn to campsites in search of food.",
+				"IT": "Orsi alti fino alla vita che si nutrono principalmente di bacche e radici. Attratti dai campeggi in cerca di cibo."
+			},
+			{
+				"EN": "Aggressive if cornered or feel that their young are threatened.",
+				"IT": "Aggressivi se messi alle strette o se ritengono che i loro piccoli siano minacciati."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-settlement"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Black Dragon",
+			"IT": "Drago Nero"
+		},
+		"hp": 16,
+		"str": 13,
+		"dex": 18,
+		"wil": 14,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bite (d12), claws (d10+d10), <em>detachment</em>",
+				"IT": "morso (d12), artigli (d10+d10), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Amphibious dragons with glossy black scales and thick hides. Dwell in swamps or similarly dangerous and flooded environments.",
+				"IT": "Draghi anfibi con scaglie nere lucide e pelli spesse. Vivono in paludi o in ambienti pericolosi e allagati."
+			},
+			{
+				"EN": "Cruel and prone to violence. Make use of the dark and their surprising agility to separate their victims and kill them one by one.",
+				"IT": "Crudeli e inclini alla violenza. Sfruttano l'oscurità e la loro sorprendente agilità per separare le loro vittime e ucciderle una a una."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-swamp"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Black Pudding",
+			"IT": "Poltiglia Nera"
+		},
+		"hp": 12,
+		"str": 11,
+		"dex": 5,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "devouring touch (d8)",
+				"IT": "tocco divorante (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Targets wearing non-metallic armor lose 1 point of Armor, and any STR loss to unarmored targets is <em>permanent</em>.",
+				"IT": "I bersagli che indossano armature non metalliche perdono 1 punto di Armatura e qualsiasi perdita di FOR sui bersagli senza armatura è <em>permanente</em>."
+			}
+		],
+		"description": [
+			{
+				"EN": "Giant, brainless blobs of black jelly driven only by their insatiable hunger.",
+				"IT": "Gigantesche masse di gelatina nera senza cervello, guidate solo dalla loro fame insaziabile."
+			},
+			{
+				"EN": "Moves along walls and across ceilings. Squeeze through holes and cracks with ease.",
+				"IT": "Si muove lungo le pareti e sui soffitti. Si infila facilmente attraverso buchi e crepe."
+			},
+			{
+				"EN": "Immune to mundane attacks, save fire. Normal attacks splits the Black Pudding. creating two Puddings that share HP and STR.",
+				"IT": "Immune agli attacchi comuni, tranne il fuoco. Gli attacchi normali dividono la Poltiglia Nera, creando due Poltiglie che condividono HP e STR."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-dungeon",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Blink Dog",
+			"IT": "Cane intermittente"
+		},
+		"hp": 5,
+		"str": 11,
+		"dex": 14,
+		"wil": 5,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Teleporting canines in service of a powerful master.",
+				"IT": "Cani teletrasportati al servizio di un potente padrone."
+			},
+			{
+				"EN": "Can phase out of reality at will. Melee attacks against them are <em>impaired</em>.",
+				"IT": "Possono scomparire dalla realtà a piacimento. Gli attacchi corpo a corpo contro di loro sono <em>compromessi</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Blood Elk",
+			"IT": "Alce Sanguinaria"
+		},
+		"hp": 4,
+		"str": 12,
+		"dex": 13,
+		"wil": 5,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "horns (d8)",
+				"IT": "corna (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Gores its victims by ripping out their entrails.",
+				"IT": "Incorna le sue vittime strappando loro le viscere."
+			}
+		],
+		"description": [
+			{
+				"EN": "Born from violence resulting from a greedy or selfish act.",
+				"IT": "Nato dalla violenza risultante da un atto avido o egoistico."
+			},
+			{
+				"EN": "Kill their victims for sustenance, but gains no succor. They are always hungry.",
+				"IT": "Uccidono le loro vittime per sostentamento, ma non ottengono alcun soccorso. Sono sempre affamati."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-cult"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Blue Dragon",
+			"IT": "Drago Blu"
+		},
+		"hp": 14,
+		"str": 14,
+		"dex": 16,
+		"wil": 15,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "bite (d12), claws (d10+d10), <em>detachment</em>",
+				"IT": "morso (d12), artigli (d10+d10), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Enormous, centipede-like reptilian creatures that dwells in deserts and rocky drylands.",
+				"IT": "Enormi creature rettiliane simili a millepiedi che vivono nei deserti e nelle zone aride e rocciose."
+			},
+			{
+				"EN": "Proud and vain, they often keep victims as slaves. The more prestigious the better.",
+				"IT": "Orgogliosi e vanitosi, spesso tengono le vittime come schiave. Più sono prestigiose, meglio è."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Thunderclap",
+					"IT": "Thunderclap"
+				},
+				"value": {
+					"EN": "Deals 4 STR damage against a single target. Targets wearing metal armor take double damage.",
+					"IT": "infligge 4 danni FOR a un singolo bersaglio. I bersagli che indossano armature di metallo subiscono danni doppi."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-mountain",
+			"biome-desert"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Boar",
+			"IT": "Cinghiale"
+		},
+		"hp": 3,
+		"str": 12,
+		"dex": 9,
+		"wil": 6,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "tusks (d6)",
+				"IT": "zanne (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Gores its victims, who bleed out very quickly.",
+				"IT": "Incorna le sue vittime, che sanguinano molto rapidamente."
+			}
+		],
+		"description": [
+			{
+				"EN": "Omnivorous wild boars that dwell primarily in forests.",
+				"IT": "Cinghiali onnivori che vivono principalmente nelle foreste."
+			},
+			{
+				"EN": "Not naturally aggressive, but dangerous if disturbed.",
+				"IT": "Non è aggressivo per natura, ma è pericoloso se disturbato."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Boggart",
+			"IT": "Boggart"
+		},
+		"hp": 3,
+		"str": 4,
+		"dex": 17,
+		"wil": 13,
+		"armor": 0,
+		"weapon": [],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Wild, hairy tricksters that prize shiny trinkets above coin.",
+				"IT": "Truffatori selvaggi e pelosi che preferiscono i ninnoli luccicanti alle monete."
+			},
+			{
+				"EN": "Boggarts have true names that describe their true nature. Knowing these names gives a person control over them.",
+				"IT": "I Boggart hanno dei veri nomi che descrivono la loro vera natura. Conoscere questi nomi dà a una persona il controllo su di loro."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Magic",
+					"IT": "Magia"
+				},
+				"value": {
+					"EN": "The Boggart can <em>bring objects to life</em>, <em>sow confusion</em>, <em>create magical disguises</em>, use <em>telekinesis</em>, and <em>teleport</em>.",
+					"IT": "il Boggart può <em>dare vita agli oggetti</em>, <em>seminare confusione</em>, <em>creare travestimenti magici</em>, usare la <em>telecinesi</em> e <em>teletrasportarsi</em>."
+				}
+			}
+		],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Bone Construct",
+			"IT": "Costrutto d'ossa"
+		},
+		"hp": 8,
+		"str": 15,
+		"dex": 5,
+		"wil": 3,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "sharpened arms (d8+d8), <em>detachment</em>",
+				"IT": "braccia affilate (d8+d8), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Gigantic, four-armed constructs made of bone and sorcery.",
+				"IT": "Gigantesche costruzioni a quattro braccia fatte di ossa e stregoneria."
+			},
+			{
+				"EN": "Mindless guardians that stand ready to attack any creature other than their creator.",
+				"IT": "Guardiani senza cervello pronti ad attaccare qualsiasi creatura diversa dal loro creatore."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Bronze Construct",
+			"IT": "Costrutto di bronzo"
+		},
+		"hp": 3,
+		"str": 18,
+		"dex": 6,
+		"wil": 0,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "fists (d10+d10), <em>detachment</em>",
+				"IT": "pugni (d10+d10), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Towering humanoid constructs made of pure bronze. Resemble old men with long beards and hair, and emanate a strong heat.",
+				"IT": "Costrutti umanoidi torreggianti fatti di bronzo puro. Somigliano a vecchi con lunghe barbe e capelli, ed emanano un forte calore."
+			},
+			{
+				"EN": "Immune to fire and heat.",
+				"IT": "Immune al fuoco e al calore."
+			},
+			{
+				"EN": "If punctured, spurts a burning hot liquid dealing d6 STR damage to anyone nearby.",
+				"IT": "Se forato, spruzza un liquido bollente che infligge d6 danni FOR a chiunque si trovi nelle vicinanze."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Bugbear",
+			"IT": "Spauracchio"
+		},
+		"hp": 8,
+		"str": 14,
+		"dex": 12,
+		"wil": 11,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "club (d8)",
+				"IT": "mazza (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Large, goblin-like creatures covered in fur.",
+				"IT": "Grandi creature simili a folletti ricoperte di pelliccia."
+			},
+			{
+				"EN": "Prefer stealth and trickery to gain an advantage.",
+				"IT": "Preferisci la furtività e l'inganno per ottenere un vantaggio."
+			},
+			{
+				"EN": "Often command parties of like creatures (typically goblins).",
+				"IT": "Spesso comandano gruppi di creature simili (tipicamente goblin)."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Burrowing Horror",
+			"IT": "Ankheg"
+		},
+		"hp": 6,
+		"str": 16,
+		"dex": 11,
+		"wil": 4,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bite (d10), acid squirt (d8, <em>blast</em>)",
+				"IT": "morso (d10), spruzzo acido (d8, <em>scoppio</em>)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target loses a body part. Roll 1d6. 1: Head, 2-4: Leg, 5-6: Arm.",
+				"IT": "Il bersaglio perde una parte del corpo. Tira 1d6. 1: Testa, 2-4: Gamba, 5-6: Braccio."
+			}
+		],
+		"description": [
+			{
+				"EN": "Huge insectoids with multiple legs and shiny black eyes. Subsist from dirt, roots, and flesh.",
+				"IT": "Enormi insettoidi con zampe multiple e occhi neri e lucenti. Si nutrono di terra, radici e carne."
+			},
+			{
+				"EN": "Burrow just beneath surfaces to ambush unsuspecting creatures.",
+				"IT": "Scava appena sotto le superfici per tendere un'imboscata alle creature ignare."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Camel",
+			"IT": "Cammello"
+		},
+		"hp": 3,
+		"str": 14,
+		"dex": 13,
+		"wil": 4,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite or kick (d6)",
+				"IT": "morso o calcio (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Beasts of burden native to dry, arid lands.",
+				"IT": "Bestie da soma originarie delle terre aride e secche."
+			},
+			{
+				"EN": "Can survive without water for weeks at a time.",
+				"IT": "Può sopravvivere senza acqua per settimane alla volta."
+			},
+			{
+				"EN": "Moves through sand and broken ground without difficulty.",
+				"IT": "Si muove senza difficoltà sulla sabbia e sul terreno accidentato."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-desert"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Catoblepas",
+			"IT": "Catoplebas"
+		},
+		"hp": 7,
+		"str": 16,
+		"dex": 9,
+		"wil": 13,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "tail (d8)",
+				"IT": "coda (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "A chimeric monstrosity bearing traits of buffalo, lizard, and boar. Its enormous head is always pointing towards the ground.",
+				"IT": "Una mostruosità chimerica che porta tratti di bufalo, lucertola e cinghiale. La sua enorme testa è sempre rivolta verso il terreno."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Paralyze",
+					"IT": "Paralisi"
+				},
+				"value": {
+					"EN": "A single target is turned to stone. Moonlight reverses the effect.",
+					"IT": "un singolo bersaglio viene trasformato in pietra. La luce della luna inverte l'effetto."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Cave Locust",
+			"IT": "Locusta di Grotta"
+		},
+		"hp": 2,
+		"str": 6,
+		"dex": 12,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Giant plant-eating crickets that dwell in caves. Immune to most types of poison.",
+				"IT": "Grilli giganti erbivori che vivono nelle caverne. Immuni alla maggior parte dei tipi di veleno."
+			},
+			{
+				"EN": "Their natural coloration allows them to blend in with the stone. They emit loud shrieks when threatened.",
+				"IT": "La loro colorazione naturale consente loro di mimetizzarsi con la pietra. Emettono forti strilli quando sono minacciati."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-cave"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Centaur",
+			"IT": "Centauro"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 12,
+		"wil": 14,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "spear (d8) or short bow (d6)",
+				"IT": "lancia (d8) o arco corto (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Creatures with the lower body and legs of a horse, but a humanoid upper body.",
+				"IT": "Creature con la parte inferiore del corpo e le gambe di un cavallo, ma la parte superiore del corpo è umanoide."
+			},
+			{
+				"EN": "Rarely found alone, preferring the company of their own.",
+				"IT": "Raramente si trovano da soli, preferendo la compagnia dei propri simili."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Chimera",
+			"IT": "Chimera"
+		},
+		"hp": 10,
+		"str": 14,
+		"dex": 11,
+		"wil": 13,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d10)",
+				"IT": "morso (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "A flying, sorcerous hybrid of lion, goat, and dragon (pick one).",
+				"IT": "Un ibrido volante e stregonesco di leone, capra e drago (scegline uno)."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Dragon’s Breath",
+					"IT": "Respiro del drago"
+				},
+				"value": {
+					"EN": "The dragon’s head spits acid, lightning, or fire depending on its type. d8 STR damage.",
+					"IT": "la testa del drago sputa acido, fulmini o fuoco a seconda del tipo. Danni FOR d8."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Cobblehounds",
+			"IT": "Segugi di pietra"
+		},
+		"hp": 12,
+		"str": 14,
+		"dex": 1,
+		"wil": 8,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "bite (d10)",
+				"IT": "morso (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Immobile constructs typically used as guardians to great tombs or artifacts.",
+				"IT": "Costrutti immobili solitamente utilizzati come guardiani di grandi tombe o manufatti."
+			},
+			{
+				"EN": "Unaffected by mundane persuasion techniques, but love a good bone.",
+				"IT": "Non sono influenzati dalle tecniche di persuasione comuni, ma amano un buon osso."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-tomb"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Cockatrice",
+			"IT": "Cockatrice"
+		},
+		"hp": 5,
+		"str": 8,
+		"dex": 14,
+		"wil": 4,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "beak (d6)",
+				"IT": "becco (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "The target’s injured area is covered in stone, which spreads to the rest of their body within three rounds. The stone can be chipped off.",
+				"IT": "La zona ferita del bersaglio è ricoperta di pietra, che si diffonde al resto del corpo entro tre round. La pietra può essere scheggiata."
+			}
+		],
+		"description": [
+			{
+				"EN": "Small, agile creatures resembling chickens with reptilian features.",
+				"IT": "Piccole creature agili che ricordano i polli e hanno caratteristiche rettiliane."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Couatl",
+			"IT": "Couatl"
+		},
+		"hp": 9,
+		"str": 6,
+		"dex": 12,
+		"wil": 15,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Long, feathered serpents with colorful wings. Live in hot jungles, and are considered divine by some civilizations.",
+				"IT": "Lunghi serpenti piumati con ali colorate. Vivono nelle giungle calde e sono considerati divini da alcune civiltà."
+			},
+			{
+				"EN": "Highly intelligent and magical, they are capable of speaking any language.",
+				"IT": "Altamente intelligenti e magici, sono capaci di parlare qualsiasi lingua."
+			},
+			{
+				"EN": "Can shapechange into the form of a person or small animal.",
+				"IT": "Può trasformarsi in una persona o in un piccolo animale."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-jungle"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Creeping Vines",
+			"IT": "Viti rampicanti"
+		},
+		"hp": 8,
+		"str": 10,
+		"dex": 12,
+		"wil": 2,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "vines (d4, <em>blast</em>)",
+				"IT": "viticci (d4, <em>scoppio</em>)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is pulled into the air where they asphyxiate within a few minutes.",
+				"IT": "Il bersaglio viene lanciato in aria e muore asfissiato nel giro di pochi minuti."
+			}
+		],
+		"description": [
+			{
+				"EN": "Appear as an inert, typical vine. Attacks passing creatures to use their corpses as fertilizer.",
+				"IT": "Appare come una vite inerte e tipica. Attacca le creature di passaggio per usare i loro cadaveri come fertilizzante."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Crypt Guardian",
+			"IT": "Guardiano della Cripta"
+		},
+		"hp": 12,
+		"str": 12,
+		"dex": 11,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "ethereal claws (d8+d8)",
+				"IT": "artigli eterei (d8+d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Animated skeletons clothed in billowing robes. Their eye sockets are hypnotically red. Defend crypts and tombs, but will not attack if left undisturbed.",
+				"IT": "Scheletri animati vestiti con abiti svolazzanti. Le loro orbite oculari sono ipnoticamente rosse. Difendono cripte e tombe, ma non attaccheranno se lasciati indisturbati."
+			},
+			{
+				"EN": "Non-magical attacks against them are <em>impaired</em>.",
+				"IT": "Gli attacchi non magici contro di loro sono <em>compromessi</em>."
+			},
+			{
+				"EN": "Can teleport any target in eyesight to a random room nearby.",
+				"IT": "Può teletrasportare qualsiasi bersaglio nel campo visivo in una stanza casuale nelle vicinanze."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-tomb",
+			"biome-dungeon",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Cyclops",
+			"IT": "Ciclope"
+		},
+		"hp": 9,
+		"str": 18,
+		"dex": 8,
+		"wil": 6,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "club (d10)",
+				"IT": "mazza (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Giant humanoids with a single large eye centered on the face. Dwell in caves and herd small animals.",
+				"IT": "Umanoidi giganti con un unico grande occhio al centro del viso. Vivono nelle caverne e allevano piccoli animali."
+			},
+			{
+				"EN": "Slow-witted and easily fooled.",
+				"IT": "Lento di comprendonio e facilmente ingannabile."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-cave"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Deep One",
+			"IT": "Essere delle Profondità"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 16,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "trident (d8)",
+				"IT": "tridente (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Amphibious, fish-like humanoids that live in the deep sea. Highly resistant to magical effects.",
+				"IT": "Umanoidi anfibi simili a pesci che vivono nelle profondità marine. Altamente resistenti agli effetti magici."
+			},
+			{
+				"EN": "Occasionally surface to trade with coastal settlements. On land their movement is slowed by half.",
+				"IT": "Occasionalmente emergono per commerciare con gli insediamenti costieri. Sulla terraferma il loro movimento è rallentato della metà."
+			},
+			{
+				"EN": "Can only reproduce with land-dwelling humanoids.",
+				"IT": "Può riprodursi solo con umanoidi che vivono sulla terraferma."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-coast",
+			"biome-sea",
+			"biome-settlement"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Dire Wolf",
+			"IT": "Lupo Crudele"
+		},
+		"hp": 8,
+		"str": 14,
+		"dex": 12,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d10)",
+				"IT": "morso (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Horse-sized, semi-intelligent wolves that roam the forests and mountains. Highly territorial.",
+				"IT": "Lupi delle dimensioni di un cavallo, semi-intelligenti, che vagano per foreste e montagne. Altamente territoriali."
+			},
+			{
+				"EN": "Can be trained as pets if captured young.",
+				"IT": "Possono essere addestrati come animali domestici se catturati da giovani."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-forest",
+			"biome-mountain"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Djinn",
+			"IT": "Djinn"
+		},
+		"hp": 15,
+		"str": 16,
+		"dex": 16,
+		"wil": 18,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "elemental fists (d10+d10), <em>detachment</em>",
+				"IT": "pugni elementali (d10+d10), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Magical, intelligent extraplanar beings. Can take any form, or none at all.",
+				"IT": "Esseri extraplanari magici e intelligenti. Possono assumere qualsiasi forma, o nessuna."
+			},
+			{
+				"EN": "Can conjure mundane objects, sounds, and visions from nothing.",
+				"IT": "Può evocare oggetti, suoni e visioni comuni dal nulla."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Whirlwind",
+					"IT": "Turbine"
+				},
+				"value": {
+					"EN": "Transforms into a building-sized vortex, destroying anything in its path (DEX save or take d12 STR damage).",
+					"IT": "Si trasforma in un vortice delle dimensioni di un edificio, distruggendo tutto ciò che incontra sul suo cammino (tiro salvezza su DES o subisci d12 danni a FOR)."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Draugr",
+			"IT": "Draugr"
+		},
+		"hp": 12,
+		"str": 15,
+		"dex": 9,
+		"wil": 13,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "rusty broadsword (d8)",
+				"IT": "spada larga arrugginita (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "target is instantly killed, only to rise later as a Thrall.",
+				"IT": "Il bersaglio viene ucciso all'istante, per poi risorgere in seguito come schiavo."
+			}
+		],
+		"description": [
+			{
+				"EN": "Undead horror made of withered flesh. Rises from those killed in battle and left to rot.",
+				"IT": "Orrore non morto fatto di carne avvizzita. Risorge da coloro che vengono uccisi in battaglia e lasciati a marcire."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Driver Ant",
+			"IT": "Formica Scacciatrice"
+		},
+		"hp": 3,
+		"str": 4,
+		"dex": 12,
+		"wil": 1,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Giant, omnivorous black ants that build colonies deep underground.",
+				"IT": "Formiche nere giganti e onnivore che costruiscono colonie nelle profondità del sottosuolo."
+			},
+			{
+				"EN": "Consume any edible object in their path.",
+				"IT": "Consuma qualsiasi oggetto commestibile sul suo cammino."
+			},
+			{
+				"EN": "Often act as a hive mind. Two or more Driver Ants together is a <em>detachment</em>.",
+				"IT": "Spesso agiscono come una mente alveare. Due o più Formiche Scacciatrici insieme formano una <em>formazione</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Dryad",
+			"IT": "Driade"
+		},
+		"hp": 4,
+		"str": 8,
+		"dex": 12,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "knotted arms (d6)",
+				"IT": "braccia annodate (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Shy, protective tree spirits that manifest as beautiful, green-skinned humanoids.",
+				"IT": "Spiriti degli alberi timidi e protettivi che si manifestano come bellissimi umanoidi dalla pelle verde."
+			},
+			{
+				"EN": "Unable to travel far from the tree they are bound to. They perish if the tree is destroyed.",
+				"IT": "Incapaci di allontanarsi molto dall'albero a cui sono legati. Muoiono se l'albero viene distrutto."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Befuddle",
+					"IT": "Confusione"
+				},
+				"value": {
+					"EN": "Target becomes confused, gradually moving further and further away from the host tree. WIL save once per round to break free.",
+					"IT": "Il bersaglio diventa confuso e si allontana gradualmente sempre di più dall'albero ospite. Tiro salvezza su VOL una volta a round per liberarsi."
+				}
+			}
+		],
+		"tags": [
+			"strength-minion",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Dwarf",
+			"IT": "Nano"
+		},
+		"hp": 4,
+		"str": 14,
+		"dex": 6,
+		"wil": 13,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "hammer (d8)",
+				"IT": "martello (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Short, humanoids with skin as tough as stone. Dwell in mountains and underground.",
+				"IT": "Umanoidi bassi con la pelle dura come la pietra. Vivono nelle montagne e nel sottosuolo."
+			},
+			{
+				"EN": "Highly resistant to poison and disease.",
+				"IT": "Altamente resistente al veleno e alle malattie."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-mountain",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Earth Elemental",
+			"IT": "Elementale, Terra"
+		},
+		"hp": 12,
+		"str": 16,
+		"dex": 6,
+		"wil": 5,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "dirt clods (d10)",
+				"IT": "zolle di terra (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Enormous humanoid-shaped beings made of earth and stone.",
+				"IT": "Enormi esseri dalla forma umanoide fatti di terra e pietra."
+			},
+			{
+				"EN": "Can move through the ground as if it were water.",
+				"IT": "Può muoversi nel terreno come se fosse acqua."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Mudcannon",
+					"IT": "Cannone di fango"
+				},
+				"value": {
+					"EN": "A wall of earth is raised and then quickly lowered beneath a target, dealing d8 STR damage.",
+					"IT": "Un muro di terra viene innalzato e poi rapidamente abbassato sotto un bersaglio, infliggendo d8 danni FOR."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Elephant",
+			"IT": "Elefante"
+		},
+		"hp": 9,
+		"str": 16,
+		"dex": 6,
+		"wil": 11,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "tusks (d10)",
+				"IT": "zanne (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Large, intelligent animals that dwell in deserts and plains, usually in herds.",
+				"IT": "Animali grandi e intelligenti che vivono nei deserti e nelle pianure, solitamente in mandrie."
+			},
+			{
+				"EN": "Their tusks are worth 1000gp to the right buyer. There are some who consider taking the tusks as immoral.",
+				"IT": "Le loro zanne valgono 1000po per il giusto acquirente. C'è chi considera immorale prendere le zanne."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Charge",
+					"IT": "Carica"
+				},
+				"value": {
+					"EN": "Nearby targets must make a DEX save or be trampled underfoot (d12 STR damage, ignoring armor).",
+					"IT": "I bersagli vicini devono effettuare un tiro salvezza su DES o essere calpestati (d12 danni FOR, ignorando l'armatura)."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-desert",
+			"biome-plain"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Elf",
+			"IT": "Elfo"
+		},
+		"hp": 4,
+		"str": 8,
+		"dex": 12,
+		"wil": 14,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "shortsword (d6) or longbow (d8)",
+				"IT": "spada corta (d6) o arco lungo (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Long-lived, slender Fae with pointed ears preferring to live in harmony with nature.",
+				"IT": "Umanoide longevo e snello, con orecchie a punta, che preferisce vivere in armonia con la natura."
+			},
+			{
+				"EN": "Highly resistant to charming and mind-controlling effects.",
+				"IT": "Altamente resistente agli effetti di fascino e controllo mentale."
+			},
+			{
+				"EN": "Can cast the following spells at will: <em>Charm</em>, <em>Pacify</em>, <em>Telepathy</em>.",
+				"IT": "Può lanciare i seguenti incantesimi a piacimento: <em>Fascino</em>, <em>Pacificare</em>, <em>Telepatia</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-charm"
+			},
+			{
+				"type": "spell",
+				"id": "spell-pacify"
+			},
+			{
+				"type": "spell",
+				"id": "spell-telepathy"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Estrie",
+			"IT": "Estrie"
+		},
+		"hp": 10,
+		"str": 11,
+		"dex": 15,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "draining hair (d8)",
+				"IT": "capelli drenanti (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "target falls unconscious for 1d6 hours.",
+				"IT": "il bersaglio cade privo di sensi per 1d6 ore."
+			}
+		],
+		"description": [
+			{
+				"EN": "Appears as a woman with long dark hair that extends all the way to her feet.",
+				"IT": "Appare come una donna con lunghi capelli scuri che le arrivano fino ai piedi."
+			},
+			{
+				"EN": "Can transform into owls, but only at night. Binding their hair prevents transformation.",
+				"IT": "Possono trasformarsi in gufi, ma solo di notte. Legare i loro capelli impedisce la trasformazione."
+			},
+			{
+				"EN": "Drinks the blood of small animals and sleeping travelers, who dream of feathers and the moon.",
+				"IT": "Beve il sangue dei piccoli animali e dei viaggiatori addormentati, che sognano piume e luna."
+			},
+			{
+				"EN": "If killed they resurrect at the next full moon. This can be stopped by burying the head under ground and filling the mouth with sand.",
+				"IT": "Se uccisi, risorgono alla successiva luna piena. Questo può essere fermato seppellendo la testa sotto terra e riempiendo la bocca di sabbia."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Ettin",
+			"IT": "Ettin"
+		},
+		"hp": 10,
+		"str": 16,
+		"dex": 8,
+		"wil": 6,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "club (d10)",
+				"IT": "mazza (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "The two-headed kin of giants. Prefer caves and underground hovels.",
+				"IT": "Una razza di gigangi a due teste. Preferiscono le caverne e le baracche sotterranee."
+			},
+			{
+				"EN": "Cannot be surprised.",
+				"IT": "Non può essere sorpreso."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-cave",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Eye of Terror",
+			"IT": "Occhio del Terrore"
+		},
+		"hp": 15,
+		"str": 9,
+		"dex": 8,
+		"wil": 16,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d8)",
+				"IT": "morso (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Floating spheres with large mouths, enormous eyes, and several small eyes set atop long stalks.",
+				"IT": "Sfere fluttuanti con grandi bocche, occhi enormi e diversi occhi piccoli posti in cima a lunghi steli."
+			},
+			{
+				"EN": "They are highly intelligent, intensely greedy, and completely insane.",
+				"IT": "Sono molto intelligenti, intensamente avidi e completamente pazzi."
+			},
+			{
+				"EN": "Can cast the following spells at will: <em>Charm, Phobia, Telekinesis, Sleep, Shuffle, Vision</em>. Magic used against them requires a WIL save or it fizzles out.",
+				"IT": "Può lanciare i seguenti incantesimi a piacimento: <em>Affascinare, Fobia, Telecinesi, Sonno, Scambio, Visione</em>. La magia usata contro di essi richiede un tiro salvezza su VOL, altrimenti fallisce."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-charm"
+			},
+			{
+				"type": "spell",
+				"id": "spell-phobia"
+			},
+			{
+				"type": "spell",
+				"id": "spell-shuffle"
+			},
+			{
+				"type": "spell",
+				"id": "spell-sleep"
+			},
+			{
+				"type": "spell",
+				"id": "spell-telekinesis"
+			},
+			{
+				"type": "spell",
+				"id": "spell-vision"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "False Dragon",
+			"IT": "Falso Drago"
+		},
+		"hp": 4,
+		"str": 8,
+		"dex": 14,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "sting (d6)",
+				"IT": "pungiglione (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is <em>deprived</em> for d6 days, unless purged of the sting’s toxins.",
+				"IT": "Il bersaglio è <em>esausto</em> per d6 giorni, a meno che non venga purificato dalle tossine della puntura."
+			}
+		],
+		"description": [
+			{
+				"EN": "Tiny winged draconic creatures with a sting-tipped tail and reddish scales. Commonly found in forests and caverns.",
+				"IT": "Piccole creature draconiche alate con una coda con la punta a forma di pungiglione e scaglie rossastre. Si trovano comunemente nelle foreste e nelle caverne."
+			},
+			{
+				"EN": "Can communicate telepathically with nearby creatures.",
+				"IT": "Può comunicare telepaticamente con le creature vicine."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-forest",
+			"biome-cave"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Fire Beetle",
+			"IT": "Scarabeo, di Fuoco"
+		},
+		"hp": 2,
+		"str": 4,
+		"dex": 14,
+		"wil": 3,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Dog-sized beetles that make their home deep underground.",
+				"IT": "Coleotteri delle dimensioni di un cane che vivono in profondità nel sottosuolo."
+			},
+			{
+				"EN": "Their organs produce a brilliant slime that glows for several days, making them highly valuable to alchemists and artists alike.",
+				"IT": "I loro organi producono una melma brillante che brilla per diversi giorni, rendendoli molto preziosi sia per gli alchimisti che per gli artisti."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-dungeon",
+			"biome-volcano"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Fire Elemental",
+			"IT": "Elementale, Fuoco"
+		},
+		"hp": 16,
+		"str": 8,
+		"dex": 12,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "flare (d10, <em>blast</em>), <em>detachment</em>",
+				"IT": "fiammata (d10, <em>scoppio</em>), <em>formazione</em>"
+			}
+		],
+		"critical": [
+			{
+				"EN": "The target and all their non-metallic belongings are burnt to a crisp.",
+				"IT": "Il bersaglio e tutti i suoi effetti personali non metallici vengono carbonizzati."
+			}
+		],
+		"description": [
+			{
+				"EN": "Living columns of pure flame capable of changing shape at will.",
+				"IT": "Colonne viventi di pura fiamma capaci di cambiare forma a piacimento."
+			},
+			{
+				"EN": "Mundane attacks are ineffective, but water deals d12 STR damage upon contact.",
+				"IT": "Gli attacchi comuni sono inefficaci, ma l'acqua infligge d12 danni FOR al contatto."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-volcano"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Fire Giant",
+			"IT": "Gigante del Fuoco"
+		},
+		"hp": 13,
+		"str": 17,
+		"dex": 8,
+		"wil": 5,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "greatsword (d10)",
+				"IT": "spada grande (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Colossal, red-haired humanoids build their fortresses in or near volcanoes. They are immune to fire and heat.",
+				"IT": "Umanoidi colossali dai capelli rossi costruiscono le loro fortezze nei vulcani o nelle loro vicinanze. Sono immuni al fuoco e al calore."
+			},
+			{
+				"EN": "They forge heavy armor made of brass, bronze, or copper and are masters of their craft.",
+				"IT": "Forgiano pesanti armature in ottone, bronzo o rame e sono maestri nel loro mestiere."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-volcano"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Flesh Construct",
+			"IT": "Costrutto di carne"
+		},
+		"hp": 9,
+		"str": 15,
+		"dex": 8,
+		"wil": 8,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "fists (d10+d10), <em>detachment</em>",
+				"IT": "pugni (d10+d10), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Tall, bloated humanoid abominations made of stitched together flesh.",
+				"IT": "Abomini umanoidi alti e gonfi, fatti di carne cucita insieme."
+			},
+			{
+				"EN": "If destroyed, the construct slowly reassembles using parts from nearby corpses.",
+				"IT": "Se distrutto, il costrutto si ricompone lentamente utilizzando parti di cadaveri vicini."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-tomb"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Foxwoman",
+			"IT": "Donna volpe"
+		},
+		"hp": 8,
+		"str": 12,
+		"dex": 14,
+		"wil": 15,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6), bite (d8)",
+				"IT": "artigli (d6+d6), morso (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Can take the form of a fox or a woman with a hidden fox leg.",
+				"IT": "Può assumere la forma di una volpe o di una donna con una gamba di volpe nascosta."
+			},
+			{
+				"EN": "Immune to attacks from metal weapons.",
+				"IT": "Immune agli attacchi delle armi di metallo."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Critical damage",
+					"IT": "Danni critici"
+				},
+				"value": {
+					"EN": "Victim is choked unconscious.",
+					"IT": "la vittima viene strangolata e perde i sensi."
+				}
+			}
+		],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Frost Elf",
+			"IT": "Elfo del Gelo"
+		},
+		"hp": 14,
+		"str": 8,
+		"dex": 13,
+		"wil": 14,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "icicle dagger (d6)",
+				"IT": "pugnale di ghiacciolo (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Beautiful, amoral, and long-lived.",
+				"IT": "Bella, amorale e longeva."
+			},
+			{
+				"EN": "Resistant to most forms of magic.",
+				"IT": "Resistente alla maggior parte delle forme di magia."
+			},
+			{
+				"EN": "Can cast the following spells at will: <em>Sleep</em>, <em>Teleport</em>, <em>Detect Magic</em>.",
+				"IT": "Può lanciare i seguenti incantesimi a piacimento: <em>Sonno</em>, <em>Teletrasporto</em>, <em>Individuazione del Magico</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-ice"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-detect-magic"
+			},
+			{
+				"type": "spell",
+				"id": "spell-sleep"
+			},
+			{
+				"type": "spell",
+				"id": "spell-teleport"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Frost Giant",
+			"IT": "Gigante del Gelo"
+		},
+		"hp": 14,
+		"str": 18,
+		"dex": 9,
+		"wil": 12,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "great axe (d12) or longbow (d8)",
+				"IT": "grande ascia (d12) o arco lungo (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Colossal, pale-haired humanoids with blueish skin and pale hair. Unharmed by cold and ice.",
+				"IT": "Umanoidi colossali, dai capelli chiari, con pelle bluastra e capelli chiari. Illesi dal freddo e dal ghiaccio."
+			},
+			{
+				"EN": "Excellent trackers, they are often accompanied by dire wolves.",
+				"IT": "Ottimi cacciatori, spesso sono accompagnati da lupi terribili."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-ice"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Gargoyle",
+			"IT": "Gargoyle"
+		},
+		"hp": 8,
+		"str": 14,
+		"dex": 4,
+		"wil": 12,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "claws (d8+d8)",
+				"IT": "artigli (d8+d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Magical, slow-moving statues of monstrous winged creatures, typically employed as guards or watchdogs.",
+				"IT": "Statue magiche e lente raffiguranti mostruose creature alate, solitamente impiegate come guardie o cani da guardia."
+			},
+			{
+				"EN": "Prowls at night but fear the day, when the sun’s light freezes them in place.",
+				"IT": "Si aggirano di notte ma temono il giorno, quando la luce del sole li congela sul posto."
+			},
+			{
+				"EN": "Immune to charms and magical sleep.",
+				"IT": "Immune agli incantesimi e al sonno magico."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Gelatinous Ooze",
+			"IT": "Cubo Gelatinoso"
+		},
+		"hp": 8,
+		"str": 15,
+		"dex": 6,
+		"wil": 3,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "devouring touch (d8)",
+				"IT": "tocco divorante (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "The target is engulfed, losing d6 STR damage per round until they are consumed.",
+				"IT": "Il bersaglio viene avvolto e perde d6 danni FOR a round finché non viene consumato."
+			}
+		],
+		"description": [
+			{
+				"EN": "Large shapeless masses of transparent jelly. Mindlessly hunt for food in dungeons and underground caverns.",
+				"IT": "Grandi masse informi di gelatina trasparente. Cacciano senza meta il cibo nei sotterranei e nelle caverne."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-cave",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Ghost",
+			"IT": "Fantasma"
+		},
+		"hp": 8,
+		"str": 14,
+		"dex": 12,
+		"wil": 15,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "life drain (d6)",
+				"IT": "drenaggio vitale (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target must save WIL or is possessed, acting only on behalf of the ghost’s whims.",
+				"IT": "Il bersaglio deve salvare VOL o viene posseduto e agisce solo per conto dei capricci del fantasma."
+			}
+		],
+		"description": [
+			{
+				"EN": "Incorporeal spirits of the restless dead, vulnerable only to magic and specific anointed rites.",
+				"IT": "Spiriti incorporei dei morti inquieti, vulnerabili solo alla magia e a specifici riti unti."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-cult"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Ghoul",
+			"IT": "Ghoul"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 8,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "elongated claws (d6+d6)",
+				"IT": "artigli allungati (d6+d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is <em>deprived</em> from their necrotic wound, dying in d4 days unless treated by a priest or skilled healer. If the body is not burned it later rises as a Ghoul as well.",
+				"IT": "Il bersaglio è reso <em>esausto</em> della sua ferita necrotica, morendo in d4 giorni a meno che non venga curato da un sacerdote o da un guaritore esperto. Se il corpo non viene bruciato, in seguito risorgerà come Ghoul."
+			}
+		],
+		"description": [
+			{
+				"EN": "Grey-skinned man-things wearing shredded clothes that crave only the flesh of the living.",
+				"IT": "Uomini-cose dalla pelle grigia che indossano abiti a brandelli e bramano solo la carne dei vivi."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Giant Aquatic Spider",
+			"IT": "Ragno, Gigante Acquatico"
+		},
+		"hp": 4,
+		"str": 13,
+		"dex": 8,
+		"wil": 4,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d8)",
+				"IT": "morso (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Paralyzes their target, dealing an additional d4 DEX damage.",
+				"IT": "Paralizza il bersaglio, infliggendo d4 danni DES aggiuntivi."
+			}
+		],
+		"description": [
+			{
+				"EN": "Enormous spiders that dwell in large bodies of fresh water, building air-filled nests in the aquatic vegetation.",
+				"IT": "Enormi ragni che vivono in grandi distese di acqua dolce, costruendo nidi pieni d'aria nella vegetazione acquatica."
+			},
+			{
+				"EN": "Lurk just below the water’s surface, waiting to surprise their victims.",
+				"IT": "Si nascondono appena sotto la superficie dell'acqua, in attesa di sorprendere le loro vittime."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-river",
+			"biome-lake",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Giant Centipede",
+			"IT": "Millepiedi, Gigante"
+		},
+		"hp": 5,
+		"str": 6,
+		"dex": 13,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "sting (d6)",
+				"IT": "pungiglione (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Venom renders the target <em>deprived</em>. Save STR once per day to recover.",
+				"IT": "Il veleno rende il bersaglio <em>esausto</em>. Risparmia FOR una volta al giorno per recuperare."
+			}
+		],
+		"description": [
+			{
+				"EN": "Dog-sized centipedes that live in damp, underground places. They prefer to avoid combat if possible.",
+				"IT": "Centopiedi delle dimensioni di un cane che vivono in luoghi umidi e sotterranei. Preferiscono evitare il combattimento se possibile."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Giant Crab",
+			"IT": "Granchio Gigante"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 3,
+		"wil": 8,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "pincers (d8+d8)",
+				"IT": "tenaglie (d8+d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Huge crustaceans that live in coastal areas.",
+				"IT": "Enormi crostacei che vivono nelle zone costiere."
+			},
+			{
+				"EN": "Their pincers ignore non-metallic armor completely.",
+				"IT": "Le loro chele ignorano completamente le armature non metalliche."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-coast"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Giant Crocodile",
+			"IT": "Coccodrillo gigante"
+		},
+		"hp": 15,
+		"str": 16,
+		"dex": 6,
+		"wil": 5,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "bite (d12), <em>detachment</em>",
+				"IT": "morso (d12), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Rare, gigantic reptiles from ancient times.",
+				"IT": "Rettili rari e giganteschi dei tempi antichi."
+			},
+			{
+				"EN": "Natural hunters, they are attracted to the scent of blood in the water, even at great distances.",
+				"IT": "Cacciatori naturali, sono attratti dall'odore del sangue nell'acqua, anche a grandi distanze."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-river",
+			"biome-lake"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Giant Mantis",
+			"IT": "Mantide, Gigante"
+		},
+		"hp": 10,
+		"str": 12,
+		"dex": 14,
+		"wil": 12,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "forelegs (d8+d8)",
+				"IT": "zampe anteriori (d8+d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target loses a body part. Roll 1d6. 1: Head, 2-4: Leg, 5-6: Arm.",
+				"IT": "Il bersaglio perde una parte del corpo. Tira 1d6. 1: Testa, 2-4: Gamba, 5-6: Braccio."
+			}
+		],
+		"description": [
+			{
+				"EN": "Cow-sized insects with sharp forelimbs and slicing mandibles. Dwell in tropical forests and jungles.",
+				"IT": "Insetti delle dimensioni di una mucca con arti anteriori affilati e mandibole taglienti. Vivono nelle foreste tropicali e nelle giungle."
+			},
+			{
+				"EN": "Relies on its dark green coloration to camouflage in foliage and attack unsuspecting prey.",
+				"IT": "Si affida alla sua colorazione verde scuro per mimetizzarsi tra il fogliame e attaccare prede ignare."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-forest",
+			"biome-jungle"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Giant Phase Spider",
+			"IT": "Ragno Fasico Gigante"
+		},
+		"hp": 6,
+		"str": 13,
+		"dex": 14,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6), <em>detachment</em>",
+				"IT": "morso (d6), <em>formazione</em>"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Without specialist healing the target begins to slowly phase out of reality over 1d6 days.",
+				"IT": "Senza cure specialistiche, il bersaglio inizia lentamente a scomparire dalla realtà nel giro di 1d6 giorni."
+			}
+		],
+		"description": [
+			{
+				"EN": "8’ long, black spiders that have the ability to become intangible. Dwell in web-filled lairs and sometimes prey on humans.",
+				"IT": "Ragni neri lunghi 8 piedi che hanno la capacità di diventare intangibili. Vivono in tane piene di ragnatele e a volte predano gli umani."
+			},
+			{
+				"EN": "Can freely shift in and out of its current plane, phasing back to attack. It cannot phase out again until its next turn.",
+				"IT": "Può spostarsi liberamente dentro e fuori dal suo piano attuale, tornando in fase per attaccare. Non può uscire di fase di nuovo fino al suo turno successivo."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Giant Scorpion",
+			"IT": "Scorpione Gigante"
+		},
+		"hp": 8,
+		"str": 11,
+		"dex": 12,
+		"wil": 4,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "claws (d10+d10)",
+				"IT": "artigli (d10+d10)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "The stinger’s poison liquifies the target’s insides for an additional d8 STR damage. The STR loss is permanent.",
+				"IT": "Il veleno del pungiglione liquefa le viscere del bersaglio per un danno FOR d8 aggiuntivo. La perdita di FOR è permanente."
+			}
+		],
+		"description": [
+			{
+				"EN": "Horse-sized arachnides commonly found in dry terrain or caverns.",
+				"IT": "Aracnidi delle dimensioni di un cavallo che si trovano comunemente nei terreni asciutti o nelle caverne."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-cave"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Giant Draco",
+			"IT": "Draco Gigante"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 14,
+		"wil": 5,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d10)",
+				"IT": "morso (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Tall, carnivorous lizards that glide in the air on flaps of skin.",
+				"IT": "Lucertole alte e carnivore che scivolano nell'aria su lembi di pelle."
+			},
+			{
+				"EN": "Wait atop tall natural formations to swing down and surprise their unsuspecting targets.",
+				"IT": "Aspettano in cima ad alte formazioni naturali per dondolarsi e sorprendere i loro ignari bersagli."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Gnoll",
+			"IT": "Gnoll"
+		},
+		"hp": 6,
+		"str": 12,
+		"dex": 14,
+		"wil": 8,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "spear (d8)",
+				"IT": "lancia (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Ferocious humanoid hyenas spawned from arcane experiments long ago.",
+				"IT": "Feroci iene umanoidi generate da esperimenti arcani molto tempo fa."
+			},
+			{
+				"EN": "Deadly warriors, they attack as a pack (as <em>detachment</em>) or on their own.",
+				"IT": "Guerrieri mortali, attaccano in branco (come <em>formazione</em>) o da soli."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Gnome",
+			"IT": "Gnomo"
+		},
+		"hp": 4,
+		"str": 8,
+		"dex": 12,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "crossbow (d8, bulky)",
+				"IT": "balestra (d8, ingombrante)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Short humanoids with long noses and ears. Live underground or deep in forests.",
+				"IT": "Umanoidi bassi con lunghi nasi e orecchie. Vivono sottoterra o nelle profondità delle foreste."
+			},
+			{
+				"EN": "Intelligent tinkers, love messing with any kind of mechanism. Can easily be convinced by the promise of something novel or uncommon.",
+				"IT": "Gli intelligenti smanettoni amano armeggiare con qualsiasi tipo di meccanismo. Possono essere facilmente convinti dalla promessa di qualcosa di nuovo o insolito."
+			},
+			{
+				"EN": "Can understand and communicate with small mammals like moles or squirrels.",
+				"IT": "Può comprendere e comunicare con piccoli mammiferi come talpe o scoiattoli."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-forest",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Goblin",
+			"IT": "Goblin"
+		},
+		"hp": 4,
+		"str": 8,
+		"dex": 12,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "dagger (d6) or sling (d6)",
+				"IT": "pugnale (d6) o fionda (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Small, grotesque humanoids with skin in earthly tones of green, brown, and grey.",
+				"IT": "Piccoli umanoidi grotteschi con la pelle nei toni terrosi del verde, del marrone e del grigio."
+			},
+			{
+				"EN": "Avoid combat, only attacking when advantageous, using hit-and-run tactics.",
+				"IT": "Evita il combattimento, attacca solo quando è vantaggioso e usa tattiche mordi e fuggi."
+			},
+			{
+				"EN": "Sometimes are found using dire wolves as mounts.",
+				"IT": "A volte vengono trovati usando lupi terribili come cavalcature."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Golem",
+			"IT": "Golem"
+		},
+		"hp": 12,
+		"str": 18,
+		"dex": 6,
+		"wil": 0,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "stone fists (d10+d10)",
+				"IT": "pugni di pietra (d10+d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Immune to mental attacks. Damage from fire is <em>enhanced</em>.",
+				"IT": "Immune agli attacchi mentali. I danni da fuoco sono <em>aumentati</em>."
+			},
+			{
+				"EN": "Scratching off the first letter on its forehead or performing in reverse the ritual that created it reduces the Golem to mud.",
+				"IT": "Grattando via la prima lettera dalla sua fronte o eseguendo al contrario il rituale che l'ha creata, il Golem si riduce in fango."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-cult"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Gorilla",
+			"IT": "Gorilla"
+		},
+		"hp": 3,
+		"str": 14,
+		"dex": 14,
+		"wil": 9,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "fists (d8+d8)",
+				"IT": "pugni (d8+d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Breaks a limb, dealing 1d4 extra STR damage.",
+				"IT": "Rompe un arto, infliggendo 1d4 danni FOR extra."
+			}
+		],
+		"description": [
+			{
+				"EN": "Large, muscular apes that dwell in hot jungles. Highly territorial.",
+				"IT": "Grandi scimmie muscolose che vivono nelle giungle calde. Altamente territoriali."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-jungle"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Great White Shark",
+			"IT": "Squalo Bianco Gigante"
+		},
+		"hp": 8,
+		"str": 14,
+		"dex": 14,
+		"wil": 6,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d12)",
+				"IT": "morso (d12)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Enormous grey sharks that dwell in warm water, sometimes attacking smaller boats.",
+				"IT": "Enormi squali grigi che vivono in acque calde e che a volte attaccano imbarcazioni più piccole."
+			},
+			{
+				"EN": "Can detect the smell of blood from many miles away.",
+				"IT": "Riesce a percepire l'odore del sangue da molte miglia di distanza."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-river"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Green Dragon",
+			"IT": "Drago Verde"
+		},
+		"hp": 12,
+		"str": 14,
+		"dex": 15,
+		"wil": 18,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "bite (d12), <em>detachment</em>",
+				"IT": "morso (d12), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Forest-dwelling snakes topped with tall green scales. Collect great hoards of treasure.",
+				"IT": "Serpenti che vivono nella foresta, sormontati da alte squame verdi. Raccogli grandi quantità di tesori."
+			},
+			{
+				"EN": "Use intelligence and cunning to manipulate the weak into their service.",
+				"IT": "Usare l'intelligenza e l'astuzia per manipolare i deboli e costringerli a mettersi al loro servizio."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Chlorine Gas",
+					"IT": "Gas di cloro"
+				},
+				"value": {
+					"EN": "Anyone nearby must make a DEX save to escape its reach or lose 1d4 STR and becomes <em>deprived</em>.",
+					"IT": "Chiunque si trovi nelle vicinanze deve effettuare un tiro salvezza su DES per sfuggire alla sua portata o perdere 1d4 FOR e diventare <em>esausto</em>."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Green Slime",
+			"IT": "Melma Verde"
+		},
+		"hp": 3,
+		"str": 18,
+		"dex": 6,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "acidic touch (d10)",
+				"IT": "tocco acido (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Large blobs of green slime that stick to walls and ceiling. Immune to all damage except fire.",
+				"IT": "Grandi macchie di melma verde che si attaccano a pareti e soffitti. Immune a tutti i danni tranne quelli da fuoco."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Drop Attack",
+					"IT": "Attacco a caduta"
+				},
+				"value": {
+					"EN": "As trap. Deals 1d6 STR damage per round, corroding metal, wood, and flesh. Flesh consumed in this way becomes more Green Slime.",
+					"IT": "Come trappola. Infligge 1d6 danni FOR per round, corrodendo metallo, legno e carne. La carne consumata in questo modo diventa più melma verde."
+				}
+			}
+		],
+		"tags": [
+			"strength-midboss",
+			"biome-forest",
+			"biome-dungeon",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Griffon",
+			"IT": "Grifone"
+		},
+		"hp": 7,
+		"str": 14,
+		"dex": 15,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6), <em>detachment</em>",
+				"IT": "artigli (d6+d6), <em>formazione</em>"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Tears flesh and bone from its victim with its razor-sharp beak.",
+				"IT": "Strappa la carne e le ossa della vittima con il suo becco affilato come un rasoio."
+			}
+		],
+		"description": [
+			{
+				"EN": "Ravenous hybrids, with the head and wings of an eagle and the lower body of a lion.",
+				"IT": "Ibridi famelici, con la testa e le ali di un'aquila e la parte inferiore del corpo di un leone."
+			},
+			{
+				"EN": "Can be used as mounts if taken young and properly trained.",
+				"IT": "Possono essere usati come cavalcature se presi giovani e adeguatamente addestrati."
+			},
+			{
+				"EN": "Fly and attack at astonishing speeds, diving in to scoop up their prey.",
+				"IT": "Volano e attaccano a velocità sorprendenti, tuffandosi per catturare la preda."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Grizzly Bear",
+			"IT": "Orso, Grizzly"
+		},
+		"hp": 6,
+		"str": 15,
+		"dex": 13,
+		"wil": 5,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d8+d8)",
+				"IT": "artigli (d8+d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Bites the victim for an additional d6 STR damage. They bleed out very quickly.",
+				"IT": "Morde la vittima infliggendo un danno FOR d6 aggiuntivo. Sanguina molto rapidamente."
+			}
+		],
+		"description": [
+			{
+				"EN": "Reddish-brown bears commonly found in mountains, woodlands, and prairies.",
+				"IT": "Gli orsi bruno-rossicci si trovano comunemente nelle montagne, nei boschi e nelle praterie."
+			},
+			{
+				"EN": "Prefer to eat fish and meat, and will attack the rare unfortunate who crosses their path.",
+				"IT": "Preferiscono mangiare pesce e carne e attaccheranno i rari sfortunati che incrociano il loro cammino."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-mountain",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Halfling",
+			"IT": "Halfling"
+		},
+		"hp": 4,
+		"str": 8,
+		"dex": 14,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "shortsword (d6)",
+				"IT": "spada corta (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Small humanoids with hairy feet live in small settlements. Highly resistant to mental attacks.",
+				"IT": "Piccoli umanoidi con piedi pelosi vivono in piccoli insediamenti. Altamente resistenti agli attacchi mentali."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-settlement"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Harpy",
+			"IT": "Arpia"
+		},
+		"hp": 8,
+		"str": 7,
+		"dex": 12,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6)",
+				"IT": "artigli (d6+d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Hideous monstrosities with the body of a giant eagle and a humanoid head.",
+				"IT": "Orribili mostruosità con il corpo di un'aquila gigante e una testa umanoide."
+			},
+			{
+				"EN": "Their movements and flight are clumsy due to their disproportionate size. Rely on charmed victims to do anything of note.",
+				"IT": "I loro movimenti e il volo sono goffi a causa delle loro dimensioni sproporzionate. Conta sulle vittime incantate per fare i suoi comodi."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Song",
+					"IT": "Canzone"
+				},
+				"value": {
+					"EN": "Anyone nearby must save WIL or be charmed by its voice, following the harpy and defending it from any threat.",
+					"IT": "Chiunque si trovi nelle vicinanze deve superare un tiro salvezza su VOL o rimanere ammaliato dalla sua voce, seguendo l'arpia e difendendola da ogni minaccia."
+				}
+			}
+		],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Hellhound",
+			"IT": "Mastino Infernale"
+		},
+		"hp": 8,
+		"str": 12,
+		"dex": 15,
+		"wil": 9,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d8) or fire breath (d6, <em>blast</em>)",
+				"IT": "morso (d8) o soffio di fuoco (d6, <em>scoppio</em>)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Monstrous, intelligent dogs that dwell near volcanoes.",
+				"IT": "Cani mostruosi e intelligenti che vivono vicino ai vulcani."
+			},
+			{
+				"EN": "Immune to fire and heat damage. Hot enough to melt iron simply by biting it.",
+				"IT": "Immune al fuoco e al calore. Abbastanza caldo da fondere il ferro semplicemente mordendolo."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-volcano"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Hobgoblin",
+			"IT": "Hobgoblin"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 8,
+		"wil": 11,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "mace (d8)",
+				"IT": "mazza (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Large and burly relatives of goblins. Dwell in underground fortresses until called for war.",
+				"IT": "Parenti grandi e corpulenti degli goblin. Vivono in fortezze sotterranee finché non vengono chiamati per la guerra."
+			},
+			{
+				"EN": "Automatically succeed in Morale Saves if a commander is present.",
+				"IT": "Supera automaticamente i tiri salvezza sul morale se è presente un comandante."
+			},
+			{
+				"EN": "Trained to fight together. Damage dealt is <em>enhanced</em> if an ally is also engaged with the same enemy.",
+				"IT": "Addestrati a combattere insieme. Il danno inflitto è <em>aumentato</em> se un alleato è impegnato con lo stesso nemico."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Hooded Men",
+			"IT": "Uomini Incappucciati"
+		},
+		"hp": 12,
+		"str": 9,
+		"dex": 12,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "leystaff (d8)",
+				"IT": "bastone (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Leech a part of the victim’s soul (1d4 WIL damage).",
+				"IT": "Assorbi una parte dell'anima della vittima (1d4 danni VOL)."
+			}
+		],
+		"description": [
+			{
+				"EN": "The Watchers of the Wood; a cult that derive their power from leylines, rune stones, and the like.",
+				"IT": "I Guardiani del Bosco; un culto che trae il proprio potere dalle linee ley, dalle pietre runiche e simili."
+			},
+			{
+				"EN": "Carries two of the following spellbooks: <em>Charm, Hypnotize, Push/Pull, Shield</em>.",
+				"IT": "Porta con sé due dei seguenti libri di incantesimi: <em>Affascinare, Ipnotizzare, Spingere/Tirare, Scudo</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-forest",
+			"biome-cult"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-charm"
+			},
+			{
+				"type": "spell",
+				"id": "spell-hypnotize"
+			},
+			{
+				"type": "spell",
+				"id": "spell-push-pull"
+			},
+			{
+				"type": "spell",
+				"id": "spell-shield"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Hunting Dog",
+			"IT": "Cane, da caccia"
+		},
+		"hp": 3,
+		"str": 4,
+		"dex": 12,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Domestic canines shaped into ferocious hunters, attacking only at their owner’s command.",
+				"IT": "I canidi domestici sono diventati cacciatori feroci, che attaccano solo su comando del padrone."
+			},
+			{
+				"EN": "Track by scent, relentlessly following their target.",
+				"IT": "Seguono il bersaglio seguendo l'olfatto senza sosta."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Hydra",
+			"IT": "Idra"
+		},
+		"hp": 12,
+		"str": 13,
+		"dex": 7,
+		"wil": 12,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "bite (d12, <em>blast</em>), <em>detachment</em>",
+				"IT": "morso (d12, <em>scoppio</em>), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Large reptilians with nine serpentine heads. Very difficult to throw off once their quarry is detected.",
+				"IT": "Grandi rettili con nove teste serpentine. Molto difficili da sbarazzarsi una volta individuata la loro preda."
+			},
+			{
+				"EN": "On taking <strong>Critical Damage</strong>, the hydra loses one head. It then continues fighting until no heads remains.",
+				"IT": "Quando subisce <strong>Danni Critici</strong>, l'idra perde una testa. Poi continua a combattere finché non ne rimane nessuna."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Ifrit",
+			"IT": "Ifrit"
+		},
+		"hp": 10,
+		"str": 11,
+		"dex": 13,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "flaming sword (d10)",
+				"IT": "spada fiammeggiante (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Clever, djinn-like beings from the elemental plane of fire. Appear as giant humanoids. Wet weapons deal <em>enhanced</em> damage against them.",
+				"IT": "Esseri intelligenti, simili a djinn, provenienti dal piano elementale del fuoco. Appaiono come umanoidi giganti. Le armi bagnate infliggono loro danni <em>aumentati</em>."
+			},
+			{
+				"EN": "Often summoned through powerful magic in service to a wizard, but will subvert their orders whenever possible.",
+				"IT": "Spesso vengono evocati tramite potenti magie al servizio di un mago, ma sovvertono i suoi ordini ogni volta che è possibile."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Pillar of Flame",
+					"IT": "Colonna di Fiamme"
+				},
+				"value": {
+					"EN": "Creates a column of flame as tall as a building, dealing d12 STR damage to all it touches. It can only do this once per day.",
+					"IT": "Crea una colonna di fiamme alta quanto un edificio, infliggendo d12 danni STR a tutto ciò che tocca. Può farlo solo una volta al giorno."
+				}
+			}
+		],
+		"tags": [
+			"strength-midboss",
+			"biome-volcano"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Invisible Stalker",
+			"IT": "Cacciatore invisibile"
+		},
+		"hp": 8,
+		"str": 12,
+		"dex": 12,
+		"wil": 15,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "fists (d4+d4)",
+				"IT": "pugni (d4+d4)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Intelligent beings shaped into reality by a powerful wizard. Completely invisible and silent.",
+				"IT": "Esseri intelligenti plasmati nella realtà da un potente mago. Completamente invisibili e silenziosi."
+			},
+			{
+				"EN": "Attacks deal direct STR damage (subtracting Armor).",
+				"IT": "Gli attacchi infliggono danni FOR diretti (sottraendo l'armatura)."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Iron Construct",
+			"IT": "Costrutto di ferro"
+		},
+		"hp": 8,
+		"str": 15,
+		"dex": 5,
+		"wil": 8,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "giant sword (d12)",
+				"IT": "spada gigante (d12)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Tall, humanoid statues forged of metal, fire, and magic. Wield massive swords of iron.",
+				"IT": "Alte statue umanoidi forgiate in metallo, fuoco e magia. Impugnano enormi spade di ferro."
+			},
+			{
+				"EN": "Immune to mundane attacks, electricity, and cold. Fire damage is absorbed and heals any lost STR.",
+				"IT": "Immune agli attacchi comuni, all'elettricità e al freddo. I danni da fuoco vengono assorbiti e curano qualsiasi FOR persa."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Killer Bees",
+			"IT": "Ape Assassina"
+		},
+		"hp": 6,
+		"str": 6,
+		"dex": 14,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "sting (d6), <em>detachment</em>",
+				"IT": "pungiglione (d6), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Oversized bees that build underground hives. Hyper-aggressive, attack anything that comes near.",
+				"IT": "Api di grandi dimensioni che costruiscono alveari sotterranei. Iper-aggressive, attaccano tutto ciò che si avvicina."
+			},
+			{
+				"EN": "Produce special honey that heals 1d6 STR. 3 uses.",
+				"IT": "Produce miele speciale che cura 1d6 FOR. 3 utilizzi."
+			},
+			{
+				"EN": "When the bees cause STR damage, the stingers are lodged into the target, dealing d4 damage each round until removed.",
+				"IT": "Quando le api causano danni FOR, i pungiglioni si conficcano nel bersaglio, infliggendo d4 danni ogni round finché non vengono rimossi."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Kobold",
+			"IT": "Coboldo"
+		},
+		"hp": 3,
+		"str": 8,
+		"dex": 13,
+		"wil": 4,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6), spear (d8)",
+				"IT": "morso (d6), lancia (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Hairless humanoids with canine-like features and scaly skin. Can see perfectly in the dark, but are harmed by direct sunlight.",
+				"IT": "Umanoidi senza peli con caratteristiche canine e pelle squamosa. Riescono a vedere perfettamente al buio, ma sono danneggiati dalla luce solare diretta."
+			},
+			{
+				"EN": "Use traps and ambush to defeat opponents. Often act in service of a more powerful creatures.",
+				"IT": "Usa trappole e imboscate per sconfiggere gli avversari. Spesso agiscono al servizio di creature più potenti."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Lamia",
+			"IT": "Lamia"
+		},
+		"hp": 6,
+		"str": 11,
+		"dex": 12,
+		"wil": 16,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "toothy bite (d8)",
+				"IT": "morso dentato (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "The target takes d6 WIL damage as their spirit is slowly sapped away. They then become enthralled to the Lamia, obeying its every command while in its presence.",
+				"IT": "Il bersaglio subisce d6 danni VOL mentre il suo spirito viene lentamente prosciugato. Quindi rimane incantato dalla Lamia, obbedendo a ogni suo comando mentre è in sua presenza."
+			}
+		],
+		"description": [
+			{
+				"EN": "Centaur-like creatures that prey on the life force of others, seducing their victims through heightened charm and intelligence. Their upper bodies are typically humanoid, the lower half any number of animal hybrids.",
+				"IT": "Creature simili a centauri che predano la forza vitale degli altri, seducendo le loro vittime attraverso un fascino e un'intelligenza accresciuti. La parte superiore del loro corpo è tipicamente umanoide, la metà inferiore un qualsiasi numero di ibridi animali."
+			},
+			{
+				"EN": "Inherently magical. Can create illusions, charm creatures, and disguise themselves at will.",
+				"IT": "Intrinsecamente magico. Può creare illusioni, ammaliare creature e camuffarsi a piacimento."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Lich",
+			"IT": "Lich"
+		},
+		"hp": 14,
+		"str": 8,
+		"dex": 8,
+		"wil": 18,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "soul dagger (d8)",
+				"IT": "pugnale dell'anima (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Powerful sorcerers that paid the ultimate price for immortality: their own life. Now their thirst for power knows no bounds.",
+				"IT": "Potenti stregoni che hanno pagato il prezzo più alto per l'immortalità: la loro stessa vita. Ora la loro sete di potere non ha più limiti."
+			},
+			{
+				"EN": "Maintain unlife by binding themselves to an earthly artifact, which is typically protected by at least d6 other undead servants.",
+				"IT": "Si mantiene in non-vita legandosi a un artefatto terreno, che è solitamente protetto da almeno d6 altri servitori non morti."
+			},
+			{
+				"EN": "Carry up to six of the following spellbooks: <em>Animate Object</em>, <em>Arcane Eye</em>, <em>Deafen</em>, <em>Disassemble</em>, <em>Elemental Wall</em>, <em>Frenzy</em>, <em>Gate</em>, <em>Hover</em>, <em>Hatred</em>, <em>Identify Owner</em>, <em>Knock</em>, <em>Pacify</em>, <em>Raise Dead</em>, <em>Raise Spirit</em>, <em>Shield</em>, <em>Sleep</em>, <em>Smoke Form</em>, <em>Telekinesis</em>, <em>Telepathy</em>, <em>Teleport</em>, <em>Vision</em>, <em>Wizard Mark</em>.",
+				"IT": "Porta con se fino a sei dei seguenti libri di incantesimi: <em>Animare Oggetto</em>, <em>Occhio Arcano</em>, <em>Assordare</em>, <em>Smontare</em>, <em>Muro Elementale</em>, <em>Frenesia</em>, <em>Portale</em>, <em>Levitazione</em>, <em>Odio</em>, <em>Identifica Proprietario</em>, <em>Bussare</em>, <em>Pacificare</em>, <em>Animare i Morti</em>, <em>Animare lo Spirito</em>, <em>Scudo</em>, <em>Sonno</em>, <em>Forma di Fumo</em>, <em>Telecinesi</em>, <em>Telepatia</em>, <em>Teletrasporto</em>, <em>Visione</em>, <em>Marchio del Mago</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-animate-object"
+			},
+			{
+				"type": "spell",
+				"id": "spell-arcane-eye"
+			},
+			{
+				"type": "spell",
+				"id": "spell-deafen"
+			},
+			{
+				"type": "spell",
+				"id": "spell-disassemble"
+			},
+			{
+				"type": "spell",
+				"id": "spell-elemental-wall"
+			},
+			{
+				"type": "spell",
+				"id": "spell-frenzy"
+			},
+			{
+				"type": "spell",
+				"id": "spell-gate"
+			},
+			{
+				"type": "spell",
+				"id": "spell-hatred"
+			},
+			{
+				"type": "spell",
+				"id": "spell-hover"
+			},
+			{
+				"type": "spell",
+				"id": "spell-identify-owner"
+			},
+			{
+				"type": "spell",
+				"id": "spell-knock"
+			},
+			{
+				"type": "spell",
+				"id": "spell-pacify"
+			},
+			{
+				"type": "spell",
+				"id": "spell-raise-dead"
+			},
+			{
+				"type": "spell",
+				"id": "spell-raise-spirit"
+			},
+			{
+				"type": "spell",
+				"id": "spell-shield"
+			},
+			{
+				"type": "spell",
+				"id": "spell-sleep"
+			},
+			{
+				"type": "spell",
+				"id": "spell-smoke-form"
+			},
+			{
+				"type": "spell",
+				"id": "spell-telekinesis"
+			},
+			{
+				"type": "spell",
+				"id": "spell-telepathy"
+			},
+			{
+				"type": "spell",
+				"id": "spell-teleport"
+			},
+			{
+				"type": "spell",
+				"id": "spell-vision"
+			},
+			{
+				"type": "spell",
+				"id": "spell-wizard-mark"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Lion",
+			"IT": "Felino, Leone"
+		},
+		"hp": 5,
+		"str": 12,
+		"dex": 12,
+		"wil": 11,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6)",
+				"IT": "artigli (d6+d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Delivers a killing bite to the throat (d6 STR damage).",
+				"IT": "Infligge un morso mortale alla gola (d6 danni FOR)."
+			}
+		],
+		"description": [
+			{
+				"EN": "Carnivorous hunters that live in the savannah or other similarly dry lands.",
+				"IT": "Cacciatori carnivori che vivono nella savana o in altre terre aride."
+			},
+			{
+				"EN": "Can follow the scent of blood over great distances.",
+				"IT": "Riesce a seguire l'odore del sangue anche a grandi distanze."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-jungle"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Manticore",
+			"IT": "Manticora"
+		},
+		"hp": 6,
+		"str": 15,
+		"dex": 14,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6) or tail spike (d6)",
+				"IT": "artigli (d6+d6) o aculeo della coda (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is <em>deprived</em> until they get a good night’s sleep. Until then, they act boorish, selfish, and cruel (or more so, if that already is their nature).",
+				"IT": "Il bersaglio viene reso <em>esausto</em> finché non riesce a dormire bene la notte. Fino a quel momento, si comporta in modo maleducato, egoista e crudele (o anche di più, se questa è già la sua natura)."
+			}
+		],
+		"description": [
+			{
+				"EN": "Spiteful monstrosities that wear a humanoid face, a lion’s body, wings of a bat, and a scorpion’s tail. Dwell in mountainous regions, abandoned castles, and forgotten dungeons.",
+				"IT": "Mostruosità dispettose che indossano un volto umanoide, un corpo di leone, ali di pipistrello e una coda di scorpione. Abitano nelle regioni montuose, nei castelli abbandonati e nelle segrete dimenticate."
+			},
+			{
+				"EN": "Tail spikes act like darts, regrowing after a few days. A single spike is worth 150gp to a collector.",
+				"IT": "Gli aculei della coda agiscono come freccette, ricrescendo dopo pochi giorni. Un singolo aculeo vale 150po per un collezionista."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-dungeon",
+			"biome-mountain",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Medusa",
+			"IT": "Medusa"
+		},
+		"hp": 10,
+		"str": 8,
+		"dex": 12,
+		"wil": 16,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "snake bite (d8)",
+				"IT": "morso di serpente (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Magical creatures that resemble humanoid women, but have snakes in place of hair. Proud and territorial.",
+				"IT": "Creature magiche che assomigliano a donne umanoidi, ma hanno serpenti al posto dei capelli. Orgogliose e territoriali."
+			},
+			{
+				"EN": "If severed, a Medusa’s head maintains its powers for a full day.",
+				"IT": "Se mozzata, la testa di Medusa mantiene i suoi poteri per un giorno intero."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Gaze",
+					"IT": "Sguardo"
+				},
+				"value": {
+					"EN": "Those who look into the eyes of the Medusa are quickly turned to stone (its reflection is harmless). Attacks against it are almost normally <em>impaired</em>.",
+					"IT": "Coloro che guardano negli occhi la Medusa vengono rapidamente trasformati in pietra (il suo riflesso è innocuo). Gli attacchi contro di essa sono quasi normalmente <em>compromessi</em>."
+				}
+			}
+		],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Mimic",
+			"IT": "Mimic"
+		},
+		"hp": 9,
+		"str": 13,
+		"dex": 6,
+		"wil": 12,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "bite (d8)",
+				"IT": "morso (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Malicious shape shifters that take on the form of inanimate objects commonly found in dungeons.",
+				"IT": "Mutaforma maligni che assumono la forma di oggetti inanimati comunemente reperibili nei dungeon."
+			},
+			{
+				"EN": "Remain motionless while in disguise, surprising anyone that comes near.",
+				"IT": "Rimangono immobili mentre sono mimetizzati, sorprendendo chiunque si avvicini."
+			},
+			{
+				"EN": "The mimic’s saliva is extremely sticky and difficult to remove. Alchemists will pay up to 150gp for even the smallest vial.",
+				"IT": "La saliva del Mimic è estremamente appiccicosa e difficile da rimuovere. Gli alchimisti pagheranno fino a 150 mo anche per la fiala più piccola."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Mind Lasher",
+			"IT": "Fendi menti"
+		},
+		"hp": 12,
+		"str": 8,
+		"dex": 12,
+		"wil": 18,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "tentacles (d6, <em>blast</em>)",
+				"IT": "tentacoli (d6, <em>scoppio</em>)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "A tentacle rips the victim’s brain out of their skull.",
+				"IT": "Un tentacolo strappa il cervello della vittima dal cranio."
+			}
+		],
+		"description": [
+			{
+				"EN": "Humanoid creatures with purple skin and squid-like heads. Dwell deep underground or in spacefaring vessels. Feed on the brains of other humanoids, absorbing their memories and life essence. Highly intelligent, but evil beyond belief.",
+				"IT": "Creature umanoidi con pelle viola e teste simili a calamari. Vivono in profondità sottoterra o in navi spaziali. Si nutrono del cervello di altri umanoidi, assorbendone i ricordi e l'essenza vitale. Altamente intelligenti, ma malvagi oltre ogni immaginazione."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Mind Blast",
+					"IT": "Esplosione mentale"
+				},
+				"value": {
+					"EN": "Nearby targets must save WIL or lose 1d4 WIL and become paralyzed.",
+					"IT": "I bersagli vicini devono effettuare un tiro salvezza sulla Volontà o perdere 1d4 Volontà e rimanere paralizzati."
+				}
+			}
+		],
+		"tags": [
+			"strength-midboss",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Minotaur",
+			"IT": "Minotauro"
+		},
+		"hp": 12,
+		"str": 16,
+		"dex": 12,
+		"wil": 8,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "two-handed axe (d10) or charge (d12)",
+				"IT": "ascia a due mani (d10) o carica (d12)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Large humanoids (typically male) with the head of a bull. Dwell in mazes or dungeons.",
+				"IT": "Grandi umanoidi (tipicamente maschi) con la testa di un toro. Vivono in labirinti o segrete."
+			},
+			{
+				"EN": "Extraordinary trackers with an excellent sense of smell and navigation skills.",
+				"IT": "Segugi straordinari dotati di un eccellente senso dell'olfatto e di abilità di navigazione."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Mummy",
+			"IT": "Mummia"
+		},
+		"hp": 6,
+		"str": 12,
+		"dex": 8,
+		"wil": 6,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "necrotic touch (d10)",
+				"IT": "tocco necrotico (d10)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is infected with mummy rot, and is unable to recover STR until they are cured by a specialist healer. The target is also <em>deprived</em>.",
+				"IT": "Il bersaglio è infetto da putrefazione della mummia e non è in grado di recuperare STR finché non viene curato da un guaritore specializzato. Il bersaglio è anche <em>esausto</em>."
+			}
+		],
+		"description": [
+			{
+				"EN": "Undead humanoids wrapped in funerary cloth. Found in pyramids, ruins, temples, and tombs.",
+				"IT": "Umanoidi non morti avvolti in teli funerari. Si trovano in piramidi, rovine, templi e tombe."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-tomb",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Naga",
+			"IT": "Persona Serpente"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 12,
+		"wil": 14,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "sword (d6), bite (d10)",
+				"IT": "spada (d6), morso (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Humanoids with the lower body, tail, and neck of snakes. Dwell in hot jungles and temples lost to time.",
+				"IT": "Umanoidi con la parte inferiore del corpo, coda e collo da serpenti. Abitano nelle giungle calde e nei templi perduti nel tempo."
+			},
+			{
+				"EN": "Use cunning and hypnosis to capture other creatures to be enslaved.",
+				"IT": "Usa l'astuzia e l'ipnosi per catturare altre creature e ridurle in schiavitù."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Gaze",
+					"IT": "Sguardo"
+				},
+				"value": {
+					"EN": "A target facing the Naga is hypnotized, falling under its will. Its victims cannot be compelled to violence.",
+					"IT": "Un bersaglio di fronte al Naga viene ipnotizzato, cadendo sotto la sua volontà. Le sue vittime non possono essere costrette alla violenza."
+				}
+			}
+		],
+		"tags": [
+			"strength-midboss",
+			"biome-jungle"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Night Hag",
+			"IT": "Megera Nera"
+		},
+		"hp": 8,
+		"str": 9,
+		"dex": 11,
+		"wil": 16,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "talons (d8+d8)",
+				"IT": "artigli (d8+d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Hideous old women that dwell in dead forests, swamps, and bogs.",
+				"IT": "Vecchie orribili che vivono nelle foreste morte, nelle paludi e nelle torbiere."
+			},
+			{
+				"EN": "Carry three of the following spellbooks: <em>Arcane Eye</em>, <em>Disguise</em>, <em>Fog Cloud</em>, <em>Identify Owner</em>, <em>Smoke Form</em>.",
+				"IT": "Porta con se tre dei seguenti libri di incantesimi: <em>Occhio Arcano</em>, <em>Mascherata</em>, <em>Nube di Nebbia</em>, <em>Identifica Proprietario</em>, <em>Forma di Fumo</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-forest",
+			"biome-swamp"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-arcane-eye"
+			},
+			{
+				"type": "spell",
+				"id": "spell-disguise"
+			},
+			{
+				"type": "spell",
+				"id": "spell-fog-cloud"
+			},
+			{
+				"type": "spell",
+				"id": "spell-identify-owner"
+			},
+			{
+				"type": "spell",
+				"id": "spell-smoke-form"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Night Cat",
+			"IT": "Gatto notturno"
+		},
+		"hp": 6,
+		"str": 9,
+		"dex": 14,
+		"wil": 5,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6)",
+				"IT": "artigli (d6+d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Intelligent, nocturnal marsupials that make their homes in forests and swamps. Hunt in packs.",
+				"IT": "Marsupiali intelligenti e notturni che vivono nelle foreste e nelle paludi. Cacciano in branco."
+			},
+			{
+				"EN": "Critical Damage: The Night Cat begins to eat the target (d4 STR damage) while they are still alive.",
+				"IT": "Danni critici: il Gatto Notturno inizia a mangiare il bersaglio (d4 danni FOR) mentre è ancora vivo."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-forest",
+			"biome-swamp"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Nightmare",
+			"IT": "Incubo"
+		},
+		"hp": 8,
+		"str": 15,
+		"dex": 12,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "flaming hooves (d8+d8)",
+				"IT": "zoccoli fiammeggianti (d8+d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Intelligent, demonic horses with eyes like burning coals, smoldering nostrils, and flaming hooves.",
+				"IT": "Cavalli intelligenti e demoniaci con occhi come carboni ardenti, narici ardenti e zoccoli fiammeggianti."
+			},
+			{
+				"EN": "Melee attacks against the Nightmare are <em>impaired</em> due to the thick clouds of smoke it produces.",
+				"IT": "Gli attacchi corpo a corpo contro l'Incubo sono <em>compromessi</em> a causa delle spesse nuvole di fumo che produce."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-cult"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Ogre",
+			"IT": "Ogre"
+		},
+		"hp": 6,
+		"str": 16,
+		"dex": 8,
+		"wil": 6,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "club (d10)",
+				"IT": "mazza (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Massive, gluttonous brutes of ill-spirit and low intelligence.",
+				"IT": "Bruti enormi e golosi, di cattivo spirito e di scarsa intelligenza."
+			},
+			{
+				"EN": "Easily impressed by shiny materials, keeping sacks of gold and treasure in their lairs.",
+				"IT": "Sono facilmente impressionabili dai materiali luccicanti e custodiscono sacchi pieni d'oro e tesori nelle loro tane."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Owlbear",
+			"IT": "Orso Gufo"
+		},
+		"hp": 9,
+		"str": 16,
+		"dex": 12,
+		"wil": 5,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "beak (d10) or claws (d8+d8)",
+				"IT": "becco (d10) o artigli (d8+d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "A piece of armor is rent and destroyed.",
+				"IT": "Un pezzo di armatura viene strappato e distrutto."
+			}
+		],
+		"description": [
+			{
+				"EN": "Bear-like carnivores with the face of an owl. Found in dense forests. Rumored spawn of a magical mishap.",
+				"IT": "Carnivori simili a orsi con la faccia di un gufo. Si trovano nelle foreste dense. Si dice che siano la progenie di un incidente magico."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Panther",
+			"IT": "Felino, Pantera"
+		},
+		"hp": 4,
+		"str": 11,
+		"dex": 14,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6)",
+				"IT": "artigli (d6+d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Delivers a killing bite to the target’s throat, dealing an extra d4 STR damage.",
+				"IT": "Infligge un morso mortale alla gola del bersaglio, infliggendo d4 danni FOR extra."
+			}
+		],
+		"description": [
+			{
+				"EN": "Dark-furred cats that live in forests and plains. Hunt animals of almost any size, pouncing on unsuspecting targets from on high.",
+				"IT": "Felini dal pelo scuro che vivono nelle foreste e nelle pianure. Cacciano animali di quasi tutte le dimensioni, piombando su bersagli ignari dall'alto."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-forest",
+			"biome-plain"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Phoenix",
+			"IT": "Fenice"
+		},
+		"hp": 4,
+		"str": 15,
+		"dex": 13,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "talons (d10+d10)",
+				"IT": "artigli (d10+d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Intelligent, hawk-like spirits of pure flame, found in isolated deserts and high mountains.",
+				"IT": "Spiriti intelligenti, simili a falchi, fatti di pura fiamma, che si trovano nei deserti isolati e nelle alte montagne."
+			},
+			{
+				"EN": "If killed, they explode in a burst of flames. They are reborn 1d3 days later from the ashes.",
+				"IT": "Se uccisi, esplodono in una vampata di fiamme. Rinascono 1d3 giorni dopo dalle loro ceneri."
+			},
+			{
+				"EN": "Their feathers are highly-sought after for their healing properties.",
+				"IT": "Le loro piume sono molto ricercate per le loro proprietà curative."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-mountain",
+			"biome-desert",
+			"biome-volcano"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Pixie",
+			"IT": "Pixie"
+		},
+		"hp": 3,
+		"str": 3,
+		"dex": 15,
+		"wil": 13,
+		"armor": 0,
+		"weapon": [],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Tiny humanoids with insectoid wings. Naturally invisible.",
+				"IT": "Piccoli umanoidi con ali da insetto. Naturalmente invisibili."
+			},
+			{
+				"EN": "Can cast <em>Sleep</em> and <em>Masquerade</em> at will.",
+				"IT": "Può lanciare <em>Sonno</em> e <em>Mascherata</em> a piacimento."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": [
+			{
+				"type": "spell",
+				"id": "spell-masquerade"
+			},
+			{
+				"type": "spell",
+				"id": "spell-sleep"
+			}
+		]
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Pseudodragon",
+			"IT": "Pseudo-Drago"
+		},
+		"hp": 4,
+		"str": 6,
+		"dex": 14,
+		"wil": 13,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Winged, cat-sized reptiles capable of flight, speech, and high intelligence. Commonly found acting as familiars and spies.",
+				"IT": "Rettili alati, delle dimensioni di un gatto, capaci di volare, parlare e dotati di grande intelligenza. Si trovano comunemente a svolgere il ruolo di familiari e spie."
+			},
+			{
+				"EN": "Love treats, rubs, and good stories.",
+				"IT": "Adoro i dolcetti, le coccole e le belle storie."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Purple Worm",
+			"IT": "Verme Purpureo"
+		},
+		"hp": 18,
+		"str": 18,
+		"dex": 8,
+		"wil": 6,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bite (d12), <em>detachment</em>",
+				"IT": "morso (d12), <em>formazione</em>"
+			}
+		],
+		"critical": [
+			{
+				"EN": "The target is devoured, taking d8 STR damage from the acid in the worm’s stomach.",
+				"IT": "Il bersaglio viene divorato e subisce d8 danni FOR dall'acido presente nello stomaco del verme."
+			}
+		],
+		"description": [
+			{
+				"EN": "Gargantuan worms that lair in enormous burrows deep underground, only coming to the surface to eat. Found in high deserts and hot tundra.",
+				"IT": "Vermi giganteschi che si annidano in enormi tane nel profondo del sottosuolo, venendo in superficie solo per mangiare. Si trovano negli alti deserti e nella tundra calda."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-dungeon",
+			"biome-desert",
+			"biome-cave"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Red Cap",
+			"IT": "Berretto Rosso"
+		},
+		"hp": 6,
+		"str": 6,
+		"dex": 12,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "dual sickles (d6+d6)",
+				"IT": "falci doppie (d6+d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is eviscerated, the spray of their blood restoring STR loss suffered by the Red Cap.",
+				"IT": "Il bersaglio viene sventrato, lo spruzzo del suo sangue ripristina la perdita di FOR subita dal Berretto Rosso."
+			}
+		],
+		"description": [
+			{
+				"EN": "Born from blood left to rot in the land of Fairy. Their hats are a deep red from the blood they bathe in.",
+				"IT": "Nati dal sangue lasciato marcire nella terra delle Fate. I loro cappelli sono di un rosso intenso per il sangue in cui si bagnano."
+			},
+			{
+				"EN": "Ignore those with little to live for, as there is no pleasure in their murder.",
+				"IT": "Ignora coloro che hanno poco per cui vivere, perché non c'è piacere nel loro omicidio."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Red Dragon",
+			"IT": "Drago Rosso"
+		},
+		"hp": 18,
+		"str": 18,
+		"dex": 12,
+		"wil": 16,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "bite (d12), <em>detachment</em>",
+				"IT": "morso (d12), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Flaming titans of smoke and fire, boasting a greater wingspan than any of their brethren. Lair close to volcanos and lava flows.",
+				"IT": "Titani fiammeggianti di fumo e fuoco, che vantano un'apertura alare maggiore di tutti i loro fratelli. Tana vicino a vulcani e flussi di lava."
+			},
+			{
+				"EN": "Immune to fire damage of any kind. Ice and water evaporate on contact.",
+				"IT": "Immune a danni da fuoco di qualsiasi tipo. Ghiaccio e acqua evaporano al contatto."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Fire Breath",
+					"IT": "Respiro di fuoco"
+				},
+				"value": {
+					"EN": "Deals 8 STR damage to anyone nearby, destroying all mundane armor it touches in the process.",
+					"IT": "Infligge 8 danni FOR a chiunque si trovi nelle vicinanze, distruggendo tutte le armature comuni che ha toccato."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-volcano"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Roc",
+			"IT": "Roc"
+		},
+		"hp": 15,
+		"str": 16,
+		"dex": 14,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "beak (d12, <em>blast</em>), <em>detachment</em>",
+				"IT": "becco (d12, <em>scoppio</em>), <em>formazione</em>"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is pierced through their middle, dying instantly.",
+				"IT": "Il bersaglio viene trafitto al centro e muore all'istante."
+			}
+		],
+		"description": [
+			{
+				"EN": "Gargantuan birds of prey that roost in high plateau and distant mountain peaks. Powerful hunters, they will defend a clutch of eggs to the death.",
+				"IT": "Uccelli rapaci giganteschi che si appollaiano sugli altipiani e sulle lontane vette delle montagne. Potenti cacciatori, difenderanno una covata di uova fino alla morte."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Grab",
+					"IT": "Afferrare"
+				},
+				"value": {
+					"EN": "Their powerful talons can scoop up entire groups of people (targets must all make a DEX save to escape). Victims are carried back to the nest to be eaten alive.",
+					"IT": "I loro potenti artigli possono afferrare interi gruppi di persone (tutti i bersagli devono effettuare un tiro salvezza su DES per scappare). Le vittime vengono riportate al nido per essere mangiate vive."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-mountain",
+			"biome-cliff"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Reptilian",
+			"IT": "Uomo Lucertola"
+		},
+		"hp": 5,
+		"str": 14,
+		"dex": 12,
+		"wil": 5,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bone spear (d8)",
+				"IT": "lancia d'osso (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Amphibian humanoids that live in large tribes near swamps and jungles.",
+				"IT": "Umanoidi anfibi che vivono in grandi tribù vicino a paludi e giungle."
+			},
+			{
+				"EN": "Craft their armor and weapons from the bones of their prey. They will eat anything, including humanoids.",
+				"IT": "Costruiscono le loro armature e armi dalle ossa delle loro prede. Mangeranno qualsiasi cosa, compresi gli umanoidi."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-swamp",
+			"biome-jungle"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Root Goblin",
+			"IT": "Goblin delle Radici"
+		},
+		"hp": 4,
+		"str": 8,
+		"dex": 14,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "spear (d6)",
+				"IT": "lancia (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Avoid combat unless they have the advantage (such as greater numbers).",
+				"IT": "Evita il combattimento a meno che non siano in vantaggio (ad esempio, più numerosi)."
+			},
+			{
+				"EN": "Guard their stolen goods to the death.",
+				"IT": "Custodisce i beni rubati fino alla morte."
+			},
+			{
+				"EN": "Root Goblins prize spellbooks and are always willing to trade.",
+				"IT": "I Goblin delle Radici apprezzano molto i libri di incantesimi e sono sempre disposti a fare scambi."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Root Witch",
+			"IT": "Strega delle Radici"
+		},
+		"hp": 8,
+		"str": 9,
+		"dex": 16,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "tuber-fingers (d6)",
+				"IT": "dita di tubero (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Excellent tunnelers that hide underground near water. Wiggle tiny fronds into the air as lures.",
+				"IT": "Eccellenti scavatori di gallerie che si nascondono sottoterra vicino all'acqua. Muovendo piccole fronde in aria come esche."
+			},
+			{
+				"EN": "Above-ground, appear vaguely humanoid with the face of a rotted tree stump.",
+				"IT": "In superficie, sembrano vagamente umanoidi con il volto di un ceppo d'albero marcio."
+			},
+			{
+				"EN": "Will exchange rare minerals for a “fresh corpse” of any kind.",
+				"IT": "Scambierà minerali rari per un “cadavere fresco” di qualsiasi tipo."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-dungeon",
+			"biome-lake",
+			"biome-river",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Rust Monster",
+			"IT": "Mangia Ruggine"
+		},
+		"hp": 5,
+		"str": 16,
+		"dex": 13,
+		"wil": 5,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Metal armor rusts into useless weight.",
+				"IT": "L'armatura metallica arrugginisce fino a diventare un peso inutile."
+			}
+		],
+		"description": [
+			{
+				"EN": "Armadillo-like creatures with club-like tails and long antennae. Feed on iron and rusted metal.",
+				"IT": "Creature simili ad armadilli con code a forma di clava e lunghe antenne. Si nutrono di ferro e metallo arrugginito."
+			},
+			{
+				"EN": "Any mundane metals their antennae touch instantly become rust. Can smell metal from a long distance away.",
+				"IT": "Qualsiasi metallo banale toccato dalle loro antenne diventa immediatamente ruggine. Riescono a sentire l'odore del metallo da una grande distanza."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Sabre-Toothed Cat",
+			"IT": "Felino, Tigre dai Denti a Sciabola"
+		},
+		"hp": 8,
+		"str": 15,
+		"dex": 14,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d8+d8)",
+				"IT": "artigli (d8+d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Punctures the flesh of its victim (d6 STR damage), resulting in extreme blood loss.",
+				"IT": "Perfora la carne della vittima (d6 danni FOR), provocando un'estrema perdita di sangue."
+			}
+		],
+		"description": [
+			{
+				"EN": "Huge, primeval cats with enormous fangs. Extremely rare, generally found in regions untouched by civilization.",
+				"IT": "Enormi felini primordiali con zanne enormi. Estremamente rari, generalmente si trovano in regioni non toccate dalla civiltà."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Satyr",
+			"IT": "Satiro"
+		},
+		"hp": 6,
+		"str": 11,
+		"dex": 14,
+		"wil": 16,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "horns (d6)",
+				"IT": "corna (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Mythical humanoids with legs and horns of a goat that love to dance and drink. Found in deep forests. Immune to mind-altering magic.",
+				"IT": "Umanoidi mitologici con gambe e corna di capra che amano ballare e bere. Si trovano nelle foreste profonde. Immuni alla magia che altera la mente."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Pipes",
+					"IT": "Pipes"
+				},
+				"value": {
+					"EN": "Anyone in earshot of their music must save WIL or fall asleep.",
+					"IT": "Chiunque si trovi a portata d'orecchio della loro musica deve superare un tiro salvezza VOL o deve addormentarsi."
+				}
+			}
+		],
+		"tags": [
+			"strength-minion",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Sea Hag",
+			"IT": "Megera, del Mare"
+		},
+		"hp": 6,
+		"str": 11,
+		"dex": 15,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "long claws (d6+d6)",
+				"IT": "artigli lunghi (d6+d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Ghostly, green-skinned hags that dwell in seaweed forests and warm shallow waters.",
+				"IT": "Streghe spettrali dalla pelle verde che vivono nelle foreste di alghe e nelle acque calde e poco profonde."
+			},
+			{
+				"EN": "Immune to magic from spellbooks.",
+				"IT": "Immune alla magia dei libri di incantesimi."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Hideous Gaze",
+					"IT": "Sguardo orribile"
+				},
+				"value": {
+					"EN": "A target is overcome with fear (HP drops to 0). WIL save each round to break the spell.",
+					"IT": "Un bersaglio è sopraffatto dalla paura (i PV scendono a 0). E' necessario un tiro salvezza su VOL ogni round per spezzare l'incantesimo."
+				}
+			}
+		],
+		"tags": [
+			"strength-minion",
+			"biome-forest",
+			"biome-river",
+			"biome-sea"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Shadow",
+			"IT": "Ombra"
+		},
+		"hp": 14,
+		"str": 1,
+		"dex": 18,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "draining touch (d6, ignores armor)",
+				"IT": "tocco drenante (d6, ignora l'armatura)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target loses d4 STR. If reduced to 0 STR, they become a shadow as well.",
+				"IT": "Il bersaglio perde d4 FOR. Se ridotto a 0 FOR, diventa anche lui un'ombra."
+			}
+		],
+		"description": [
+			{
+				"EN": "Incorporeal monsters that look like animated shadows. Unharmed by mundane attacks, sleep or mind control.",
+				"IT": "Mostri incorporei che sembrano ombre animate. Illesi da attacchi comuni, sonno o controllo mentale."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Shambling Mound",
+			"IT": "Ammasso Traballante"
+		},
+		"hp": 9,
+		"str": 15,
+		"dex": 6,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "tendrils (d8+d8), <em>detachment</em>",
+				"IT": "viticci (d8+d8), <em>formazione</em>"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is swallowed whole and dragged away.",
+				"IT": "Il bersaglio viene ingoiato intero e trascinato via."
+			}
+		],
+		"description": [
+			{
+				"EN": "Tall humanoids made of slimy vegetation. Dwell in dark swamps and damp undergrounds.",
+				"IT": "Alti umanoidi fatti di vegetazione viscida. Vivono in paludi oscure e sotterranei umidi."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-swamp",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Skeleton",
+			"IT": "Scheletro"
+		},
+		"hp": 5,
+		"str": 8,
+		"dex": 13,
+		"wil": 0,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "rusty sword (d6) or bow (d6)",
+				"IT": "spada arrugginita (d6) o arco (d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Frequently found serving a master or necromancer, often in groups of 3 or more.",
+				"IT": "Spesso si trovano al servizio di un padrone o di un negromante, spesso in gruppi di 3 o più persone."
+			},
+			{
+				"EN": "Found wearing whatever was on them at the time of their death.",
+				"IT": "Indossano tutto ciò che avevano al momento della morte."
+			},
+			{
+				"EN": "If a skeleton is killed and its bones are not scattered, it reforms.",
+				"IT": "Se uno scheletro viene ucciso e le sue ossa non vengono disperse, si riforma."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Sky Giant",
+			"IT": "Gigante, delle Nubi"
+		},
+		"hp": 12,
+		"str": 16,
+		"dex": 12,
+		"wil": 14,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "mace (d10), <em>detachment</em>",
+				"IT": "mazza (d10), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Towering, white-skinned giants that live in castles high in the mountains.",
+				"IT": "Giganti imponenti dalla pelle bianca che vivono nei castelli in cima alle montagne."
+			},
+			{
+				"EN": "Missile attacks against them are <em>impaired</em> due to the powerful winds surrounding them.",
+				"IT": "Gli attacchi missilistici contro di loro sono <em>compromessi</em> a causa dei potenti venti che li circondano."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-mountain"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Sphinx",
+			"IT": "Sfinge"
+		},
+		"hp": 18,
+		"str": 12,
+		"dex": 13,
+		"wil": 18,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d8+d8, <em>blast</em>), beak (d10)",
+				"IT": "artigli (d8+d8, <em>scoppio</em>), becco (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Mythical beasts with the upper body and head of a human, the wings of an eagle, and the body of a lion. Immune to magic of any kind.",
+				"IT": "Bestie mitologiche con la parte superiore del corpo e la testa di un umano, le ali di un'aquila e il corpo di un leone. Immuni alla magia di qualsiasi tipo."
+			},
+			{
+				"EN": "Poses riddles to anyone they meet. Failure to answer correctly is usually met with death. They know almost everything worth knowing.",
+				"IT": "Pone enigmi a chiunque incontri. La mancata risposta corretta di solito comporta la morte. Sanno quasi tutto ciò che vale la pena sapere."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Roar",
+					"IT": "Ruggito"
+				},
+				"value": {
+					"EN": "Anyone in earshot must save WIL or flee in fear.",
+					"IT": "chiunque sia a portata d'orecchio deve superare un tiro salvezza su VOL o fuggire per la paura."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Storm Giant",
+			"IT": "Gigante delle Tempeste"
+		},
+		"hp": 18,
+		"str": 18,
+		"dex": 16,
+		"wil": 18,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "great sword (d12), <em>detachment</em>",
+				"IT": "grande spada (d12), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Building-sized humanoids with bronze-hued skin and light-colored hair. Live on the highest mountain peaks and rockiest coastlines.",
+				"IT": "Umanoidi delle dimensioni di un edificio con pelle color bronzo e capelli chiari. Vivono sulle vette più alte delle montagne e sulle coste più rocciose."
+			},
+			{
+				"EN": "Unharmed by lightning, can summon storm clouds at their will. Can fly with the wind as a their chariot.",
+				"IT": "Illeso dai fulmini, può evocare nubi tempestose a suo piacimento. Può volare con il vento come un carro."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Thunderclap",
+					"IT": "Thunderclap"
+				},
+				"value": {
+					"EN": "Deals 4 STR damage against a single target. Targets wearing metal armor take double damage.",
+					"IT": "infligge 4 danni STR a un singolo bersaglio. I bersagli che indossano armature di metallo subiscono danni doppi."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-mountain",
+			"biome-cliff"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Swine Thing",
+			"IT": "Porco Diabolico"
+		},
+		"hp": 9,
+		"str": 16,
+		"dex": 8,
+		"wil": 13,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "gore (d6+d6)",
+				"IT": "sventramento (d6+d6)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Obese humanoids that transform into massive porcine monstrosities to feast on human flesh.",
+				"IT": "Umanoidi corpulenti che si trasformano in enormi mostruosità suine per banchettare con la carne umana."
+			},
+			{
+				"EN": "Prefer to hunt in isolated settlements close to forests and wetlands. Can only shapeshift at night.",
+				"IT": "Preferisce cacciare in insediamenti isolati vicino a foreste e zone umide. Può cambiare forma solo di notte."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Charm",
+					"IT": "Fascino"
+				},
+				"value": {
+					"EN": "Target obeys the swine’s every command until it is killed. WIL save once per round to break free.",
+					"IT": "il bersaglio obbedisce a ogni comando del maiale finché non viene ucciso. Un tiro salvezza su VOL una volta a round per liberarsi."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-forest",
+			"biome-settlement",
+			"biome-river",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Titan",
+			"IT": "Titano"
+		},
+		"hp": 18,
+		"str": 16,
+		"dex": 15,
+		"wil": 18,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "lightning sword (d12), <em>detachment</em>",
+				"IT": "spada fulminante (d12), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Mythical, humanoid giants of radiant beauty and powerfully athletic bodies. Beneficent of character, but prone to megalomania.",
+				"IT": "Giganti umanoidi mitici, di radiosa bellezza e corpi poderosamente atletici. Di carattere benefico, ma inclini alla megalomania."
+			},
+			{
+				"EN": "Natives of other planes of existence, but sometimes have strongholds in the mortal world.",
+				"IT": "Nativi di altri piani di esistenza, ma a volte hanno roccaforti nel mondo mortale."
+			},
+			{
+				"EN": "Can levitate, shapeshift, and sculpt elements at will.",
+				"IT": "Può far levitare, cambiare forma e scolpire elementi a piacimento."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Tiger",
+			"IT": "Felino, Tigre"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 14,
+		"wil": 6,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d8+d8)",
+				"IT": "artigli (d8+d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Bites through flesh an bone alike (d6 STR damage).",
+				"IT": "Morde sia la carne che le ossa (d6 danni FOR)."
+			}
+		],
+		"description": [
+			{
+				"EN": "Striped, solitary felines found in temperate regions.",
+				"IT": "Felini striati e solitari che vivono nelle regioni temperate."
+			},
+			{
+				"EN": "Use camouflage and stealth to surprise their prey. Drag away their victims for later consumption.",
+				"IT": "Usano mimetizzazione e furtività per sorprendere le loro prede. Trascinano via le loro vittime per consumarle in seguito."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-jungle"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Treant",
+			"IT": "Treant"
+		},
+		"hp": 10,
+		"str": 15,
+		"dex": 3,
+		"wil": 12,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "roots (d8+d8, <em>blast</em>)",
+				"IT": "radici (d8+d8, <em>scoppio</em>)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Sentient, bipedal trees with a vaguely humanoid face on their trunks. Found in the deepest part of the wood.",
+				"IT": "Alberi senzienti, bipedi, con un volto vagamente umanoide sui tronchi. Si trovano nella parte più profonda del bosco."
+			},
+			{
+				"EN": "Speak slowly and ponderously, with a deep voice. Timeless, living for thousands of years.",
+				"IT": "Parla lentamente e con voce profonda. Senza tempo, vivo da migliaia di anni."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Triton",
+			"IT": "Tritone"
+		},
+		"hp": 6,
+		"str": 12,
+		"dex": 15,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "trident (d8)",
+				"IT": "tridente (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Aquatic humanoids with silvery skin, blue-green hair, and scaled legs ending in fins. Dwell in warmer waters close to land.",
+				"IT": "Umanoidi acquatici con pelle argentata, capelli blu-verdi e zampe ricoperte di squame che terminano con pinne. Vivono in acque più calde vicino alla terraferma."
+			},
+			{
+				"EN": "Lair in beautiful castles sculpted from sea rock and coral. Command vast schools of fish for both protection and food.",
+				"IT": "Rifugiati in splendidi castelli scolpiti nella roccia marina e nei coralli. Comanda vasti banchi di pesci per protezione e cibo."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-river",
+			"biome-sea"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Troll",
+			"IT": "Troll"
+		},
+		"hp": 14,
+		"str": 14,
+		"dex": 12,
+		"wil": 4,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "claws (d8+d8), club (d10)",
+				"IT": "artigli (d8+d8), mazza (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Giant, warty humanoids of flesh and bark. Dwell underground or in deep forests, as well as the ruined homes of their former victims. Carnivorous.",
+				"IT": "Umanoidi giganti e verrucosi fatti di carne e corteccia. Vivono sottoterra o nelle foreste profonde, così come nelle case in rovina delle loro ex vittime. Carnivori."
+			},
+			{
+				"EN": "When taking <strong>Critical Damage</strong>, a Troll will continue fighting, despite loss of flesh and limb. Only when their STR is 0 are they truly killed. Unless their heads are bathed in acid, fire, or powerful magic, they will fully regenerate within 1d4 days.",
+				"IT": "Quando subisce <strong>Danni Critici</strong>, un Troll continuerà a combattere, nonostante la perdita di carne e arti. Solo quando la sua FOR è 0 viene veramente ucciso. A meno che le sue teste non siano immerse in acido, fuoco o magia potente, si rigenereranno completamente entro 1d4 giorni."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-forest",
+			"biome-dungeon",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Tyrannosaurus",
+			"IT": "Tirannosauro"
+		},
+		"hp": 15,
+		"str": 18,
+		"dex": 12,
+		"wil": 8,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bite (d12), <em>detachment</em>",
+				"IT": "morso (d12), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Massive, two-legged, predatory reptiles with huge jaws.",
+				"IT": "Enormi rettili predatori, bipedi, dotati di enormi mascelle."
+			},
+			{
+				"EN": "Ferocious hunters, attacking the most threatening foe first.",
+				"IT": "Cacciatori feroci, che attaccano prima il nemico più minaccioso."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Unicorn",
+			"IT": "Unicorno"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 12,
+		"wil": 14,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "horn (d10, ignores armor)",
+				"IT": "corno (d10, ignora l'armatura)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Magical horses with a single long horn on their foreheads. Timid, but proud and willful, are seen as divine beings.",
+				"IT": "Cavalli magici con un unico lungo corno sulla fronte. Timidi, ma orgogliosi e volitivi, sono visti come esseri divini."
+			},
+			{
+				"EN": "Their hair is worth a small fortune due to its powerful healing properties.",
+				"IT": "I loro capelli valgono una piccola fortuna grazie alle loro potenti proprietà curative."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Vampire",
+			"IT": "Vampiro"
+		},
+		"hp": 12,
+		"str": 14,
+		"dex": 12,
+		"wil": 16,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bite (d10)",
+				"IT": "morso (d10)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "The vampire drains the target’s essence, dealing d12 damage to WIL. If the target reaches 0 WIL this way, it dies and is raised as a thrall of the vampire.",
+				"IT": "Il vampiro prosciuga l'essenza del bersaglio, infliggendo d12 danni a VOL. Se il bersaglio raggiunge 0 VOL in questo modo, muore e viene resuscitato come schiavo del vampiro."
+			}
+		],
+		"description": [
+			{
+				"EN": "Charming, undead creatures that drink the blood of mortals. Act at night and sleep in a coffin during the day. Can change into a bat at will.",
+				"IT": "Creature affascinanti e non morte che bevono il sangue dei mortali. Agiscono di notte e dormono in una bara durante il giorno. Possono trasformarsi in pipistrelli a piacimento."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Regeneration",
+					"IT": "Rigenerazione"
+				},
+				"value": {
+					"EN": "A damaged vampire regains 6 HP when it bites a target that has blood. If killed, it becomes a cloud of gas and retreats to its coffin, reforming at the next nightfall. Can only be killed if exposed to sunlight or if the coffin is destroyed.",
+					"IT": "Un vampiro danneggiato recupera 6 PV quando morde un bersaglio che ha sangue. Se ucciso, diventa una nuvola di gas e si ritira nella sua bara, riformandosi al calar della notte successiva. Può essere ucciso solo se esposto alla luce solare o se la bara viene distrutta."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-tomb"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Vampire Bat",
+			"IT": "Pipistrello, Vampiro"
+		},
+		"hp": 3,
+		"str": 6,
+		"dex": 14,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d8)",
+				"IT": "morso (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is infected by disease and are <em>deprived</em> without specialist healing.",
+				"IT": "Il bersaglio è infetto da una malattia e non può usufruire di cure specialistiche."
+			}
+		],
+		"description": [
+			{
+				"EN": "Large, nocturnal mammals that feed on live blood.",
+				"IT": "Grandi mammiferi notturni che si nutrono di sangue vivo."
+			},
+			{
+				"EN": "Use echolocation to navigate. Fear loud noises.",
+				"IT": "Usa l'ecolocalizzazione per orientarti. Temi i rumori forti."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Viper",
+			"IT": "Serpente, Crotalino"
+		},
+		"hp": 3,
+		"str": 5,
+		"dex": 12,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d6)",
+				"IT": "morso (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is poisoned, dying in 1d12 hours without a cure.",
+				"IT": "Il bersaglio è avvelenato e muore in 1d12 ore senza cura."
+			}
+		],
+		"description": [
+			{
+				"EN": "Poisonous snakes often found in caves, pits, and other dark places. An antitoxin can be made from their poison sacs.",
+				"IT": "Serpenti velenosi che si trovano spesso in grotte, fosse e altri luoghi bui. Dai loro sacchi di veleno si può ricavare un'antitossina."
+			},
+			{
+				"EN": "Use heat and smell to track their victims.",
+				"IT": "Utilizzano il calore e l'olfatto per rintracciare le vittime."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-cave",
+			"biome-dungeon"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Warp Panther",
+			"IT": "Distorcente"
+		},
+		"hp": 8,
+		"str": 13,
+		"dex": 16,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "tentacles (d8+d8, <em>blast</em>), bite (d10)",
+				"IT": "tentacoli (d8+d8, <em>scoppio</em>), morso (d10)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Grotesque panther-like predators with long razored tentacles growing out of their backs.",
+				"IT": "Predatori grotteschi simili a pantere con lunghi tentacoli affilati che crescono sulla schiena."
+			},
+			{
+				"EN": "Resistant to magical attacks. Caster must make a WIL save for the intended effect to succeed.",
+				"IT": "Resistente agli attacchi magici. L'incantatore deve effettuare un tiro salvezza su VOL affinché l'effetto desiderato abbia successo."
+			},
+			{
+				"EN": "Can teleport a short distance away at will. Hate Blink Dogs.",
+				"IT": "Può teletrasportarsi a breve distanza a piacimento. Odia i Cani Intermittenti."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Warrior Snail",
+			"IT": "Lumaca Mazza"
+		},
+		"hp": 4,
+		"str": 14,
+		"dex": 6,
+		"wil": 3,
+		"armor": 2,
+		"weapon": [
+			{
+				"EN": "tentacles (d8+d8)",
+				"IT": "tentacoli (d8+d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Giant armored snails with heavy, club-like tentacles.",
+				"IT": "Lumache corazzate giganti con tentacoli pesanti, simili a mazze."
+			},
+			{
+				"EN": "Some species have colorful shells that can reflect magical attacks.",
+				"IT": "Alcune specie hanno gusci colorati che possono riflettere gli attacchi magici."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Water Elemental",
+			"IT": "Elementale, Acqua"
+		},
+		"hp": 14,
+		"str": 15,
+		"dex": 16,
+		"wil": 4,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "spray (d8)",
+				"IT": "spruzzo (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is enveloped by the water and drowns in three rounds.",
+				"IT": "Il bersaglio viene avvolto dall'acqua e annega in tre round."
+			}
+		],
+		"description": [
+			{
+				"EN": "Rare spirits of lakes, rivers, and seas.",
+				"IT": "Spiriti rari di laghi, fiumi e mari."
+			},
+			{
+				"EN": "Mundane attacks against the Water Elemental are <em>impaired</em>.",
+				"IT": "Gli attacchi comuni contro l'Elementale dell'Acqua sono <em>indeboliti</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-lake",
+			"biome-coast",
+			"biome-sea"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Werewolf",
+			"IT": "Lupo Mannaro"
+		},
+		"hp": 8,
+		"str": 15,
+		"dex": 14,
+		"wil": 6,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6) or bite (d8)",
+				"IT": "artigli (d6+d6) o morso (d8)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target becomes infected with lycanthropy, transforming into a werewolf by the next full moon.",
+				"IT": "Il bersaglio viene infettato dalla licantropia, trasformandosi in un lupo mannaro entro la successiva luna piena."
+			}
+		],
+		"description": [
+			{
+				"EN": "Ferocious lycanthropes that can transform into a wolf-shape at will.",
+				"IT": "Feroci licantropi che possono trasformarsi in lupi a piacimento."
+			},
+			{
+				"EN": "Mundane attacks are <em>impaired</em> against werewolves, but attacks with weapons made of silver are <em>enhanced</em>.",
+				"IT": "Gli attacchi comuni sono <em>indeboliti</em> contro i lupi mannari, ma gli attacchi con armi d'argento sono <em>potenziati</em>."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-any"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "White Ape",
+			"IT": "Scimmia, Bianca"
+		},
+		"hp": 6,
+		"str": 14,
+		"dex": 15,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "claws (d6+d6), rocks (d6, <em>blast</em>)",
+				"IT": "artigli (d6+d6), rocce (d6, <em>scoppio</em>)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Nocturnal gorillas covered in snow-white hair.",
+				"IT": "Gorilla notturni ricoperti di pelo bianco come la neve."
+			},
+			{
+				"EN": "Defend their territory with threatening gestures followed by sudden violence.",
+				"IT": "Difendono il loro territorio con gesti minacciosi seguiti da violenza improvvisa."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-midboss",
+			"biome-jungle"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "White Dragon",
+			"IT": "Drago Bianco"
+		},
+		"hp": 16,
+		"str": 16,
+		"dex": 16,
+		"wil": 12,
+		"armor": 1,
+		"weapon": [
+			{
+				"EN": "bite (d12), <em>detachment</em>",
+				"IT": "morso (d12), <em>formazione</em>"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "A massive winged creature of frost that lairs comfortably in only the coldest regions.",
+				"IT": "Una gigantesca creatura alata fatta di ghiaccio che si rifugia comodamente solo nelle regioni più fredde."
+			},
+			{
+				"EN": "Perpetually accompanied by a storm of ice and wind, the White Dragon is a manifestation of winter itself.",
+				"IT": "Perennemente accompagnato da una tempesta di ghiaccio e vento, il Drago Bianco è una manifestazione dell'inverno stesso."
+			}
+		],
+		"notes": [
+			{
+				"key": {
+					"EN": "Frost Breath",
+					"IT": "Alito gelido"
+				},
+				"value": {
+					"EN": "Nearby targets must make a DEX save or are frozen solid, their breath turned to icicles in their lungs.",
+					"IT": "i bersagli vicini devono effettuare un tiro salvezza su DES o vengono congelati e il loro respiro si trasforma in ghiaccioli nei loro polmoni."
+				}
+			}
+		],
+		"tags": [
+			"strength-boss",
+			"biome-ice"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Wight",
+			"IT": "Cavaliere Demoniaco"
+		},
+		"hp": 12,
+		"str": 16,
+		"dex": 8,
+		"wil": 12,
+		"armor": 3,
+		"weapon": [
+			{
+				"EN": "longsword (d10)",
+				"IT": "spada lunga (d10)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "On a fail, any STR loss is permanent.",
+				"IT": "In caso di fallimento, qualsiasi perdita di STR è permanente."
+			}
+		],
+		"description": [
+			{
+				"EN": "Grotesque, fallen warriors, raised from death for ill purpose. Often astride equally nightmarish steeds, leading lesser undead creatures into battle.",
+				"IT": "Guerrieri grotteschi e caduti, resuscitati dalla morte per scopi malvagi. Spesso in groppa a destrieri altrettanto da incubo, che guidano creature non morte inferiori in battaglia."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-tomb",
+			"biome-ruin"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Will-o-Wisp",
+			"IT": "Fuoco Fatuo"
+		},
+		"hp": 3,
+		"str": 6,
+		"dex": 17,
+		"wil": 12,
+		"armor": 0,
+		"weapon": [],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Nocturnal spirits of cool flame, commonly found in dense woodlands, marshes, and swamps.",
+				"IT": "Spiriti notturni dalla fiamma fredda, comunemente presenti nei boschi fitti, nelle paludi e negli acquitrini."
+			},
+			{
+				"EN": "Known to lead travelers astray, to a corpse, or back home again.",
+				"IT": "Noto per sviare i viaggiatori, condurli verso un cadavere o riportarli a casa."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-tomb",
+			"biome-swamp",
+			"biome-jungle",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Wolf",
+			"IT": "Lupo, Normale"
+		},
+		"hp": 6,
+		"str": 12,
+		"dex": 14,
+		"wil": 8,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d8)",
+				"IT": "morso (d8)"
+			}
+		],
+		"critical": [],
+		"description": [
+			{
+				"EN": "Large canines that dwell primarily in forest or tundra.",
+				"IT": "Grandi canidi che vivono principalmente nelle foreste o nella tundra."
+			},
+			{
+				"EN": "Can be trained with effort if captured at a young age.",
+				"IT": "Può essere addestrato con fatica se catturato in giovane età."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Wood Troll",
+			"IT": "Troll dei boschi"
+		},
+		"hp": 10,
+		"str": 15,
+		"dex": 12,
+		"wil": 7,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "bite (d8), club (d10)",
+				"IT": "morso (d8), mazza (d10)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Moss and twigs begin growing out of the target’s wounds.",
+				"IT": "Muschio e rametti cominciano a crescere dalle ferite del bersaglio."
+			}
+		],
+		"description": [
+			{
+				"EN": "Large humanoids with elongated arms made of bark or root. They live in forests, sharing a deep connection with the vegetation around them.",
+				"IT": "Grandi umanoidi con braccia allungate fatte di corteccia o radice. Vivono nelle foreste, condividendo un profondo legame con la vegetazione che li circonda."
+			},
+			{
+				"EN": "If killed, they will slowly regenerate unless their corpse is taken out of the forest or burned with fire.",
+				"IT": "Se uccisi, si rigenerano lentamente a meno che il loro cadavere non venga portato fuori dalla foresta o bruciato con il fuoco."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-forest"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Wyvern",
+			"IT": "Viverna"
+		},
+		"hp": 11,
+		"str": 15,
+		"dex": 14,
+		"wil": 13,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "stinger (d10)",
+				"IT": "pungiglione (d10)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "The victim is impaled and held in place. The wyvern then bites their head off.",
+				"IT": "La vittima viene impalata e tenuta ferma. Il drago alato poi le morde la testa."
+			}
+		],
+		"description": [
+			{
+				"EN": "Large, intelligent, winged reptiles. Dwell in any terrain, but favor dry cliffs.",
+				"IT": "Rettili grandi, intelligenti e alati. Vivono in qualsiasi terreno, ma preferiscono le scogliere aride."
+			},
+			{
+				"EN": "Shy away from other creatures, preferring to silently stalk their targets from afar.",
+				"IT": "Si tengono lontani dalle altre creature e preferiscono seguire silenziosamente i loro bersagli da lontano."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-boss",
+			"biome-cliff",
+			"biome-mountain"
+		],
+		"references": []
+	},
+	{
+		"type": "beast",
+		"name": {
+			"EN": "Zombie",
+			"IT": "Zombie"
+		},
+		"hp": 2,
+		"str": 12,
+		"dex": 6,
+		"wil": 3,
+		"armor": 0,
+		"weapon": [
+			{
+				"EN": "jagged nails (d6)",
+				"IT": "chiodi frastagliati (d6)"
+			}
+		],
+		"critical": [
+			{
+				"EN": "Target is infected and becomes <em>deprived</em>. Without the services of a specialist or healer, they will become a zombie in d4 days.",
+				"IT": "Il bersaglio è infetto e diventa <em>esausto</em>. Senza i servizi di uno specialista o di un guaritore, diventerà uno zombie in d4 giorni."
+			}
+		],
+		"description": [
+			{
+				"EN": "Re-animated corpse brought back through necromantic ritual or fell influence. Immune to all mind-influencing effects.",
+				"IT": "Cadavere rianimato riportato in vita tramite rituale necromantico o influenza negativa. Immune a tutti gli effetti che influenzano la mente."
+			},
+			{
+				"EN": "If not utterly destroyed (by fire, complete dismemberment, etc.), the Zombie will rise again within a few minutes.",
+				"IT": "Se non viene completamente distrutto (dal fuoco, dallo smembramento completo, ecc.), lo Zombie risorgerà entro pochi minuti."
+			}
+		],
+		"notes": [],
+		"tags": [
+			"strength-minion",
+			"biome-tomb",
+			"biome-cult"
+		],
+		"references": []
+	}
+]

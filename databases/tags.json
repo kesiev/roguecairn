@@ -1,0 +1,308 @@
+{
+	"metadata":{
+		"version":"0.1b",
+		"author":"KesieV",
+		"authorUrl":"https://www.kesiev.com",
+		"sourcesUrl":"https://github.com/kesiev/roguecairn",
+		"projectName":"RogueCairn"
+	},
+	"languages":[
+		{
+			"id":"EN",
+			"label":"English"
+		},{
+			"id":"IT",
+			"label":"Italiano"
+		}
+	],
+	"labels": {
+		"critical": {
+			"EN": "Critical Damage",
+			"IT": "Danno Critico"
+		},
+		"recharge": {
+			"EN": "Recharge",
+			"IT": "Ricarica"
+		},
+		"foundAt": {
+			"EN": "found at",
+			"IT": "si trova presso"
+		},
+		"spellbook": {
+			"EN": "Spellbook",
+			"IT": "Libro di magia"
+		},
+		"spellscroll": {
+			"EN": "Scroll",
+			"IT": "Pergamena"
+		},
+		"container": {
+			"EN": "Container",
+			"IT": "Contenitore"
+		},
+		"key": {
+			"EN": "Key",
+			"IT": "Chiave"
+		},
+		"contains": {
+			"EN": "Contains",
+			"IT": "Contiene"
+		},
+		"openedBy": {
+			"EN": "Opened by",
+			"IT": "Aperto da"
+		},
+		"opens": {
+			"EN": "Opens",
+			"IT": "Apre"
+		},
+		"bulky": {
+			"EN": "bulky",
+			"IT": "ingombrante"
+		},
+		"coins": {
+			"EN": "gp",
+			"IT": "po"
+		},
+		"midboss": {
+			"EN": "Mid-boss",
+			"IT": "Mini-boss"
+		},
+		"boss": {
+			"EN": "Boss",
+			"IT": "Boss"
+		},
+		"explore": {
+			"EN": "Explore",
+			"IT": "Esplorazione"
+		},
+		"event": {
+			"EN": "Event",
+			"IT": "Evento"
+		},
+		"events": {
+			"EN": "Events",
+			"IT": "Eventi"
+		},
+		"nothing": {
+			"EN": "Nothing",
+			"IT": "Nulla"
+		},
+		"worldSeed": {
+			"EN": "World seed",
+			"IT": "Seme del mondo"
+		},
+		"randomSeed": {
+			"EN": "Random seed",
+			"IT": "Seme casuale"
+		},
+		"generate": {
+			"EN": "Generate",
+			"IT": "Genera"
+		},
+		"generateWorld": {
+			"EN": "Generate world",
+			"IT": "Genera mondo"
+		},
+		"about": {
+			"EN": "About",
+			"IT": "Informazioni"
+		},
+		"footer":{
+			"EN": "This site style is based on <a href='https://github.com/just-the-docs/just-the-docs'>Just the Docs</a>, a documentation theme for Jekyll.",
+			"IT": "Lo stile di questo sito &egrave; basato su <a href='https://github.com/just-the-docs/just-the-docs'>Just the Docs</a>, un tema per documentazione per Jekyll."
+		},
+		"notice":{
+			"IT":"<b>RogueCairn</b> &egrave; un generatore casuale opensource di piccoli mondi pensati per essere esplorati seguendo le regole di <a target=_blank href='https://cairnrpg.com/'>Cairn</a>, un <a target=_blank href='https://questingblog.com/adventure-game-vs-osr/'>gioco di avventura</a> di <a target=_blank href='https://x.com/yochaigal1'>Yochai Gal</a> in cui si esplorano oscure e misteriose Foreste piene di strane creature, tesori nascosti e indicibili mostruosit&agrave;. I mondi generati possono essere usati come base per preparare una one-shot, come ispirazione per le proprie narrazioni o come avventura di emergenza da stampare e giocare.",
+			"EN":"<b>RogueCairn</b> is an opensource random generator of small worlds designed to be explored following <a target=_blank href='https://x.com/yochaigal1'>Yochai Gal</a>'s <a target=_blank href='https://questingblog.com/adventure-game-vs-osr/'>adventure game</a> <a target=_blank href='https://cairnrpg.com/'>Cairn</a> rules. <em>Cairn</em> is a game about exploring a dark and mysterious Wood filled with strange folk, hidden treasure, and unspeakable monstrosities. The generated worlds can be used as a basis for preparing a one-shot, as inspiration for your narratives, or as an emergency adventure to print and play."
+		},
+		"close":{
+			"IT":"Chiudi",
+			"EN":"Close"
+		},
+		"sources":{
+			"IT":"Codice sorgente",
+			"EN":"Source code"
+		},
+		"world":{
+			"IT":"Mondo",
+			"EN":"World"
+		},
+		"characters":{
+			"IT":"Personaggi",
+			"EN":"Characters"
+		},
+		"rations":{
+			"IT":"Tre giorni di razioni",
+			"EN":"Three days' rations"
+		},
+		"torch":{
+			"IT":"Una torcia",
+			"EN":"A torch"
+		},
+		"have":{
+			"IT":"Possiedi",
+			"EN":"You have"
+		},
+		"map":{
+			"IT":"Mappa",
+			"EN":"Map"
+		},
+		"bonds":{
+			"IT":"Legami",
+			"EN":"Bonds"
+		},
+		"fragment":{
+			"IT":"Frammento",
+			"EN":"Fragment"
+		},
+		"hideout":{
+			"IT":"Nascondiglio",
+			"EN":"Hideout"
+		},
+		"charactersDescription":{
+			"IT":"Alcuni coraggiosi avventurieri di questo mondo:",
+			"EN":"Some brave adventurers of this world:"
+		},
+		"bondsDescription":{
+			"IT":"Alcune cose interessanti da fare in questo mondo:",
+			"EN":"Some interesting things to do in this world:"
+		},
+		"diceRoll":{
+			"IT":"Risultato d6",
+			"EN":"d6 roll"
+		},
+		"diceResult":{
+			"IT":"Esito",
+			"EN":"Result"
+		},
+		"colors":{
+			"IT":"Colori",
+			"EN":"Colors"
+		},
+		"bw":{
+			"IT":"Bianco e nero",
+			"EN":"Black &amp; white"
+		},
+		"areaBorders":{
+			"IT":[
+				"Confina a "," con ",".",", a "," e a "," e a "
+			],
+			"EN":[
+				"It borders to the "," with ",".",", to the ",", and to the "," and to the "
+			]
+		},
+		"worldBiome":{
+			"IT":[
+				"Il mondo &egrave; principalmente ",0,".",", "," e "," e "
+			],
+			"EN":[
+				"This is a mainly ",0," world.",", ",", and ", " and "
+			]
+		},
+		"worldGeography":{
+			"IT":[
+				"C'&egrave; un'area ",1," nella parte "," del mondo.",", "," e "," e "
+			],
+			"EN":[
+				"There is a ",0," zone in "," of the world.",", ",", and ", " and "
+			]
+		},
+		"areaBiome":{
+			"IT":[
+				"Questa regione &egrave; principalmente ",1,".",", "," e "," e "
+			],
+			"EN":[
+				"This region is mainly ",0,".",", ",", and ", " and "
+			]
+		},
+		"keepBiome":{
+			"IT":[
+				"La zona ",1," prosegue verso ",".",", "," e "," e "
+			],
+			"EN":[
+				"The ",0," area continues ",".",", ",", and "," and "
+			]
+		},
+		"compass":{
+			"N":{
+				"EN":"North",
+				"IT":"Nord"
+			},
+			"NE":{
+				"EN":"North-East",
+				"IT":"Nord-Est"
+			},
+			"E":{
+				"EN":"East",
+				"IT":"Est"
+			},
+			"SE":{
+				"EN":"South-East",
+				"IT":"Sud-Est"
+			},
+			"S":{
+				"EN":"South",
+				"IT":"Sud"
+			},
+			"SW":{
+				"EN":"South-West",
+				"IT":"Sud-Ovest"
+			},
+			"W":{
+				"EN":"West",
+				"IT":"Ovest"
+			},
+			"NW":{
+				"EN":"North-West",
+				"IT":"Nord-Ovest"
+			},
+			"CENTER":{
+				"EN":"Center",
+				"IT":"Centrale"
+			}
+		}
+	},
+	"stats": [
+		{
+			"key": "hp",
+			"shortLabel": {
+				"EN": "HP",
+				"IT": "PV"
+			}
+		},
+		{
+			"key": "armor",
+			"shortLabel": {
+				"EN": "Armor",
+				"IT": "Armatura"
+			}
+		},
+		{
+			"key": "str",
+			"shortLabel": {
+				"EN": "STR",
+				"IT": "FOR"
+			}
+		},
+		{
+			"key": "dex",
+			"shortLabel": {
+				"EN": "DEX",
+				"IT": "DES"
+			}
+		},
+		{
+			"key": "wil",
+			"shortLabel": {
+				"EN": "WIL",
+				"IT": "VOL"
+			}
+		}
+	],
+	"strength": [
+		"strength-boss",
+		"strength-minion",
+		"strength-midboss"
+	]
+}

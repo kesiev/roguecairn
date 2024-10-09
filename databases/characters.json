@@ -1,0 +1,5951 @@
+{
+    "base":{
+        "nameType":[
+            "maleName", "femaleName"
+        ],
+        "femaleName":[
+            "Agune", "Drelil", "Lirann", "Sybil",
+            "Beatrice", "Elgile", "Lirathil", "Theune",
+            "Breagan", "Esme", "Lisabeth", "Wenain",
+            "Bronwyn", "Griya", "Moralil", "Ygwal",
+            "Cannora", "Henaine", "Morgwen", "Yslen"
+        ],
+        "maleName":[
+            "Arwel", "Breglor", "Grinwit", "Melnax",
+            "Bevan", "Canhoreal", "Gruwid", "Orthax",
+            "Boroth", "Emrys", "Gruwth", "Triunein",
+            "Borrid", "Ethex", "Gwestin", "Wenlan",
+            "Breagle", "Gringle", "Mannog", "Yirmeor"
+        ],
+        "surname":[
+            "Abernathy", "Crumwaller", "Harper", "Swinney",
+            "Addercap", "Dunswallow", "Loomer", "Thatcher",
+            "Burl", "Getri", "Malksmilk", "Tolmen",
+            "Candlewick", "Glass", "Smythe", "Weaver",
+            "Cormick", "Harkness", "Sunderman", "Wolder"
+        ]
+    },
+    "attributes":{
+        "background":[
+            {
+                "attribute":{
+                    "EN":"alchemist",
+                    "IT":"alchimista"
+                },
+                "description":{
+                    "EN":"alchemist",
+                    "IT":"un alchimista"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"cleric",
+                    "IT":"chierico"
+                },
+                "description":{
+                    "EN":"cleric",
+                    "IT":"un chierico"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"magician",
+                    "IT":"mago"
+                },
+                "description":{
+                    "EN":"magician",
+                    "IT":"un mago"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"performer",
+                    "IT":"artista"
+                },
+                "description":{
+                    "EN":"performer",
+                    "IT":"un artista"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"blacksmith",
+                    "IT":"fabbro"
+                },
+                "description":{
+                    "EN":"blacksmith",
+                    "IT":"un fabbro"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"gambler",
+                    "IT":"scommettitore"
+                },
+                "description":{
+                    "EN":"gambler",
+                    "IT":"uno scommettitore"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"mercenary",
+                    "IT":"mercenario"
+                },
+                "description":{
+                    "EN":"mercenary",
+                    "IT":"un mercenario"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"pickpocket",
+                    "IT":"borseggiatore"
+                },
+                "description":{
+                    "EN":"pickpocket",
+                    "IT":"un borseggiatore"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"burglar",
+                    "IT":"scassinatore"
+                },
+                "description":{
+                    "EN":"burglar",
+                    "IT":"uno scassinatore"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"gravedigger",
+                    "IT":"becchino"
+                },
+                "description":{
+                    "EN":"gravedigger",
+                    "IT":"un becchino"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"merchant",
+                    "IT":"mercante"
+                },
+                "description":{
+                    "EN":"merchant",
+                    "IT":"un mercante"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"smuggler",
+                    "IT":"contrabbandiere"
+                },
+                "description":{
+                    "EN":"smuggler",
+                    "IT":"un contrabbandiere"
+                }
+            },{
+                "attribute":{
+                    "EN":"butcher",
+                    "IT":"macellaio"
+                },
+                "description":{
+                    "EN":"butcher",
+                    "IT":"un macellaio"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"herbalist",
+                    "IT":"erborista"
+                },
+                "description":{
+                    "EN":"herbalist",
+                    "IT":"un erborista"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"miner",
+                    "IT":"minatore"
+                },
+                "description":{
+                    "EN":"miner",
+                    "IT":"un minatore"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"servant",
+                    "IT":"servitore"
+                },
+                "description":{
+                    "EN":"servant",
+                    "IT":"un servitore"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"carpenter",
+                    "IT":"carpentiere"
+                },
+                "description":{
+                    "EN":"carpenter",
+                    "IT":"un carpentiere"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"hunter",
+                    "IT":"cacciatore"
+                },
+                "description":{
+                    "EN":"hunter",
+                    "IT":"un cacciatore"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"outlaw",
+                    "IT":"fuorilegge"
+                },
+                "description":{
+                    "EN":"outlaw",
+                    "IT":"un fuorilegge"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"ranger",
+                    "IT":"ranger"
+                },
+                "description":{
+                    "EN":"ranger",
+                    "IT":"un ranger"
+                }
+            }
+        ],
+        "physique":[
+            {
+                "attribute":{
+                    "EN":"athletic",
+                    "IT":"atletico"
+                },
+                "description":{
+                    "EN":"an athletic",
+                    "IT":"atletico"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"scrawny",
+                    "IT":"gracile"
+                },
+                "description":{
+                    "EN":"a scrawny",
+                    "IT":"gracile"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"brawny",
+                    "IT":"muscoloso"
+                },
+                "description":{
+                    "EN":"a brawny",
+                    "IT":"muscoloso"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"short",
+                    "IT":"basso"
+                },
+                "description":{
+                    "EN":"a short",
+                    "IT":"basso"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"flabby",
+                    "IT":"corpulento"
+                },
+                "description":{
+                    "EN":"a flabby",
+                    "IT":"corpulento"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"statuesque",
+                    "IT":"statuario"
+                },
+                "description":{
+                    "EN":"a statuesque",
+                    "IT":"statuario"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"lanky",
+                    "IT":"longilineo"
+                },
+                "description":{
+                    "EN":"a lanky",
+                    "IT":"longilineo"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"stout",
+                    "IT":"robusto"
+                },
+                "description":{
+                    "EN":"a stout",
+                    "IT":"robusto"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"rugged",
+                    "IT":"massiccio"
+                },
+                "description":{
+                    "EN":"a rugged",
+                    "IT":"massiccio"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"towering",
+                    "IT":"imponente"
+                },
+                "description":{
+                    "EN":"a towering",
+                    "IT":"imponente"
+                }
+            }
+        ],
+        "skin":[
+            {
+                "attribute":{
+                    "EN":"a birthmark on the skin",
+                    "IT":"voglia sulla pelle"
+                },
+                "description":{
+                    "EN":"a birthmark on the skin",
+                    "IT":"una voglia sulla pelle"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"round skin",
+                    "IT":"pelle morbida"
+                },
+                "description":{
+                    "EN":"round skin",
+                    "IT":"la pelle morbida"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"dark skin",
+                    "IT":"pelle scura"
+                },
+                "description":{
+                    "EN":"dark skin",
+                    "IT":"la pelle scura"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"soft skin",
+                    "IT":"pelle liscia"
+                },
+                "description":{
+                    "EN":"soft skin",
+                    "IT":"la pelle liscia"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"elongated skin",
+                    "IT":"pelle flaccida"
+                },
+                "description":{
+                    "EN":"elongated skin",
+                    "IT":"la pelle flaccida"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"tanned skin",
+                    "IT":"pelle abbronzata"
+                },
+                "description":{
+                    "EN":"tanned skin",
+                    "IT":"la pelle abbronzata"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"pockmarked skin",
+                    "IT":"pelle butterata"
+                },
+                "description":{
+                    "EN":"pockmarked skin",
+                    "IT":"la pelle butterata"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"tattooed skin",
+                    "IT":"pelle tatuata"
+                },
+                "description":{
+                    "EN":"tattooed skin",
+                    "IT":"la pelle tatuata"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"rosy skin",
+                    "IT":"pelle rosea"
+                },
+                "description":{
+                    "EN":"rosy skin",
+                    "IT":"la pelle rosea"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"weathered skin",
+                    "IT":"pelle segnata"
+                },
+                "description":{
+                    "EN":"weathered skin",
+                    "IT":"la pelle segnata"
+                }
+            }
+        ],
+        "hair":[
+            {
+                "attribute":{
+                    "EN":"a bald head",
+                    "IT":"testa calva"
+                },
+                "description":{
+                    "EN":"a bald head",
+                    "IT":"la testa calva"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"long hair",
+                    "IT":"capelli lunghi"
+                },
+                "description":{
+                    "EN":"long hair",
+                    "IT":"i capelli lunghi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"braided hair",
+                    "IT":"capelli intrecciati"
+                },
+                "description":{
+                    "EN":"braided hair",
+                    "IT":"i capelli intrecciati"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"luxurious hair",
+                    "IT":"capelli voluminosi"
+                },
+                "description":{
+                    "EN":"luxurious hair",
+                    "IT":"i capelli voluminosi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"curly hair",
+                    "IT":"capelli ricci"
+                },
+                "description":{
+                    "EN":"curly hair",
+                    "IT":"i capelli ricci"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"oily hair",
+                    "IT":"capelli grassi"
+                },
+                "description":{
+                    "EN":"oily hair",
+                    "IT":"i capelli grassi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"filthy hair",
+                    "IT":"capelli sporchi"
+                },
+                "description":{
+                    "EN":"filthy hair",
+                    "IT":"i capelli sporchi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"wavy hair",
+                    "IT":"capelli mossi"
+                },
+                "description":{
+                    "EN":"wavy hair",
+                    "IT":"i capelli mossi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"frizzy hair",
+                    "IT":"capelli crespi"
+                },
+                "description":{
+                    "EN":"frizzy hair",
+                    "IT":"i capelli crespi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"wispy hair",
+                    "IT":"capelli sparsi"
+                },
+                "description":{
+                    "EN":"wispy hair",
+                    "IT":"i capelli sparsi"
+                }
+            }
+        ],
+        "face":[
+            {
+                "attribute":{
+                    "EN":"bony face",
+                    "IT":"faccia ossuta"
+                },
+                "description":{
+                    "EN":"a bony face",
+                    "IT":"faccia ossuta"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"perfect face",
+                    "IT":"faccia perfetta"
+                },
+                "description":{
+                    "EN":"a perfect face",
+                    "IT":"faccia perfetta"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"broken face",
+                    "IT":"faccia rotta"
+                },
+                "description":{
+                    "EN":"a broken face",
+                    "IT":"faccia rotta"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"rat-like face",
+                    "IT":"da faccia topo"
+                },
+                "description":{
+                    "EN":"a rat-like face",
+                    "IT":"da faccia topo"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"chiseled face",
+                    "IT":"faccia cesellata"
+                },
+                "description":{
+                    "EN":"a chiseled face",
+                    "IT":"faccia cesellata"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"sharp face",
+                    "IT":"faccia appuntita"
+                },
+                "description":{
+                    "EN":"a sharp face",
+                    "IT":"faccia appuntita"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"elongated face",
+                    "IT":"faccia allungata"
+                },
+                "description":{
+                    "EN":"an elongated face",
+                    "IT":"faccia allungata"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"square face",
+                    "IT":"faccia quadrata"
+                },
+                "description":{
+                    "EN":"a square face",
+                    "IT":"faccia quadrata"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"pale face",
+                    "IT":"faccia pallida"
+                },
+                "description":{
+                    "EN":"a pale face",
+                    "IT":"faccia pallida"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"sunken face",
+                    "IT":"faccia infossata"
+                },
+                "description":{
+                    "EN":"a sunken face",
+                    "IT":"faccia infossata"
+                }
+            }
+        ],
+        "speech":[
+            {
+                "attribute":{
+                    "EN":"blunt speech",
+                    "IT":"parlata schietta"
+                },
+                "description":{
+                    "EN":"blunt speech",
+                    "IT":"parlata schietta"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"gravelly speech",
+                    "IT":"parlata greve"
+                },
+                "description":{
+                    "EN":"gravelly speech",
+                    "IT":"parlata greve"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"booming speech",
+                    "IT":"parlata profonda"
+                },
+                "description":{
+                    "EN":"booming speech",
+                    "IT":"parlata profonda"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"precise speech",
+                    "IT":"parlata precisa"
+                },
+                "description":{
+                    "EN":"precise speech",
+                    "IT":"parlata precisa"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"cryptic speech",
+                    "IT":"parlata misteriosa"
+                },
+                "description":{
+                    "EN":"cryptic speech",
+                    "IT":"parlata misteriosa"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"squeaky speech",
+                    "IT":"parlata stridula"
+                },
+                "description":{
+                    "EN":"squeaky speech",
+                    "IT":"parlata stridula"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"droning speech",
+                    "IT":"parlata monotona"
+                },
+                "description":{
+                    "EN":"droning speech",
+                    "IT":"parlata monotona"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"stuttering speech",
+                    "IT":"parlata balbettante"
+                },
+                "description":{
+                    "EN":"stuttering speech",
+                    "IT":"parlata balbettante"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"formal speech",
+                    "IT":"parlata formale"
+                },
+                "description":{
+                    "EN":"formal speech",
+                    "IT":"parlata formale"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"whispery speech",
+                    "IT":"parlata bisbigliante"
+                },
+                "description":{
+                    "EN":"whispery speech",
+                    "IT":"parlata bisbigliante"   
+                }
+            }
+        ],
+        "clothing":[
+            {
+                "attribute":{
+                    "EN":"antique clothing",
+                    "IT":"vestiti antichi"
+                },
+                "description":{
+                    "EN":"antique clothing",
+                    "IT":"vestiti antichi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"frayed clothing",
+                    "IT":"vestiti logori"
+                },
+                "description":{
+                    "EN":"frayed clothing",
+                    "IT":"vestiti logori"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"bloody clothing",
+                    "IT":"vestiti insanguinati"
+                },
+                "description":{
+                    "EN":"bloody clothing",
+                    "IT":"vestiti insanguinati"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"frumpy clothing",
+                    "IT":"vestiti sgargianti"
+                },
+                "description":{
+                    "EN":"frumpy clothing",
+                    "IT":"vestiti sgargianti"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"elegant clothing",
+                    "IT":"vestiti eleganti"
+                },
+                "description":{
+                    "EN":"elegant clothing",
+                    "IT":"vestiti eleganti"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"livery clothing",
+                    "IT":"vestiti livrei"
+                },
+                "description":{
+                    "EN":"livery clothing",
+                    "IT":"vestiti livrei"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"filthy clothing",
+                    "IT":"vestiti sporchi"
+                },
+                "description":{
+                    "EN":"filthy clothing",
+                    "IT":"vestiti sporchi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"rancid clothing",
+                    "IT":"vestiti fetidi"
+                },
+                "description":{
+                    "EN":"rancid clothing",
+                    "IT":"vestiti fetidi"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"foreign clothing",
+                    "IT":"vestiti esotici"
+                },
+                "description":{
+                    "EN":"foreign clothing",
+                    "IT":"vestiti esotici"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"soiled clothing",
+                    "IT":"vestiti sudici"
+                },
+                "description":{
+                    "EN":"soiled clothing",
+                    "IT":"vestiti sudici"
+                }
+            }
+        ],
+        "virtue":[
+            {
+                "attribute":{
+                    "EN":"ambitious",
+                    "IT":"ambizioso"
+                },
+                "description":{
+                    "EN":"ambitious",
+                    "IT":"ambizioso"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"honorable",
+                    "IT":"onorevole"
+                },
+                "description":{
+                    "EN":"honorable",
+                    "IT":"onorevole"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"cautious",
+                    "IT":"cauto"
+                },
+                "description":{
+                    "EN":"cautious",
+                    "IT":"cauto"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"humble",
+                    "IT":"umile"
+                },
+                "description":{
+                    "EN":"humble",
+                    "IT":"umile"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"courageous",
+                    "IT":"coraggioso"
+                },
+                "description":{
+                    "EN":"courageous",
+                    "IT":"coraggioso"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"merciful",
+                    "IT":"compassionevole"
+                },
+                "description":{
+                    "EN":"merciful",
+                    "IT":"compassionevole"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"disciplined",
+                    "IT":"disciplinato"
+                },
+                "description":{
+                    "EN":"disciplined",
+                    "IT":"disciplinato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"serene",
+                    "IT":"sereno"
+                },
+                "description":{
+                    "EN":"serene",
+                    "IT":"sereno"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"gregarious",
+                    "IT":"socievole"
+                },
+                "description":{
+                    "EN":"gregarious",
+                    "IT":"socievole"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"tolerant",  
+                    "IT":"tollerante"
+                },
+                "description":{
+                    "EN":"tolerant",  
+                    "IT":"tollerante"
+                }
+            }
+        ],
+        "vice":[
+            {
+                "attribute":{
+                    "EN":"aggressive",
+                    "IT":"aggressivo"
+                },
+                "description":{
+                    "EN":"aggressive",
+                    "IT":"aggressivo"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"lazy",
+                    "IT":"pigro"
+                },
+                "description":{
+                    "EN":"lazy",
+                    "IT":"pigro"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"bitter",
+                    "IT":"scorbutico"
+                },
+                "description":{
+                    "EN":"bitter",
+                    "IT":"scorbutico"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"nervous",
+                    "IT":"nervoso"
+                },
+                "description":{
+                    "EN":"nervous",
+                    "IT":"nervoso"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"craven",
+                    "IT":"vile"
+                },
+                "description":{
+                    "EN":"craven",
+                    "IT":"vile"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"rude",
+                    "IT":"rude"
+                },
+                "description":{
+                    "EN":"rude",
+                    "IT":"rude"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"deceitful",
+                    "IT":"bugiardo"
+                },
+                "description":{
+                    "EN":"deceitful",
+                    "IT":"bugiardo"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"vain",
+                    "IT":"vanitoso"
+                },
+                "description":{
+                    "EN":"vain",
+                    "IT":"vanitoso"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"greedy",
+                    "IT":"avido"
+                },
+                "description":{
+                    "EN":"greedy",
+                    "IT":"avido"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"vengeful",
+                    "IT":"vendicativo"
+                },
+                "description":{
+                    "EN":"vengeful",
+                    "IT":"vendicativo"
+                }
+            }
+        ],
+        "reputation":[
+            {
+                "attribute":{
+                    "EN":"ambitious",
+                    "IT":"ambizioso"
+                },
+                "description":{
+                    "EN":"ambitious",
+                    "IT":"ambizioso"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"a loafer",
+                    "IT":"fannullone"
+                },
+                "description":{
+                    "EN":"a loafer",
+                    "IT":"fannullone"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"a boor",
+                    "IT":"zoticone"
+                },
+                "description":{
+                    "EN":"a boor",
+                    "IT":"zoticone"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"an oddball",
+                    "IT":"eccentrico"
+                },
+                "description":{
+                    "EN":"an oddball",
+                    "IT":"eccentrico"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"dangerous",
+                    "IT":"pericoloso"
+                },
+                "description":{
+                    "EN":"dangerous",
+                    "IT":"pericoloso"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"repulsive",
+                    "IT":"ripugnante"
+                },
+                "description":{
+                    "EN":"repulsive",
+                    "IT":"ripugnante"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"an entertainer",
+                    "IT":"intrattenitore"
+                },
+                "description":{
+                    "EN":"an entertainer",
+                    "IT":"intrattenitore"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"respected",
+                    "IT":"rispettato"
+                },
+                "description":{
+                    "EN":"respected",
+                    "IT":"rispettato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"honest",
+                    "IT":"onesto"
+                },
+                "description":{
+                    "EN":"honest",
+                    "IT":"onesto"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"wise",
+                    "IT":"saggio"
+                },
+                "description":{
+                    "EN":"wise",
+                    "IT":"saggio"
+                }
+            }
+        ],
+        "misfortunes":[
+            {
+                "attribute":{
+                    "EN":"abandoned",
+                    "IT":"abbandonato"
+                },
+                "description":{
+                    "EN":"abandoned",
+                    "IT":"stato abbandonato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"defrauded",
+                    "IT":"truffato"
+                },
+                "description":{
+                    "EN":"defrauded",
+                    "IT":"stato truffato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"addicted",
+                    "IT":"assuefatto"
+                },
+                "description":{
+                    "EN":"addicted",
+                    "IT":"assuefatto"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"demoted",
+                    "IT":"declassato"
+                },
+                "description":{
+                    "EN":"demoted",
+                    "IT":"stato declassato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"blackmailed",
+                    "IT":"ricattato"
+                },
+                "description":{
+                    "EN":"blackmailed",
+                    "IT":"stato ricattato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"discredited",
+                    "IT":"screditato"
+                },
+                "description":{
+                    "EN":"discredited",
+                    "IT":"stato screditato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"condemned",
+                    "IT":"condannato"
+                },
+                "description":{
+                    "EN":"condemned",
+                    "IT":"stato condannato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"disowned",
+                    "IT":"ripudiato"
+                },
+                "description":{
+                    "EN":"disowned",
+                    "IT":"stato ripudiato"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"cursed",
+                    "IT":"maledetto"
+                },
+                "description":{
+                    "EN":"cursed",
+                    "IT":"maledetto"
+                }
+            },
+            {
+                "attribute":{
+                    "EN":"exiled",
+                    "IT":"esiliato"
+                },
+                "description":{
+                    "EN":"exiled",
+                    "IT":"esiliato"
+                }
+            }
+        ]
+    },
+    "items":{
+        "armor":[
+            { "from":1, "to":3, "none":true },
+            { "from":4, "to":14, "armor":1, "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Brigandine",
+                        "IT": "Brigantina"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "20gp",
+                            "IT": "20po"
+                        }
+                    ]
+                }
+            ] },
+            { "from":15, "to":19, "armor":2, "items":[
+                {
+                "type":"item",
+                "name": {
+                    "EN": "Chainmail",
+                    "IT": "Cotta di Maglia"
+                },
+                "attributes": [
+                    {
+                        "EN": "2 Armor",
+                        "IT": "2 Armatura"
+                    },
+                    {
+                        "EN": "bulky",
+                        "IT": "ingombrante"
+                    }
+                ],
+                "price": [
+                    {
+                        "EN": "40gp",
+                        "IT": "40po"
+                    }
+                ]
+                }
+            ] },
+            { "from":20, "to":20, "armor":3, "items":[
+                {
+                "type":"item",
+                "name": {
+                    "EN": "Plate",
+                    "IT": "Piastre"
+                },
+                "attributes": [
+                    {
+                        "EN": "3 Armor",
+                        "IT": "3 Armatura"
+                    },
+                    {
+                        "EN": "bulky",
+                        "IT": "ingombrante"
+                    }
+                ],
+                "price": [
+                    {
+                        "EN": "60gp",
+                        "IT": "60po"
+                    }
+                ]
+                }
+            ] }
+        ],
+        "helmetShield":[
+            { "from":1, "to":13, "none":true },
+            { "from":14, "to":16, "armor":1, "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Helmet",
+                        "IT": "Elmo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+1 Armor",
+                            "IT": "+1 Armatura"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ] },
+            { "from":17, "to":19, "armor":1, "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Shield",
+                        "IT": "Scudo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+1 Armor",
+                            "IT": "+1 Armatura"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ] },
+            { "from":20, "to":20, "armor":2, "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Helmet",
+                        "IT": "Elmo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+1 Armor",
+                            "IT": "+1 Armatura"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },{
+                    "type":"item",
+                    "name": {
+                        "EN": "Shield",
+                        "IT": "Scudo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+1 Armor",
+                            "IT": "+1 Armatura"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ] }
+        ],
+        "weapon":[
+            { "from":1, "to":5, "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Dagger, Cudgel, Sickle, Staff, etc.",
+                        "IT": "Pugnale, Randello, Falcetto, Bastone, etc."
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                }
+            ] },
+            { "from":6, "to":14, "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Spear, Sword, Mace, Axe, Flail, etc.",
+                        "IT": "Lancia, Spada, Mazza, Ascia, Flagello, etc."
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                   "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ] },
+            { "from":15, "to":19, "randomItems":[
+                [
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Bow",
+                            "IT": "Arco"
+                        },
+                        "attributes": [
+                            {
+                                "EN": "d6 damage",
+                                "IT": "d6 danno"
+                            },
+                            {
+                                "EN": "bulky",
+                                "IT": "ingombrante"
+                            }
+                        ],
+                        "price": [
+                            {
+                                "EN": "20gp",
+                                "IT": "20po"
+                            }
+                        ]
+                    }
+                ],[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Crossbow",
+                            "IT": "Balestra"
+                        },
+                        "attributes": [
+                            {
+                                "EN": "d8 damage",
+                                "IT": "d8 danno"
+                            },
+                            {
+                                "EN": "bulky",
+                                "IT": "ingombrante"
+                            }
+                        ],
+                        "price": [
+                            {
+                                "EN": "30gp",
+                                "IT": "30po"
+                            }
+                        ]
+                    }
+                ],[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Sling",
+                            "IT": "Fionda"
+                        },
+                        "attributes": [
+                            {
+                                "EN": "d4 damage",
+                                "IT": "d4 danno"
+                            }
+                        ],
+                       "price": [
+                            {
+                                "EN": "5gp",
+                                "IT": "5po"
+                            }
+                        ]
+                    }
+                ]
+            ] },
+            { "from":20, "to":20, "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Halberd, War Hammer, Long Sword, etc.",
+                        "IT": "Alabarda, Martello da guerra, Spada lunga, etc."
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d10 damage",
+                            "IT": "d10 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "20gp",
+                            "IT": "20po"
+                        }
+                    ]
+                }
+            ] }
+        ],
+        "expeditionaryGear":[
+            {
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Air Bladder",
+                        "IT": "Sacca d’Aria"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Fire Oil",
+                        "IT": "Olio di fuoco"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                    {
+                    "type":"item",
+                    "name": {
+                        "EN": "Manacles",
+                        "IT": "Manette"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Rope",
+                        "IT": "Corda"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "25ft",
+                            "IT": "25 piedi"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "description":{
+                        "EN":"Antitoxin",
+                        "IT":"Antitossina"
+                    }
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Grappling Hook",
+                        "IT": "Rampino"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "25gp",
+                            "IT": "25po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Pick",
+                        "IT": "Piccone"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "description":{
+                        "EN":"Spirit Ward",
+                        "IT":"Amuleto"
+                    }
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Cart, small",
+                        "IT": "Carretto, piccolo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+4 slots",
+                            "IT": "+4 slot"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "30gp",
+                            "IT": "30po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "description":{
+                        "EN":"Large Sack",
+                        "IT":"Sacco grande"
+                    }
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Pole",
+                        "IT": "Asta"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "10ft",
+                            "IT": "10 piedi"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Spyglass",
+                        "IT": "Cannocchiale"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "40gp",
+                            "IT": "40po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Chain",
+                        "IT": "Catena"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "10ft",
+                            "IT": "10 piedi"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Large Trap",
+                        "IT": "Trappola grande"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "20gp",
+                            "IT": "20po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Pulley",
+                        "IT": "Carrucola"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "description":{
+                        "EN":"Tinderbox",
+                        "IT":"Acciarino"
+                    }
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Dowsing rod",
+                        "IT": "Bastone da rabdomante"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Lockpicks",
+                        "IT": "Grimaldelli"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "25gp",
+                            "IT": "25po"
+                        }
+                    ]
+                }
+            ]},{
+                "items":[
+                {
+                    "description":{
+                        "EN":"Repellent",
+                        "IT":"Repellente"
+                    }
+                }
+            ]},{
+                "items":[
+                {
+                    "type":"item",
+                    "name": {
+                        "EN": "Wolfsbane",
+                        "IT": "Aconito"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]}
+        ],
+        "tool":[
+            {
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Bellows",
+                            "IT": "Soffietto"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Cook Pots",
+                            "IT": "Pentole"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Grease",
+                            "IT": "Grasso"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Net",
+                            "IT": "Rete"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Bucket",
+                            "IT": "Secchio"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "5gp",
+                                "IT": "5po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Crowbar",
+                            "IT": "Piede di porco"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Hammer",
+                            "IT": "Martello"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "5gp",
+                                "IT": "5po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Saw",
+                            "IT": "Sega"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "5gp",
+                                "IT": "5po"
+                            }
+                        ]
+                    }
+                ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Caltrops",
+                                "IT": "Triboli"
+                            },
+                            "attributes": [],
+                            "price": [
+                                {
+                                    "EN": "10gp",
+                                    "IT": "10po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Drill",
+                                "IT": "Trapano"
+                            },
+                            "attributes": [
+                                {
+                                    "EN": "manual",
+                                    "IT": "manuale"
+                                }
+                            ],
+                            "price": [
+                                {
+                                    "EN": "10gp",
+                                    "IT": "10po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Hourglass",
+                                "IT": "Clessidra"
+                            },
+                            "attributes": [],
+                            "price": [
+                                {
+                                    "EN": "50gp",
+                                    "IT": "50po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "description":{
+                                "IT":"Sigillante",
+                                "EN":"Sealant"
+                            }
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Chalk",
+                                "IT": "Gesso"
+                            },
+                            "attributes": [],
+                            "price": [
+                                {
+                                    "EN": "1gp",
+                                    "IT": "1po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Fishing Rod",
+                                "IT": "Canna da pesca"
+                            },
+                            "attributes": [],
+                            "price": [
+                                {
+                                    "EN": "10gp",
+                                    "IT": "10po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Metal File",
+                                "IT": "Lima di metallo"
+                            },
+                            "attributes": [],
+                            "price": [
+                                {
+                                    "EN": "5gp",
+                                    "IT": "5po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Shovel",
+                                "IT": "Pala"
+                            },
+                            "attributes": [],
+                            "price": [
+                                {
+                                    "EN": "5gp",
+                                    "IT": "5po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Chisel",
+                                "IT": "Scalpello"
+                            },
+                            "attributes": [],
+                            "price": [
+                                {
+                                    "EN": "5gp",
+                                    "IT": "5po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "type":"item",
+                            "name": {
+                                "EN": "Glue",
+                                "IT": "Colla"
+                            },
+                            "attributes": [],
+                            "price": [
+                                {
+                                    "EN": "5gp",
+                                    "IT": "5po"
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "description":{
+                                "IT":"Chiodi",
+                                "EN":"Nails"
+                            }
+                        }
+                    ]
+                },{
+                    "items":[
+                        {
+                            "description":{
+                                "IT":"Pinze ",
+                                "EN":"Tongs"
+                            }
+                        }
+                    ]
+                }
+        ],
+        "trinket":[
+            {
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Alcohol, wine, poor",
+                            "IT": "Alcol, vino, scadente"
+                        },
+                        "attributes": [
+                            {
+                                "EN": "bottle",
+                                "IT": "bottiglia"
+                            }
+                        ],
+                        "price": [
+                            {
+                                "EN": "4gp",
+                                "IT": "4po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Horn",
+                            "IT": "Corno"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Mirror",
+                            "IT": "Specchio"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "5gp",
+                                "IT": "5po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Soap",
+                            "IT": "Sapone"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "1gp",
+                                "IT": "1po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Card deck",
+                            "IT":"Mazzo di carte"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Incense",
+                            "IT": "Incenso"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Perfume",
+                            "IT": "Profumo"
+                        },
+                        "attributes": [
+                            {
+                                "EN": "oz",
+                                "IT": "oncia"
+                            }
+                        ],
+                        "price": [
+                            {
+                                "EN": "15gp",
+                                "IT": "15po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Sponge",
+                            "IT":"Spugna"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Dice Set",
+                            "IT":"Set di dadi"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Instrument",
+                            "IT":"Strumento"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Quill & Ink",
+                            "IT": "Piuma e inchiostro"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Tar Pot",
+                            "IT":"Vaso di pece"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Face Paint",
+                            "IT": "Pittura per viso"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Lens",
+                            "IT": "Lente"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "10gp",
+                                "IT": "10po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Salt Pack",
+                            "IT":"Pacchetto di sale"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Twine",
+                            "IT":"Spago"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Fake jewels",
+                            "IT":"Gioielli falsi"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Glass Marbles",
+                            "IT": "Biglie di Vetro"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "5gp",
+                                "IT": "5po"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "description":{
+                            "EN":"Small Bell",
+                            "IT":"Campanella"
+                        }
+                    }
+                ]
+            },{
+                "items":[
+                    {
+                        "type":"item",
+                        "name": {
+                            "EN": "Whistle",
+                            "IT": "Fischietto"
+                        },
+                        "attributes": [],
+                        "price": [
+                            {
+                                "EN": "5gp",
+                                "IT": "5po"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "classes":[
+        {
+            "className": {
+                "EN": "Cleric",
+                "IT": "Chierico"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "War Hammer",
+                        "IT": "Martello da Guerra"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d10 damage",
+                            "IT": "d10 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Chainmail",
+                        "IT": "Cotta di Maglia"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "2 Armor",
+                            "IT": "2 Armatura"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "40gp",
+                            "IT": "40po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Gauntlets",
+                        "IT": "Guanti d'Arme"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+1 Armor",
+                            "IT": "+1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Cleansing Blade",
+                        "IT": "Lama Purificatrice"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Holy Symbol",
+                        "IT": "Simbolo Sacro"
+                    },
+                    "attributes": [
+                       {
+                            "EN": "Ward once per day following a devout prayer.",
+                            "IT": "Sigillo una volta al giorno dopo una preghiera devota."
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Ward",
+                                "IT": "Sigillo"
+                            },
+                            "value": {
+                                "EN": "A silver circle 50ft across appears on the ground. Choose one species that cannot cross it.",
+                                "IT": "Sul terreno appare un cerchio d’argento di 15 metri di diametro. Scegli una specie che non può attraversarlo."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Cloak of the Order",
+                        "IT": "Mantello dell'Ordine"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Dowser",
+                "IT": "Rabdomante"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Sickle",
+                        "IT": "Falcetto"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Patchwork Doublet",
+                        "IT": "Farsetto Patchwork"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+1 Armor",
+                            "IT": "+1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Dowsing rod",
+                        "IT": "Bastone da rabdomante"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Eyestone",
+                        "IT": "Pietra Oculare"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Sense if placed in fresh water",
+                            "IT": "Percepire Oggetto se messo nell'acqua fresca"
+                        },
+                        {
+                            "EN": "Sense if placed in fresh water.",
+                            "IT": "Percepisce se immerso in acqua fresca."
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Sense",
+                                "IT": "Percepire Oggetto"
+                            },
+                            "value": {
+                                "EN": "Choose one kind of object (key, gold, arrow, jug, etc). You can sense the nearest example.",
+                                "IT": "Scegli un tipo di oggetto (chiave, oro, freccia, brocca, ecc.). Puoi avvertire l’esempio più vicino."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Worn Map",
+                        "IT": "Mappa usurata"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spyglass",
+                        "IT": "Cannocchiale"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "40gp",
+                            "IT": "40po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Dwarf",
+                "IT": "Nano"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Prickly Root",
+                        "IT": "Radice Appuntita"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Pinecone Lattice",
+                        "IT": "Cotta di Pigna"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Trowel",
+                        "IT": "Cazzuola"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Jar of Forest Ants",
+                        "IT": "Barattolo di Formiche della Foresta"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Poisonous mushroom",
+                        "IT": "Fungo Velenoso"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Drill",
+                        "IT": "Trapano"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "manual",
+                            "IT": "manuale"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Elf",
+                "IT": "Elfo"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Elegant Sword",
+                        "IT": "Spada Elegante"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Recurve Bow",
+                        "IT": "Arco Ricurvo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Gilt Clothing",
+                        "IT": "Abiti Drati"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spellbook",
+                        "IT": "Libro degli incantesimi"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Charm or Detect Magic",
+                            "IT": "Affascinare o Individuazione del Magico"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Charm",
+                                "IT": "Affascinare"
+                            },
+                            "value": {
+                                "EN": "A creature you can see treats you as a friend.",
+                                "IT": "Una creatura che puoi vedere ti tratta come un amico."
+                            }
+                        },
+                        {
+                            "key": {
+                                "EN": "Detect Magic",
+                                "IT": "Individuazione del Magico"
+                            },
+                            "value": {
+                                "EN": "You can see or hear nearby magical auras.",
+                                "IT": "Puoi vedere o sentire le aure magiche vicine."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Golden Flute",
+                        "IT": "Flauto Dorato"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Air Bladder",
+                        "IT": "Sacca d’Aria"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Fighter",
+                "IT": "Guerriero"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Glaive",
+                        "IT": "Falcione"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d10 damage",
+                            "IT": "d10 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Scimitar",
+                        "IT": "Scimitarra"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Shortsword",
+                        "IT": "Spada Corta"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Shortsword",
+                        "IT": "Spada Corta"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Tobacco Pouch & Pipe",
+                        "IT": "Pacchetto di tabacco e pipa"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Friar",
+                "IT": "Frate"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Scepter",
+                        "IT": "Scettro"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Deceptive Robes",
+                        "IT": "Abiti Ingannevoli"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+1 Armor",
+                            "IT": "+1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Censer & Holy Water",
+                        "IT": "Censiere e acqua santa"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Jug of Honey Wine",
+                        "IT": "Brocca di vino al miele"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Folk Songbook",
+                        "IT": "Libretto di Canzoni"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Cart",
+                        "IT": "Carretto"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+4 slots",
+                            "IT": "+4 slot"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "30gp",
+                            "IT": "30po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Magic User",
+                "IT": "Incantatore"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Fizzled Staff",
+                        "IT": "Bastone Evanescente"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Dagger",
+                        "IT": "Daga"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "spellbook"
+                },
+                {
+                    "type": "spellbook"
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Ragged Clothing",
+                        "IT": "Abbigliamento lacero"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "hidden pockets",
+                            "IT": "tasche nascoste"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Drug: Leycap",
+                        "IT": "Medicina: Cappelverde"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "x2",
+                            "IT": "x2"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Leycap",
+                                "IT": "Cappelverde"
+                            },
+                            "value": {
+                                "EN": "Consume to restore fatigue, WIL save vs addiction.",
+                                "IT": "Consuma per perdere una fatica, tiro salvezza contro VOL per evitarne la dipendenza."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Ranger",
+                "IT": "Ranger"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Longbow",
+                        "IT": "Arco Composito"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hatchet",
+                        "IT": "Machete"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Padded Leathers",
+                        "IT": "Cuoio Imbottito"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Large Trap",
+                        "IT": "Trappola grande"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "20gp",
+                            "IT": "20po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Bloodhound",
+                        "IT": "Segugio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "bite (d6)",
+                            "IT": "morso (d6)"
+                        }
+                    ],
+                    "notes": [],
+                    "hp": 2,
+                    "dex": 12
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Thundering Horn",
+                        "IT": "Corno tonante"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Acrobat",
+                "IT": "Acrobata"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Balanced Pole",
+                        "IT": "Asta Bilanciata"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Chakram",
+                        "IT": "Chakram"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Exotic Clothing",
+                        "IT": "Abiti esotici"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Ribbons",
+                        "IT": "Nastri"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "x2",
+                            "IT": "x2"
+                        },
+                        {
+                            "EN": "10'",
+                            "IT": "10'"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Small Bell",
+                        "IT": "Campanella"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Tea Set",
+                        "IT": "Set da tè"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Assassin",
+                "IT": "Assassino"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Blowgun",
+                        "IT": "Cerbottana"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Garrote",
+                        "IT": "Garrotta"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Poison Ring",
+                        "IT": "Anello avvelenato"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Disguise Kit",
+                        "IT": "Kit di travestimento"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Antitoxin",
+                        "IT": "Antitossina"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Padded Boots",
+                        "IT": "Stivali imbottiti"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Barbarian",
+                "IT": "Barbaro"
+            },
+            "armor": 2,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Tabar",
+                        "IT": "Tabar"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d10 damage",
+                            "IT": "d10 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Greatsword",
+                        "IT": "Spadone"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d10 damage",
+                            "IT": "d10 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hide Coat",
+                        "IT": "Giaco di pelle"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Jawbone Cap",
+                        "IT": "Elmo d'osso"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Haruspex Totem",
+                        "IT": "Totem Aruspice"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Two Torches",
+                        "IT": "Due torce"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Bard",
+                "IT": "Bardo"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Rapier",
+                        "IT": "Stocco"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Dandy Clothing",
+                        "IT": "Abiti alla moda"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Caltrops",
+                        "IT": "Triboli"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Book of Lore",
+                        "IT": "Libro di Leggende"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Bagpipes",
+                        "IT": "Cornamusa"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Incense",
+                        "IT": "Incenso"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Beast Master",
+                "IT": "Domatore"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spear",
+                        "IT": "Lancia"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Big Knife",
+                        "IT": "Coltellaccio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Furs",
+                        "IT": "Pelliccia"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Whistle",
+                        "IT": "Fischietto"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Animal Charm",
+                        "IT": "Esca per animali"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Wolf",
+                        "IT": "Lupo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "bite (d6)",
+                            "IT": "morso (d6)"
+                        }
+                    ],
+                    "notes": [],
+                    "hp": 2,
+                    "wil": 12
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Changeling",
+                "IT": "Mutaforma"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Two Daggers",
+                        "IT": "Due pugnali"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6+d6 damage",
+                            "IT": "d6+d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Inconspicuous Clothes",
+                        "IT": "Vestiti poco appariscenti"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Overlarge Cloak",
+                        "IT": "Mantello troppo grande"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Mirror",
+                        "IT": "Specchio"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Smokebombs",
+                        "IT": "Bombe fumogene"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "x2",
+                            "IT": "x2"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Perfume",
+                        "IT": "Profumo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "oz",
+                            "IT": "oncia"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "15gp",
+                            "IT": "15po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Chaos Knight",
+                "IT": "Cavaliere del Caos"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Halberd",
+                        "IT": "Alabarda"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d10 damage",
+                            "IT": "d10 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Plate armor",
+                        "IT": "Armatura a piastre"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "3 Armor",
+                            "IT": "3 Armatura"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "60gp",
+                            "IT": "60po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Unholy Symbol",
+                        "IT": "Simbolo Empio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Hatred when bathed in blood",
+                            "IT": "Odio se immerso nel sangue"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Hatred",
+                                "IT": "Odio"
+                            },
+                            "value": {
+                                "EN": "A creature develops a deep hatred of another creature or group and wishes to destroy them.",
+                                "IT": "Una creatura sviluppa un odio profondo verso un’altra creatura o un gruppo e desidera distruggerli."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Large Trap",
+                        "IT": "Trappola grande"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "20gp",
+                            "IT": "20po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Wailing Horn",
+                        "IT": "Corno tonante"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hacksaw",
+                        "IT": "Seghetto"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Drow (Deep Elf)",
+                "IT": "Drow (Elfo delle Profondità)"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Katar",
+                        "IT": "Katar"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Silken Mesh",
+                        "IT": "Silken Mesh"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Knockout Poison",
+                        "IT": "Veleno Stordente"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Arachnid Crest",
+                        "IT": "Stemma Aracnideo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Web when in full darkness.",
+                            "IT": "Ragnatela quando è completamente al buio."
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Web",
+                                "IT": "Ragnatela"
+                            },
+                            "value": {
+                                "EN": "Your wrists shoot thick webbing.",
+                                "IT": "I tuoi polsi possono lanciare ragnatele spesse."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Manacles",
+                        "IT": "Manette"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spellbook",
+                        "IT": "Libro degli incantesimi"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Spider Climb or Arcane Eye",
+                            "IT": "Movimenti del Ragno o Occhio Arcano"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Spider Climb",
+                                "IT": "Movimenti del Ragno"
+                            },
+                            "value": {
+                                "EN": "You can climb surfaces like a spider.",
+                                "IT": "Puoi arrampicarti sulle superfici come un ragno."
+                            }
+                        },
+                        {
+                            "key": {
+                                "EN": "Arcane Eye",
+                                "IT": "Occhio Arcano"
+                            },
+                            "value": {
+                                "EN": "You can see through a magical floating eyeball that flies around at your command.",
+                                "IT": "Puoi vedere attraverso un bulbo oculare magico galleggiante che vola in giro al tuo comando."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Druid",
+                "IT": "Druido"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Shepherd’s Crook",
+                        "IT": "Bastone da Pastore"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Jute Clothing",
+                        "IT": "Vestiti di iuta"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Witchwood Seal",
+                        "IT": "Sigillo di Witchwood"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Beast Form when in clear view of the sun or moon.",
+                            "IT": "Forma Bestiale quando è in piena vista del sole o della luna."
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Beast Form",
+                                "IT": "Forma Bestiale"
+                            },
+                            "value": {
+                                "EN": "You and your possessions transform into a mundane animal.",
+                                "IT": "Tu e i tuoi averi vi trasformate in un animale comune."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Face Paint",
+                        "IT": "Pittura per viso"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Herbal Poultice",
+                        "IT": "Impiastro erbaceo"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Owl",
+                        "IT": "Gufo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "talons (d4)",
+                            "IT": "artigli (d4)"
+                        }
+                    ],
+                    "notes": [],
+                    "hp": 1,
+                    "dex": 16
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Duergar (Deep Dwarf)",
+                "IT": "Duergar (Nano delle Profondità)"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Meathook",
+                        "IT": "Uncino da Macellaio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Whip",
+                        "IT": "Frusta"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Tattered Mail",
+                        "IT": "Cotta di Maglia lacera"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Chain",
+                        "IT": "Catena"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "10ft",
+                            "IT": "10 piedi"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Drug: Craze",
+                        "IT": "Medicina: Craze"
+                    },
+                    "attributes": [],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Craze",
+                                "IT": "Craze"
+                            },
+                            "value": {
+                                "EN": "STR save vs feeling no pain, hunger, or weariness for 1d12 hours.",
+                                "IT": "Tiro salvezza contro FOR o non senti più il dolore, la fame o la stanchezza per 1d12 ore."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Drug: Brikabrak",
+                        "IT": "Medicina: Brikabrak"
+                    },
+                    "attributes": [],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Brikabrak",
+                                "IT": "Brikabrak"
+                            },
+                            "value": {
+                                "EN": "WIL save vs confusion and speaking all thoughts aloud for 1d8 hours.",
+                                "IT": "Tiro salvezza contro VOL o vai in confusione e pensi ad alta voce per 1d8 ore."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Gnome",
+                "IT": "Gnomo"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Big Bomb",
+                        "IT": "Grossa Bomba"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        },
+                        {
+                            "EN": "blast",
+                            "IT": "scoppio"
+                        },
+                        {
+                            "EN": "1 use",
+                            "IT": "1 usi"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Gambeson",
+                        "IT": "Farsetto"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+1 Armor",
+                            "IT": "+1 Armatura"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "15gp",
+                            "IT": "15po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Pot of Glue",
+                        "IT": "Vasetto di Colla"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Precision Pliers",
+                        "IT": "Pinzette di Precisione"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spyglass",
+                        "IT": "Cannocchiale"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "40gp",
+                            "IT": "40po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spellbook",
+                        "IT": "Libro degli incantesimi"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Widget or Haste",
+                            "IT": "Congegno o Velocità"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Widget",
+                                "IT": "Congegno"
+                            },
+                            "value": {
+                                "EN": "A primitive version of a drawn tool or item appears before you and disappears after a short time.",
+                                "IT": "Una versione primitiva di uno strumento o di un oggetto disegnato appare davanti a voi e scompare dopo poco tempo."
+                            }
+                        },
+                        {
+                            "key": {
+                                "EN": "Haste",
+                                "IT": "Velocità"
+                            },
+                            "value": {
+                                "EN": "Your movement speed is tripled.",
+                                "IT": "La tua velocità di movimento è triplicata."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Grimalkin",
+                "IT": "Megera"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Curved Knife",
+                        "IT": "Coltello Ricurvo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hex Stone",
+                        "IT": "Pietra Esagonale"
+                    },
+                    "attributes": [],
+                    "notes": [],
+                    "randomSpell": true
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Pouch of Catnip",
+                        "IT": "Sacchetto di Erba Gatta"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Drug: Spangle",
+                        "IT": "Medicina: Spangle"
+                    },
+                    "attributes": [],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Spangle",
+                                "IT": "Spangle"
+                            },
+                            "value": {
+                                "EN": "WIL save vs zen disconnectedness for a full day.",
+                                "IT": "Tiro salvezza contro VOL o ti disconnetti in modo zen per un giorno intero."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Blackberry Pie",
+                        "IT": "Torta di Mirtilli"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Baubles",
+                        "IT": "Palline"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Half-Elf",
+                "IT": "Mezzelfo"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Bow",
+                        "IT": "Arco"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "20gp",
+                            "IT": "20po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Quilted Jerkin",
+                        "IT": "Farsetto Imbottito"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Guitar",
+                        "IT": "Chitarra"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Fake Jewels",
+                        "IT": "Gioielli falsi"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Pole",
+                        "IT": "Asta"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "10ft",
+                            "IT": "10 piedi"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Lockpicks",
+                        "IT": "Grimaldelli"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "25gp",
+                            "IT": "25po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Halfling",
+                "IT": "Halfling"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Sling",
+                        "IT": "Fionda"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d4 damage",
+                            "IT": "d4 danno"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Fancy Leathers",
+                        "IT": "Armatura di Pelle Decorata"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Unicorn Horn",
+                        "IT": "Corno di Unicorno"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Blow to play a song which summons help. One use.",
+                            "IT": "Soffia per suonare una canzone che invoca aiuto. Un uso."
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Bag of Marbles",
+                        "IT": "Sacchetto di biglie"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Tobacco Pouch & Pipe",
+                        "IT": "Pacchetto di tabacco e pipa"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Travel Charcuterie",
+                        "IT": "Salumi da viaggio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "two days' rations",
+                            "IT": "due giorni di razioni"
+                        }
+                    ],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Half-Orc",
+                "IT": "Mezzorco"
+            },
+            "armor": 2,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Broad Axe",
+                        "IT": "Ascia Robusta"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Crossbow",
+                        "IT": "Balestra"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "30gp",
+                            "IT": "30po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Breastplate",
+                        "IT": "Corazza"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "2 Armor",
+                            "IT": "2 Armatura"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hempen Rope",
+                        "IT": "Corda di canapa"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "25'",
+                            "IT": "25'"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Cook Pots",
+                        "IT": "Pentole"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Crowbar",
+                        "IT": "Piede di porco"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Hunter",
+                "IT": "Cacciatore"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Longbow",
+                        "IT": "Arco Composito"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d10 damage",
+                            "IT": "d10 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hatchet",
+                        "IT": "Machete"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Padded Leathers",
+                        "IT": "Cuoio Imbottito"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Large Trap",
+                        "IT": "Trappola grande"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "20gp",
+                            "IT": "20po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Thundering Horn",
+                        "IT": "Corno tonante"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Bloodhound",
+                        "IT": "Segugio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "bite (d6)",
+                            "IT": "morso (d6)"
+                        }
+                    ],
+                    "notes": [],
+                    "hp": 2,
+                    "dex": 12
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Illusionist",
+                "IT": "Illusionista"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Ornate Cane",
+                        "IT": "Bastone Decorato"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Impressive Robes",
+                        "IT": "Abiti Ragguardevoli"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Fire Oil",
+                        "IT": "Olio di fuoco"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Mirror",
+                        "IT": "Specchio"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spellbook",
+                        "IT": "Libro degli incantesimi"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Mirrorwalk or Objectify",
+                            "IT": "Passaspecchi o Oggettivare"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Mirrorwalk",
+                                "IT": "Passaspecchi"
+                            },
+                            "value": {
+                                "EN": "A mirror becomes a gateway to another mirror that you looked into today.",
+                                "IT": "Uno specchio diventa un passaggio per un altro specchio in cui hai guardato oggi."
+                            }
+                        },
+                        {
+                            "key": {
+                                "EN": "Objectify",
+                                "IT": "Oggettivare"
+                            },
+                            "value": {
+                                "EN": "You become any inanimate object between the size of a grand piano and an apple.",
+                                "IT": "Diventi un qualsiasi oggetto inanimato tra le dimensioni di un pianoforte a coda e una mela."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spellbook",
+                        "IT": "Libro degli incantesimi"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Auditory Illusion or Visual Illusion",
+                            "IT": "Illusione sonora o Illusione visiva"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Auditory Illusion",
+                                "IT": "Illusione sonora"
+                            },
+                            "value": {
+                                "EN": "You create illusory sounds that seem to come from a direction of your choice.",
+                                "IT": "Crei dei suoni illusori che sembrano provenire da una direzione a tua scelta."
+                            }
+                        },
+                        {
+                            "key": {
+                                "EN": "Visual Illusion",
+                                "IT": "Illusione visiva"
+                            },
+                            "value": {
+                                "EN": "A silent, immobile, room-sized illusion of your choice appears.",
+                                "IT": "Appare un’illusione silenziosa, immobile e grande come una stanza, a tua scelta."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Knight",
+                "IT": "Cavaliere"
+            },
+            "armor": 3,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Longsword",
+                        "IT": "Spada Lunga"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Ornate Mail",
+                        "IT": "Cotta Decorata"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "2 Armor",
+                            "IT": "2 Armatura"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Kite Shield",
+                        "IT": "Scudo a Goccia"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Heraldic Cape",
+                        "IT": "Mantello Araldico"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Letter of Marque",
+                        "IT": "Lettera di Marca"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Riding Horse",
+                        "IT": "Cavallo da Corsa"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "+2 slots",
+                            "IT": "+2 slot"
+                        },
+                        {
+                            "EN": "kick (d6)",
+                            "IT": "calcio (d6)"
+                        }
+                    ],
+                    "notes": [],
+                    "hp": 4
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Ledgermain (Arcane Bard)",
+                "IT": "Ledgermain (Arcanista Bardo)"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Shortsword",
+                        "IT": "Spada Corta"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Buckler",
+                        "IT": "Brocchiero"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Urban Finery",
+                        "IT": "Abiti Eleganti da Città"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Lute",
+                        "IT": "Liuto"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Quill & Ink",
+                        "IT": "Piuma e inchiostro"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spellbook",
+                        "IT": "Libro degli incantesimi"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Read Mind or Hypnotize",
+                            "IT": "Leggere la Mente o Ipnotizzare"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Read Mind",
+                                "IT": "Leggere la Mente"
+                            },
+                            "value": {
+                                "EN": "You can hear the surface thoughts of nearby creatures.",
+                                "IT": "Puoi sentire i pensieri superficiali delle creature vicine."
+                            }
+                        },
+                        {
+                            "key": {
+                                "EN": "Hypnotize",
+                                "IT": "Ipnotizzare"
+                            },
+                            "value": {
+                                "EN": "A creature enters a trance and will truthfully answer one yes or no question you ask it.",
+                                "IT": "Una creatura entra in trance e risponderà sinceramente a una domanda con un sì o un no."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Fizzled Staff",
+                        "IT": "Bastone Evanescente"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Minstrel",
+                "IT": "Menestrello"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Sling",
+                        "IT": "Fionda"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d4 damage",
+                            "IT": "d4 danno"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Poignard",
+                        "IT": "Daga"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hurdy-Gurdy",
+                        "IT": "Ghironda"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Set of Juggling Balls",
+                        "IT": "Palline da Giocoliere"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Colorful Cape",
+                        "IT": "Berretto Colorato"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Soap",
+                        "IT": "Sapone"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "1gp",
+                            "IT": "1po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Moss Dwarf",
+                "IT": "Nano Muschiato"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Prickly Root",
+                        "IT": "Radice Appuntita"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Pinecone Lattice",
+                        "IT": "Cotta di Pigna"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Trowel",
+                        "IT": "Cazzuola"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Jar of Forest Ants",
+                        "IT": "Barattolo di Formiche della Foresta"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Poisonous Mushroom",
+                        "IT": "Funghi Velenosi"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Drill",
+                        "IT": "Trapano"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "manual",
+                            "IT": "manuale"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Mycelian",
+                "IT": "Miconide"
+            },
+            "armor": 2,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Crowbill",
+                        "IT": "Mazzapicchio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Bark Husk",
+                        "IT": "Guscio di Corteccia"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "2 Armor",
+                            "IT": "2 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Lantern & Oil",
+                        "IT": "Lanterna e Olio"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Drug: Slicksweet",
+                        "IT": "Medicina: Slicksweet"
+                    },
+                    "attributes": [],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Slicksweet",
+                                "IT": "Slicksweet"
+                            },
+                            "value": {
+                                "EN": "DEX save vs legs going rubbery for an hour.",
+                                "IT": "Tiro salvezza contro DES o le gambe diventano molli per un'ora."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Exotic Incense",
+                        "IT": "Incenso Esotico"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Persuasive Spores",
+                        "IT": "Spore Convincenti"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Paladin",
+                "IT": "Paladino"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Holy Water Sprinkler",
+                        "IT": "Aspersorio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Swordbreaker",
+                        "IT": "Spezzaspade"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Chainmail",
+                        "IT": "Cotta di Maglia"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "2 Armor",
+                            "IT": "2 Armatura"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "40gp",
+                            "IT": "40po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Bag of Salt",
+                        "IT": "Sacchetto di Sale"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Chain",
+                        "IT": "Catena"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "10ft",
+                            "IT": "10 piedi"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Perfume",
+                        "IT": "Profumo"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "oz",
+                            "IT": "oncia"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "15gp",
+                            "IT": "15po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Scribe (Mage)",
+                "IT": "Scriba (Mago)"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Yew Wand",
+                        "IT": "Bacchetta di Tasso"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Pacify when smacked on knuckles.",
+                            "IT": "Pacificare quando viene colpito sulle nocche"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Pacify",
+                                "IT": "Pacificare"
+                            },
+                            "value": {
+                                "EN": "A creature near you has an aversion to violence.",
+                                "IT": "Una creatura vicina a te ha un’avversione per la violenza."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Scroll Case & Parchment",
+                        "IT": "Cartapecora e Tubo per Pergamene"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Quill & Ink",
+                        "IT": "Piuma e inchiostro"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hourglass",
+                        "IT": "Clessidra"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "50gp",
+                            "IT": "50po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Lens",
+                        "IT": "Lente"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spellbook",
+                        "IT": "Libro degli incantesimi"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Befuddle or Identify Owner",
+                            "IT": "Confusione o Identifica Proprietario"
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Befuddle",
+                                "IT": "Confusione"
+                            },
+                            "value": {
+                                "EN": "A creature of your choice is unable to form new short-term memories for the duration of the spell.",
+                                "IT": "Una creatura a tua scelta non è in grado di formare nuovi ricordi a breve termine per la durata dell’incantesimo."
+                            }
+                        },
+                        {
+                            "key": {
+                                "EN": "Identify Owner",
+                                "IT": "Identifica Proprietario"
+                            },
+                            "value": {
+                                "EN": "Letters appear over the object you touch, spelling out the name of the object’s owners, if there are any.",
+                                "IT": "Sull’oggetto che tocchi appaiono delle lettere che indicano il nome dei proprietari dell’oggetto, se ce ne sono."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Svirfneblin (Deep Gnome)",
+                "IT": "Svirfneblin (Gnomo delle Profondità)"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Adze",
+                        "IT": "Azza"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Lantern-Helmet",
+                        "IT": "Elmetto con Lanterna"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        },
+                        {
+                            "EN": "acts as lantern",
+                            "IT": "funge da lanterna"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Pulley",
+                        "IT": "Carrucola"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Grease",
+                        "IT": "Grasso"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Magnifying Glass",
+                        "IT": "Lente d'Ingrandimento"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hempen Rope",
+                        "IT": "Corda di canapa"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "25'",
+                            "IT": "25'"
+                        }
+                    ],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Thief",
+                "IT": "Ladro"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Two Daggers",
+                        "IT": "Due pugnali"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6+d6 damage",
+                            "IT": "d6+d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Hooded Jerkin",
+                        "IT": "Farsetto con Cappuccio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Lockpicks",
+                        "IT": "Grimaldelli"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "25gp",
+                            "IT": "25po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Caltrops",
+                        "IT": "Triboli"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Grappling Hook",
+                        "IT": "Rampino"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "25gp",
+                            "IT": "25po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Metal File",
+                        "IT": "Lima di metallo"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Warden",
+                "IT": "Carceriere"
+            },
+            "armor": 1,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Silvered Knife",
+                        "IT": "Pugnale d'Argento"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Long Staff",
+                        "IT": "Bastone Alto"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d8 damage",
+                            "IT": "d8 danno"
+                        },
+                        {
+                            "EN": "bulky",
+                            "IT": "ingombrante"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Heavy Hooded Cloak",
+                        "IT": "Mantella Pesante con Cappuccio"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "1 Armor",
+                            "IT": "1 Armatura"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Talisman",
+                        "IT": "Talismano"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "Wizard Mark when touching your quarry’s prints.",
+                            "IT": "Marchio del Mago quando tocchi le impronte della tua preda."
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Wizard Mark",
+                                "IT": "Marchio del Mago"
+                            },
+                            "value": {
+                                "EN": "Your finger can shoot a stream of ulfire-colored paint. This paint is only visible to you and can be seen at any distance, even through solid objects.",
+                                "IT": "Il tuo dito può lanciare un flusso di vernice color ulfire. La vernice è visibile solo a te e può essere vista a qualsiasi distanza, anche attraverso oggetti solidi"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Wolfsbane",
+                        "IT": "Aconito"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "10gp",
+                            "IT": "10po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Thowing Bolas",
+                        "IT": "Bola da Lancio"
+                    },
+                    "attributes": [],
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "className": {
+                "EN": "Woodgrue",
+                "IT": "Woodgrue (Goblin dei Boschi)"
+            },
+            "armor": 0,
+            "items": [
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Cudgel",
+                        "IT": "Bastone"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d6 damage",
+                            "IT": "d6 danno"
+                        }
+                    ],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Sling",
+                        "IT": "Fionda"
+                    },
+                    "attributes": [
+                        {
+                            "EN": "d4 damage",
+                            "IT": "d4 danno"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Panflute",
+                        "IT": "Flauto Traverso"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Flask of Moonshine",
+                        "IT": "Fiaschetta di Alcol"
+                    },
+                    "attributes": [],
+                    "notes": []
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Drug: Drake",
+                        "IT": "Medicina: Drake"
+                    },
+                    "attributes": [],
+                    "notes": [
+                        {
+                            "key": {
+                                "EN": "Drake",
+                                "IT": "Drake"
+                            },
+                            "value": {
+                                "EN": "STR save vs 'enjoying' violent psychosis for 1d4 hours.",
+                                "IT": "Tiro salvezza contro FOR o 'godi' di una violenta psicosi per 1d4 ore."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": {
+                        "EN": "Spiked Boots",
+                        "IT": "Stivali Chiodati"
+                    },
+                    "attributes": [],
+                    "price": [
+                        {
+                            "EN": "5gp",
+                            "IT": "5po"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

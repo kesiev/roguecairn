@@ -1,0 +1,1202 @@
+[
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Adhere",
+			"IT": "Adesione"
+		},
+		"description": {
+			"EN": "An object is covered in extremely sticky slime.",
+			"IT": "Un oggetto è coperto di melma estremamente appiccicosa."
+		},
+		"id": "spell-adhere"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Anchor",
+			"IT": "Ancora"
+		},
+		"description": {
+			"EN": "A strong wire sprouts from your arms, affixing itself to two points within 50ft on each side.",
+			"IT": "Un filo robusto spunta dalle tue braccia, fissandosi a due punti nel raggio di metri su ogni lato."
+		},
+		"id": "spell-anchor"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Animate Object",
+			"IT": "Animare Oggetto"
+		},
+		"description": {
+			"EN": "An object obeys your commands as best it can.",
+			"IT": "Un oggetto obbedisce ai tuoi comandi al meglio delle sue possibilità."
+		},
+		"id": "spell-animate-object"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Anthropomorphize",
+			"IT": "Antropomorfismo"
+		},
+		"description": {
+			"EN": "An animal either gains human intelligence or human appearance for one day.",
+			"IT": "Un animale ottiene l’intelligenza umana o l’aspetto umano per un giorno."
+		},
+		"id": "spell-anthropomorphize"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Arcane Eye",
+			"IT": "Occhio Arcano"
+		},
+		"description": {
+			"EN": "You can see through a magical floating eyeball that flies around at your command.",
+			"IT": "Puoi vedere attraverso un bulbo oculare magico galleggiante che vola in giro al tuo comando."
+		},
+		"id": "spell-arcane-eye"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Astral Prison",
+			"IT": "Prigione astrale"
+		},
+		"description": {
+			"EN": "An object is frozen in time and space within an invulnerable crystal shell.",
+			"IT": "Un oggetto è congelato nel tempo e nello spazio all’interno di un guscio di cristallo invulnerabile."
+		},
+		"id": "spell-astral-prison"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Attract",
+			"IT": "Attrarre"
+		},
+		"description": {
+			"EN": "Two objects are strongly magnetically attracted to each other if they come within 10 feet.",
+			"IT": "Due oggetti sono fortemente attratti magneticamente l’uno dall’altro se si trovano a pochi metri."
+		},
+		"id": "spell-attract"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Auditory Illusion",
+			"IT": "Illusione sonora"
+		},
+		"description": {
+			"EN": "You create illusory sounds that seem to come from a direction of your choice.",
+			"IT": "Crei dei suoni illusori che sembrano provenire da una direzione a tua scelta."
+		},
+		"id": "spell-auditory-illusion"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Babble",
+			"IT": "Blaterare"
+		},
+		"description": {
+			"EN": "A creature must loudly and clearly repeat everything you think. It is otherwise mute.",
+			"IT": "Una creatura deve ripetere ad alta voce e chiaramente tutto ciò che pensi, altrimenti è muta."
+		},
+		"id": "spell-babble"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Bait Flower",
+			"IT": "Esca Fiore"
+		},
+		"description": {
+			"EN": "A plant sprouts from the ground that emanates the smell of decaying flesh.",
+			"IT": "Una pianta spunta dal terreno ed emana l’odore della carne in decomposizione."
+		},
+		"id": "spell-bait-flower"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Beast Form",
+			"IT": "Forma Bestiale"
+		},
+		"description": {
+			"EN": "You and your possessions transform into a mundane animal.",
+			"IT": "Tu e i tuoi averi vi trasformate in un animale comune."
+		},
+		"id": "spell-beast-form"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Befuddle",
+			"IT": "Confusione"
+		},
+		"description": {
+			"EN": "A creature of your choice is unable to form new short-term memories for the duration of the spell.",
+			"IT": "Una creatura a tua scelta non è in grado di formare nuovi ricordi a breve termine per la durata dell’incantesimo."
+		},
+		"id": "spell-befuddle"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Body Swap",
+			"IT": "Scambio di corpi"
+		},
+		"description": {
+			"EN": "You switch bodies with a creature you touch. If one body dies, the other dies as well.",
+			"IT": "Scambi il corpo con una creatura che tocchi. Se un corpo muore, muore anche l’altro."
+		},
+		"id": "spell-body-swap"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Charm",
+			"IT": "Affascinare"
+		},
+		"description": {
+			"EN": "A creature you can see treats you as a friend.",
+			"IT": "Una creatura che puoi vedere ti tratta come un amico."
+		},
+		"id": "spell-charm"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Command",
+			"IT": "Comando"
+		},
+		"description": {
+			"EN": "A target obeys a single three-word command that does not cause it harm.",
+			"IT": "Un bersaglio obbedisce a un singolo comando di tre parole che non lo danneggia."
+		},
+		"id": "spell-command"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Comprehend",
+			"IT": "Comprensione"
+		},
+		"description": {
+			"EN": "You become fluent in all languages for a short while.",
+			"IT": "Diventi fluente in tutte le lingue per un breve periodo."
+		},
+		"id": "spell-comprehend"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Cone of Foam",
+			"IT": "Cono di Schiuma"
+		},
+		"description": {
+			"EN": "Dense foam sprays from your hand, coating the target.",
+			"IT": "La schiuma densa spruzza dalla tua mano, ricoprendo il bersaglio."
+		},
+		"id": "spell-cone-of-foam"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Control Plants",
+			"IT": "Controllare Piante"
+		},
+		"description": {
+			"EN": "Nearby plants and trees obey you and gain the ability to move at a slow pace.",
+			"IT": "Le piante e gli alberi vicini ti obbediscono e acquisiscono la capacità di muoversi a passo lento."
+		},
+		"id": "spell-control-plants"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Control Weather",
+			"IT": "Controllare Tempo Atmosferico"
+		},
+		"description": {
+			"EN": "You may alter the type of weather at will, but you do not otherwise control it.",
+			"IT": "Puoi alterare il tipo di condizione atmosferica a tuo piacimento, ma non lo controlli in altro modo."
+		},
+		"id": "spell-control-weather"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Cure Wounds",
+			"IT": "Cura Ferite"
+		},
+		"description": {
+			"EN": "Restore 1d4 STR per day to a creature you can touch.",
+			"IT": "Ristora 1d4 FOR al giorno a una creatura che puoi toccare."
+		},
+		"id": "spell-cure-wounds"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Deafen",
+			"IT": "Assordare"
+		},
+		"description": {
+			"EN": "All nearby creatures are deafened.",
+			"IT": "Tutte le creature vicine sono assordate."
+		},
+		"id": "spell-deafen"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Detect Magic",
+			"IT": "Individuazione del Magico"
+		},
+		"description": {
+			"EN": "You can see or hear nearby magical auras.",
+			"IT": "Puoi vedere o sentire le aure magiche vicine."
+		},
+		"id": "spell-detect-magic"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Disassemble",
+			"IT": "Smontare"
+		},
+		"description": {
+			"EN": "Any of your body parts may be detached and reattached at will, without causing pain or damage. You can still control them.",
+			"IT": "Qualsiasi parte del tuo corpo può essere staccata e riattaccata a volontà, senza causare dolore o danni."
+		},
+		"id": "spell-disassemble"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Disguise",
+			"IT": "Mascherata"
+		},
+		"description": {
+			"EN": "You may alter the appearance of one character at will as long as they remain humanoid. Attempts to duplicate other characters will seem uncanny.",
+			"IT": "L’aspetto e la voce di un personaggio diventano identici a quelli di un personaggio che si tocca."
+		},
+		"id": "spell-disguise"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Displace",
+			"IT": "Dislocare"
+		},
+		"description": {
+			"EN": "An object appears to be up to 15ft from its actual position.",
+			"IT": "Un oggetto sembra essere fino a 4,5m dalla sua posizione reale."
+		},
+		"id": "spell-displace"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Earthquake",
+			"IT": "Terremoto"
+		},
+		"description": {
+			"EN": "The ground begins shaking violently. Structures may be damaged or collapse.",
+			"IT": "Il terreno inizia a tremare violentemente. Le strutture possono subire danni o crollare."
+		},
+		"id": "spell-earthquake"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Elasticity",
+			"IT": "Elasticità"
+		},
+		"description": {
+			"EN": "Your body can stretch up to 10ft.",
+			"IT": "Il tuo corpo può allungarsi fino a 3 metri."
+		},
+		"id": "spell-elasticity"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Elemental Wall",
+			"IT": "Muro Elementale"
+		},
+		"description": {
+			"EN": "A straight wall of ice or fire 50ft long and 10ft high rises from the ground.",
+			"IT": "Un muro di ghiaccio o di fuoco lungo 15 metri e alto 3 metri si innalza dal terreno."
+		},
+		"id": "spell-elemental-wall"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Filch",
+			"IT": "Gazza"
+		},
+		"description": {
+			"EN": "A visible item teleports to your hands.",
+			"IT": "Un oggetto visibile si teletrasporta nelle tue mani."
+		},
+		"id": "spell-filch"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Flare",
+			"IT": "Bagliore"
+		},
+		"description": {
+			"EN": "A bright ball of energy fires a trail of light into the sky, revealing your location to friend or foe.",
+			"IT": "Una sfera luminosa di energia proietta una scia di luce nel cielo, rivelando la tua posizione ad amici o nemici."
+		},
+		"id": "spell-flare"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Fog Cloud",
+			"IT": "Nube di Nebbia"
+		},
+		"description": {
+			"EN": "A dense fog spreads out from you.",
+			"IT": "Una densa nebbia si diffonde attorno a te."
+		},
+		"id": "spell-fog-cloud"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Frenzy",
+			"IT": "Frenesia"
+		},
+		"description": {
+			"EN": "A nearby creature erupts in a frenzy of violence.",
+			"IT": "Una creatura vicina esplode in una frenesia di violenza."
+		},
+		"id": "spell-frenzy"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Gate",
+			"IT": "Portale"
+		},
+		"description": {
+			"EN": "A portal to a random plane opens.",
+			"IT": "Si apre un portale verso un piano casuale."
+		},
+		"id": "spell-gate"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Gravity Shift",
+			"IT": "Inversione di gravità"
+		},
+		"description": {
+			"EN": "You can change the direction of gravity, but only for yourself.",
+			"IT": "Puoi cambiare la direzione della gravità, ma solo per te."
+		},
+		"id": "spell-gravity-shift"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Greed",
+			"IT": "Avidità"
+		},
+		"description": {
+			"EN": "A creature develops the overwhelming urge to possess a visible item of your choice.",
+			"IT": "Una creatura sviluppa il desiderio irrefrenabile di possedere un oggetto visibile a tua scelta."
+		},
+		"id": "spell-greed"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Haste",
+			"IT": "Velocità"
+		},
+		"description": {
+			"EN": "Your movement speed is tripled.",
+			"IT": "La tua velocità di movimento è triplicata."
+		},
+		"id": "spell-haste"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Hatred",
+			"IT": "Odio"
+		},
+		"description": {
+			"EN": "A creature develops a deep hatred of another creature or group and wishes to destroy them.",
+			"IT": "Una creatura sviluppa un odio profondo verso un’altra creatura o un gruppo e desidera distruggerli."
+		},
+		"id": "spell-hatred"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Hear Whispers",
+			"IT": "Ascoltare i Sussurri"
+		},
+		"description": {
+			"EN": "You can hear faint sounds clearly.",
+			"IT": "Si possono udire chiaramente suoni deboli."
+		},
+		"id": "spell-hear-whispers"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Hover",
+			"IT": "Levitazione"
+		},
+		"description": {
+			"EN": "An object hovers, frictionless, 2ft above the ground. It can hold up to one humanoid.",
+			"IT": "Un oggetto che si libra, senza attrito, a 60 cm dal suolo. Può sostenere fino a un umanoide."
+		},
+		"id": "spell-hover"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Hypnotize",
+			"IT": "Ipnotizzare"
+		},
+		"description": {
+			"EN": "A creature enters a trance and will truthfully answer one yes or no question you ask it.",
+			"IT": "Una creatura entra in trance e risponderà sinceramente a una domanda con un sì o un no."
+		},
+		"id": "spell-hypnotize"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Icy Touch",
+			"IT": "Tocco gelido"
+		},
+		"description": {
+			"EN": "A thick ice layer spreads across a touched surface, up to 10ft in radius.",
+			"IT": "Uno spesso strato di ghiaccio si estende su una superficie toccata, fino a 3 metri di raggio."
+		},
+		"id": "spell-icy-touch"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Identify Owner",
+			"IT": "Identifica Proprietario"
+		},
+		"description": {
+			"EN": "Letters appear over the object you touch, spelling out the name of the object’s owners, if there are any.",
+			"IT": "Sull’oggetto che tocchi appaiono delle lettere che indicano il nome dei proprietari dell’oggetto, se ce ne sono."
+		},
+		"id": "spell-identify-owner"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Illuminate",
+			"IT": "Illuminare"
+		},
+		"description": {
+			"EN": "A floating light moves as you command.",
+			"IT": "Una luce fluttuante si muove al tuo comando."
+		},
+		"id": "spell-illuminate"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Invisible Tether",
+			"IT": "Legame Invisibile"
+		},
+		"description": {
+			"EN": "Two objects within 10ft of each other cannot be moved more than 10ft apart.",
+			"IT": "Due oggetti entro 3 metri l’uno dall’altro non possono essere spostati a più di 3 metri di distanza."
+		},
+		"id": "spell-invisible-tether"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Knock",
+			"IT": "Bussare"
+		},
+		"description": {
+			"EN": "A nearby mundane or magical lock unlocks loudly.",
+			"IT": "Una serratura ordinaria o magica nelle vicinanze si sblocca rumorosamente."
+		},
+		"id": "spell-knock"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Leap",
+			"IT": "Balzo"
+		},
+		"description": {
+			"EN": "You jump up to 10ft high, once.",
+			"IT": "Salti in alto fino a 3 metri, una volta."
+		},
+		"id": "spell-leap"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Liquid Air",
+			"IT": "Aria Liquida"
+		},
+		"description": {
+			"EN": "The air around you becomes swimmable .",
+			"IT": "L’aria attorno a te rende possibile nuotarci dentro."
+		},
+		"id": "spell-liquid-air"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Magic Dampener",
+			"IT": "Smorzatore Magico"
+		},
+		"description": {
+			"EN": "All nearby magical effects have their effectiveness halved.",
+			"IT": "Tutti gli effetti magici nelle vicinanze sono dimezzati nella loro efficacia."
+		},
+		"id": "spell-magic-dampener"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Manse",
+			"IT": "Maniero"
+		},
+		"description": {
+			"EN": "A sturdy, furnished cottage appears for 12 hours. You can permit and forbid entry to it at will.",
+			"IT": "Un cottage robusto e arredato appare per 12 ore. Puoi permettere e proibire l’ingresso ad esso a volontà."
+		},
+		"id": "spell-manse"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Marble Craze",
+			"IT": "Mania delle biglie"
+		},
+		"description": {
+			"EN": "Your pockets are full of marbles, and will refill every 30 seconds.",
+			"IT": "Le tue tasche sono piene di biglie e si riempiono nuovamente ogni secondo."
+		},
+		"id": "spell-marble-craze"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Masquerade",
+			"IT": "Mascherata"
+		},
+		"description": {
+			"EN": "A character’s appearance and voice becomes identical to those of a character you touch.",
+			"IT": "L’aspetto e la voce di un personaggio diventano identici a quelli di un personaggio che si tocca."
+		},
+		"id": "spell-masquerade"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Miniaturize",
+			"IT": "Miniaturizzare"
+		},
+		"description": {
+			"EN": "A creature you touch is shrunk down to the size of a mouse.",
+			"IT": "Una creatura che tocchi si rimpicciolisce fino alle dimensioni di un topo."
+		},
+		"id": "spell-miniaturize"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Mirror Image",
+			"IT": "Immagine speculare"
+		},
+		"description": {
+			"EN": "An illusory duplicate of yourself appears and is under your control.",
+			"IT": "Appare un tuo duplicato illusorio sotto il tuo controllo."
+		},
+		"id": "spell-mirror-image"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Mirrorwalk",
+			"IT": "Passaspecchi"
+		},
+		"description": {
+			"EN": "A mirror becomes a gateway to another mirror that you looked into today.",
+			"IT": "Uno specchio diventa un passaggio per un altro specchio in cui hai guardato oggi."
+		},
+		"id": "spell-mirrorwalk"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Multiarm",
+			"IT": "Multibraccio"
+		},
+		"description": {
+			"EN": "You temporarily gain an extra arm.",
+			"IT": "Guadagni temporaneamente un braccio in più."
+		},
+		"id": "spell-multiarm"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Night Sphere",
+			"IT": "Sfera notturna"
+		},
+		"description": {
+			"EN": "A 50ft wide sphere of darkness displaying the night sky appears before you.",
+			"IT": "Una sfera di oscurità larga 15 metri raffigurante il cielo notturno appare davanti a voi."
+		},
+		"id": "spell-night-sphere"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Objectify",
+			"IT": "Oggettivare"
+		},
+		"description": {
+			"EN": "You become any inanimate object between the size of a grand piano and an apple.",
+			"IT": "Diventi un qualsiasi oggetto inanimato tra le dimensioni di un pianoforte a coda e una mela."
+		},
+		"id": "spell-objectify"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Ooze Form",
+			"IT": "Forma Melmosa"
+		},
+		"description": {
+			"EN": "You become a living jelly.",
+			"IT": "Diventi una gelatina vivente."
+		},
+		"id": "spell-ooze-form"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Pacify",
+			"IT": "Pacificare"
+		},
+		"description": {
+			"EN": "A creature near you has an aversion to violence.",
+			"IT": "Una creatura vicina a te ha un’avversione per la violenza."
+		},
+		"id": "spell-pacify"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Phobia",
+			"IT": "Fobia"
+		},
+		"description": {
+			"EN": "A nearby creature becomes terrified of an object of your choice.",
+			"IT": "Una creatura vicina diventa terrorizzata da un oggetto a tua scelta."
+		},
+		"id": "spell-phobia"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Pit",
+			"IT": "Fossa"
+		},
+		"description": {
+			"EN": "A pit 10ft wide and 10ft deep opens in the ground.",
+			"IT": "Nel terreno si apre una fossa larga 3 metri e profonda 3 metri."
+		},
+		"id": "spell-pit"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Primal Surge",
+			"IT": "Impulso primordiale"
+		},
+		"description": {
+			"EN": "A creature rapidly evolves into a future version of its species.",
+			"IT": "Una creatura si evolve rapidamente in una versione futura della sua specie."
+		},
+		"id": "spell-primal-surge"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Push/Pull",
+			"IT": "Spingere/Tirare"
+		},
+		"description": {
+			"EN": "An object of any size is pulled directly towards you or pushed directly away from you with the strength of one man.",
+			"IT": "Un oggetto di qualsiasi dimensione viene tirato direttamente verso di voi o spinto direttamente via da voi con la forza di un uomo."
+		},
+		"id": "spell-push-pull"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Raise Dead",
+			"IT": "Animare i Morti"
+		},
+		"description": {
+			"EN": "A skeleton rises from the ground to serve you. They are incredibly stupid and can only obey simple orders.",
+			"IT": "Uno scheletro emerge dalla terra per servirti. Sono incredibilmente stupidi e possono solo obbedire a ordini semplici."
+		},
+		"id": "spell-raise-dead"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Raise Spirit",
+			"IT": "Animare lo Spirito"
+		},
+		"description": {
+			"EN": "The spirit of a nearby corpse manifests and will answer 1 question.",
+			"IT": "Lo spirito di un cadavere vicino si manifesta e risponderà a 1 domanda."
+		},
+		"id": "spell-raise-spirit"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Read Mind",
+			"IT": "Leggere la Mente"
+		},
+		"description": {
+			"EN": "You can hear the surface thoughts of nearby creatures.",
+			"IT": "Puoi sentire i pensieri superficiali delle creature vicine."
+		},
+		"id": "spell-read-mind"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Repel",
+			"IT": "Repulsione"
+		},
+		"description": {
+			"EN": "Two objects are strongly magnetically repelled from each other within 10 feet.",
+			"IT": "Due oggetti sono fortemente respinti magneticamente l’uno dall’altro nel raggio di 3 metri."
+		},
+		"id": "spell-repel"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Scry",
+			"IT": "Divinazione"
+		},
+		"description": {
+			"EN": "You can see through the eyes of a creature you touched earlier today.",
+			"IT": "Puoi vedere attraverso gli occhi di una creatura che hai toccato prima."
+		},
+		"id": "spell-scry"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Sculpt Elements",
+			"IT": "Scolpire Elementi"
+		},
+		"description": {
+			"EN": "Inanimate material behaves like clay in your hands.",
+			"IT": "Il materiale inanimato si comporta come l’argilla nelle tue mani."
+		},
+		"id": "spell-sculpt-elements"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Sense",
+			"IT": "Percepire Oggetto"
+		},
+		"description": {
+			"EN": "Choose one kind of object (key, gold, arrow, jug, etc). You can sense the nearest example.",
+			"IT": "Scegli un tipo di oggetto (chiave, oro, freccia, brocca, ecc.). Puoi avvertire l’esempio più vicino."
+		},
+		"id": "spell-sense"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Shield",
+			"IT": "Scudo"
+		},
+		"description": {
+			"EN": "A creature you touch is protected from mundane attacks for one minute.",
+			"IT": "Una creatura che tocchi è protetta dagli attacchi ordinari per un minuto."
+		},
+		"id": "spell-shield"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Shroud",
+			"IT": "Velo"
+		},
+		"description": {
+			"EN": "A creature you touch is invisible until they move.",
+			"IT": "Una creatura che tocchi è invisibile finché non si muove."
+		},
+		"id": "spell-shroud"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Shuffle",
+			"IT": "Scambio"
+		},
+		"description": {
+			"EN": "Two creatures you can see instantly switch places.",
+			"IT": "Due creature che riesci a vedere si scambiano istantaneamente di posto."
+		},
+		"id": "spell-shuffle"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Sleep",
+			"IT": "Sonno"
+		},
+		"description": {
+			"EN": "A creature you can see falls into a light sleep.",
+			"IT": "Una creatura che puoi vedere cade in un sonno leggero."
+		},
+		"id": "spell-sleep"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Slick",
+			"IT": "Viscido"
+		},
+		"description": {
+			"EN": "Every surface in a 30ft radius becomes extremely slippery.",
+			"IT": "Ogni superficie nel raggio di 9 metri diventa estremamente scivolosa."
+		},
+		"id": "spell-slick"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Smoke Form",
+			"IT": "Forma di Fumo"
+		},
+		"description": {
+			"EN": "Your body becomes a living smoke that you can control.",
+			"IT": "Il tuo corpo diventa fumo vivente che puoi controllare."
+		},
+		"id": "spell-smoke-form"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Sniff",
+			"IT": "Fiuto"
+		},
+		"description": {
+			"EN": "You can smell even the faintest traces of scents.",
+			"IT": "Si possono sentire anche le più deboli tracce di odore."
+		},
+		"id": "spell-sniff"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Snuff",
+			"IT": "Fiuto"
+		},
+		"description": {
+			"EN": "The source of any mundane light you can see is instantly snuffed out.",
+			"IT": "Si possono sentire anche le più deboli tracce di odore."
+		},
+		"id": "spell-snuff"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Sort",
+			"IT": "Ordinare"
+		},
+		"description": {
+			"EN": "Inanimate items sort themselves according to categories you set.",
+			"IT": "Gli oggetti inanimati si ordinano secondo le categorie che hai impostato."
+		},
+		"id": "spell-sort"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Spectacle",
+			"IT": "Spettacolo"
+		},
+		"description": {
+			"EN": "A clearly false but impressive illusion of your choice appears, under your control. It may be up to the size of a palace and has full motion and sound.",
+			"IT": "Appare un’illusione a tua scelta, chiaramente falsa ma impressionante, sotto il tuo controllo. Può essere grande come un palazzo e ha pieno movimento e suono."
+		},
+		"id": "spell-spectacle"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Spellsaw",
+			"IT": "Lama Incantata"
+		},
+		"description": {
+			"EN": "A whirling blade flies from your chest, clearing any plant material in its way. It is otherwise harmless.",
+			"IT": "Una lama rotante vola dal tuo petto, eliminando qualsiasi materiale vegetale sul suo cammino. A parte questo, è innocua."
+		},
+		"id": "spell-spellsaw"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Spider Climb",
+			"IT": "Movimenti del Ragno"
+		},
+		"description": {
+			"EN": "You can climb surfaces like a spider.",
+			"IT": "Puoi arrampicarti sulle superfici come un ragno."
+		},
+		"id": "spell-spider-climb"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Summon Cube",
+			"IT": "Evoca Cubo"
+		},
+		"description": {
+			"EN": "Once per second you may summon or banish a 3-foot-wide cube of earth. New cubes must be affixed to the earth or to other cubes.",
+			"IT": "Una volta al secondo puoi evocare o bandire un cubo di terra largo 1 metro. I nuovi cubi devono essere attaccati alla terra o ad altri cubi."
+		},
+		"id": "spell-summon-cube"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Swarm",
+			"IT": "Sciame"
+		},
+		"description": {
+			"EN": "You become a swarm of crows, rats, or piranhas. You can only be harmed by blast attacks.",
+			"IT": "Diventi uno stormo di corvi, uno sciame di ratti o un branco di piranha. Puoi essere danneggiato solo da attacchi di scoppio."
+		},
+		"id": "spell-swarm"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Telekinesis",
+			"IT": "Telecinesi"
+		},
+		"description": {
+			"EN": "You may mentally 1 move item under 60lbs.",
+			"IT": "Puoi spostare mentalmente un oggetto sotto i 27 kg."
+		},
+		"id": "spell-telekinesis"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Telepathy",
+			"IT": "Telepatia"
+		},
+		"description": {
+			"EN": "Two creatures can hear each other’s thoughts, no matter how far apart.",
+			"IT": "Due creature possono sentire i pensieri gli uni degli altri, non importa quanto siano distanti."
+		},
+		"id": "spell-telepathy"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Teleport",
+			"IT": "Teletrasporto"
+		},
+		"description": {
+			"EN": "An object or person you can see is transported from one place to another in a 50ft radius.",
+			"IT": "Un oggetto o una persona che puoi vedere viene trasportato da un posto all’altro in un raggio di 15 metri."
+		},
+		"id": "spell-teleport"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Target Lure",
+			"IT": "Esca Bersaglio"
+		},
+		"description": {
+			"EN": "An object you touch becomes the target of any nearby spell.",
+			"IT": "Un oggetto che tocchi diventa il bersaglio di qualsiasi incantesimo vicino."
+		},
+		"id": "spell-target-lure"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Thicket",
+			"IT": "Boscaglia"
+		},
+		"description": {
+			"EN": "A thicket of trees and dense brush up to 50ft wide suddenly sprouts up.",
+			"IT": "Una boscaglia di alberi e cespugli densi fino a 15 metri di larghezza spunta all’improvviso."
+		},
+		"id": "spell-thicket"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Summon Idol",
+			"IT": "Evoca Idolo"
+		},
+		"description": {
+			"EN": "A carved stone statue the size of a mule rises from the ground.",
+			"IT": "Una statua di pietra scolpita delle dimensioni di un mulo emerge dal terreno."
+		},
+		"id": "spell-summon-idol"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Time Control",
+			"IT": "Controllare il Tempo"
+		},
+		"description": {
+			"EN": "Time in a 50ft bubble slows down or increases by 10% for 30 seconds.",
+			"IT": "All’interno di una bolla di 15 metri il tempo rallenta o aumenta del 10% per 30 secondi."
+		},
+		"id": "spell-time-control"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "True Sight",
+			"IT": "Visione del Vero"
+		},
+		"description": {
+			"EN": "You see through all nearby illusions.",
+			"IT": "Vedi attraverso tutte le illusioni vicine."
+		},
+		"id": "spell-true-sight"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Upwell",
+			"IT": "Risalita"
+		},
+		"description": {
+			"EN": "A spring of seawater appears.",
+			"IT": "Appare una sorgente di acqua di mare."
+		},
+		"id": "spell-upwell"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Vision",
+			"IT": "Visione"
+		},
+		"description": {
+			"EN": "You completely control what a creature sees.",
+			"IT": "Controlli completamente ciò che una creatura vede."
+		},
+		"id": "spell-vision"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Visual Illusion",
+			"IT": "Illusione visiva"
+		},
+		"description": {
+			"EN": "A silent, immobile, room-sized illusion of your choice appears.",
+			"IT": "Appare un’illusione silenziosa, immobile e grande come una stanza, a tua scelta."
+		},
+		"id": "spell-visual-illusion"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Ward",
+			"IT": "Sigillo"
+		},
+		"description": {
+			"EN": "A silver circle 50ft across appears on the ground. Choose one species that cannot cross it.",
+			"IT": "Sul terreno appare un cerchio d’argento di 15 metri di diametro. Scegli una specie che non può attraversarlo."
+		},
+		"id": "spell-ward"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Web",
+			"IT": "Ragnatela"
+		},
+		"description": {
+			"EN": "Your wrists shoot thick webbing.",
+			"IT": "I tuoi polsi possono lanciare ragnatele spesse."
+		},
+		"id": "spell-web"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Widget",
+			"IT": "Congegno"
+		},
+		"description": {
+			"EN": "A primitive version of a drawn tool or item appears before you and disappears after a short time.",
+			"IT": "Una versione primitiva di uno strumento o di un oggetto disegnato appare davanti a voi e scompare dopo poco tempo."
+		},
+		"id": "spell-widget"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "Wizard Mark",
+			"IT": "Marchio del Mago"
+		},
+		"description": {
+			"EN": "Your finger can shoot a stream of ulfire-colored paint. This paint is only visible to you and can be seen at any distance, even through solid objects.",
+			"IT": "Il tuo dito può lanciare un flusso di vernice color ulfire. La vernice è visibile solo a te e può essere vista a qualsiasi distanza, anche attraverso oggetti solidi"
+		},
+		"id": "spell-wizard-mark"
+	},
+	{
+		"type": "spell",
+		"name": {
+			"EN": "X-Ray Vision",
+			"IT": "Vista a Raggi-X"
+		},
+		"description": {
+			"EN": "You can see through walls, dirt, clothing, etc.",
+			"IT": "Puoi vedere attraverso i muri, la terra, i vestiti, ecc."
+		},
+		"id": "spell-x-ray-vision"
+	}
+]

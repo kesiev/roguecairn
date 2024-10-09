@@ -1,0 +1,200 @@
+[
+    {
+		"type":"person",
+		"name": {
+			"EN": "Alchemist",
+			"IT": "Alchimista"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "1000gp / month",
+				"IT": "1000po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Animal trainer",
+			"IT": "Addestratore di animali"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "500gp / month",
+				"IT": "500po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Armorer",
+			"IT": "Armaiolo"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "100gp / month",
+				"IT": "100po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Assistant armorer",
+			"IT": "Assistente Armaiolo"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "15gp / month",
+				"IT": "15po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Blacksmith",
+			"IT": "Fabbro"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "25gp / month",
+				"IT": "25po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Engineer",
+			"IT": "Ingegnere"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "750gp / month",
+				"IT": "750po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Navigator",
+			"IT": "Navigatore"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "150gp / month",
+				"IT": "150po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Oarsman",
+			"IT": "Rematore"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "2gp / month",
+				"IT": "2po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Sage",
+			"IT": "Saggio"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "2000gp / month",
+				"IT": "2000po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Sailor",
+			"IT": "Marinaio"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "10gp / month",
+				"IT": "10po / mese"
+			}
+		]
+	},
+	{
+		"type":"person",
+		"name": {
+			"EN": "Ship’s captain",
+			"IT": "Capitano di nave"
+		},
+		"attributes": [],
+		"tags": [
+			"person",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "250gp / month",
+				"IT": "250po / mese"
+			}
+		]
+	}
+]

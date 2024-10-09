@@ -1,0 +1,1122 @@
+[
+	{
+		"type": "biome",
+		"tag": "biome-coast",
+		"color": "#fbf8cc",
+		"edgeColor": "#70d6ff",		
+		"pattern":"waves",
+		"names": [
+			{
+				"IT": [
+					"costa",
+					1
+				],
+				"EN": [
+					"coast"
+				]
+			},
+			{
+				"IT": [
+					"spiaggia",
+					1
+				],
+				"EN": [
+					"beach"
+				]
+			},
+			{
+				"IT": [
+					"lido",
+					0
+				],
+				"EN": [
+					"shore"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"costiero",
+					"costiera"
+				],
+				"EN": [
+					"coastal"
+				]
+			},
+			{
+				"IT": [
+					"sabbioso",
+					"sabbiosa"
+				],
+				"EN": [
+					"sandy place"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-cult",
+		"color": "#ff99c8",
+		"pattern":"cross",
+		"names": [
+			{
+				"IT": [
+					"rituale",
+					0
+				],
+				"EN": [
+					"ritual"
+				]
+			},
+			{
+				"IT": [
+					"rito",
+					0
+				],
+				"EN": [
+					"ritual"
+				]
+			},
+			{
+				"IT": [
+					"funzione",
+					1
+				],
+				"EN": [
+					"function"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"mistico",
+					"mistica"
+				],
+				"EN": [
+					"mystical"
+				]
+			},
+			{
+				"IT": [
+					"sacrificale",
+					"sacrificale"
+				],
+				"EN": [
+					"sacrificial"
+				]
+			},
+			{
+				"IT": [
+					"rituale",
+					"rituale"
+				],
+				"EN": [
+					"ritual"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-cave",
+		"color": "#d8e2dc",
+		"pattern": "caves",
+		"names": [
+			{
+				"IT": [
+					"cava",
+					1
+				],
+				"EN": [
+					"quarry"
+				]
+			},
+			{
+				"IT": [
+					"grotta",
+					1
+				],
+				"EN": [
+					"cave"
+				]
+			},
+			{
+				"IT": [
+					"scavo",
+					0
+				],
+				"EN": [
+					"excavation"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"sotterraneo",
+					"sotterranea"
+				],
+				"EN": [
+					"subterranean"
+				]
+			},
+			{
+				"IT": [
+					"sottoterra",
+					"sottoterra"
+				],
+				"EN": [
+					"underground"
+				]
+			},
+			{
+				"IT": [
+					"minerario",
+					"mineraria"
+				],
+				"EN": [
+					"mining"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-dungeon",
+		"color": "#d4a373",
+		"pattern": "maze",
+		"names": [
+			{
+				"IT": [
+					"labirinto",
+					0
+				],
+				"EN": [
+					"labyrinth"
+				]
+			},
+			{
+				"IT": [
+					"segreta",
+					1
+				],
+				"EN": [
+					"secret"
+				]
+			},
+			{
+				"IT": [
+					"dungeon",
+					0
+				],
+				"EN": [
+					"dungeon"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"labirintico",
+					"labirintica"
+				],
+				"EN": [
+					"labyrinthine"
+				]
+			},
+			{
+				"IT": [
+					"nascosto",
+					"nascosta"
+				],
+				"EN": [
+					"hidden"
+				]
+			},
+			{
+				"IT": [
+					"misterioso",
+					"misteriosa"
+				],
+				"EN": [
+					"mysterious"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-settlement",
+		"color": "#e3d5ca",
+		"pattern":"house",
+		"names": [
+			{
+				"IT": [
+					"accampamento",
+					0
+				],
+				"EN": [
+					"camp"
+				]
+			},
+			{
+				"IT": [
+					"colonia",
+					1
+				],
+				"EN": [
+					"colony"
+				]
+			},
+			{
+				"IT": [
+					"insediamento",
+					0
+				],
+				"EN": [
+					"settlement"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"abitato",
+					"abitata"
+				],
+				"EN": [
+					"inhabited"
+				]
+			},
+			{
+				"IT": [
+					"colonizzato",
+					"colonizzata"
+				],
+				"EN": [
+					"colonized"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-ruin",
+		"color": "#edede9",
+		"pattern": "bars",
+		"names": [
+			{
+				"IT": [
+					"rovina",
+					1
+				],
+				"EN": [
+					"ruin"
+				]
+			},
+			{
+				"IT": [
+					"rudere",
+					0
+				],
+				"EN": [
+					"ruin"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"in rovina",
+					"in rovina"
+				],
+				"EN": [
+					"ruined"
+				]
+			},
+			{
+				"IT": [
+					"abbandonato",
+					"abbandonata"
+				],
+				"EN": [
+					"abandoned"
+				]
+			},
+			{
+				"IT": [
+					"distrutto",
+					"distrutta"
+				],
+				"EN": [
+					"destroyed"
+				]
+			},
+			{
+				"IT": [
+					"crollato",
+					"crollata"
+				],
+				"EN": [
+					"collapsed"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-tomb",
+		"color": "#9381ff",
+		"pattern":"cross",
+		"names": [
+			{
+				"IT": [
+					"tomba",
+					1
+				],
+				"EN": [
+					"tomb"
+				]
+			},
+			{
+				"IT": [
+					"cimitero",
+					0
+				],
+				"EN": [
+					"cemetery"
+				]
+			},
+			{
+				"IT": [
+					"sepolcro",
+					0
+				],
+				"EN": [
+					"sepulchre"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"sepolcrale",
+					"sepolcrale"
+				],
+				"EN": [
+					"burial"
+				]
+			},
+			{
+				"IT": [
+					"funebre",
+					"funebre"
+				],
+				"EN": [
+					"funeral"
+				]
+			},
+			{
+				"IT": [
+					"tombale",
+					"tombale"
+				],
+				"EN": [
+					"grave"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-swamp",
+		"color": "#d5bdaf",
+		"pattern": "waves",
+		"names": [
+			{
+				"IT": [
+					"palude",
+					1
+				],
+				"EN": [
+					"swamp"
+				]
+			},
+			{
+				"IT": [
+					"acquitrino",
+					0
+				],
+				"EN": [
+					"marsh"
+				]
+			},
+			{
+				"IT": [
+					"pantano",
+					0
+				],
+				"EN": [
+					"mire"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"paludoso",
+					"paludosa"
+				],
+				"EN": [
+					"swampy"
+				]
+			},
+			{
+				"IT": [
+					"stagnante",
+					"stagnante"
+				],
+				"EN": [
+					"stagnant"
+				]
+			},
+			{
+				"IT": [
+					"melmoso",
+					"melmosa"
+				],
+				"EN": [
+					"muddy"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-mountain",
+		"color": "#edede9",
+		"pattern": "saw",
+		"names": [
+			{
+				"IT": [
+					"monte",
+					0
+				],
+				"EN": [
+					"mountain"
+				]
+			},
+			{
+				"IT": [
+					"altura",
+					1
+				],
+				"EN": [
+					"height"
+				]
+			},
+			{
+				"IT": [
+					"rilievo",
+					0
+				],
+				"EN": [
+					"relief"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"montuoso",
+					"montuosa"
+				],
+				"EN": [
+					"mountainous"
+				]
+			},
+			{
+				"IT": [
+					"rialzato",
+					"rialzata"
+				],
+				"EN": [
+					"raised"
+				]
+			},
+			{
+				"IT": [
+					"elevato",
+					"elevata"
+				],
+				"EN": [
+					"high"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-desert",
+		"color": "#ffd97d",
+		"pattern":"dots",
+		"names": [
+			{
+				"IT": [
+					"deserto",
+					0
+				],
+				"EN": [
+					"desert"
+				]
+			},
+			{
+				"IT": [
+					"sabbia",
+					1
+				],
+				"EN": [
+					"sand"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"desertico",
+					"desertica"
+				],
+				"EN": [
+					"desertic"
+				]
+			},
+			{
+				"IT": [
+					"torrido",
+					"torrida"
+				],
+				"EN": [
+					"hot"
+				]
+			},
+			{
+				"IT": [
+					"arido",
+					"arida"
+				],
+				"EN": [
+					"arid"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-forest",
+		"color": "#a5ffd6",
+		"pattern": "trees",
+		"names": [
+			{
+				"IT": [
+					"foresta",
+					1
+				],
+				"EN": [
+					"forest"
+				]
+			},
+			{
+				"IT": [
+					"selva",
+					1
+				],
+				"EN": [
+					"wood"
+				]
+			},
+			{
+				"IT": [
+					"boscaglia",
+					1
+				],
+				"EN": [
+					"thicket"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"boschivo",
+					"boschiva"
+				],
+				"EN": [
+					"wooded"
+				]
+			},
+			{
+				"IT": [
+					"forestale",
+					"forestale"
+				],
+				"EN": [
+					"forestry"
+				]
+			},
+			{
+				"IT": [
+					"silvano",
+					"silvana"
+				],
+				"EN": [
+					"sylvan"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-jungle",
+		"color": "#84dcc6",
+		"pattern": "trees",
+		"names": [
+			{
+				"IT": [
+					"giungla",
+					1
+				],
+				"EN": [
+					"jungle"
+				]
+			},
+			{
+				"IT": [
+					"savana",
+					1
+				],
+				"EN": [
+					"savannah"
+				]
+			},
+			{
+				"IT": [
+					"fogliame",
+					0
+				],
+				"EN": [
+					"foliage"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"tropicale",
+					"tropicale"
+				],
+				"EN": [
+					"tropical"
+				]
+			},
+			{
+				"IT": [
+					"lussureggante",
+					"lussureggante"
+				],
+				"EN": [
+					"lush"
+				]
+			},
+			{
+				"IT": [
+					"pluviale",
+					"pluviale"
+				],
+				"EN": [
+					"rainy"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-sea",
+		"color": "#a2d2ff",
+		"pattern":"widewaves",
+		"names": [
+			{
+				"IT": [
+					"mare",
+					0
+				],
+				"EN": [
+					"sea"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"marittimo",
+					"marittima"
+				],
+				"EN": [
+					"maritime"
+				]
+			},
+			{
+				"IT": [
+					"salmastro",
+					"salmastra"
+				],
+				"EN": [
+					"briny"
+				]
+			},
+			{
+				"IT": [
+					"salato",
+					"salata"
+				],
+				"EN": [
+					"salty"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-plain",
+		"color": "#a5ffd6",
+		"pattern": "lines",
+		"names": [
+			{
+				"IT": [
+					"piana",
+					1
+				],
+				"EN": [
+					"flat"
+				]
+			},
+			{
+				"IT": [
+					"pianura",
+					1
+				],
+				"EN": [
+					"lowland"
+				]
+			},
+			{
+				"IT": [
+					"piano",
+					0
+				],
+				"EN": [
+					"plane"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"pianeggiante",
+					"pianeggiante"
+				],
+				"EN": [
+					"flat"
+				]
+			},
+			{
+				"IT": [
+					"piano",
+					"piana"
+				],
+				"EN": [
+					"plane"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-volcano",
+		"color": "#ff686b",
+		"edgeColor": "#edede9",
+		"pattern": "waves",
+		"names": [
+			{
+				"IT": [
+					"vulcano",
+					0
+				],
+				"EN": [
+					"volcano"
+				]
+			},
+			{
+				"IT": [
+					"cratere",
+					0
+				],
+				"EN": [
+					"crater"
+				]
+			},
+			{
+				"IT": [
+					"fucina",
+					1
+				],
+				"EN": [
+					"forge"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"vulcanico",
+					"vulcanica"
+				],
+				"EN": [
+					"volcanic"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-ice",
+		"color": "#eff7f6",
+		"pattern": "dots",
+		"names": [
+			{
+				"IT": [
+					"ghiaccio",
+					0
+				],
+				"EN": [
+					"ice"
+				]
+			},
+			{
+				"IT": [
+					"calotta",
+					1
+				],
+				"EN": [
+					"cap"
+				]
+			},
+			{
+				"IT": [
+					"gelata",
+					1
+				],
+				"EN": [
+					"frost"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"gelato",
+					"gelata"
+				],
+				"EN": [
+					"frozen"
+				]
+			},
+			{
+				"IT": [
+					"artico",
+					"artica"
+				],
+				"EN": [
+					"arctic"
+				]
+			},
+			{
+				"IT": [
+					"freddo",
+					"fredda"
+				],
+				"EN": [
+					"cold"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-river",
+		"color": "#a5ffd6",		
+		"edgeColor": "#70d6ff",
+		"pattern": "waves",
+		"names": [
+			{
+				"IT": [
+					"fiume",
+					0
+				],
+				"EN": [
+					"river"
+				]
+			},
+			{
+				"IT": [
+					"corso",
+					0
+				],
+				"EN": [
+					"course"
+				]
+			},
+			{
+				"IT": [
+					"torrente",
+					0
+				],
+				"EN": [
+					"torrent"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"fluviale",
+					"fluviale"
+				],
+				"EN": [
+					"river"
+				]
+			},
+			{
+				"IT": [
+					"acquatico",
+					"acquatica"
+				],
+				"EN": [
+					"aquatic"
+				]
+			},
+			{
+				"IT": [
+					"torrenziale",
+					"torrenziale"
+				],
+				"EN": [
+					"torrential"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-lake",
+		"color": "#70d6ff",
+		"pattern":"lines",
+		"names": [
+			{
+				"IT": [
+					"lago",
+					0
+				],
+				"EN": [
+					"lake"
+				]
+			},
+			{
+				"IT": [
+					"laghetto",
+					0
+				],
+				"EN": [
+					"pond"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"lacustre",
+					"lacustre"
+				],
+				"EN": [
+					"lacustrine"
+				]
+			}
+		]
+	},
+	{
+		"type": "biome",
+		"tag": "biome-cliff",
+		"color": "#d6ccc2",
+		"pattern": "saw",
+		"names": [
+			{
+				"IT": [
+					"scogliera",
+					1
+				],
+				"EN": [
+					"cliff"
+				]
+			},
+			{
+				"IT": [
+					"strapiombo",
+					0
+				],
+				"EN": [
+					"overhang"
+				]
+			},
+			{
+				"IT": [
+					"crepaccio",
+					0
+				],
+				"EN": [
+					"crevasse"
+				]
+			}
+		],
+		"adjectives": [
+			{
+				"IT": [
+					"roccioso",
+					"rocciosa"
+				],
+				"EN": [
+					"rocky"
+				]
+			},
+			{
+				"IT": [
+					"scosceso",
+					"scoscesa"
+				],
+				"EN": [
+					"craggy"
+				]
+			},
+			{
+				"IT": [
+					"ripido",
+					"ripida"
+				],
+				"EN": [
+					"steep"
+				]
+			}
+		]
+	}
+]

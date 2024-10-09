@@ -1,0 +1,26 @@
+[
+    {
+        "_":"ONCE: Once.",
+        "type":"event",
+        "tags": [ "event-once" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"professional"
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "pick":"commoner"
+                }
+            ],[
+                {
+                    "asEntity":"what",
+                    "pick":"commoner"
+                }
+            ]
+        ]
+    }
+]

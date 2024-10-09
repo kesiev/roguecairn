@@ -1,0 +1,810 @@
+[
+	{
+        "_":"POI - WANDERER: An armorer.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Armorer",
+                            "IT":"Armaiolo"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-transport-animal" ], [ "item-vehicle-land" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-armor" ], [ "item-weapon" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-armor" ], [ "item-weapon" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-armor" ], [ "item-weapon" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - WANDERER: A merchant.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Merchant",
+                            "IT":"Mercante"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-transport-animal" ], [ "item-vehicle-land" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-tool" ], [ "item-clothing" ], [ "item-tool-gear" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-tool" ], [ "item-clothing" ], [ "item-tool-gear" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-food" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-food" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A building.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Building",
+                            "IT":"Struttura"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A farm.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-forest" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Farm",
+                            "IT":"Fattoria"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-livestock" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-livestock" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-livestock-feed" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: An igloo.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-ice" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Igloo",
+                            "IT":"Igloo"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-food" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A tent.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-plain" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Tent",
+                            "IT":"Tenda"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-food" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A port.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-sea" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Port",
+                            "IT":"Porto"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-vehicle-water" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A dock.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-river" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Dock",
+                            "IT":"Molo"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-vehicle-water" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-vehicle-water" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A cabin.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-lake" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Cabin",
+                            "IT":"Casetta"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-vehicle-water" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A abandoned place.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-ruin" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Abandoned place",
+                            "IT":"Luogo abbandonato"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A shack.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-coast" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Shack",
+                            "IT":"Baracca"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A stronghold.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-cliff" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Stronghold",
+                            "IT":"Roccaforte"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: An oasis.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-desert" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Oasis",
+                            "IT":"Oasi"
+                        }
+                    ],
+                    "entities":[]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: Some hot springs.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-volcano" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Hot springs",
+                            "IT":"Terme"
+                        }
+                    ],
+                    "entities":[]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A hut.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-jungle" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Hut",
+                            "IT":"Capanna"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A ritual.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-cult" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Ritual",
+                            "IT":"Rituale"
+                        }
+                    ],
+                    "entities":[]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A ruined house.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-swamp" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Ruined house",
+                            "IT":"Casa diroccata"
+                        }
+                    ],
+                    "entities":[
+                        [ { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] } ],
+                        [ { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] } ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A mountain house.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-mountain" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Mountain house",
+                            "IT":"Casa di montagna"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - BUILDING: A chapel.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-tomb" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Chapel",
+                            "IT":"Cappella"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - LARGE BUILDING: A small village.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-settlement" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Village - Home",
+                            "IT":"Villaggio - Abitazione"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ], [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Village - Home",
+                            "IT":"Villaggio - Abitazione"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ], [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Village - Center",
+                            "IT":"Villaggio - Centro"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - LARGE BUILDING: A dungeon.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-dungeon" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Dungeon - Entrance",
+                            "IT":"Dungeon - Ingresso"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-base" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ], [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Dungeon - Room 1",
+                            "IT":"Dungeon - Stanza 1"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-armor" ], [ "item-weapon" ], [ "item-tool" ], [ "item-clothing" ], [ "item-tool-gear" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ], [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Dungeon - Room 2",
+                            "IT":"Dungeon - Stanza 2"
+                        }
+                    ],
+                    "entities":[
+                        [
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-building-interior" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-armor" ], [ "item-weapon" ], [ "item-tool" ], [ "item-clothing" ], [ "item-tool-gear" ] ] ] },
+                            { "pick":"item", "tags":[ [ [ "item-armor" ], [ "item-weapon" ], [ "item-tool" ], [ "item-clothing" ], [ "item-tool-gear" ] ] ] }
+                        ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    },{
+        "_":"POI - LARGE BUILDING: A cave.",
+        "type":"event",
+        "tags": [ "event-buildings" ],
+        "entities":{
+            "where":[ "environment", "biome-cave" ]
+        },
+        "perform":[
+            [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Cave - Cave 1",
+                            "IT":"Caverna - Caverna 1"
+                        }
+                    ],
+                    "entities":[
+                        [ { "pick":"item", "tags":[ [ [ "item-armor" ], [ "item-weapon" ] ] ] } ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ], [
+                {
+                    "asEntity":"building",
+                    "pick":"building",
+                    "name":[
+                        {
+                            "EN":"Cave - Cave 2",
+                            "IT":"Caverna - Caverna 2"
+                        }
+                    ],
+                    "entities":[
+                        [ { "pick":"item", "tags":[ [ [ "item-tool" ], [ "item-clothing" ], [ "item-tool-gear" ] ] ] } ]
+                    ]
+                }
+            ],[
+                {
+                    "asEntity":"where",
+                    "placeEntity":"building"
+                }
+            ]
+        ]
+    }
+]

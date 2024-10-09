@@ -1,0 +1,5706 @@
+[
+	{
+		"type":"item",
+		"name": {
+			"EN": "Shield",
+			"IT": "Scudo"
+		},
+		"attributes": [
+			{
+				"EN": "+1 Armor",
+				"IT": "+1 Armatura"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-armor"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Helmet",
+			"IT": "Elmo"
+		},
+		"attributes": [
+			{
+				"EN": "+1 Armor",
+				"IT": "+1 Armatura"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-armor"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Gambeson",
+			"IT": "Farsetto"
+		},
+		"attributes": [
+			{
+				"EN": "+1 Armor",
+				"IT": "+1 Armatura"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-armor"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Brigandine",
+			"IT": "Brigantina"
+		},
+		"attributes": [
+			{
+				"EN": "1 Armor",
+				"IT": "1 Armatura"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-armor"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Chainmail",
+			"IT": "Cotta di Maglia"
+		},
+		"attributes": [
+			{
+				"EN": "2 Armor",
+				"IT": "2 Armatura"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-armor"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Plate armor",
+			"IT": "Armatura a piastre"
+		},
+		"attributes": [
+			{
+				"EN": "3 Armor",
+				"IT": "3 Armatura"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-armor"
+		],
+		"price": [
+			{
+				"EN": "60gp",
+				"IT": "60po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dagger, Cudgel, Sickle, Staff, etc.",
+			"IT": "Pugnale, Randello, Falcetto, Bastone, etc."
+		},
+		"attributes": [
+			{
+				"EN": "d6 damage",
+				"IT": "d6 danno"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-weapon"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Spear, Sword, Mace, Axe, Flail, etc.",
+			"IT": "Lancia, Spada, Mazza, Ascia, Flagello, etc."
+		},
+		"attributes": [
+			{
+				"EN": "d8 damage",
+				"IT": "d8 danno"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-weapon"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Halberd, War Hammer, Long Sword, etc.",
+			"IT": "Alabarda, Martello da guerra, Spada lunga, etc."
+		},
+		"attributes": [
+			{
+				"EN": "d10 damage",
+				"IT": "d10 danno"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-weapon"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sling",
+			"IT": "Fionda"
+		},
+		"attributes": [
+			{
+				"EN": "d4 damage",
+				"IT": "d4 danno"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-weapon"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bow",
+			"IT": "Arco"
+		},
+		"attributes": [
+			{
+				"EN": "d6 damage",
+				"IT": "d6 danno"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-weapon"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Crossbow",
+			"IT": "Balestra"
+		},
+		"attributes": [
+			{
+				"EN": "d8 damage",
+				"IT": "d8 danno"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-weapon"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Air Bladder",
+			"IT": "Sacca d’Aria"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Large Trap",
+			"IT": "Trappola grande"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bellows",
+			"IT": "Soffietto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Large Sponge",
+			"IT": "Spugna grande"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bedroll",
+			"IT": "Sacco a pelo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Lens",
+			"IT": "Lente"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Book",
+			"IT": "Libro"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "50gp",
+				"IT": "50po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Lockpicks",
+			"IT": "Grimaldelli"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bucket",
+			"IT": "Secchio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Manacles",
+			"IT": "Manette"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Caltrops",
+			"IT": "Triboli"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Metal File",
+			"IT": "Lima di metallo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cart",
+			"IT": "Carretto"
+		},
+		"attributes": [
+			{
+				"EN": "+4 slots",
+				"IT": "+4 slot"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Mirror",
+			"IT": "Specchio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Chain",
+			"IT": "Catena"
+		},
+		"attributes": [
+			{
+				"EN": "10ft",
+				"IT": "10 piedi"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Mule",
+			"IT": "Mulo"
+		},
+		"attributes": [
+			{
+				"EN": "+6 slots",
+				"IT": "+6 slot"
+			},
+			{
+				"EN": "slow",
+				"IT": "lento"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Chalk",
+			"IT": "Gesso"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Net",
+			"IT": "Rete"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Chisel",
+			"IT": "Scalpello"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Oilskin Bag",
+			"IT": "Borsa cerata"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cook Pots",
+			"IT": "Pentole"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pick",
+			"IT": "Piccone"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Crowbar",
+			"IT": "Piede di porco"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pulley",
+			"IT": "Carrucola"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Drill",
+			"IT": "Trapano"
+		},
+		"attributes": [
+			{
+				"EN": "manual",
+				"IT": "manuale"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pole",
+			"IT": "Asta"
+		},
+		"attributes": [
+			{
+				"EN": "10ft",
+				"IT": "10 piedi"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Face Paint",
+			"IT": "Pittura per viso"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Quill & Ink",
+			"IT": "Piuma e inchiostro"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fire Oil",
+			"IT": "Olio di fuoco"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Rations",
+			"IT": "Razioni"
+		},
+		"attributes": [
+			{
+				"EN": "three day’s worth",
+				"IT": "per 3 giorni"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fishing Rod",
+			"IT": "Canna da pesca"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Rope",
+			"IT": "Corda"
+		},
+		"attributes": [
+			{
+				"EN": "25ft",
+				"IT": "25 piedi"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Glass Marbles",
+			"IT": "Biglie di Vetro"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Saw",
+			"IT": "Sega"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Glue",
+			"IT": "Colla"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sack",
+			"IT": "Sacco"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Grease",
+			"IT": "Grasso"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Shovel",
+			"IT": "Pala"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Grappling Hook",
+			"IT": "Rampino"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Soap",
+			"IT": "Sapone"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Hammer",
+			"IT": "Martello"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Spike",
+			"IT": "Picca"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Holy Water",
+			"IT": "Acqua Santa"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Spiked Boots",
+			"IT": "Stivali Chiodati"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Horn",
+			"IT": "Corno"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Spyglass",
+			"IT": "Cannocchiale"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Horse",
+			"IT": "Cavallo"
+		},
+		"attributes": [
+			{
+				"EN": "+4 slots",
+				"IT": "+4 slot"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "75gp",
+				"IT": "75po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Tar",
+			"IT": "Catrame"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Hourglass",
+			"IT": "Clessidra"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "50gp",
+				"IT": "50po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Tent",
+			"IT": "Tenda"
+		},
+		"attributes": [
+			{
+				"EN": "fits 2 people",
+				"IT": "ospita 2 persone"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Incense",
+			"IT": "Incenso"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Torch",
+			"IT": "Torcia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Ladder",
+			"IT": "Scala"
+		},
+		"attributes": [
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			},
+			{
+				"EN": "10ft",
+				"IT": "10 piedi"
+			}
+		],
+		"tags": [
+			"pickable", 
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Wagon",
+			"IT": "Carro"
+		},
+		"attributes": [
+			{
+				"EN": "+8 slots",
+				"IT": "+8 slot"
+			},
+			{
+				"EN": "slow",
+				"IT": "lento"
+			}
+		],
+		"tags": [
+			"pickable", 
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "200gp",
+				"IT": "200po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Lantern & Oil",
+			"IT": "Lanterna e Olio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Wolfsbane",
+			"IT": "Aconito"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Barbican",
+			"IT": "Barbacane"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "37000gp",
+				"IT": "37000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Keep",
+			"IT": "Mastio"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "75000gp",
+				"IT": "75000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bastion",
+			"IT": "Bastione"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "9000gp",
+				"IT": "9000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Moat",
+			"IT": "Fossato"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "400gp",
+				"IT": "400po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Civilian building, stone",
+			"IT": "Edificio Civile, pietra"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "3000gp",
+				"IT": "3000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Subterranean passage",
+			"IT": "Passaggio Sotterraneo"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "500gp",
+				"IT": "500po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Civilian building, wood",
+			"IT": "Edificio Civile, legno"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "1500gp",
+				"IT": "1500po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Tower, large",
+			"IT": "Torre, grande"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "30000gp",
+				"IT": "30000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Drawbridge",
+			"IT": "Ponte levatoio"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "500gp",
+				"IT": "500po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Tower, small",
+			"IT": "Torre, piccola"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "15000gp",
+				"IT": "15000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Gatehouse",
+			"IT": "Posto di Guardia"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "6500gp",
+				"IT": "6500po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Wall, castle",
+			"IT": "Mura, di castello"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-base"
+		],
+		"price": [
+			{
+				"EN": "5000gp",
+				"IT": "5000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Arrow slit",
+			"IT": "Feritoia"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Shifting wall",
+			"IT": "Parete scorrevole"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "1000gp",
+				"IT": "1000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Door, iron",
+			"IT": "Porta, ferro"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "50gp",
+				"IT": "50po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Stairs, stone",
+			"IT": "Scale, pietra"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "60gp",
+				"IT": "60po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Door, reinforced wood",
+			"IT": "Porta, legno rinforzato"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Stairs, wooden",
+			"IT": "Scale, legno"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Door, stone",
+			"IT": "Porta, pietra"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "50gp",
+				"IT": "50po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Trapdoor, iron",
+			"IT": "Botola, ferro"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "120gp",
+				"IT": "120po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Door, wood",
+			"IT": "Porta, legno"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Trapdoor, reinforced wood",
+			"IT": "Botola, legno rinforzato"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Floor, flagstones or tiles",
+			"IT": "Pavimento, pietra o piastrelle"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "100gp",
+				"IT": "100po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Trapdoor, stone",
+			"IT": "Botola, pietra"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "120gp",
+				"IT": "120po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Floor, wood",
+			"IT": "Pavimento, legno"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Trapdoor, wood",
+			"IT": "Botola, legno"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Roof, tiled",
+			"IT": "Tetto, tegole"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "100gp",
+				"IT": "100po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Window",
+			"IT": "Finestra"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Roof, wood",
+			"IT": "Tetto, legno"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Window bars",
+			"IT": "Sbarre da Finestra"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Secret door or trapdoor",
+			"IT": "Porta o botola segreta"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "5gp for normal",
+				"IT": "5po per normale"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Window shutters",
+			"IT": "Persiane"
+		},
+		"attributes": [],
+		"tags": [
+			"item-building-interior"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Apron, cloth",
+			"IT": "Grembiule, tessuto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Eye patch, leather",
+			"IT": "Benda, cuoio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Apron, leather",
+			"IT": "Grembiule, cuoio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "60gp",
+				"IT": "60po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Gloves, hand",
+			"IT": "Guanti, mano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Ballgown, simple",
+			"IT": "Abito da sera, semplice"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "150gp",
+				"IT": "150po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Gloves, to mid forearm",
+			"IT": "Guanti, mezzo avambraccio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Ballgown, extravagant",
+			"IT": "Abito da sera, stravagante"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "300gp",
+				"IT": "300po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Gloves, to elbow",
+			"IT": "Guanti, al gomito"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Belt, leather",
+			"IT": "Cintura, cuoio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Habit",
+			"IT": "Abito religioso"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bodice",
+			"IT": "Corsetto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "65gp",
+				"IT": "65po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Hat, simple",
+			"IT": "Cappello, semplice"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Boots, cloth",
+			"IT": "Stivali, tessuto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "12gp",
+				"IT": "12po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Hat, straw",
+			"IT": "Cappello, paglia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Boots, soft leather",
+			"IT": "Stivali, cuoio morbido"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Hat, elegant",
+			"IT": "Cappello, elegante"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "65gp",
+				"IT": "65po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Boots, hard leather",
+			"IT": "Stivali, cuoio indurito"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "35gp",
+				"IT": "35po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Hat, elegant - women’s style",
+			"IT": "Cappello, elegante - moda donna"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "80gp",
+				"IT": "80po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Boots, reinforced",
+			"IT": "Stivali, rinforzati"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "45gp",
+				"IT": "45po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Jerkin",
+			"IT": "Giustacuore"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "65gp",
+				"IT": "65po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cap",
+			"IT": "Berretto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Kilt",
+			"IT": "Kilt"
+		},
+		"attributes": [
+			{
+				"EN": "men’s wraparound over-shoulder style",
+				"IT": "da avvolgere e passare sopra la spalla"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "125gp",
+				"IT": "125po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cape, short",
+			"IT": "Cappa, corta"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Robe",
+			"IT": "Veste"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cape, long",
+			"IT": "Cappa, lunga"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "50gp",
+				"IT": "50po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sandals",
+			"IT": "Sandali"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cloak, cloth",
+			"IT": "Mantello, tessuto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Shirt, cloth",
+			"IT": "Camicia, tessuto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "12gp",
+				"IT": "12po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cloak, wool",
+			"IT": "Mantello, lana"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "70gp",
+				"IT": "70po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Shirt, silk",
+			"IT": "Camicia, seta"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Coat",
+			"IT": "Cappotto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Skirt, cloth",
+			"IT": "Gonna, tessuto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Coat, fur",
+			"IT": "Cappotto, pelliccia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "120gp",
+				"IT": "120po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Skirt, silk",
+			"IT": "Gonna, seta"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Doublet"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "100gp",
+				"IT": "100po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Trousers",
+			"IT": "Pantaloni"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dress/Gown",
+			"IT": "Abito elegante"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Tunic",
+			"IT": "Tunica"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "45gp",
+				"IT": "45po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dress/Gown, silk",
+			"IT": "Abito elegante, seta"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "80gp",
+				"IT": "80po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Tunic, silk",
+			"IT": "Tunica, seta"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-clothing"
+		],
+		"price": [
+			{
+				"EN": "55gp",
+				"IT": "55po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Alcohol, mead",
+			"IT": "Alcol, idromele"
+		},
+		"attributes": [
+			{
+				"EN": "half-gallon pitcher",
+				"IT": "brocca da mezzo gallone"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fowl, turkey",
+			"IT": "Pollame, tacchino"
+		},
+		"attributes": [
+			{
+				"EN": "whole",
+				"IT": "intero"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Alcohol, beer",
+			"IT": "Alcol, birra"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fish, common",
+			"IT": "Pesce, comune"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Alcohol, wine, poor",
+			"IT": "Alcol, vino, scadente"
+		},
+		"attributes": [
+			{
+				"EN": "bottle",
+				"IT": "bottiglia"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fish, game fish",
+			"IT": "Pesce, pescato"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "6gp",
+				"IT": "6po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Alcohol, wine, good",
+			"IT": "Alcol, vino, buono"
+		},
+		"attributes": [
+			{
+				"EN": "bottle",
+				"IT": "bottiglia"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fish, shell fish",
+			"IT": "Pesce, crostacei"
+		},
+		"attributes": [
+			{
+				"EN": "dozen",
+				"IT": "dozzina"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "8gp",
+				"IT": "8po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Alcohol, champagne",
+			"IT": "Alcol, champagne"
+		},
+		"attributes": [
+			{
+				"EN": "bottle",
+				"IT": "bottiglia"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "18gp",
+				"IT": "18po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fish, smoked",
+			"IT": "Pesce, affumicato"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Alcohol, brandy",
+			"IT": "Alcol, brandy"
+		},
+		"attributes": [
+			{
+				"EN": "bottle",
+				"IT": "bottiglia"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fish, salted",
+			"IT": "Pesce, salato"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Alcohol, rum",
+			"IT": "Alcol, rum"
+		},
+		"attributes": [
+			{
+				"EN": "bottle",
+				"IT": "bottiglia"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Flour",
+			"IT": "Farina"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Alcohol, moonshine",
+			"IT": "Alcol, clandestino"
+		},
+		"attributes": [
+			{
+				"EN": "jug",
+				"IT": "brocca"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "12gp",
+				"IT": "12po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fruit Juice",
+			"IT": "Succo di frutta"
+		},
+		"attributes": [
+			{
+				"EN": "gallon",
+				"IT": "gallone"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Beef, steak",
+			"IT": "Bovino, bistecca"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Honey",
+			"IT": "Miele"
+		},
+		"attributes": [
+			{
+				"EN": "pint",
+				"IT": "pinta"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Beef, leg or roast",
+			"IT": "Bovino, gamba o arrosto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Inn meal, poor",
+			"IT": "Pasto in locanda, scadente"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Beef, side",
+			"IT": "Bovino, culaccio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "75gp",
+				"IT": "75po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Inn meal, good",
+			"IT": "Pasto in locanda, buono"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Beef, whole cow",
+			"IT": "Bovino, intera mucca"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "190gp",
+				"IT": "190po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Inn meal, superb",
+			"IT": "Pasto in locanda, superbo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Beef, smoked",
+			"IT": "Bovino, affumicato"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Jam",
+			"IT": "Marmellata"
+		},
+		"attributes": [
+			{
+				"EN": "pint",
+				"IT": "pinta"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Beef, salted",
+			"IT": "Bovino, salato"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Lamb, leg or roast",
+			"IT": "Agnello, gamba o arrosto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "12gp",
+				"IT": "12po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Beef, jerked",
+			"IT": "Bovino, essiccato"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Lamb, side",
+			"IT": "Agnello, culaccio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "35gp",
+				"IT": "35po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bread",
+			"IT": "Pane"
+		},
+		"attributes": [
+			{
+				"EN": "four loaves",
+				"IT": "quattro pagnotte"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Lamb, whole",
+			"IT": "Agnello, intero"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "65gp",
+				"IT": "65po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Buns/rolls",
+			"IT": "Panini"
+		},
+		"attributes": [
+			{
+				"EN": "two dozen",
+				"IT": "due dozzine"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Lard",
+			"IT": "Strutto"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Butter",
+			"IT": "Burro"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Milk, cow",
+			"IT": "Latte, mucca"
+		},
+		"attributes": [
+			{
+				"EN": "gallon",
+				"IT": "gallone"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cheese, local",
+			"IT": "Formaggio, locale"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Milk, goat",
+			"IT": "Latte, capra"
+		},
+		"attributes": [
+			{
+				"EN": "gallon",
+				"IT": "gallone"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cheese, imported",
+			"IT": "Formaggio, importato"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "8gp",
+				"IT": "8po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Mutton, leg or roast",
+			"IT": "Montone, gamba o arrosto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "8gp",
+				"IT": "8po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cooking oil",
+			"IT": "Olio da cucina"
+		},
+		"attributes": [
+			{
+				"EN": "2 pints",
+				"IT": "2 pinte"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Mutton, side",
+			"IT": "Montone, culaccia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cream",
+			"IT": "Panna"
+		},
+		"attributes": [
+			{
+				"EN": "pint",
+				"IT": "pinta"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Mutton, whole",
+			"IT": "Montone, intero"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dried Fruit",
+			"IT": "Frutta essiccata"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Nuts",
+			"IT": "Frutta secca"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dried Vegetables",
+			"IT": "Verdura essiccata"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pork, steak",
+			"IT": "Maiale, bistecca"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Eggs",
+			"IT": "Uova"
+		},
+		"attributes": [
+			{
+				"EN": "dozen",
+				"IT": "dozzina"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pork, side",
+			"IT": "Maiale, culaccia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fowl, pigeon",
+			"IT": "Pollame, piccione"
+		},
+		"attributes": [
+			{
+				"EN": "whole",
+				"IT": "intero"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pork, whole pig",
+			"IT": "Maiale, intero"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "50gp",
+				"IT": "50po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fowl, chicken",
+			"IT": "Pollame, pollo"
+		},
+		"attributes": [
+			{
+				"EN": "whole",
+				"IT": "intero"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Rabbit/Squirrel",
+			"IT": "Coniglio/Scoiattolo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "8gp",
+				"IT": "8po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fowl, duck",
+			"IT": "Pollame, anatra"
+		},
+		"attributes": [
+			{
+				"EN": "whole",
+				"IT": "intero"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "8gp",
+				"IT": "8po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Rice",
+			"IT": "Riso"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fowl, goose",
+			"IT": "Pollame, oca"
+		},
+		"attributes": [
+			{
+				"EN": "whole",
+				"IT": "intero"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "12gp",
+				"IT": "12po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Salt",
+			"IT": "Sale"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fowl, quail",
+			"IT": "Pollame, quaglia"
+		},
+		"attributes": [
+			{
+				"EN": "whole",
+				"IT": "intero"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Spices",
+			"IT": "Spezie"
+		},
+		"attributes": [
+			{
+				"EN": "oz",
+				"IT": "oncia"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Fowl, pheasant",
+			"IT": "Pollame, fagiano"
+		},
+		"attributes": [
+			{
+				"EN": "whole",
+				"IT": "intero"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sugar",
+			"IT": "Zucchero"
+		},
+		"attributes": [
+			{
+				"EN": "pound",
+				"IT": "pound"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-food"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Mercenary",
+			"IT": "Mercenario"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "Wage per week",
+				"IT": "Paga settimanale"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Archer, human",
+			"IT": "Arciere, umano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			},
+			{
+				"EN": "1% of treasure",
+				"IT": "1% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Footman, light, goblin",
+			"IT": "Fante, leggero, goblin"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			},
+			{
+				"EN": "0.2% of treasure",
+				"IT": "0.2% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Archer, elf",
+			"IT": "Arciere, elfo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			},
+			{
+				"EN": "2% of treasure",
+				"IT": "2% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Footman, heavy, human",
+			"IT": "Fante, pesante, umano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			},
+			{
+				"EN": "0.4% of treasure",
+				"IT": "0.4% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Archer, orc",
+			"IT": "Arciere, orco"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			},
+			{
+				"EN": "0.6% of treasure",
+				"IT": "0.6% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Footman, heavy, dwarf",
+			"IT": "Fante, pesante, nano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			},
+			{
+				"EN": "1% of treasure",
+				"IT": "1% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Archer, goblin",
+			"IT": "Arciere, goblin"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			},
+			{
+				"EN": "0.4% of treasure",
+				"IT": "0.4% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Footman, heavy, elf",
+			"IT": "Fante, pesante, elfo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "6gp",
+				"IT": "6po"
+			},
+			{
+				"EN": "1.2% of treasure",
+				"IT": "1.2% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Archer, mounted, human",
+			"IT": "Arciere, a cavallo, umano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			},
+			{
+				"EN": "3% of treasure",
+				"IT": "3% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Footman, heavy, orc",
+			"IT": "Fante, pesante, orco"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			},
+			{
+				"EN": "3% of treasure",
+				"IT": "3% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Archer, mounted, elf",
+			"IT": "Arciere, a cavallo, elfo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			},
+			{
+				"EN": "6% of treasure",
+				"IT": "6% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Horseman, light, human",
+			"IT": "Cavaliere, leggero, umano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			},
+			{
+				"EN": "2% of treasure",
+				"IT": "2% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Crossbowman, human",
+			"IT": "Balestriere, umano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			},
+			{
+				"EN": "0.8% of treasure",
+				"IT": "0.8% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Horseman, light, elf",
+			"IT": "Cavaliere, leggero, elfo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			},
+			{
+				"EN": "4% of treasure",
+				"IT": "4% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Crossbowman, dwarf",
+			"IT": "Balestriere, nano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "6gp",
+				"IT": "6po"
+			},
+			{
+				"EN": "1.2% of treasure",
+				"IT": "1.2% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Horseman, medium",
+			"IT": "Cavaliere, medio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			},
+			{
+				"EN": "3% of treasure",
+				"IT": "3% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Crossbowman, orc",
+			"IT": "Balestriere, orco"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			},
+			{
+				"EN": "0.4% of treasure",
+				"IT": "0.4% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Horseman, heavy",
+			"IT": "Cavaliere, pesante"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			},
+			{
+				"EN": "4% of treasure",
+				"IT": "4% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Crossbowman, mounted, dwarf",
+			"IT": "Balestriere, a cavallo, nano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			},
+			{
+				"EN": "3% of treasure",
+				"IT": "3% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Longbowman, human",
+			"IT": "Arciere con arco lungo, umano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			},
+			{
+				"EN": "2% of treasure",
+				"IT": "2% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Footman, light, human",
+			"IT": "Fante, leggero, umano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			},
+			{
+				"EN": "0.4% of treasure",
+				"IT": "0.4% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Longbowman, elf",
+			"IT": "Arciere con arco lungo, elfo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			},
+			{
+				"EN": "4% of treasure",
+				"IT": "4% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Footman, light, elf",
+			"IT": "Fante, leggero, elfo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "4gp",
+				"IT": "4po"
+			},
+			{
+				"EN": "0.8% of treasure",
+				"IT": "0.8% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Peasant",
+			"IT": "Paesano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			},
+			{
+				"EN": "0.2% of treasure",
+				"IT": "0.2% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Footman, light, orc",
+			"IT": "Fante, leggero, orco"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			},
+			{
+				"EN": "0.2% of treasure",
+				"IT": "0.2% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Wolf rider, goblin",
+			"IT": "Cavalcalupi, goblin"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-mercenary"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			},
+			{
+				"EN": "1% of treasure",
+				"IT": "1% sul tesoro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Spy",
+			"IT": "Spia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-hire-specialist"
+		],
+		"price": [
+			{
+				"EN": "500gp (or more)",
+				"IT": "500po (o più)"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bull",
+			"IT": "Toro"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "600gp",
+				"IT": "600po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Chicken",
+			"IT": "Pollo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cat, barn",
+			"IT": "Gatto, da cortile"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Duck",
+			"IT": "Anatra"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cat, purebred",
+			"IT": "Gatto, di razza"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "150gp",
+				"IT": "150po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Goose",
+			"IT": "Oca"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cow",
+			"IT": "Mucca"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "400gp",
+				"IT": "400po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Quail",
+			"IT": "Quaglia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "12gp",
+				"IT": "12po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dog, untrained",
+			"IT": "Cane, non addestrato"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pheasant",
+			"IT": "Fagiano"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dog, guard",
+			"IT": "Cane, da guardia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "80gp",
+				"IT": "80po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Turkey",
+			"IT": "Tacchino"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dog, shepherd",
+			"IT": "Cane, da pastore"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "120gp",
+				"IT": "120po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Goat",
+			"IT": "Capra"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "80gp",
+				"IT": "80po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dog, hunting",
+			"IT": "Cane, da caccia"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "150gp",
+				"IT": "150po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pig",
+			"IT": "Maiale"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "300gp",
+				"IT": "300po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Falcon, trained",
+			"IT": "Falco, addestrato"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "500gp",
+				"IT": "500po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Rabbit",
+			"IT": "Coniglio"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pigeon",
+			"IT": "Piccione"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sheep",
+			"IT": "Pecora"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "300gp",
+				"IT": "300po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pigeon, carrier",
+			"IT": "Piccione, viaggiatore"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Wheat",
+			"IT": "Grano"
+		},
+		"attributes": [
+			{
+				"EN": "25 lbs",
+				"IT": "25 libbre"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock-feed"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Oats",
+			"IT": "Avena"
+		},
+		"attributes": [
+			{
+				"EN": "25 lbs",
+				"IT": "25 libbre"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock-feed"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Hay",
+			"IT": "Fieno"
+		},
+		"attributes": [
+			{
+				"EN": "25 lbs",
+				"IT": "25 libbre"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock-feed"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Straw",
+			"IT": "Paglia"
+		},
+		"attributes": [
+			{
+				"EN": "25 lbs",
+				"IT": "25 libbre"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock-feed"
+		],
+		"price": [
+			{
+				"EN": "7gp",
+				"IT": "7po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Barding",
+			"IT": "Bardatura"
+		},
+		"attributes": [
+			{
+				"EN": "horse armor",
+				"IT": "armatura per cavalli"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "150gp",
+				"IT": "150po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Oil",
+			"IT": "Olio"
+		},
+		"attributes": [
+			{
+				"EN": "1 flask",
+				"IT": "1 fiaschetta"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "2gp",
+				"IT": "2po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Perfume",
+			"IT": "Profumo"
+		},
+		"attributes": [
+			{
+				"EN": "oz",
+				"IT": "oncia"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Pipe",
+			"IT": "Pipa"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Dowsing rod",
+			"IT": "Bastone da rabdomante"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Rope ladder",
+			"IT": "Scala di Corda"
+		},
+		"attributes": [
+			{
+				"EN": "25ft",
+				"IT": "25 piedi"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Saddle and bridle",
+			"IT": "Sella e redini"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sewing kit",
+			"IT": "Kit da cucito"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Holy Symbol",
+			"IT": "Simbolo Sacro"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Stakes and mallet",
+			"IT": "Picchetti e mazza"
+		},
+		"attributes": [
+			{
+				"EN": "3",
+				"IT": "3"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Tinder box",
+			"IT": "Acciarino e pietra focaia"
+		},
+		"attributes": [
+			{
+				"EN": "flint & steel",
+				"IT": "selce e acciaio"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "3gp",
+				"IT": "3po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Lock",
+			"IT": "Lucchetto"
+		},
+		"attributes": [
+			{
+				"EN": "key included",
+				"IT": "chiave inclusa"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Waterskin",
+			"IT": "Otre"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "1gp",
+				"IT": "1po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Whistle",
+			"IT": "Fischietto"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Camel",
+			"IT": "Cammello"
+		},
+		"attributes": [
+			{
+				"EN": "+3 slots",
+				"IT": "+3 slot"
+			},
+			{
+				"EN": "fast",
+				"IT": "veloce"
+			}
+		],
+		"tags": [
+			"pickable",
+			"item-transport-animal"
+		],
+		"price": [
+			{
+				"EN": "85gp",
+				"IT": "85po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Donkey",
+			"IT": "Asino"
+		},
+		"attributes": [
+			{
+				"EN": "+4 slots",
+				"IT": "+4 slot"
+			},
+			{
+				"EN": "slow",
+				"IT": "lento"
+			}
+		],
+		"tags": [
+			"pickable",
+			"item-transport-animal"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Horse, draft",
+			"IT": "Cavallo, da soma"
+		},
+		"attributes": [
+			{
+				"EN": "+3 slots",
+				"IT": "+3 slot"
+			}
+		],
+		"tags": [
+			"pickable",
+			"item-transport-animal"
+		],
+		"price": [
+			{
+				"EN": "40gp",
+				"IT": "40po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Horse, riding",
+			"IT": "Cavallo, da monta"
+		},
+		"attributes": [
+			{
+				"EN": "+2 slots",
+				"IT": "+2 slot"
+			},
+			{
+				"EN": "fast",
+				"IT": "veloce"
+			}
+		],
+		"tags": [
+			"pickable",
+			"item-transport-animal"
+		],
+		"price": [
+			{
+				"EN": "75gp",
+				"IT": "75po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Oxen",
+			"IT": "Bue"
+		},
+		"attributes": [
+			{
+				"EN": "+6 slots",
+				"IT": "+6 slot"
+			}
+		],
+		"tags": [
+			"pickable",
+			"item-transport-animal"
+		],
+		"price": [
+			{
+				"EN": "60gp",
+				"IT": "60po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cart, big",
+			"IT": "Carretto, grande"
+		},
+		"attributes": [
+			{
+				"EN": "+6 slots",
+				"IT": "+6 slot"
+			}
+		],
+		"tags": [
+			"pickable",
+			"item-vehicle-land"
+		],
+		"price": [
+			{
+				"EN": "100gp",
+				"IT": "100po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Cart, small",
+			"IT": "Carretto, piccolo"
+		},
+		"attributes": [
+			{
+				"EN": "+4 slots",
+				"IT": "+4 slot"
+			},
+			{
+				"EN": "bulky",
+				"IT": "ingombrante"
+			}
+		],
+		"tags": [
+			"pickable",
+			"item-vehicle-land"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Boat, river",
+			"IT": "Barca, fluviale"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "4000gp",
+				"IT": "4000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Boat, sailing",
+			"IT": "Barca, marina"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "2000gp",
+				"IT": "2000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Canoe",
+			"IT": "Canoa"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "50gp",
+				"IT": "50po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Galley, large",
+			"IT": "Galea, grande"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "30000gp",
+				"IT": "30000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Galley, small",
+			"IT": "Galea, piccola"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "10000gp",
+				"IT": "10000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Galley, war",
+			"IT": "Galea, da guerra"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "60000gp",
+				"IT": "60000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Longship",
+			"IT": "Drakkar"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "15000gp",
+				"IT": "15000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Raft",
+			"IT": "Zattera"
+		},
+		"attributes": [
+			{
+				"EN": "professional",
+				"IT": "professionale"
+			}
+		],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "1gp per square foot",
+				"IT": "1po per piede quadro"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sailing ship, large",
+			"IT": "Veliero, grande"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "20000gp",
+				"IT": "20000po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sailing ship, small",
+			"IT": "Veliero, piccolo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-vehicle-water"
+		],
+		"price": [
+			{
+				"EN": "5000gp",
+				"IT": "5000po"
+			}
+		]
+	}
+]

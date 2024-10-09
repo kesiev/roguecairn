@@ -1,0 +1,113 @@
+[
+	{
+        "_":"INITIAL: A lost weapon.",
+        "type":"event",
+        "tags": [ "event-initial" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"item",
+                    "tags":[ [ [ "item-weapon" ] ] ]
+                }
+            ]
+        ]
+    },{
+        "_":"INITIAL: A lost armor.",
+        "type":"event",
+        "tags": [ "event-initial" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"item",
+                    "tags":[ [ [ "item-armor" ] ] ]
+                }
+            ]
+        ]
+    },{
+        "_":"INITIAL: A lost tool.",
+        "type":"event",
+        "tags": [ "event-initial" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"item",
+                    "tags":[ [ [ "item-tool" ], [ "item-tool-gear" ] ] ]
+                }
+            ]
+        ]
+    },{
+        "_":"INITIAL: A lost cloth.",
+        "type":"event",
+        "tags": [ "event-initial" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"item",
+                    "tags":[ [ [ "item-clothing" ] ] ]
+                }
+            ]
+        ]
+    },{
+        "_":"INITIAL: A lost land transport.",
+        "type":"event",
+        "tags": [ "event-initial" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"item",
+                    "tags":[ [ [ "item-transport-animal" ], [ "item-vehicle-land" ] ] ]
+                }
+            ]
+        ]
+    },{
+        "_":"INITIAL: A lost water transport.",
+        "type":"event",
+        "tags": [ "event-initial" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"item",
+                    "tags":[ [ [ "item-vehicle-water" ] ] ]
+                }
+            ]
+        ]
+    },{
+        "_":"INITIAL: A lost scroll.",
+        "type":"event",
+        "tags": [ "event-initial" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"spellscroll"
+                }
+            ]
+        ]
+    },{
+        "_":"INITIAL: A lost book.",
+        "type":"event",
+        "tags": [ "event-initial" ],
+        "entities":{},
+        "perform":[
+            [
+                {
+                    "asEntity":"what",
+                    "pick":"spellbook"
+                }
+            ]
+        ]
+    }
+]
