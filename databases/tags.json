@@ -136,9 +136,13 @@
 			"IT":"Tre giorni di razioni",
 			"EN":"Three days' rations"
 		},
+		"ration":{
+			"IT":"Razioni",
+			"EN":"Rations"
+		},
 		"torch":{
-			"IT":"Una torcia",
-			"EN":"A torch"
+			"IT":"Torcia",
+			"EN":"Torch"
 		},
 		"have":{
 			"IT":"Possiedi",
@@ -223,6 +227,10 @@
 			"EN":[
 				"The ",0," area continues ",".",", ",", and "," and "
 			]
+		},
+		"kettlewrightDownload":{
+			"IT":"Scarica JSON per Kettlewright",
+			"EN":"Download Kettlewright JSON"
 		},
 		"compass":{
 			"N":{

@@ -145,6 +145,22 @@ H2 .cell-id {
     cursor: pointer;
 }
 
+.file-button {
+    display: inline-block;
+    cursor: pointer;
+    width: 20px;
+    height:20px;
+    background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 3px;
+}
+
+.file-button.kettlewright {
+    background-image: url(../images/export-kettlewright.png);
+}
+
 @media (max-width: 50rem) {
     .notice {
         margin-top:.5em;
@@ -223,6 +239,10 @@ H2 .cell-id {
     }
 
     .map-selector {
+        display: none;
+    }
+
+    .file-button {
         display: none;
     }
 

@@ -27,45 +27,54 @@ function Renderer() {
         return "<span class='cell-id'>"+place.id+"</span> <span class='fake-link' link-to='area-"+place.id+"'>"+place.name[renderSettings.language]+"</span>";
     }
 
-    function renderCharacter(renderSettings,character) {
+    function renderCharacter(renderSettings,seed,files,character) {
 
         let
+            buttons = [],
+            traits = "",
             language = renderSettings.language,
+            name = character[character.nameType]+" "+character.surname,
             out = "";
 
         switch (language) {
             case "IT":{
-                out+="Sei <em>"+character[character.nameType]+" "+character.surname+"</em>";
+                out+="Sei <em>"+name+"</em>";
                 if (character.className)
-                    out+=" <em>("+character.className[language]+")</em>"
-                out+=", in passato eri "+character.background[language]+". ";
-                out+="Hai un fisico "+character.physique[language]+", ";
-                out+=character.skin[language]+", ";
-                out+=character.hair[language]+" e ";
-                out+="la "+character.face[language]+". ";
-                out+="Hai una "+character.speech[language]+" e ";
-                out+="indossi "+character.clothing[language]+". ";
-                out+="Sei "+character.vice[language]+" ";
-                out+="ma "+character.virtue[language]+" e ";
-                out+="sei noto come un "+character.reputation[language]+". ";
-                out+="Hai avuto la sfortuna di essere "+character.misfortunes[language]+". Hai "+character.age+" anni.";
+                    out+=" <em>("+character.className[language]+")</em>";
+                out+=", in ";
+                traits+="passato eri "+character.background[language]+". ";
+                traits+="Hai un fisico "+character.physique[language]+", ";
+                traits+=character.skin[language]+", ";
+                traits+=character.hair[language]+" e ";
+                traits+="la "+character.face[language]+". ";
+                traits+="Hai una "+character.speech[language]+" e ";
+                traits+="indossi "+character.clothing[language]+". ";
+                traits+="Sei "+character.vice[language]+" ";
+                traits+="ma "+character.virtue[language]+" e ";
+                traits+="sei noto come un "+character.reputation[language]+". ";
+                traits+="Hai avuto la sfortuna di essere "+character.misfortunes[language]+". Hai "+character.age+" anni.";
+                out += traits;
+                traits = "In "+traits;
                 break;
             }
             default:{
-                out+="You are <em>"+character[character.nameType]+" "+character.surname+"</em>";
+                out+="You are <em>"+name+"</em>";
                 if (character.className)
                     out+=" <em>("+character.className[language]+")</em>"
-                out+=", a former "+character.background[language]+". ";
-                out+="You have "+character.physique[language]+" body, ";
-                out+=character.skin[language]+", ";
-                out+=character.hair[language]+", and ";
-                out+=character.face[language]+". ";
-                out+="You have a "+character.speech[language]+" and ";
-                out+=character.clothing[language]+". ";
-                out+="You are "+character.vice[language]+" ";
-                out+="but "+character.virtue[language]+" and ";
-                out+="you are known as "+character.reputation[language]+". ";
-                out+="You have the misfortune of being "+character.misfortunes[language]+". You are "+character.age+" years old.";
+                out+=", ";
+                traits+="a former "+character.background[language]+". ";
+                traits+="You have "+character.physique[language]+" body, ";
+                traits+=character.skin[language]+", ";
+                traits+=character.hair[language]+", and ";
+                traits+=character.face[language]+". ";
+                traits+="You have a "+character.speech[language]+" and ";
+                traits+=character.clothing[language]+". ";
+                traits+="You are "+character.vice[language]+" ";
+                traits+="but "+character.virtue[language]+" and ";
+                traits+="you are known as "+character.reputation[language]+". ";
+                traits+="You have the misfortune of being "+character.misfortunes[language]+". You are "+character.age+" years old.";
+                out += traits;
+                traits = "You are "+traits;
                 break;
             }
         }
@@ -100,6 +109,9 @@ function Renderer() {
                             if (element[stat.key])
                                 notes.push(element[stat.key]+" "+stat.shortLabel[language]);
                         })
+
+                    if (element.charges && element.charges.label)
+                        notes.push(element.charges.value+" "+element.charges.label[language]);
 
                     if (element.attributes)
                         element.attributes.forEach(attribute=>{
@@ -144,6 +156,19 @@ function Renderer() {
             character.notes.forEach(line=>{
                 out+="<br>"+REFERENCE_SYMBOL+" <u>"+line.key[language]+"</u>: "+line.value[language];
             });
+
+        if (window.ExporterKettleWright) {
+            let
+                fileName = name+" - "+seed+".json";
+            files[fileName]={
+                mimeType:"application/json",
+                data:JSON.stringify(ExporterKettleWright.character(renderSettings,character,traits))
+            };
+            buttons.push("<div class='file-button kettlewright' file-name='"+fileName+"' title='"+renderSettings.labels.kettlewrightDownload[language]+"'></div>");
+        }
+
+        if (buttons.length)
+            out = buttons.join()+" "+out;
 
         return out;
     }
@@ -862,6 +887,7 @@ function Renderer() {
             bonds = worlddata.bonds,
             html = "",
             description = [],
+            files = {},
             worldBiome = data.tags.labels.worldBiome[language],
             worldGeography = data.tags.labels.worldGeography[language],
             biomes = world.stats.biomes,
@@ -888,7 +914,7 @@ function Renderer() {
         html+="<ol>";
         
         characters.forEach(character=>{
-            html+="<li>"+renderCharacter(renderSettings,character)+"</li>";
+            html+="<li>"+renderCharacter(renderSettings,seed,files,character)+"</li>";
         });
 
         html+="</ol></div>";
@@ -1152,6 +1178,7 @@ function Renderer() {
 
 
         return {
+            files:files,
             html:html,
             mapHotspots:mapHotspots,
             maps:maps

@@ -164,6 +164,7 @@ function Frontend() {
                     section.className += " closed";
                 }
             }
+
     }
 
     function markdownToHtml(markdown) {
@@ -223,7 +224,8 @@ function Frontend() {
             default:{
                 let
                     world,
-                    render;
+                    render,
+                    downloaders;
 
                 setSeed(hash.substr(1,hash.length));
                 world = generator.generate(seed);
@@ -272,6 +274,25 @@ function Frontend() {
                 document.getElementById('set-map-bw').onclick=()=>{ updateMap(render, true); }
 
                 history.replaceState(undefined, undefined, "#"+seed);
+
+                dowloaders = document.getElementsByClassName('file-button');
+            
+                for (let i=0;i<dowloaders.length;i++)
+                    dowloaders[i].onclick=()=>{
+                        let
+                            a = document.createElement("a");
+                            fileName = dowloaders[i].getAttribute("file-name"),
+                            file = render.files[fileName],
+                            blob = new Blob([file.data], { type: file.mimeType }),
+                            url = window.URL.createObjectURL(blob);
+
+                        document.body.appendChild(a);
+                        a.style = "display: none";
+                        a.href = url;
+                        a.download = fileName;
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                    }
                 
                 if (!notice) {
                     let
