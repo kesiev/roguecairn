@@ -233,7 +233,7 @@ function Renderer() {
         if (element.type)
             short[element.type] = true;
 
-        if (element.own === root)
+        if (element.ownedBy === root)
             isOwned = true;
 
         switch (element.type) {

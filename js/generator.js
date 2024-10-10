@@ -282,6 +282,24 @@ function Generator() {
 
     }
 
+    function setFoundAt(entity,place) {
+        if (entity.foundAt) {
+            if (DEBUG.warn) console.warn("item already placed",entity.name.EN,"was",entity.foundAt.id,"asked",place.id);
+        } else {
+
+            entity.foundAt = place;
+
+            if (entity.contains)
+                setFoundAt(entity.contains,place);
+
+            if (entity.owning)
+                entity.owning.forEach(entity=>{
+                    setFoundAt(entity,place);
+                })
+
+        }
+    }
+
     function addEvents(random,data,bonds,entities,bags,ids,count,tags) {
         
         let
@@ -469,11 +487,11 @@ function Generator() {
                                     addEntity = eventEntities[event.add.element[k].entity];
                                 element[k] = addEntity;
                                 if (event.add.element[k].own) {
-                                    addEntity.own = entity;
-                                    if (addEntity.foundAt) {
-                                        if (DEBUG.warn) console.warn("item already owned",entity);
-                                    } else
-                                        addEntity.foundAt = entity.foundAt;
+                                    addEntity.ownedBy = entity;
+                                    if (!entity.owning) entity.owning = [];
+                                    entity.owning.push(addEntity);
+                                    if (entity.foundAt)
+                                        setFoundAt(addEntity,entity.foundAt);
                                 }
                             } else
                                 element[k] = event.add.element[k];
@@ -482,9 +500,8 @@ function Generator() {
                     if (event.placeEntity) {
                         let
                             placed = eventEntities[event.placeEntity];
-                        placed.foundAt = entity.foundAt || entity;
-                        if (placed.contains)
-                            placed.contains.foundAt = placed.foundAt;
+
+                        setFoundAt(placed,entity.foundAt || entity);
                         entity.entities.push(placed);
                     }
                     if (event.ban) {
