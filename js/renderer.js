@@ -48,7 +48,7 @@ function Renderer() {
                 out+="Sei "+character.vice[language]+" ";
                 out+="ma "+character.virtue[language]+" e ";
                 out+="sei noto come un "+character.reputation[language]+". ";
-                out+="Hai avuto la sfortuna di essere "+character.misfortunes[language]+".";
+                out+="Hai avuto la sfortuna di essere "+character.misfortunes[language]+". Hai "+character.age+" anni.";
                 break;
             }
             default:{
@@ -65,7 +65,7 @@ function Renderer() {
                 out+="You are "+character.vice[language]+" ";
                 out+="but "+character.virtue[language]+" and ";
                 out+="you are known as "+character.reputation[language]+". ";
-                out+="You have the misfortune of being "+character.misfortunes[language]+".";
+                out+="You have the misfortune of being "+character.misfortunes[language]+". You are "+character.age+" years old.";
                 break;
             }
         }

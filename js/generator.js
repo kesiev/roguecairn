@@ -573,7 +573,12 @@ function Generator() {
         for (let k in data.characters.attributes)
             character[k] = random.element(data.characters.attributes[k]).description;
 
+        character.age = 10;
+        character.age += random.integer(20);
+        character.age += random.integer(20);
+
         character.hp = 1+random.integer(6);
+        
         [
             "str", "dex", "wil"
         ].forEach(stat=>{
