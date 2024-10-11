@@ -7,7 +7,7 @@
         "type":"combo",
         "options":[
             {
-                "symbol":"X",
+                "symbol":"x",
                 "set":{
                     "firstSet":0
                 },
