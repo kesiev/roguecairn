@@ -604,7 +604,7 @@ function Generator() {
 
     function generateCharacter(random,classdata,background,omens,bonds) {
         let
-            gold,
+            gold = 0,
             extra = 1+random.integer(20),
             character = {
                 armor:0,
@@ -648,12 +648,10 @@ function Generator() {
             character[stat] += 1+random.integer(6);
         });
 
-        gold = 1+random.integer(6);
+        gold += 1+random.integer(6);
         gold += 1+random.integer(6);
         gold += 1+random.integer(6);
     
-        addItemToCharacter({ type:"coins", amount:gold },character);
-
         if (classdata) {
 
             addItemToCharacter({ description:data.tags.labels.rations },character);
@@ -740,12 +738,17 @@ function Generator() {
 
             character.bonds = [ bond.description ];
 
+            if (bond.gold)
+                gold += bond.gold;
+
             if (bond.items)
                 bond.items.forEach(item=>{
                     addItemToCharacter(item,character);
                 })
 
         }
+
+        addItemToCharacter({ type:"coins", amount:gold },character);
 
         if (character.armor > 3)
             character.armor = 3;
