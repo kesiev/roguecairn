@@ -73,8 +73,10 @@ function Generator() {
         USE_BIOMES = 6,
         WORLD_BIOMES = 3,
         WORLD_GEOGRAPHY = 4,
-        CHARACTERS_CLASS = 5,
-        CHARACTERS_BASE = 5,
+        CHARACTERS_SETS = [
+            { id:"firstSet", amount:5 },
+            { id:"secondSet", amount:5 }
+        ],
         BONDS_COUNT = 10,
         BUILDINGS_EVENTS = 4,
         PREPARATION_EVENTS = 3,
@@ -543,16 +545,16 @@ function Generator() {
             found = random.element(set);
 
         if (found) {
-            if (found.armor) character.armor += found.armor;
+            
             if (found.items)
                 found.items.forEach(item=>{
-                    character.inventory.push(item);
+                    addItemToCharacter(item,character);
                 })
             if (found.randomItems) {
                 let
                     items = random.element(found.randomItems);
                 items.forEach(item=>{
-                    character.inventory.push(item);
+                    addItemToCharacter(item,character);
                 })
             }
         }
@@ -563,21 +565,47 @@ function Generator() {
     function generateSpellbook(random,data,character) {
         let
             spell = clone(random.element(data.spells));
-        character.inventory.push({
+        addItemToCharacter({
             type:"spellbook",
-            spell:spell
-        });
-        character.notes.push({
-            key:spell.name,
-            value:spell.description
-        })
+            spell:spell,
+            notes:[
+                {
+                    key:spell.name,
+                    value:spell.description
+                }
+            ]
+        },character);
     }
 
-    function generateCharacter(random,classdata) {
+    function addItemToCharacter(item,character) {
+        let
+            newitem = clone(item);
+
+        if (item.randomSpell) {
+            let
+                spell = clone(random.element(data.spells));
+            newitem.spell = spell;
+            character.notes.push({
+                key:spell.name,
+                value:spell.description
+            })
+        }
+
+        character.inventory.push(newitem)
+
+        if (item.armor)
+            character.armor+=item.armor;
+
+        if (item.notes)
+            item.notes.forEach(note=>{
+                character.notes.push(note);
+            })
+    }
+
+    function generateCharacter(random,classdata,background,omens,bonds) {
         let
             gold,
             extra = 1+random.integer(20),
-            picked = {},
             character = {
                 armor:0,
                 inventory:[],
@@ -589,6 +617,22 @@ function Generator() {
 
         for (let k in data.characters.attributes)
             character[k] = random.element(data.characters.attributes[k]).description;
+
+        if (background) {
+
+            if (background.names)
+                character.fullName = random.element(background.names);
+
+            if (background.background)
+                character.backgroundDescription = background.background;
+
+            if (background.className)
+                character.className = background.className;
+
+            if (background.exportData)
+                character.exportData = background.exportData;
+
+        }
 
         character.age = 10;
         character.age += random.integer(20);
@@ -608,41 +652,25 @@ function Generator() {
         gold += 1+random.integer(6);
         gold += 1+random.integer(6);
     
-        character.inventory.push({ description:data.tags.labels.rations });
-        character.inventory.push({ description:data.tags.labels.torch });
-        character.inventory.push({ type:"coins", amount:gold });
+        addItemToCharacter({ type:"coins", amount:gold },character);
 
         if (classdata) {
+
+            addItemToCharacter({ description:data.tags.labels.rations },character);
+            addItemToCharacter({ description:data.tags.labels.torch },character);
+
             character.className = classdata.className;
 
-            if (classdata.armor) 
-                character.armor += classdata.armor;
-
             classdata.items.forEach(item=>{
-                switch (item.type) {
+                if (item.type === undefined)
+                    addItemToCharacter(item,character);
+                else switch (item.type) {
                     case "spellbook":{
                         generateSpellbook(random,data,character);
                         break;
                     }
                     case "item":{
-                        let
-                            newitem = clone(item);
-
-                        if (item.randomSpell) {
-                            let
-                                spell = clone(random.element(data.spells));
-                            newitem.spell = spell;
-                            character.notes.push({
-                                key:spell.name,
-                                value:spell.description
-                            })
-                        }
-                        character.inventory.push(newitem)
-
-                        if (item.notes)
-                            item.notes.forEach(note=>{
-                                character.notes.push(note);
-                            })
+                        addItemToCharacter(item,character);
                         break;
                     }
                     default:{
@@ -651,13 +679,39 @@ function Generator() {
                 }
             });
 
+        } else if (background) {
+
+            background.items.forEach(item=>{
+                addItemToCharacter(item,character);
+            });
+
+            character.extras = [];
+
+            background.tables.forEach(table=>{
+                let
+                    selected = random.element(table.values);
+
+                character.extras.push({
+                    key:table.key,
+                    value:selected.description
+                });
+
+                if (selected.items)
+                    selected.items.forEach(item=>{
+                        addItemToCharacter(item,character)
+                    })
+            });
+
         } else {
+
+            addItemToCharacter({ description:data.tags.labels.rations },character);
+            addItemToCharacter({ description:data.tags.labels.torch },character);
 
             [
                 "armor", "helmetShield", "weapon", "expeditionaryGear",
                 "tool", "trinket"
             ].forEach(table=>{
-                picked[table] = rollItem(random,data,character,table);
+                rollItem(random,data,character,table);
             });
 
             if (extra>=1 && extra<=5)
@@ -668,11 +722,28 @@ function Generator() {
                 let
                     options = [ "weapon" ];
 
-                if (picked.armor.none) options.push("armor");
+                if (!character.armor) options.push("armor");
 
                 rollItem(random,data,character,random.element(options));
             } else
                 generateSpellbook(random,data,character);
+
+        }
+
+        if (omens)
+            character.omens = [ random.element(omens) ];
+
+        if (bonds) {
+            
+            let
+                bond = random.element(bonds);
+
+            character.bonds = [ bond.description ];
+
+            if (bond.items)
+                bond.items.forEach(item=>{
+                    addItemToCharacter(item,character);
+                })
 
         }
 
@@ -690,10 +761,11 @@ function Generator() {
         })
     }
 
-    function generate(seed) {
+    function generate(settings,seed) {
 
         let
             random = new Random(seed),
+            charactersRandom = new Random(seed),
             difficultyDensities = new random.Bag(DIFFICULTY_DENSITY),
             encountersDensities = new random.Bag(ENCOUNTERS_DENSITY),
             world = new HexMap(random,MAP_WIDTH,MAP_HEIGHT),
@@ -992,13 +1064,44 @@ function Generator() {
 
         let
             characters = [],
-            classBag = new random.Bag(data.characters.classes);
+            classBag = new random.Bag(data.characters.classes),
+            backgroundBag = new random.Bag(data.backgrounds);
 
-        for (let i=0;i<CHARACTERS_CLASS;i++)
-            characters.push(generateCharacter(random,classBag.pick()));
-        
-        for (let i=0;i<CHARACTERS_BASE;i++)
-            characters.push(generateCharacter(random));
+        CHARACTERS_SETS.forEach(set=>{
+            let
+                type = settings[set.id];
+
+            for (let i=0;i<set.amount;i++) {
+                switch (type) {
+                    case 1:{
+                        // 1ed classless.
+                        characters.push(generateCharacter(charactersRandom));
+                        break;
+                    }
+                    case 2:{
+                        // 1ed with classes.
+                        characters.push(generateCharacter(charactersRandom,classBag.pick()));
+                        break;
+                    }
+                    case 3:{
+                        // 2 ed classless.
+                        characters.push(generateCharacter(charactersRandom,0,0,data.omens,data.bonds));
+                        break;
+                    }
+                    case 4:{
+                        // 2 ed with class.
+                        characters.push(generateCharacter(charactersRandom,classBag.pick(),0,data.omens,data.bonds));
+                        break;
+                    }
+                    case 5:{
+                        // 2 ed with backgrounds.
+                        characters.push(generateCharacter(charactersRandom,0,backgroundBag.pick(),data.omens,data.bonds));
+                        break;
+                    }
+                }
+            }
+
+        });
 
         // --- Bonds
 
@@ -1029,6 +1132,11 @@ function Generator() {
         generator = {
             initialize:(done)=>{
                 load([
+                    {
+                        id:"options",
+                        type:"json",
+                        file:"databases/options.json"
+                    },
                     {
                         id:"bestiary",
                         type:"json",
@@ -1082,6 +1190,18 @@ function Generator() {
                         type:"json",
                         file:"databases/characters.json"
                     },{
+                        id:"backgrounds",
+                        type:"json",
+                        file:"databases/backgrounds.json"
+                    },{
+                        id:"omens",
+                        type:"json",
+                        file:"databases/omens.json"
+                    },{
+                        id:"bonds",
+                        type:"json",
+                        file:"databases/bonds.json"
+                    },{
                         id:"about",
                         type:"text",
                         file:"README.md"
@@ -1091,8 +1211,8 @@ function Generator() {
                     done(data);
                 })
             },
-            generate:(seed)=>{
-                return generate(seed);
+            generate:(settings,seed)=>{
+                return generate(settings,seed);
             }
         }
 

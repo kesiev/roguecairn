@@ -1,0 +1,133 @@
+[
+    {
+        "label":{
+            "EN":"First characters set:",
+            "IT":"Primo set di personaggi:"
+        },
+        "type":"combo",
+        "options":[
+            {
+                "symbol":"X",
+                "set":{
+                    "firstSet":0
+                },
+                "label":{
+                    "EN":"(None)",
+                    "IT":"(Nessuno)"
+                }
+            },
+            {
+                "symbol":"a",
+                "set":{
+                    "firstSet":1
+                },
+                "label":{
+                    "EN":"1st edition classless",
+                    "IT":"1&deg; edizione senza classi"
+                }
+            },{
+                "default":true,
+                "symbol":"b",
+                "set":{
+                    "firstSet":2
+                },
+                "label":{
+                    "EN":"1st edition with classes",
+                    "IT":"1&deg; edizione con classi"
+                }
+            },{
+                "symbol":"c",
+                "set":{
+                    "firstSet":3
+                },
+                "label":{
+                    "EN":"2nd edition classless",
+                    "IT":"2&deg; edizione senza classi"
+                }
+            },{
+                "symbol":"d",
+                "set":{
+                    "firstSet":4
+                },
+                "label":{
+                    "EN":"2nd edition with classes",
+                    "IT":"2&deg; edizione con classi"
+                }
+            },{
+                "symbol":"e",
+                "set":{
+                    "firstSet":5
+                },
+                "label":{
+                    "EN":"2nd edition with backgrounds",
+                    "IT":"2&deg; edizione con background"
+                }
+            }
+        ]
+    },{
+        "label":{
+            "EN":"Second characters set:",
+            "IT":"Secondo set di personaggi:"
+        },
+        "type":"combo",
+        "options":[
+            {
+                "symbol":"X",
+                "set":{
+                    "secondSet":0
+                },
+                "label":{
+                    "EN":"(None)",
+                    "IT":"(Nessuno)"
+                }
+            },
+            {
+                "default":true,
+                "symbol":"A",
+                "set":{
+                    "secondSet":1
+                },
+                "label":{
+                    "EN":"1st edition classless",
+                    "IT":"1&deg; edizione senza classi"
+                }
+            },{
+                "symbol":"B",
+                "set":{
+                    "secondSet":2
+                },
+                "label":{
+                    "EN":"1st edition with classes",
+                    "IT":"1&deg; edizione con classi"
+                }
+            },{
+                "symbol":"C",
+                "set":{
+                    "secondSet":3
+                },
+                "label":{
+                    "EN":"2nd edition classless",
+                    "IT":"2&deg; edizione senza classi"
+                }
+            },{
+                "symbol":"D",
+                "set":{
+                    "secondSet":4
+                },
+                "label":{
+                    "EN":"2nd edition with classes",
+                    "IT":"2&deg; edizione con classi"
+                }
+            },{
+                "symbol":"E",
+                "set":{
+                    "secondSet":5
+                },
+                "label":{
+                    "EN":"2nd edition with backgrounds",
+                    "IT":"2&deg; edizione con background"
+                }
+            }
+        ]
+    }
+]

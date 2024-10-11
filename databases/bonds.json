@@ -1,0 +1,462 @@
+[
+	{
+		"description": {
+			"EN": "You inherited a Single Gem (500gp, cold and brittle) from a long-dead relative. It arrived with a warning: squander your newfound riches, and a debt long thought forgotten would be called.",
+			"IT": "Hai ereditato una Gemma Unica (500 gp, fredda e fragile) da un parente morto da tempo. È arrivata con un avvertimento: sperpera le tue nuove ricchezze e ti verrà chiesto un debito che pensavi dimenticato da tempo."
+		},
+		"items": [
+			{
+				"description": {
+					"EN": "Single Gem",
+					"IT": "Gemma Unica"
+				},
+				"exportData": {
+					"kettlewright": {
+						"description": "You inherited a Single Gem (500gp, cold and brittle) from a long-dead relative. It arrived with a warning: squander your newfound riches, and a debt long thought forgotten would be called."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "A distant cousin left you a small inheritance. Take 20gp, and a strange Compass that always points towards something deep in the Wood.",
+			"IT": "Un lontano cugino ti ha lasciato una piccola eredità. Prendi 20po e una strana Bussola che punta sempre verso qualcosa nel profondo del bosco."
+		},
+		"gold": 20,
+		"items": [
+			{
+				"description": {
+					"EN": "Ornate Compass",
+					"IT": "Bussola Ornata"
+				},
+				"exportData": {
+					"kettlewright": {
+						"description": "A distant cousin left you a small inheritance. Take 20gp, and a strange Compass that always points towards something deep in the Wood."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You carry a Portrait in a locket (petty) of a past love who disappeared into the Wood long ago. Somehow, you know that they are still alive.",
+			"IT": "Porti con te un Ritratto in un medaglione (piccolo) di un amore passato che è scomparso nel Bosco molto tempo fa. In qualche modo, sai che è ancora lì."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Locket",
+					"IT": "Medaglione"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You carry a Portrait in a locket (petty) of a past love who disappeared into the Wood long ago. Somehow, you know that they are still alive."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You found a Tiny Crystal Prism (petty) buried in the dirt. When held up to the light, it shows visions of an unknown location deep within the Wood. Sometimes, you feel a presence looking back at you.",
+			"IT": "Hai trovato un Prisma di Cristallo Minuscolo (piccolo) sepolto nella terra. Quando lo tieni in controluce, mostra visioni di un luogo sconosciuto nelle profondità del bosco. A volte, senti una presenza che ti guarda."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Tiny Crystal Prism",
+					"IT": "Prisma di Cristallo Minuscolo"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You found a Tiny Crystal Prism (petty) buried in the dirt. When held up to the light, it shows visions of an unknown location deep within the Wood. Sometimes, you feel a presence looking back at you."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You once freed a Naiad from a choked stream. In return, it gave you some Silver Moss (petty). Swallow it near water and the creature will come, once, to repay its debt.",
+			"IT": "Una volta hai liberato una Naiade da un ruscello intasato. In cambio, ti ha dato del Muschio d'Argento (piccolo). Ingoialo vicino all'acqua e la creatura verrà, una volta, a ripagare il suo debito."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Silver Moss",
+					"IT": "Muschio d'Argento"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You once freed a Naiad from a choked stream. In return, it gave you some Silver Moss (petty). Swallow it near water and the creature will come, once, to repay its debt."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You inherited an old Journal, bound in bark. Each evening, its pages are filled with the events of the day, crassly from the journal’s perspective. The writing is crude, but accurate.",
+			"IT": "Hai ereditato un vecchio Diario, rilegato in corteccia. Ogni sera, le sue pagine si riempiono degli eventi del giorno, grossolanamente raccontate dal punto di vista del diario. La scrittura è rozza, ma accurata."
+		},
+		"items": [
+			{
+				"description": {
+					"EN": "Journal",
+					"IT": "Diario"
+				},
+				"exportData": {
+					"kettlewright": {
+						"description": "You inherited an old Journal, bound in bark. Each evening, its pages are filled with the events of the day, crassly from the journal’s perspective. The writing is crude, but accurate."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You protect a long-dormant family secret. Take one half of an Ancient Key (petty). They say that if joined with its twin, it opens a Gate through any door.",
+			"IT": "Proteggi un segreto di famiglia nascosto da tempo. Prendi metà di una Chiave Antica (piccolo). Dicono che se unita alla sua gemella, apra un Cancello attraverso qualsiasi porta."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Ancient Key Half",
+					"IT": "Metà Chiave Antica"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You protect a long-dormant family secret. Take one half of an Ancient Key. They say that if joined with its twin, it opens a Gate through any door."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You received a Letter (petty) detailing incontrovertible proof that your true parentage is that of Fae nobility. The note also indicates a date and location where you are to meet them, deep in the the Wood.",
+			"IT": "Hai ricevuto una Lettera (piccola) che riporta una prova incontrovertibile che la tua vera discendenza è quella della nobiltà Fae. La nota indica anche una data e un luogo in cui dovrai incontrarli, nel profondo del Bosco."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Letter",
+					"IT": "Lettera"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You received a Letter (petty) detailing incontrovertible proof that your true parentage is that of Fae nobility. The note also indicates a date and location where you are to meet them, deep in the the Wood."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You owe a great debt to a member of the nobility, and carry their Signet Ring (petty), which serves as proof of their protection as well as your obligation.",
+			"IT": "Hai un grande debito nei confronti di un membro della nobiltà e porti con te il suo Anello con Sigillo (piccolo), che è prova della sua protezione e del tuo impegno."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Signet Ring",
+					"IT": "Anello con Sigillo"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You owe a great debt to a member of the nobility, and carry their Signet Ring (petty), which serves as proof of their protection as well as your obligation."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You consumed a Mischievous Spirit that wreaks havoc on your insides, demanding to be taken home, deep in the Wood. It occupies one slot but absorbs one Fatigue each day. It wants you alive (for now).",
+			"IT": "Hai ingerito uno Spirito Dispettoso che scatena il caos nelle tue viscere, chiedendo di essere portato a casa nel profondo del Bosco. Occupa uno slot ma assorbe una Fatica al giorno. Ti vuole vivo (per ora)."
+		},
+		"items": [
+			{
+				"description": {
+					"EN": "Mischievous Spirit",
+					"IT": "Spirito Dispettoso"
+				},
+				"exportData": {
+					"kettlewright": {
+						"description": "You consumed a Mischievous Spirit that wreaks havoc on your insides, demanding to be taken home, deep in the Wood. It occupies one slot but absorbs one Fatigue each day. It wants you alive (for now)."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "A roaming storyteller once spun you tales of great treasure hidden deep in the Wood. You thought it naught but fancy, till they gave you A Rolled-Up Map (petty) marked with an X.",
+			"IT": "Un cantastorie errante una volta ti raccontò storie di grandi tesori nascosti nel profondo del Bosco. Tu pensavi che fossero solo fantasia, finché non ti diedero una Mappa Arrotolata (piccolo) contrassegnata con una X."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Rolled-Up Map",
+					"IT": "Mappa Arrotolata"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "A roaming storyteller once spun you tales of great treasure hidden deep in the Wood. You thought it naught but fancy, till they gave you A Rolled-Up Map (petty) marked with an X."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "During your travels, you met a dying hunter who asked you to deliver a message to their loved ones. Take a Letter (petty), sealed with tree sap. It is addressed only to the Lord Of Winter.",
+			"IT": "Durante i tuoi viaggi hai incontrato un cacciatore morente che ti ha chiesto di consegnare un messaggio ai suoi cari. Prendi una Lettera (piccolo), sigillata con linfa d'albero. È indirizzata solo al Signore dell'Inverno."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Letter",
+					"IT": "Lettera"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "During your travels, you met a dying hunter who asked you to deliver a message to their loved ones. Take a Letter (petty), sealed with tree sap. It is addressed only to the Lord Of Winter."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You found a wounded beast in the forest, but chose to ignore it. You see it everywhere now, but only when you’re alone. It looks sad, but not angry. You cannot become panicked when acting alone.",
+			"IT": "Hai trovato una bestia ferita nella foresta, ma hai scelto di ignorarla. Ora la vedi ovunque, ma solo quando sei da solo. Sembra triste, ma non arrabbiata. Non puoi farti prendere dal panico quando agisci da solo."
+		}
+	},
+	{
+		"description": {
+			"EN": "You promised a childhood friend that you’d bring them back a rare gift, something unique in all the world. Take a Bracelet (petty) woven from twine and wildflowers.",
+			"IT": "Hai promesso a un amico d'infanzia che gli avresti portato un regalo raro, qualcosa di unico al mondo. Prendi un Braccialetto (piccolo) intrecciato con spago e fiori selvatici."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Bracelet",
+					"IT": "Braccialetto"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You promised a childhood friend that you’d bring them back a rare gift, something unique in all the world. Take a Bracelet (petty) woven from twine and wildflowers."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You crossed a creature of the Wood, and it cursed you with a Stone Heart (1 Armor). With each passing month, the stone grows heavier by one slot. Until your debt is lifted, you cannot truly die.",
+			"IT": "Hai incrociato una creatura del Bosco, e ti ha maledetto con un Cuore di Pietra (1 Armatura). Con ogni mese che passa, la pietra diventa più pesante di uno slot. Finché il tuo debito non sarà cancellato non potrai morire veramente."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Stone Heart",
+					"IT": "Cuore di Pietra"
+				},
+				"attributes": [
+					{
+						"EN": "1 Armor",
+						"IT": "1 Armatura"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You crossed a creature of the Wood, and it cursed you with a Stone Heart (1 Armor). With each passing month, the stone grows heavier by one slot. Until your debt is lifted, you cannot truly die."
+					}
+				},
+				"armor": 1
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "You carved a Whistle (petty) from an Oak Lord’s branch. Your act did not go unnoticed. You cannot seem to rid yourself of the whistle either.",
+			"IT": "Hai scolpito un Fischietto (piccolo) da un ramo del Signore delle Querce. Il tuo gesto non è passato inosservato. Sembra che tu non riesca a liberarti nemmeno del fischietto."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Whistle",
+					"IT": "Fischietto"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "You carved a Whistle (petty) from an Oak Lord’s branch. Your act did not go unnoticed. You cannot seem to rid yourself of the whistle either."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "The Dawn Brigade did your family a service, giving you a dried Blood-Red Flower (petty) as proof. When the flower turns white, it means the favor is owed.",
+			"IT": "La Brigata dell'Alba ha reso un servizio alla tua famiglia, dandoti un Fiore Rosso Sangue essiccato (piccolo) come prova. Quando il fiore diventa bianco, significa che il favore è dovuto."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Blood-Red Flower",
+					"IT": "Fiore Rosso Sangue"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "The Dawn Brigade did your family a service, giving you a dried Blood-Red Flower (petty) as proof. When the flower turns white, it means the favor is owed."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "An entertainer once visited your home, filling it with story and song. He left one day without a word, leaving behind only A Miniature Lute. Something rattles inside.",
+			"IT": "Un artista una volta visitò la tua casa, riempiendola di storie e canzoni. Un giorno se ne andò senza dire una parola, lasciando dietro di sé solo un Liuto in Miniatura. Qualcosa tintinna dentro."
+		},
+		"items": [
+			{
+				"description": {
+					"EN": "Miniature Lute",
+					"IT": "Liuto in Miniatura"
+				},
+				"exportData": {
+					"kettlewright": {
+						"description": "An entertainer once visited your home, filling it with story and song. He left one day without a word, leaving behind only A Miniature Lute. Something rattles inside."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "A white crow appeared to you in a dream, holding a twig in its mouth. You awoke the next morning with The Twig (petty) in your hand. You believe it brings you luck. It smells faintly of sulfur.",
+			"IT": "Un corvo bianco ti è apparso in sogno, tenendo un rametto in bocca. Ti sei svegliato la mattina dopo con Il Rametto (piccolo) in mano. Credi che ti porti fortuna. Odora leggermente di zolfo."
+		},
+		"items": [
+			{
+				"type": "item",
+				"name": {
+					"EN": "Twig",
+					"IT": "Rametto"
+				},
+				"attributes": [
+					{
+						"EN": "petty",
+						"IT": "piccolo"
+					}
+				],
+				"notes": [],
+				"exportData": {
+					"kettlewright": {
+						"description": "A white crow appeared to you in a dream, holding a twig in its mouth. You awoke the next morning with The Twig (petty) in your hand. You believe it brings you luck. It smells faintly of sulfur."
+					}
+				}
+			}
+		]
+	},
+	{
+		"description": {
+			"EN": "One of your ancestors wronged a Moss Witch, who cursed their bloodline. Your visage causes mirrors to shatter. You’ve noticed that the shards can sometimes reveal illusions.",
+			"IT": "Uno dei tuoi antenati ha fatto un torto a una Strega del Muschio, che ha maledetto la loro stirpe. Il tuo volto fa frantumare gli specchi. Hai notato che i frammenti a volte possono rivelare delle illusioni."
+		}
+	}
+]

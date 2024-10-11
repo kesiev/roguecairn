@@ -13,7 +13,10 @@ function Frontend() {
         data,
         language,
         notice,
-        seed;
+        seed,
+        optionSymbolMap = {},
+        currentOptions = [],
+        optionsHash;
 
     function loadLanguage() {
         let
@@ -44,7 +47,7 @@ function Frontend() {
         if (!seed || (seed < 0)) seed=1+Math.floor(Math.random()*SEED_LIMIT);
     }
 
-    function renderPage(content,selected) {
+    function renderPage(content,selected,loadconfig) {
 
         document.getElementById("out").innerHTML =
             "<div class='side-bar'>"+
@@ -57,6 +60,7 @@ function Frontend() {
                 "<nav id='site-nav' class='site-nav'>"+
                     "<ul class='nav-list'>"+
                         "<li id='option-generate' class='nav-list-item'><a id='option-link-generate' href='#"+seed+"' class='nav-list-link'>"+data.tags.labels.generateWorld[language]+"</a></li>"+
+                        "<li id='option-options' class='nav-list-item'><a id='option-link-options' href='#options' class='nav-list-link'>"+data.tags.labels.options[language]+"</a></li>"+
                         "<li id='option-about' class='nav-list-item'><a id='option-link-about' href='#about' class='nav-list-link'>"+data.tags.labels.about[language]+"</a></li>"+
                     "</ul>"+
                 "</nav>"+
@@ -126,11 +130,11 @@ function Frontend() {
         }
 
         generateButton.onclick = ()=>{
-            updatePage("#"+parseInt(seedInput.value));
+            updatePage("#"+parseInt(seedInput.value)+(optionsHash ? "-"+optionsHash : ""),loadconfig);
         }
 
         randomButton.onclick = ()=>{
-            updatePage("#");
+            updatePage("#0"+(optionsHash ? "-"+optionsHash : ""),loadconfig);
         }
 
         languageSelector.onchange=()=>{
@@ -212,24 +216,139 @@ function Frontend() {
 
     }
 
-    function updatePage(hash) {
-        hash = hash || document.location.hash;
+    function optionsToSettings(options) {
+        let
+            settings = {};
 
+        options.forEach((option,oid)=>{
+            if (data.options[oid]) {
+                let
+                    selectedOption = data.options[oid].options[option];
+                if (selectedOption) {
+                    if (selectedOption.set) {
+                        for (let k in selectedOption.set)
+                            settings[k] = selectedOption.set[k];
+                    }
+                }
+            }
+        });
+
+        return settings;
+
+    }
+
+    function loadOptions(hash) {
+
+        currentOptions = [];
+
+        data.options.forEach((option,oid)=>{
+            option.options.forEach((suboption,soid)=>{
+                if (suboption.default)
+                    currentOptions[oid] = soid;
+            })
+        });
+
+        if (hash)
+            for (let k=0;k<hash.length;k++) {
+                let
+                    option = optionSymbolMap[hash[k]];
+
+                if (option)
+                    currentOptions[option[0]] = option[1];
+            }
+
+    }
+
+    function optionsToHash(options) {
+        let
+            out = "";
+
+        options.forEach((option,oid)=>{
+            let
+                subOption = data.options[oid].options[option];
+            
+            if (subOption && !subOption.default)
+                out += subOption.symbol;
+        });
+
+        return out;
+    }
+
+    function updatePage(hash,loadconfig) {
+        hash = hash || document.location.hash;
         switch (hash) {
             case "#about":{
                 renderPage(markdownToHtml(data.about),"about");
                 history.replaceState(undefined, undefined, hash);
                 break;
             }
+            case "#options":{
+                let
+                    optionsContainer;
+                
+                renderPage("<h1>"+data.tags.labels.options[language]+"</h1><div id='options-container'></div>","options",true);
+
+                optionsContainer = document.getElementById("options-container");
+
+                data.options.forEach((option,oid)=>{
+                    let
+                        optionContainer = document.createElement("div"),
+                        label = document.createElement("div");
+
+                    optionContainer.className = "option-container";
+                    optionsContainer.appendChild(optionContainer);
+                    
+                    label.innerHTML = option.label[language];
+                    optionContainer.appendChild(label);
+
+                    switch (option.type) {
+                        case "combo":{
+                            let
+                                combo = document.createElement("select");
+
+                            option.options.forEach((option,id)=>{
+                                let
+                                    comboOption = document.createElement("option");
+                                
+                                comboOption.setAttribute("value",id);
+                                if (currentOptions[oid] == id)
+                                    comboOption.setAttribute("selected","selected");
+                                comboOption.innerHTML = option.label[language];
+
+                                combo.appendChild(comboOption);
+
+                            });
+
+                            combo.onchange = ()=>{
+                                currentOptions[oid] = combo.selectedIndex;
+                            }
+
+                            optionContainer.appendChild(combo);
+                            break;
+                        }
+                    }
+                    
+                })
+                break;
+            }
             default:{
                 let
                     world,
                     render,
-                    downloaders;
+                    downloaders,
+                    settings,
+                    splitHash = hash.substr(1,hash.length).split("-");
 
-                setSeed(hash.substr(1,hash.length));
-                world = generator.generate(seed);
-                render = renderer.render(seed,language,world);
+                setSeed(splitHash[0]);
+
+                if (!loadconfig)
+                    loadOptions(splitHash[1]);
+
+                settings = optionsToSettings(currentOptions);
+                optionsHash = optionsToHash(currentOptions);
+
+                world = generator.generate(settings,seed);
+                render = renderer.render(settings,seed,language,world);
 
                 renderPage(
                     (
@@ -273,15 +392,15 @@ function Frontend() {
                 document.getElementById('set-map-color').onclick=()=>{ updateMap(render, false); }
                 document.getElementById('set-map-bw').onclick=()=>{ updateMap(render, true); }
 
-                history.replaceState(undefined, undefined, "#"+seed);
+                history.replaceState(undefined, undefined, "#"+seed+(optionsHash ? "-"+optionsHash : ""));
 
-                dowloaders = document.getElementsByClassName('file-button');
+                downloaders = document.getElementsByClassName('file-button');
             
-                for (let i=0;i<dowloaders.length;i++)
-                    dowloaders[i].onclick=()=>{
+                for (let i=0;i<downloaders.length;i++)
+                    downloaders[i].onclick=()=>{
                         let
                             a = document.createElement("a");
-                            fileName = dowloaders[i].getAttribute("file-name"),
+                            fileName = downloaders[i].getAttribute("file-name"),
                             file = render.files[fileName],
                             blob = new Blob([file.data], { type: file.mimeType }),
                             url = window.URL.createObjectURL(blob);
@@ -324,6 +443,17 @@ function Frontend() {
 
                 language = loadLanguage();
                 notice = loadNotice();
+
+                data.options.forEach((option,oid)=>{
+                    option.options.forEach((suboption,soid)=>{
+                        if (optionSymbolMap[suboption.symbol])
+                            console.log("Conflicting option symbol",suboption.symbol);
+                        else
+                            optionSymbolMap[suboption.symbol] = [ oid, soid ];
+                    })
+                });
+
+                loadOptions();
 
                 setSeed();
                 updatePage();

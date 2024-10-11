@@ -65,7 +65,9 @@ The traitor's name had its past glory back... but now _Cairn_ has been tainted b
      * Includes data from _The NSR Discord_
    * Cairn manual [Monsters](https://cairnrpg.com/resources/monsters/) page
    * Cairn manual [More Equipment](https://cairnrpg.com/resources/more-equipment/) page (crediting [Oskar Swida](https://oskarswida.itch.io/))
+ * The [Kettlewright tool](https://github.com/yochaigal/kettlewright) sources
  * Cairn manual [Italian translation](https://it.cairnrpg.com/cairn-srd/)
+ * The [2e backgrounds Italian translation](https://sbax.itch.io/cairn-2e-background-ita) by [Sbax](https://sbax.itch.io/)
 
 ### Credits
 

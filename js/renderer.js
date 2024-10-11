@@ -4,6 +4,7 @@ function Renderer() {
         DIRECTIONS = [ "NE", "E", "SE", "SW", "W", "NW" ],
         TAGRANK_SYMBOL = [ "", "&#10024;", "&#11088;" ],
         REFERENCE_SYMBOL = "&#128214;",
+        LORE_SYMBOL = "&#128240;",
         MAP_BORDER = 10,
         LABEL_DISTANCE = 10,
         NAME_BORDER = 20,
@@ -30,10 +31,11 @@ function Renderer() {
     function renderCharacter(renderSettings,seed,files,character) {
 
         let
+            notes = [],
             buttons = [],
             traits = "",
             language = renderSettings.language,
-            name = character[character.nameType]+" "+character.surname,
+            name = character.fullName || (character[character.nameType]+" "+character.surname),
             out = "";
 
         switch (language) {
@@ -152,9 +154,28 @@ function Renderer() {
 
         out +=inventory.join(" / ");
 
-        if (character.notes.length)
-            character.notes.forEach(line=>{
-                out+="<br>"+REFERENCE_SYMBOL+" <u>"+line.key[language]+"</u>: "+line.value[language];
+        if (character.backgroundDescription)
+            notes.push([ LORE_SYMBOL, { key:character.className, value: character.backgroundDescription }]);
+
+        if (character.extras)
+            character.extras.forEach(extra=>notes.push([ LORE_SYMBOL, extra ]));
+        
+        if (character.omens)
+            character.omens.forEach(omen=>{
+                notes.push([ LORE_SYMBOL, { key:renderSettings.labels.omen, value:omen } ]);
+            })
+
+        if (character.bonds)
+            character.bonds.forEach(bond=>{
+                notes.push([ LORE_SYMBOL, { key:renderSettings.labels.bond, value:bond } ]);
+            })
+    
+        if (character.notes)
+            character.notes.forEach(note=>notes.push([ REFERENCE_SYMBOL, note ]));
+
+        if (notes.length)
+            notes.forEach(line=>{
+                out+="<br>"+line[0]+" <u>"+line[1].key[language]+"</u>"+(line[1].key[language].match(/\?$/) ? " " : ": ")+line[1].value[language];
             });
 
         if (window.ExporterKettleWright) {
@@ -879,7 +900,7 @@ function Renderer() {
 
     }
 
-    function render(seed,language,worlddata) {
+    function render(settings,seed,language,worlddata) {
 
         let
             world = worlddata.world,
@@ -909,19 +930,23 @@ function Renderer() {
 
         // --- Characters
 
-        html += "<h1 class='collapse-section' collapse-section='section-characters'>"+data.tags.labels.characters[language]+"</h1><div class='collapsable-section' id='section-characters'>";
-        html += "<p class='no-print'>"+data.tags.labels.charactersDescription[language]+"</p>";
-        html+="<ol>";
-        
-        characters.forEach(character=>{
-            html+="<li>"+renderCharacter(renderSettings,seed,files,character)+"</li>";
-        });
+        if (characters.length) {
 
-        html+="</ol></div>";
+            html += "<h1 class='collapse-section' collapse-section='section-characters'>"+data.tags.labels.characters[language]+"</h1><div class='collapsable-section' id='section-characters'>";
+            html += "<p class='no-print'>"+data.tags.labels.charactersDescription[language]+"</p>";
+            html+="<ol>";
+            
+            characters.forEach(character=>{
+                html+="<li>"+renderCharacter(renderSettings,seed,files,character)+"</li>";
+            });
+
+            html+="</ol></div>";
+
+        }
 
          // --- Bonds
 
-        html += "<h1 class='collapse-section' collapse-section='section-bonds'>"+data.tags.labels.bonds[language]+"</h1><div class='collapsable-section' id='section-bonds'>";
+        html += "<h1 class='collapse-section' collapse-section='section-bonds'>"+data.tags.labels.worldBonds[language]+"</h1><div class='collapsable-section' id='section-bonds'>";
         html += "<p class='no-print'>"+data.tags.labels.bondsDescription[language]+"</p>";
         html += "<ol>";
         bonds.forEach(bond=>{
@@ -1194,8 +1219,8 @@ function Renderer() {
                     ids["spell-"+spell.id] = spell;
                 })
             },
-            render:(seed,language,worlddata)=>{
-                return render(seed,language,worlddata);
+            render:(settings,seed,language,worlddata)=>{
+                return render(settings,seed,language,worlddata);
             }
         }
 

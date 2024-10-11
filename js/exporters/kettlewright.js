@@ -4,7 +4,7 @@ ExporterKettleWright = {
             language = renderSettings.language,
             itemId = 0,
             containerId = 1,
-            name = character[character.nameType]+" "+character.surname,
+            name = character.fullName || (character[character.nameType]+" "+character.surname),
             out = {
                 name:name,
                 custom_name:name,
@@ -19,7 +19,7 @@ ExporterKettleWright = {
                 hp:character.hp,
                 hp_max:character.hp,
                 gold:0,
-                description:"",
+                description: character.backgroundDescription ? character.backgroundDescription[language] : "",
                 bonds:"",
                 omens:"",
                 scars:"",
@@ -42,6 +42,27 @@ ExporterKettleWright = {
             out.background = character.className[language];
             out.custom_background = character.className[language];
         }
+
+        if (character.omens) {
+            character.omens.forEach(omen=>{
+                out.omens += omen[language];
+            })
+            out.omens = out.omens.trim();
+        }
+
+        if (character.bonds) {
+            character.bonds.forEach(bond=>{
+                out.bonds += bond[language];
+            })
+            out.bonds = out.bonds.trim();
+        }
+
+        if (character.extras)
+            character.extras.forEach(extra=>{
+                out.notes += extra.key[language]+"\n"+extra.value[language]+"\n\n";
+            });
+
+        out.notes = out.notes.trim();
 
         character.inventory.forEach(element=>{
             switch (element.type) {
@@ -85,8 +106,12 @@ ExporterKettleWright = {
                             } else if (matches = attribute.EN.match(/^([0-9]+) uses*$/)) {
                                 item.uses = parseInt(matches[1]);
                                 item.tags.push("uses");
-                            } else
+                            } else 
                                 switch (attribute.EN) {
+                                    case "petty":{
+                                        item.tags.push("petty");
+                                        break;
+                                    }
                                     case "bulky":{
                                         item.tags.push("bulky");
                                         break;
@@ -96,6 +121,10 @@ ExporterKettleWright = {
                                     }
                                 }
                         });
+
+                    if (element.exportData && element.exportData.kettlewright)
+                        for (let k in element.exportData.kettlewright)
+                            item[k] = element.exportData.kettlewright[k];
 
                     if (element.charges && element.charges.label) {
                         switch (element.charges.label.EN) {
@@ -188,6 +217,13 @@ ExporterKettleWright = {
                 }
             }
         });
+
+        // TODO: Image urls are not matching with Kettlewright due to data misalignment. Disabling...
+        /*
+        if (character.exportData && character.exportData.kettlewright)
+            for (let k in character.exportData.kettlewright)
+                out[k] = character.exportData.kettlewright[k];
+        */
 
         return out;
     

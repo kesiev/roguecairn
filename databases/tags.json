@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"version":"0.1b",
+		"version":"0.2b",
 		"author":"KesieV",
 		"authorUrl":"https://www.kesiev.com",
 		"sourcesUrl":"https://github.com/kesiev/roguecairn",
@@ -30,7 +30,7 @@
 		},
 		"spellbook": {
 			"EN": "Spellbook",
-			"IT": "Libro di magia"
+			"IT": "Libro di incantesimi"
 		},
 		"spellscroll": {
 			"EN": "Scroll",
@@ -152,9 +152,13 @@
 			"IT":"Mappa",
 			"EN":"Map"
 		},
-		"bonds":{
-			"IT":"Legami",
-			"EN":"Bonds"
+		"worldBonds":{
+			"IT":"Legami con il mondo",
+			"EN":"World bonds"
+		},
+		"bond":{
+			"IT":"Legame",
+			"EN":"Bond"
 		},
 		"fragment":{
 			"IT":"Frammento",
@@ -187,6 +191,10 @@
 		"bw":{
 			"IT":"Bianco e nero",
 			"EN":"Black &amp; white"
+		},
+		"omen":{
+			"IT":"Presagio",
+			"EN":"Omen"
 		},
 		"areaBorders":{
 			"IT":[
@@ -231,6 +239,10 @@
 		"kettlewrightDownload":{
 			"IT":"Scarica JSON per Kettlewright",
 			"EN":"Download Kettlewright JSON"
+		},
+		"options":{
+			"IT":"Opzioni",
+			"EN":"Options"
 		},
 		"compass":{
 			"N":{

@@ -161,6 +161,10 @@ H2 .cell-id {
     background-image: url(../images/export-kettlewright.png);
 }
 
+.option-container {
+    margin-bottom: 1em;
+}
+
 @media (max-width: 50rem) {
     .notice {
         margin-top:.5em;
