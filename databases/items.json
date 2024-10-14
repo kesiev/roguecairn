@@ -320,8 +320,8 @@
 	{
 		"type":"item",
 		"name": {
-			"EN": "Large Trap",
-			"IT": "Trappola grande"
+			"EN": "Trap",
+			"IT": "Trappola"
 		},
 		"attributes": [],
 		"tags": [
@@ -330,8 +330,8 @@
 		],
 		"price": [
 			{
-				"EN": "20gp",
-				"IT": "20po"
+				"EN": "35gp",
+				"IT": "35po"
 			}
 		]
 	},
@@ -616,7 +616,12 @@
 			"EN": "Chalk",
 			"IT": "Gesso"
 		},
-		"attributes": [],
+		"attributes": [
+			{
+				"EN": "petty",
+				"IT": "piccolo"
+			}
+		],
 		"tags": [
 			"pickable", "closable",
 			"item-tool"
@@ -842,7 +847,9 @@
 			"EN": "Fire Oil",
 			"IT": "Olio di fuoco"
 		},
-		"attributes": [],
+		"attributes": [
+			
+		],
 		"tags": [
 			"pickable", "closable",
 			"item-tool"
@@ -1129,8 +1136,8 @@
 		],
 		"price": [
 			{
-				"EN": "5gp",
-				"IT": "5po"
+				"EN": "15gp",
+				"IT": "15po"
 			}
 		]
 	},
@@ -1287,8 +1294,8 @@
 		],
 		"price": [
 			{
-				"EN": "1gp",
-				"IT": "1po"
+				"EN": "5gp",
+				"IT": "5po"
 			}
 		]
 	},
@@ -1349,8 +1356,26 @@
 	{
 		"type":"item",
 		"name": {
-			"EN": "Lantern & Oil",
-			"IT": "Lanterna e Olio"
+			"EN": "Lantern",
+			"IT": "Lanterna"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Oil Can",
+			"IT": "Lattina d'olio"
 		},
 		"attributes": [],
 		"tags": [
@@ -1983,18 +2008,23 @@
 	{
 		"type":"item",
 		"name": {
-			"EN": "Gloves, hand",
-			"IT": "Guanti, mano"
+			"EN": "Gloves",
+			"IT": "Guanti"
 		},
-		"attributes": [],
+		"attributes": [
+			{
+				"EN": "petty",
+				"IT": "piccolo"
+			}
+		],
 		"tags": [
 			"pickable", "closable",
 			"item-clothing"
 		],
 		"price": [
 			{
-				"EN": "10gp",
-				"IT": "10po"
+				"EN": "20gp",
+				"IT": "20po"
 			}
 		]
 	},
@@ -5057,6 +5087,24 @@
 	{
 		"type":"item",
 		"name": {
+			"EN": "Animal feed",
+			"IT": "Cibo per animali"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-livestock-feed"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
 			"EN": "Barding",
 			"IT": "Bardatura"
 		},
@@ -5126,18 +5174,23 @@
 	{
 		"type":"item",
 		"name": {
-			"EN": "Pipe",
+			"EN": "Smoking pipe",
 			"IT": "Pipa"
 		},
-		"attributes": [],
+		"attributes": [
+			{
+				"EN": "petty",
+				"IT": "piccolo"
+			}
+		],
 		"tags": [
 			"pickable", "closable",
 			"item-tool-gear"
 		],
 		"price": [
 			{
-				"EN": "3gp",
-				"IT": "3po"
+				"EN": "15gp",
+				"IT": "15po"
 			}
 		]
 	},
@@ -5154,8 +5207,8 @@
 		],
 		"price": [
 			{
-				"EN": "10gp",
-				"IT": "10po"
+				"EN": "15gp",
+				"IT": "15po"
 			}
 		]
 	},
@@ -5213,8 +5266,8 @@
 		],
 		"price": [
 			{
-				"EN": "15gp",
-				"IT": "15po"
+				"EN": "20gp",
+				"IT": "20po"
 			}
 		]
 	},
@@ -5329,6 +5382,83 @@
 			"EN": "Whistle",
 			"IT": "Fischietto"
 		},
+		"attributes": [
+			{
+				"EN": "petty",
+				"IT": "piccolo"
+			}
+		],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Antitoxin",
+			"IT": "Antitossina"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Sedative",
+			"IT": "Sedativo"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Bandages",
+			"IT": "Bende"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "30gp",
+				"IT": "30gp"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Card deck",
+			"IT": "Mazzo di carte"
+		},
 		"attributes": [],
 		"tags": [
 			"pickable", "closable",
@@ -5338,6 +5468,350 @@
 			{
 				"EN": "5gp",
 				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Chest",
+			"IT": "Forziere"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25gp"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Compass",
+			"IT": "Bussola"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "75gp",
+				"IT": "75po"
+			}
+		]
+	},
+	{
+		"type":"item",
+		"name": {
+			"EN": "Parchment",
+			"IT": "Pergamena"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable", "closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10gp"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Bathing Goods (Soap, Perfume, etc.)",
+			"IT": "Articoli da bagno (Sapone, Profumo, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "5gp",
+				"IT": "5po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Common Agents (Glue, Grease, etc.)",
+			"IT": "Agenti comuni (Colla, Grasso, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Common Tools (Hammer, Shovel, etc.)",
+			"IT": "Attrezzi comuni (Martello, Pala, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Complex Instruments (Bagpipes, Fiddle, etc.)",
+			"IT": "Strumenti musicali complessi (Cornamusa, Violino, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "50gp",
+				"IT": "50po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Containers (Sack, Waterskin, etc.)",
+			"IT": "Contenitori (Sacco, Otre, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Cooking Gear (Pots, Utensils, etc.)",
+			"IT": "Attrezzatura da cucina (Pentole, Utensili, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Costume Gear (Face Paint, Disguise)",
+			"IT": "Attrezzatura per costumi (Pittura Facciale, Travestimento)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Expeditionary Gear (Climbing Spikes, Pulley), etc.",
+			"IT": "Attrezzatura da spedizione (Picchi da Arrampicata, Carrucola), ecc."
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Games (Cards, Dice, etc.)",
+			"IT": "Giochi (Carte, Dadi, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Outdoor Comfort (Blanket, Hammock, etc.)",
+			"IT": "Comfort all'aperto (Coperta, Amaca, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Repellent (Wolfsbane, Mugwort, etc.)",
+			"IT": "Repellente (Aconito, Artemisia, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Simple Instruments (Pipes, Lute, etc.)",
+			"IT": "Strumenti musicali semplici (Flauto, Liuto, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "10gp",
+				"IT": "10po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Specialized Tools (Ink, etc.)",
+			"IT": "Strumenti specifici (Inchiostro, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "20gp",
+				"IT": "20po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Thieving Tools (Lockpick, Metal File, etc.)",
+			"IT": "Strumenti da ladro (Grimaldello, Lima di metallo, ecc.)"
+		},
+		"attributes": [],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "25gp",
+				"IT": "25po"
+			}
+		]
+	},
+	{
+		"type": "item",
+		"name": {
+			"EN": "Wilderness Clothes (Poncho, Cloak, etc.)",
+			"IT": "Abbigliamento da escursionismo (Poncho, Mantello, ecc.)"
+		},
+		"attributes": [
+			{
+				"EN": "petty",
+				"IT": "piccolo"
+			}
+		],
+		"tags": [
+			"pickable",
+			"closable",
+			"item-tool-gear"
+		],
+		"price": [
+			{
+				"EN": "15gp",
+				"IT": "15po"
 			}
 		]
 	},

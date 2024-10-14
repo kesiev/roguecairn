@@ -1737,10 +1737,19 @@
 			{
 				"items": [
 					{
-						"description": {
+						"type": "item",
+						"name": {
 							"EN": "Antitoxin",
 							"IT": "Antitossina"
-						}
+						},
+						"attributes": [],
+						"notes": [],
+						"price": [
+							{
+								"EN": "20gp",
+								"IT": "20po"
+							}
+						]
 					}
 				]
 			},
@@ -2426,10 +2435,19 @@
 			{
 				"items": [
 					{
-						"description": {
+						"type": "item",
+						"name": {
 							"EN": "Card deck",
 							"IT": "Mazzo di carte"
-						}
+						},
+						"attributes": [],
+						"notes": [],
+						"price": [
+							{
+								"EN": "5gp",
+								"IT": "5po"
+							}
+						]
 					}
 				]
 			},
@@ -3480,10 +3498,19 @@
 					}
 				},
 				{
-					"description": {
+					"type": "item",
+					"name": {
 						"EN": "Antitoxin",
 						"IT": "Antitossina"
-					}
+					},
+					"attributes": [],
+					"notes": [],
+					"price": [
+						{
+							"EN": "20gp",
+							"IT": "20po"
+						}
+					]
 				},
 				{
 					"description": {

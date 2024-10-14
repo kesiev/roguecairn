@@ -38,10 +38,19 @@
 				}
 			},
 			{
-				"description": {
+				"type": "item",
+				"name": {
 					"EN": "Lantern",
 					"IT": "Lanterna"
-				}
+				},
+				"attributes": [],
+				"notes": [],
+				"price": [
+					{
+						"EN": "10gp",
+						"IT": "10po"
+					}
+				]
 			},
 			{
 				"type": "item",
@@ -1307,10 +1316,19 @@
 				}
 			},
 			{
-				"description": {
+				"type": "item",
+				"name": {
 					"EN": "Lantern",
 					"IT": "Lanterna"
-				}
+				},
+				"attributes": [],
+				"notes": [],
+				"price": [
+					{
+						"EN": "10gp",
+						"IT": "10po"
+					}
+				]
 			},
 			{
 				"type": "item",
@@ -1465,6 +1483,10 @@
 									{
 										"EN": "+4 slots",
 										"IT": "+4 slot"
+									},
+									{
+										"EN": "slow",
+										"IT": "lento"
 									}
 								],
 								"notes": []
@@ -1807,10 +1829,19 @@
 				"armor": 1
 			},
 			{
-				"description": {
+				"type": "item",
+				"name": {
 					"EN": "Lockpicks",
 					"IT": "Grimaldelli"
-				}
+				},
+				"attributes": [],
+				"notes": [],
+				"price": [
+					{
+						"EN": "25gp",
+						"IT": "25po"
+					}
+				]
 			},
 			{
 				"type": "item",
@@ -1881,22 +1912,15 @@
 								},
 								"attributes": [
 									{
+										"EN": "10ft",
+										"IT": "6m"
+									},
+									{
 										"EN": "bulky",
 										"IT": "ingombrante"
 									}
 								],
-								"notes": [
-									{
-										"key": {
-											"EN": "Ladder",
-											"IT": "Scala"
-										},
-										"value": {
-											"EN": "10ft",
-											"IT": "6m"
-										}
-									}
-								]
+								"notes": []
 							},
 							{
 								"type": "item",
@@ -1961,19 +1985,13 @@
 									"EN": "Strong Silk Rope",
 									"IT": "Corda di Seta Resistente"
 								},
-								"attributes": [],
-								"notes": [
+								"attributes": [
 									{
-										"key": {
-											"EN": "Strong Silk Rope",
-											"IT": "Corda di Seta Resistente"
-										},
-										"value": {
-											"EN": "30ft",
-											"IT": "15m"
-										}
+										"EN": "30ft",
+										"IT": "15m"
 									}
-								]
+								],
+								"notes": []
 							}
 						]
 					},
@@ -2828,8 +2846,8 @@
 							"IT": "Coltello Seghettato"
 						},
 						"value": {
-							"EN": "restores 1d4 STR",
-							"IT": "ripristina 1d4 FOR"
+							"EN": "Restores 1d4 STR",
+							"IT": "Ripristina 1d4 FOR"
 						}
 					}
 				],
@@ -3432,22 +3450,15 @@
 								},
 								"attributes": [
 									{
+										"EN": "Warm",
+										"IT": "Caldo"
+									},
+									{
 										"EN": "petty",
 										"IT": "piccolo"
 									}
 								],
-								"notes": [
-									{
-										"key": {
-											"EN": "Monk's Habit",
-											"IT": "Abito da Monaco"
-										},
-										"value": {
-											"EN": "Warm",
-											"IT": "Caldo"
-										}
-									}
-								]
+								"notes": []
 							},
 							{
 								"type": "item",
@@ -4267,8 +4278,8 @@
 							"IT": "Unguento Curativo"
 						},
 						"value": {
-							"EN": "restores 1d4 STR",
-							"IT": "ripristina 1d4 FOR"
+							"EN": "Restores 1d4 STR",
+							"IT": "Ripristina 1d4 FOR"
 						}
 					}
 				],
@@ -6193,10 +6204,19 @@
 						},
 						"items": [
 							{
-								"description": {
+								"type": "item",
+								"name": {
 									"EN": "Spyglass",
-									"IT": "Telescopio"
-								}
+									"IT": "Cannocchiale"
+								},
+								"attributes": [],
+								"notes": [],
+								"price": [
+									{
+										"EN": "40gp",
+										"IT": "40po"
+									}
+								]
 							},
 							{
 								"type": "item",
@@ -6210,16 +6230,11 @@
 										"IT": "piccolo"
 									}
 								],
-								"notes": [
+								"notes": [],
+								"price": [
 									{
-										"key": {
-											"EN": "Necklace",
-											"IT": "Collana"
-										},
-										"value": {
-											"EN": "Worth 20gp.",
-											"IT": "Vale 20po."
-										}
+										"EN": "20gp",
+										"IT": "20po"
 									}
 								]
 							},
@@ -6339,6 +6354,10 @@
 									{
 										"EN": "+4 slots",
 										"IT": "+4 slot"
+									},
+									{
+										"EN": "slow",
+										"IT": "lento"
 									}
 								],
 								"notes": []
@@ -6604,10 +6623,19 @@
 				}
 			},
 			{
-				"description": {
+				"type": "item",
+				"name": {
 					"EN": "Lantern",
 					"IT": "Lanterna"
-				}
+				},
+				"attributes": [],
+				"notes": [],
+				"price": [
+					{
+						"EN": "10gp",
+						"IT": "10po"
+					}
+				]
 			},
 			{
 				"type": "item",
@@ -6684,10 +6712,19 @@
 						},
 						"items": [
 							{
-								"description": {
+								"type": "item",
+								"name": {
 									"EN": "Lockpicks",
 									"IT": "Grimaldelli"
-								}
+								},
+								"attributes": [],
+								"notes": [],
+								"price": [
+									{
+										"EN": "25gp",
+										"IT": "25po"
+									}
+								]
 							},
 							{
 								"type": "item",
@@ -6717,19 +6754,13 @@
 									"EN": "Goosefelt Tarp",
 									"IT": "Coperta d'Oca"
 								},
-								"attributes": [],
-								"notes": [
+								"attributes": [
 									{
-										"key": {
-											"EN": "Goosefelt Tarp",
-											"IT": "Coperta d'Oca"
-										},
-										"value": {
-											"EN": "Fits 2.",
-											"IT": "Per due persone."
-										}
+										"EN": "fits 2 people",
+										"IT": "ospita 2 persone"
 									}
-								]
+								],
+								"notes": []
 							}
 						]
 					},
@@ -7153,6 +7184,10 @@
 								},
 								"attributes": [
 									{
+										"EN": "Concealable",
+										"IT": "Nascosto"
+									},
+									{
 										"EN": "d6 damage",
 										"IT": "d6 danno"
 									},
@@ -7161,18 +7196,7 @@
 										"IT": "piccolo"
 									}
 								],
-								"notes": [
-									{
-										"key": {
-											"EN": "Knife",
-											"IT": "Coltello"
-										},
-										"value": {
-											"EN": "Concealable.",
-											"IT": "Nascosto."
-										}
-									}
-								]
+								"notes": []
 							}
 						]
 					},
@@ -7508,10 +7532,19 @@
 				"notes": []
 			},
 			{
-				"description": {
+				"type": "item",
+				"name": {
 					"EN": "Spyglass",
-					"IT": "Telescopio"
-				}
+					"IT": "Cannocchiale"
+				},
+				"attributes": [],
+				"notes": [],
+				"price": [
+					{
+						"EN": "40gp",
+						"IT": "40po"
+					}
+				]
 			}
 		],
 		"exportData": {
@@ -8409,10 +8442,19 @@
 				"armor": 1
 			},
 			{
-				"description": {
+				"type": "item",
+				"name": {
 					"EN": "Compass",
 					"IT": "Bussola"
-				}
+				},
+				"attributes": [],
+				"notes": [],
+				"price": [
+					{
+						"EN": "75gp",
+						"IT": "75po"
+					}
+				]
 			},
 			{
 				"type": "item",
@@ -8780,10 +8822,19 @@
 				}
 			},
 			{
-				"description": {
+				"type": "item",
+				"name": {
 					"EN": "Quill & Ink",
-					"IT": "Penna e Inchiostro"
-				}
+					"IT": "Piuma e inchiostro"
+				},
+				"attributes": [],
+				"notes": [],
+				"price": [
+					{
+						"EN": "10gp",
+						"IT": "10po"
+					}
+				]
 			},
 			{
 				"description": {
