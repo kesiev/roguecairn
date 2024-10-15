@@ -1,13 +1,31 @@
-function HexMap(random,width,height) {
+function HexMap(width,height) {
 
     const
         ADJACENCY = [
-            { x:0, y:-1 },
-            { x:1, y:0 },
-            { x:0, y:1 },
-            { x:-1, y:1 },
-            { x:-1, y:0 },
-            { x:-1, y:-1 }
+            [
+                { x:1, y:-1 },    
+                { x:0, y:-1 }
+            ],
+            [
+                { x:1, y:0 },    
+                { x:1, y:0 }
+            ],
+            [
+                { x:1, y:1 },    
+                { x:0, y:1 }
+            ],
+            [
+                { x:0, y:1 },    
+                { x:-1, y:1 }
+            ],
+            [
+                { x:-1, y:0 },
+                { x:-1, y:0 }
+            ],
+            [
+                { x:0, y:-1 },    
+                { x:-1, y:-1 }
+            ]
         ];
 
     let
@@ -44,7 +62,7 @@ function HexMap(random,width,height) {
         self = {
             map:map,
             cells:cells,
-            applyBag:(bag,id,count,keep)=>{
+            applyBag:(random,bag,id,count,keep)=>{
                 let
                     process = true;
 
@@ -64,8 +82,8 @@ function HexMap(random,width,height) {
                                     cellbag = new random.Bag(map[y][x][id].elements);
                                 ADJACENCY.forEach(side=>{
                                     let
-                                        dx = x+side.x,
-                                        dy = y+side.y;
+                                        dx = x+side[y%2].x,
+                                        dy = y+side[y%2].y;
                                     if (isCell(dx,dy) && (map[dy][dx][id] === undefined)) {
                                         cellbag.reset();
                                         for (let i=0;i<keep;i++)
@@ -79,6 +97,110 @@ function HexMap(random,width,height) {
                         }
                 } while (process);
                  
+
+            },
+            spread:(random,list,id,maxCount)=>{
+                let
+                    starting = [],
+                    bounds = [],
+                    cellsBag = new random.Bag(cells),
+                    turnsList = [],
+                    turnsBag,
+                    turn,
+                    pass = {},
+                    passCount = 0,
+                    conquers = {},
+                    chart = [];
+
+                list.forEach((element,turnId)=>{
+                    let
+                        cell = cellsBag.pick();
+                    starting.push(cell)
+                    cell[id] = [ element ];
+                    turnsList.push(turnId);
+                    conquers[turnId] = { count:0, percentage:0 };
+                });
+
+                turnsBag = new random.Bag(turnsList);
+
+                do {
+
+                    turn = turnsBag.pick();
+
+                    if (!pass[turn]) {
+
+                        let
+                            destinations = [],
+                            turnElement = list[turn];
+
+                        cells.forEach(cell=>{
+                            if (cell[id] && (cell[id].indexOf(turnElement) != -1))
+                                ADJACENCY.forEach(side=>{
+                                    let
+                                        dx = cell.x+side[cell.y%2].x,
+                                        dy = cell.y+side[cell.y%2].y,
+                                        destCell = isCell(dx,dy); 
+                                    if (
+                                        destCell &&
+                                        (starting.indexOf(destCell) == -1) &&
+                                        (
+                                            !destCell[id] ||
+                                            (
+                                                (destCell[id].indexOf(turnElement) == -1) &&
+                                                (destCell[id].length<maxCount) &&
+                                                (cell[id].length == 1)
+                                            )
+                                        )
+                                    )
+                                        destinations.push([cell, destCell]);
+                                });
+                        });
+
+                        if (destinations.length) {
+
+                            let
+                                destination = random.element(destinations);
+
+                            if (!destination[1][id]) destination[1][id] = [];
+                            destination[1][id].push(turnElement);
+
+                            if (destination[1][id].length == maxCount)
+                                bounds.push(destination);
+
+                        } else {
+                            pass[turn] = true;
+                            passCount++;
+                        }
+
+                    }
+
+                } while (passCount < list.length);
+
+                cells.forEach(cell=>{
+                    if (cell[id].length == 1) {
+                        cell[id].forEach(turnElement=>{
+                            conquers[list.indexOf(turnElement)].count++;
+                        });
+                    }
+                });
+
+                for (let k in conquers) {
+                    chart.push({ element:list[k], score:conquers[k].count });
+                    conquers[k].percentage = Math.floor(conquers[k].count/cells.length*100);
+                }
+
+                chart.sort((a,b)=>{
+                    if (a.score > b.score) return -1;
+                    else if (a.score < b.score) return 1;
+                    else return 0;
+                });
+
+                return {
+                    conquers:conquers,
+                    chart:chart,
+                    allZones:0,
+                    bounds:bounds
+                };
 
             },
             toHtml:(ids)=>{
