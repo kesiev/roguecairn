@@ -57,22 +57,12 @@ function Generator() {
                 ]
             }
         },
-        ZONES={
-            "0,0":"NW",
-            "1,0":"N",
-            "2,0":"NE",
-            "0,1":"W",
-            "1,1":"CENTER",
-            "2,1":"CENTER",
-            "3,1":"E",
-            "0,2":"SW",
-            "1,2":"S",
-            "2,2":"SE"
-        },
         NPC_ATTRIBUTES = 3,
         USE_BIOMES = 6,
         WORLD_BIOMES = 3,
         WORLD_GEOGRAPHY = 4,
+        FACTIONS_COUNT = 2,
+        WEATHER_COUNT = 3,
         CHARACTERS_SETS = [
             { id:"firstSet", amount:5 },
             { id:"secondSet", amount:5 }
@@ -160,6 +150,8 @@ function Generator() {
         ],
         MAP_WIDTH = 4,
         MAP_HEIGHT = 3,
+        MAP_HEIGHT_SLICE = Math.floor(MAP_HEIGHT/3),
+        MAP_WIDTH_SLICE = Math.floor(MAP_WIDTH/3),
         PERSON_TYPES = [ "commoner", "professional" ],
         PERSON_ATTRIBUTES = [ "physique", "skin", "hair", "face", "speech", "clothing", "virtue", "vice", "reputation", "misfortunes" ];
 
@@ -239,6 +231,35 @@ function Generator() {
                 return false;
         }
         return found;
+    }
+
+    function assignFaction(data,bags,entity) {
+
+        if (bags.faction) {
+            let
+                link = bags.factionLink.pick();
+
+            switch (link) {
+                case "neutral":{
+                    entity.attributes.push(data.tags.labels.factionLinkNeutral);
+                    break;
+                }
+                case "affiliate":
+                case "against":{
+                    let
+                        faction = bags.faction.pick(),
+                        label = link == "affiliate" ? data.tags.labels.factionLinkAffiliate : data.tags.labels.factionLinkAgainst,
+                        entry = {};
+
+                    for (let k in label)
+                        entry[k] = label[k][0] + faction.name[k] + label[k][1];
+                    
+                    entity.attributes.push(entry);
+                    break;
+                }
+            }
+        }
+
     }
 
     function generateNpc(random) {
@@ -440,6 +461,7 @@ function Generator() {
                                         entity[k] = picked[k];
 
                                     addAttributes(random,data,bags,entity,"personAttributes");
+                                    assignFaction(data,bags,entity);
 
                                     break;
                                 }
@@ -450,6 +472,7 @@ function Generator() {
 
                                     entity = generateNpc(random);
                                     addAttributes(random,data,bags,entity,"personAttributes");
+                                    assignFaction(data,bags,entity);
 
                                     entity.tags.push("person");
                                     entity.tags.push("item-commoner");
@@ -771,7 +794,7 @@ function Generator() {
             charactersRandom = new Random(seed),
             difficultyDensities = new random.Bag(DIFFICULTY_DENSITY),
             encountersDensities = new random.Bag(ENCOUNTERS_DENSITY),
-            world = new HexMap(random,MAP_WIDTH,MAP_HEIGHT),
+            world = new HexMap(MAP_WIDTH,MAP_HEIGHT),
             usedBiomes = [],
             bags={
                 personAttributes:new random.Bag(PERSON_ATTRIBUTES),
@@ -809,9 +832,9 @@ function Generator() {
         bags.biome = new random.Bag(usedBiomes);
         
         bags.biome.ban("biome-any");
-        world.applyBag(bags.biome,"biome",2,1);
-        world.applyBag(difficultyDensities,"difficultyDensity");
-        world.applyBag(encountersDensities,"encounterDensity");
+        world.applyBag(random,bags.biome,"biome",2,1);
+        world.applyBag(random,difficultyDensities,"difficultyDensity");
+        world.applyBag(random,encountersDensities,"encounterDensity");
 
         world.stats = {
             biomes:[],
@@ -820,9 +843,30 @@ function Generator() {
 
         world.cells.forEach(cell=>{
             let
-                zone = ZONES[cell.id],
+                zone = "",
                 usedBiomes = [];
-                
+
+            if (cell.x < MAP_WIDTH_SLICE)
+                if (cell.y < MAP_HEIGHT_SLICE)
+                    zone = "NW";
+                else if (cell.y >= MAP_HEIGHT-MAP_HEIGHT_SLICE)
+                    zone = "SW";
+                else
+                    zone = "W";
+            else if (cell.x >= MAP_WIDTH - (cell.y%2 ? 0 : 1) - MAP_WIDTH_SLICE )
+                if (cell.y < MAP_HEIGHT_SLICE)
+                    zone = "NE";
+                else if (cell.y >= MAP_HEIGHT-MAP_HEIGHT_SLICE)
+                    zone = "SE";
+                else
+                    zone = "E";
+            else if (cell.y < MAP_HEIGHT_SLICE)
+                zone = "N";
+            else if (cell.y >= MAP_HEIGHT-MAP_HEIGHT_SLICE)
+                zone = "S";
+            else
+                zone = "CENTER";
+            
             cell.compass = {};
             cell.uniqueBiomes = [];
             cell.allBiomes = [];
@@ -1048,6 +1092,129 @@ function Generator() {
 
         });
 
+        
+        // --- Factions
+
+        if (settings.factions) {
+
+            let
+                stats,
+                list = [],
+                factionsRandom = new Random(seed),
+                factionsConflicts = new factionsRandom.Bag(data.factions.conflitcs),
+                factionsActions = new factionsRandom.Bag(data.factions.actions),
+                factionBags = [
+                    { name:"type", bag:new factionsRandom.Bag(data.factions.types) },
+                    { name:"virtue", bag:new factionsRandom.Bag(data.factions.traits.virtues) },
+                    { name:"vice", bag:new factionsRandom.Bag(data.factions.traits.vices) },
+                    { name:"goal", bag:new factionsRandom.Bag(data.factions.agenda.goals) },
+                    { name:"obstacle", bag:new factionsRandom.Bag(data.factions.agenda.obstacles) },
+                    { name:"advantage", bag:new factionsRandom.Bag(data.factions.advantages) },
+                    { name:"group", bag:new factionsRandom.Bag(data.factions.names.groups) },
+                    { name:"noun", bag:new factionsRandom.Bag(data.factions.names.nouns) },
+                    { name:"adjective", bag:new factionsRandom.Bag(data.factions.names.adjectives) }
+                ];
+
+            for (let i=0;i<FACTIONS_COUNT;i++) {
+                let
+                    faction = {
+                        name:{},
+                        formula:factionsRandom.element(data.factions.names.formulas)
+                    };
+                factionBags.forEach(bag=>faction[bag.name] = bag.bag.pick());
+                list.push(faction);
+
+                data.tags.languages.forEach(language=>{
+                    let
+                        out = "";
+
+                    language = language.id;
+            
+                    faction.formula[language].forEach(step=>{
+                        let
+                            part;
+            
+                        if (step.label)
+                            part = step.label;
+                        else if (step.table)
+                            part = faction[step.table][language];
+            
+                        if (step.atIndex)
+                            step.atIndex.forEach(index=>{
+                                if (index.length)
+                                    part = part[faction[index[0]][language][index[1]]];
+                                else
+                                    part = part[index];
+                                })
+            
+                        if (part) {
+                            out += part;
+                            if (part.match(/[a-zA-Z]$/))
+                                out+=" ";
+                        }
+            
+                    });
+                    faction.name[language] = out.trim();
+                });
+
+            }
+
+            stats = world.spread(factionsRandom,list,"factions",2);
+            stats.bounds.forEach(bound=>{
+                
+                bound[1].factionsConflict = factionsConflicts.pick();
+
+                switch (bound[1].factionsConflict) {
+                    case "action":{
+                        bound[1].factionsAction = {
+                            faction:factionsRandom.element(bound[1].factions),
+                            action:factionsActions.pick()
+                        }
+                        break;
+                    }
+                }
+            });
+
+            world.factions = {
+                list: list,
+                stats:stats
+            };
+
+            bags.faction = new factionsRandom.Bag(list);
+            bags.factionLink = new factionsRandom.Bag(data.factions.links);
+
+        }
+
+        // --- Weather
+
+        if (settings.weather) {
+
+            let
+                stats,
+                list = [],
+                weatherRandom = new Random(seed),
+                season = weatherRandom.element(data.weather.seasons),
+                weather = weatherRandom.element(season.weather),
+                unusualWeather = weatherRandom.element(data.weather.unusual),
+                contitionsBag = new weatherRandom.Bag(season.conditions);
+
+            for (let i=0;i<WEATHER_COUNT;i++)
+                list.push(data.weather.conditions[contitionsBag.pick()]);
+
+            stats = world.spread(weatherRandom,list,"weather",2);
+
+            stats.bounds.forEach(bound=>{
+                bound[1].weather = { none:true };
+            });
+            
+            world.weather = {
+                season:season,
+                weather:weather,
+                unusualWeather:unusualWeather
+            };
+
+        }
+
         // --- Apply events
 
         if (DEBUG.events) console.log("::","Buildings")
@@ -1204,6 +1371,14 @@ function Generator() {
                         id:"bonds",
                         type:"json",
                         file:"databases/bonds.json"
+                    },{
+                        id:"factions",
+                        type:"json",
+                        file:"databases/factions.json"
+                    },{
+                        id:"weather",
+                        type:"json",
+                        file:"databases/weather.json"
                     },{
                         id:"about",
                         type:"text",

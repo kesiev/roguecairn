@@ -1,0 +1,287 @@
+{
+    "seasons":[
+        {
+            "name":{
+                "EN":"spring",
+                "IT":"primavera"
+            },
+            "weather": [
+                {
+                    "EN":"mild and sunny",
+                    "IT":"mite e soleggiato"
+                },
+                {
+                    "EN":"nice and drizzly",
+                    "IT":"piacevole e piovigginoso"
+                },
+                {
+                    "EN":"cool and breezy",
+                    "IT":"fresco e ventilato"
+                },
+                {
+                    "EN":"mild and cloudy",
+                    "IT":"mite e nuvoloso"
+                },
+                {
+                    "EN":"cold and windy",
+                    "IT":"freddo e ventoso"
+                },
+                {
+                    "EN":"cold and rainy",
+                    "IT":"freddo e piovoso"
+                }
+            ],
+            "conditions":["nice", "fair", "fair", "unpleasant", "inclement", "extreme" ]
+        },{
+            "name":{
+                "EN":"summer",
+                "IT":"estate"
+            },
+            "weather":[
+                {
+                    "EN":"hot and sunny",
+                    "IT":"caldo e soleggiato"
+                },
+                {
+                    "EN":"nice and cloudy",
+                    "IT":"bello e nuvoloso"
+                },
+                {
+                    "EN":"mild and rainy",
+                    "IT":"mite e piovoso"
+                },
+                {
+                    "EN":"cool and stormy",
+                    "IT":"fresco e tempestoso"
+                },
+                {
+                    "EN":"hot and humid",
+                    "IT":"caldo e umido"
+                },
+                {
+                    "EN":"sweltering and humid",
+                    "IT":"soffocante e umido"
+                }
+            ],
+            "conditions":["nice", "nice", "fair", "unpleasant", "inclement", "extreme"]
+        },{
+            "name":{
+                "EN":"fall",
+                "IT":"autunno"
+            },
+            "weather":[
+                {
+                    "EN":"nice and breezy",
+                    "IT":"bello e ventilato"
+                },
+                {
+                    "EN":"mild and windy",
+                    "IT":"mite e ventoso"
+                },
+                {
+                    "EN":"cool and foggy",
+                    "IT":"fresco e nebbioso"
+                },
+                {
+                    "EN":"cold and cloudy",
+                    "IT":"freddo e nuvoloso"
+                },
+                {
+                    "EN":"cool and rainy",
+                    "IT":"fresco e piovoso"
+                },
+                {
+                    "EN":"chilly and stormy",
+                    "IT":"freddo e tempestoso"
+                }
+            ],
+            "conditions":["fair", "fair", "unpleasant", "inclement", "inclement", "extreme"]
+        },{
+            "name":{
+                "EN":"winter",
+                "IT":"inverno"
+            },
+            "weather":[
+                {
+                    "EN":"mild and clear",
+                    "IT":"mite e sereno"
+                },
+                {
+                    "EN":"cool and windy",
+                    "IT":"fresco e ventoso"
+                },
+                {
+                    "EN":"cold and raining",
+                    "IT":"freddo e piovoso"
+                },
+                {
+                    "EN":"frigid and stormy",
+                    "IT":"freddo e tempestoso"
+                },
+                {
+                    "EN":"freezing and snowing",
+                    "IT":"gelido e nevica"
+                },
+                {
+                    "EN":"freezing and hailing",
+                    "IT":"gelido e grandina"
+                }
+            ],
+            "conditions":["fair", "unpleasant", "inclement", "inclement", "extreme", "extreme"]
+        }
+    ],
+    "unusual":[
+        {
+            "EN":"an annual fog appears randomly, turning metallic surfaces to gold on contact",
+            "IT":"una nebbia annuale appare casualmente, trasformando le superfici metalliche in oro al contatto"
+        },
+        {
+            "EN":"an aurora that is visible even during the day",
+            "IT":"un'aurora visibile anche durante il giorno"
+        },
+        {
+            "EN":"birds fly backwards, yet somehow still move forward",
+            "IT":"gli uccelli volano all'indietro, ma in qualche modo continuano ad andare avanti"
+        },
+        {
+            "EN":"days are erratic. The Sun goes backwards for a time, then jumps forward as night rapidly sets in",
+            "IT":"i giorni sono irregolari. Il sole va all'indietro per un po', poi salta in avanti mentre la notte cala rapidamente"
+        },
+        {
+            "EN":"distant chimes instead of thunder. A smoky, sweet wind blows in from the West",
+            "IT":"suonano rintocchi lontani invece di tuoni. Un vento fumoso e dolce soffia da ovest"
+        },
+        {
+            "EN":"enormous, fleshy eyes peer down from the skies, their pupils lighting up the night sky",
+            "IT":"occhi enormi e carnosi scrutano dal cielo, le loro pupille illuminano il cielo notturno"
+        },
+        {
+            "EN":"appears flashes of movement in the periphery that always amount to nothing",
+            "IT":"appaiono lampi di movimento nella periferia che non portano mai a nulla"
+        },
+        {
+            "EN":"a fog that fills the belly appears (no need for rations). The next day, it causes vomiting",
+            "IT":"appare una nebbia che riempie la pancia (non c'è bisogno di razioni). Il giorno dopo, causa vomito"
+        },
+        {
+            "EN":"lakes and streams evaporate in minutes, filling storm clouds that drench the landscape",
+            "IT":"laghi e ruscelli evaporano in pochi minuti, riempiendo le nubi temporalesche che inzuppano il paesaggio"
+        },
+        {
+            "EN":"rains of small aquatic creatures (tadpoles, frogs, small fish). No one knows where they come from",
+            "IT":"piovono piccole creature acquatiche (girini, rane, piccoli pesci). Nessuno sa da dove provengano"
+        },
+        {
+            "EN":"rainbows lack most of their colors and occasionally flicker. Raindrops fall in various colors",
+            "IT":"gli arcobaleni non hanno la maggior parte dei loro colori e occasionalmente tremolano. Le gocce di pioggia cadono in vari colori"
+        },
+        {
+            "EN":"rolling dust clouds that smell of cinnamon appears. The coughing lasts long after they've moved on",
+            "IT":"appaiono nuvole di polvere che odorano di cannella. La tosse dura a lungo dopo che se ne sono andate"
+        },
+        {
+            "EN":"shadows disappear at random. Animals become more reluctant",
+            "IT":"le ombre scompaiono a caso. Gli animali diventano più riluttanti"
+        },
+        {
+            "EN":"the air is thicker than usual, and breathing is difficult",
+            "IT":"l'aria è più densa del solito e respirare è difficile"
+        },
+        {
+            "EN":"the clouds are shaped like faces. They appear to be laughing",
+            "IT":"le nuvole hanno la forma di volti. Sembrano ridere"
+        },
+        {
+            "EN":"the moon appears larger and softly hums at night",
+            "IT":"la luna sembra più grande e ronza dolcemente di notte"
+        },
+        {
+            "EN":"the rain glows gently at night. It can be gathered, but the light eventually fades",
+            "IT":"la pioggia brilla dolcemente di notte. Può essere raccolta, ma alla fine la luce svanisce"
+        },
+        {
+            "EN":"the stars rearrange themselves in intricate patterns, making navigation difficult",
+            "IT":"le stelle si riorganizzano in intricati schemi, rendendo difficile la navigazione"
+        },
+        {
+            "EN":"the winds carry whispers. Some say they tell hints of the future",
+            "IT":"i venti trasportano sussurri. Alcuni dicono che diano indizi del futuro"
+        },
+        {
+            "EN":"when it snows, the flakes are warm and dry",
+            "IT":"quando nevica, i fiocchi sono caldi e asciutti"
+        }
+    ],
+    "conditions":{
+        "nice":{
+            "name":{
+                "EN":"nice",
+                "IT":"mite"
+            },
+            "effect":{
+                "EN":"Favorable conditions for travel",
+                "IT":"Condizioni favorevoli per il viaggio"
+            },
+            "examples":{
+                "EN": "clear skies, sunny",
+                "IT": "cielo sereno, soleggiato"
+            }
+        },
+        "fair":{
+            "name":{
+                "EN":"fair",
+                "IT":"buono"
+            },
+            "effect":{
+                "EN":"Favorable conditions for travel",
+                "IT":"Condizioni favorevoli per il viaggio"
+            },
+            "examples":{
+                "EN": "overcast, breezy",
+                "IT": "coperto, ventilato"
+            }
+        },
+        "unpleasant":{
+            "name":{
+                "EN":"unpleasant",
+                "IT":"sgradevole"
+            },
+            "effect":{
+                "EN":"Add a Fatigue or add one watch to the journey",
+                "IT":"Aggiungi una Fatica o aggiungi un Tempo al viaggio"
+            },
+            "examples":{
+                "EN": "gusting winds, rain showers, sweltering heat, chill air",
+                "IT": "raffiche di vento, rovesci di pioggia, caldo soffocante, aria fredda"
+            }
+        },
+        "inclement":{
+            "name":{
+                "EN":"inclement",
+                "IT":"inclemente"
+            },
+            "effect":{
+                "EN":"Add a Fatigue or add +1 watch. increase terrain Difficulty by a step",
+                "IT":"Aggiungi una Fatica o aggiungi +1 Tempo. Aumenta la Difficoltà del terreno di un livello"
+            },
+            "examples":{
+                "EN": "thunderstorms, lightning, rain, muddy ground",
+                "IT": "temporali, fulmini, pioggia, terreno fangoso"
+            }
+        },
+        "extreme":{
+            "name":{
+                "EN":"extreme",
+                "IT":"estremo"
+            },
+            "effect":{
+                "EN":"Add a Fatigue and add +1 watch. increase terrain Difficulty by a step",
+                "IT":"Aggiungi una Fatica e aggiungi +1 Tempo. Aumenta la Difficoltà del terreno di un livello"
+            },
+            "examples":{
+                "EN": "blizzards, freezing winds, flooding, mud slides",
+                "IT": "bufere di neve, venti gelidi, inondazioni, frane"
+            }
+        }
+    }
+}

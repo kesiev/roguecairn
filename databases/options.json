@@ -1,8 +1,18 @@
 [
     {
+        "title":{
+            "EN":"Characters",
+            "IT":"Personaggi"
+        }
+    },
+    {
         "label":{
             "EN":"First characters set:",
             "IT":"Primo set di personaggi:"
+        },
+        "description":{
+            "IT":"Stabilisce le regole da seguire per generare i primi 5 personaggi del mondo.",
+            "EN":"Set the rules to follow to generate the first 5 characters of the world."
         },
         "type":"combo",
         "options":[
@@ -64,10 +74,15 @@
                 }
             }
         ]
-    },{
+    },
+    {
         "label":{
             "EN":"Second characters set:",
             "IT":"Secondo set di personaggi:"
+        },
+        "description":{
+            "IT":"Stabilisce le regole da seguire per generare i successivi 5 personaggi del mondo.",
+            "EN":"Set the rules to follow to generate the next 5 characters of the world."
         },
         "type":"combo",
         "options":[
@@ -126,6 +141,76 @@
                 "label":{
                     "EN":"2nd edition with backgrounds",
                     "IT":"2&deg; edizione con background"
+                }
+            }
+        ]
+    },
+    {
+        "title":{
+            "EN":"World",
+            "IT":"Mondo"
+        }
+    },
+    {
+        "label":{
+            "EN":"Factions",
+            "IT":"Fazioni"
+        },
+        "description":{
+            "IT":"Aggiunge al mondo 2 fazioni principali. Controlleranno alcune regioni, potrebbero entrare in conflitto e alcuni personaggi potrebbero esserne affiliati o nemici.",
+            "EN":"Adds 2 main factions to the world. They will control some regions, may conflict with them, and some characters may be affiliated with or enemies of them."
+        },
+        "type":"combo",
+        "options":[
+            {
+                "set":{
+                    "factions":false
+                },
+                "label":{
+                    "EN":"No",
+                    "IT":"No"
+                }
+            },
+            {
+                "symbol":"y",
+                "set":{
+                    "factions":true
+                },
+                "label":{
+                    "EN":"Yes",
+                    "IT":"Si"
+                }
+            }
+        ]
+    },
+    {
+        "label":{
+            "EN":"Weather",
+            "IT":"Clima"
+        },
+        "description":{
+            "IT":"Aggiunge le condizioni climatiche al mondo. Viene stabilita una stagione, ogni regione ha una propria condizione climatica e viene descritta una stranezza del clima.",
+            "EN":"It adds weather conditions to the world. A season is established, each region has its own weather condition, and a climate oddity is described."
+        },
+        "type":"combo",
+        "options":[
+            {
+                "set":{
+                    "weather":false
+                },
+                "label":{
+                    "EN":"No",
+                    "IT":"No"
+                }
+            },
+            {
+                "symbol":"z",
+                "set":{
+                    "weather":true
+                },
+                "label":{
+                    "EN":"Yes",
+                    "IT":"Si"
                 }
             }
         ]

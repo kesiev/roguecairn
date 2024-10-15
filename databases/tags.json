@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"version":"0.2b",
+		"version":"0.3b",
 		"author":"KesieV",
 		"authorUrl":"https://www.kesiev.com",
 		"sourcesUrl":"https://github.com/kesiev/roguecairn",
@@ -236,13 +236,61 @@
 				"The ",0," area continues ",".",", ",", and "," and "
 			]
 		},
+		"factions":{
+			"EN":"The world is split between these major factions:",
+			"IT":"Il mondo &egrave; diviso tra queste grandi fazioni:"
+		},
+		"factionControl":{
+			"EN":[ "This region is under the "," faction control." ],
+			"IT":[ "Questa regione &egrave; sotto il controllo della fazione ", "." ]
+		},
+		"factionNeutral":{
+			"EN":"This region is <b>faction neutral</b>.",
+			"IT":"Questa regione non appartiena a <b>nessuna fazione</b>."
+		},
+		"factionContended":{
+			"EN":[ "This is a <b>faction-contended</b> region. Recently, "," ",": ","." ],
+			"IT":[ "Questa &egrave; una regione <b>contesa tra fazioni</b>. Recentemente "," ",": ","." ]
+		},
+		"factionLinkAffiliate":{
+			"EN":[ "affiliate to ", "" ],
+			"IT":[ "affiliato a ", "" ]
+		},
+		"factionLinkAgainst":{
+			"EN":[ "against ", "" ],
+			"IT":[ "contro ", "" ]
+		},
+		"factionLinkNeutral":{
+			"EN": "faction neutral",
+			"IT": "neutrale alle fazioni"
+		},
+		"weatherSummary":{
+			"EN":[ "It is ", " and the weather is generally ", ". Sometimes ","..." ],
+			"IT":[ "&Egrave; ", " ed il clima &egrave; generalmente ", ". A volte ","..." ]
+		},
+		"weatherRegular":{
+			"EN":[ "The weather is ", "." ],
+			"IT":[ "Il clima &egrave; ", "." ]
+		},
+		"weatherSpecial":{
+			"EN":[ "The weather is ", " (", "). ","." ],
+			"IT":[ "Il clima &egrave; ", " (", "). ","." ]
+		},
 		"kettlewrightDownload":{
-			"IT":"Scarica JSON per Kettlewright",
-			"EN":"Download Kettlewright JSON"
+			"IT":"Esporta JSON per Kettlewright",
+			"EN":"Export Kettlewright JSON"
 		},
 		"options":{
 			"IT":"Opzioni",
 			"EN":"Options"
+		},
+		"ok":{
+			"IT":"Ok",
+			"EN":"Ok"
+		},
+		"cancel":{
+			"IT":"Annulla",
+			"EN":"Cancel"
 		},
 		"compass":{
 			"N":{

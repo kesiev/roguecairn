@@ -28,6 +28,38 @@ function Renderer() {
         return "<span class='cell-id'>"+place.id+"</span> <span class='fake-link' link-to='area-"+place.id+"'>"+place.name[renderSettings.language]+"</span>";
     }
 
+    function renderFaction(renderSettings,faction,stats,statsId) {
+
+        let
+            conquer = stats.conquers[statsId],
+            language = renderSettings.language,
+            out = "";
+
+        switch (language) {
+            case "IT":{
+                out += "<b>"+faction.name[language]+"</b>, ";
+                out += "composto principalmente da "+faction.type[language]+". ";
+                out += "&Egrave; un gruppo "+faction.vice[language]+" ma "+faction.virtue[language]+", ";
+                out += "che mira "+faction.goal[language]+" ";
+                out += "ma "+faction.obstacle[language]+". ";
+                out += "Il loro punto di forza "+faction.advantage[language]+" e sono diffusi in circa il "+conquer.percentage+"% del mondo.";
+                break;
+            }
+            default:{
+                out += "<b>"+faction.name[language]+"</b>, ";
+                out += "mostly composed of "+faction.type[language]+". ";
+                out += "It is "+faction.vice[language]+" but "+faction.virtue[language]+" group, ";
+                out += "aiming to "+faction.goal[language]+" ";
+                out += "but "+faction.obstacle[language]+". ";
+                out += "Their strength "+faction.advantage[language]+" and they are spread across about "+conquer.percentage+"% of the world.";
+                break;
+            }
+        }
+
+        return out;
+        
+    }
+
     function renderCharacter(renderSettings,seed,files,character) {
 
         let
@@ -969,7 +1001,7 @@ function Renderer() {
                 line += worldBiome[2];
             else
                 line += worldBiome[3];
-        })
+        });
 
         description.push(line);
 
@@ -995,6 +1027,34 @@ function Renderer() {
 
         if (description)
             html+= description.map(line=>"<p>"+line+"</p>").join("");
+        
+        // --- Weather
+
+        if (world.weather) {
+
+            html += "<p>"+
+                data.tags.labels.weatherSummary[language][0]+
+                "<b>"+world.weather.season.name[language]+"</b>"+
+                data.tags.labels.weatherSummary[language][1]+
+                world.weather.weather[language]+
+                data.tags.labels.weatherSummary[language][2]+
+                world.weather.unusualWeather[language]+
+                data.tags.labels.weatherSummary[language][3]
+                "</p>";
+
+        }
+    
+        // --- Factions
+
+        if (world.factions) {
+
+            html += "<p>"+data.tags.labels.factions[language]+"</p><ol>";
+            world.factions.list.forEach((faction,id)=>{
+                html+="<li>"+renderFaction(renderSettings,faction,world.factions.stats,id)+"</li>";
+            })
+            html+="</ol>";
+
+        }
 
         world.cells.forEach((cell,id)=>{
 
@@ -1069,6 +1129,57 @@ function Renderer() {
 
             if (description)
                 html+= description.map(line=>"<p>"+line+"</p>").join("");
+
+            // --- Weather
+
+            if (cell.weather) {
+
+                if (cell.weather.none)
+                    html += "<p>"+
+                        data.tags.labels.weatherRegular[language][0]+
+                        "<b>"+world.weather.weather[language]+"</b>"+
+                        data.tags.labels.weatherRegular[language][1]+
+                        "</p>";
+                else
+                    html += "<p>"+
+                        data.tags.labels.weatherSpecial[language][0]+
+                        "<b>"+cell.weather[0].name[language]+"</b>"+
+                        data.tags.labels.weatherSpecial[language][1]+
+                        cell.weather[0].examples[language]+
+                        data.tags.labels.weatherSpecial[language][2]+
+                        cell.weather[0].effect[language]+
+                        data.tags.labels.weatherSpecial[language][3]+
+                        "</p>";
+
+            }
+            
+            // --- Factions
+
+            if (cell.factions) {
+
+                switch (cell.factionsConflict) {
+                    case "neutral":{
+                        html+="<p>"+data.tags.labels.factionNeutral[language]+"</p>";
+                        break;
+                    }
+                    case "action":{
+                        html+="<p>"+
+                            data.tags.labels.factionContended[language][0]+
+                            "<b>"+cell.factionsAction.faction.name[language]+"</b>"+
+                            data.tags.labels.factionContended[language][1]+
+                            cell.factionsAction.action.consequence[language]+
+                            data.tags.labels.factionContended[language][2]+
+                            cell.factionsAction.action.impact[language]+
+                            data.tags.labels.factionContended[language][3]+"</p>";
+                        break;
+                    }
+                    default:{
+                        html+="<p>"+data.tags.labels.factionControl[language][0]+"<b>"+cell.factions[0].name[language]+"</b>"+data.tags.labels.factionControl[language][1]+"</p>";
+                        break;
+                    }
+                }
+
+            }
 
             [
                 "boss", "midboss"

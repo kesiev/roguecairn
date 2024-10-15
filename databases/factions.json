@@ -1,0 +1,1088 @@
+{
+    "types":[
+        {
+            "EN":"artisans",
+            "IT":"artigiani"
+        },
+        {
+            "EN":"commoners",
+            "IT":"popolani"
+        },
+        {
+            "EN":"criminals",
+            "IT":"criminali"
+        },
+        {
+            "EN":"cultists",
+            "IT":"cultisti"
+        },
+        {
+            "EN":"exiles",
+            "IT":"esuli"
+        },
+        {
+            "EN":"explorers",
+            "IT":"esploratori"
+        },
+        {
+            "EN":"industrialists",
+            "IT":"industriali"
+        },
+        {
+            "EN":"merchants",
+            "IT":"mercanti"
+        },
+        {
+            "EN":"military",
+            "IT":"militari"
+        },
+        {
+            "EN":"nobles",
+            "IT":"nobili"
+        },
+        {
+            "EN":"nomads",
+            "IT":"nomadi"
+        },
+        {
+            "EN":"pilgrims",
+            "IT":"pellegrini"
+        },
+        {
+            "EN":"protectors",
+            "IT":"protettori"
+        },
+        {
+            "EN":"religious",
+            "IT":"religiosi"
+        },
+        {
+            "EN":"revolutionaries",
+            "IT":"rivoluzionari"
+        },
+        {
+            "EN":"rulers",
+            "IT":"governanti"
+        },
+        {
+            "EN":"scholars",
+            "IT":"studiosi"
+        },
+        {
+            "EN":"settlers",
+            "IT":"coloni"
+        },
+        {
+            "EN":"spies",
+            "IT":"spie"
+        },
+        {
+            "EN":"tribes",
+            "IT":"tribù"
+        }
+    ],
+    "traits": {
+        "virtues": [
+          {
+            "EN":"cautious",
+            "IT":"cauto"
+          },
+          {
+            "EN":"connected",
+            "IT":"connesso"
+          },
+          {
+            "EN":"disciplined",
+            "IT":"disciplinato"
+          },
+          {
+            "EN":"discreet",
+            "IT":"discreto"
+          },
+          {
+            "EN":"honest",
+            "IT":"onesto"
+          },
+          {
+            "EN":"intellectual",
+            "IT":"intellettuale"
+          },
+          {
+            "EN":"judicious",
+            "IT":"giudizioso"
+          },
+          {
+            "EN":"loyal",
+            "IT":"leale"
+          },
+          {
+            "EN":"meticulous",
+            "IT":"meticoloso"
+          },
+          {
+            "EN":"pragmatic",
+            "IT":"pragmatico"
+          },
+          {
+            "EN":"resourceful",
+            "IT":"intraprendente"
+          },
+          {
+            "EN":"secretive",
+            "IT":"riservato"
+          },
+          {
+            "EN":"shrewd",
+            "IT":"astuto"
+          },
+          {
+            "EN":"tenacious",
+            "IT":"tenace"
+          },
+          {
+            "EN":"witty",
+            "IT":"spiritoso"
+          }
+        ],
+        "vices": [
+          {
+            "EN":"an aloof",
+            "IT":"distaccato"
+          },
+          {
+            "EN":"a corrupt",
+            "IT":"corrotto"
+          },
+          {
+            "EN":"a craven",
+            "IT":"codardo"
+          },
+          {
+            "EN":"a cruel",
+            "IT":"crudele"
+          },
+          {
+            "EN":"a cynical",
+            "IT":"cinico"
+          },
+          {
+            "EN":"a deceptive",
+            "IT":"ingannevole"
+          },
+          {
+            "EN":"a greedy",
+            "IT":"avido"
+          },
+          {
+            "EN":"an impulsive",
+            "IT":"impulsivo"
+          },
+          {
+            "EN":"a manipulative",
+            "IT":"manipolativo"
+          },
+          {
+            "EN":"a mercurial",
+            "IT":"lunatico"
+          },
+          {
+            "EN":"a naive",
+            "IT":"ingenuo"
+          },
+          {
+            "EN":"a ruthless",
+            "IT":"spietato"
+          },
+          {
+            "EN":"a selfish",
+            "IT":"egoista"
+          },
+          {
+            "EN":"a stubborn",
+            "IT":"testardo"
+          },
+          {
+            "EN":"a vain",
+            "IT":"vanesio"
+          }
+        ]
+      },
+    "agenda":{
+      "goals": [
+        {
+            "EN":"ascend to a higher plane",
+            "IT":"ad ascendere a un piano superiore"
+        },
+        {
+            "EN":"collect artifacts",
+            "IT":"a raccogliere manufatti"
+        },
+        {
+            "EN":"cultivate a rare resource",
+            "IT":"a coltivare una risorsa rara"
+        },
+        {
+            "EN":"defend something",
+            "IT":"a difendere qualcosa"
+        },
+        {
+            "EN":"destroy something",
+            "IT":"a distruggere qualcosa"
+        },
+        {
+            "EN":"dominate others",
+            "IT":"a dominare gli altri"
+        },
+        {
+            "EN":"enrich themselves",
+            "IT":"ad arricchirsi"
+        },
+        {
+            "EN":"establish a new order",
+            "IT":"a stabilire un nuovo ordine"
+        },
+        {
+            "EN":"explore uncharted lands",
+            "IT":"ad esplorare terre inesplorate"
+        },
+        {
+            "EN":"forge an alliance",
+            "IT":"a forgiare un'alleanza"
+        },
+        {
+            "EN":"infiltrate another faction",
+            "IT":"ad infiltrarsi in un'altra fazione"
+        },
+        {
+            "EN":"preserve the status quo",
+            "IT":"a preservare lo status quo"
+        },
+        {
+            "EN":"protect a secret",
+            "IT":"a proteggere un segreto"
+        },
+        {
+            "EN":"purge the land",
+            "IT":"ad epurare la terra"
+        },
+        {
+            "EN":"reveal a secret",
+            "IT":"a rivelare un segreto"
+        },
+        {
+            "EN":"revenge",
+            "IT":"a vendicarsi"
+        },
+        {
+            "EN":"revive a former power",
+            "IT":"a ravvivare un potere precedente"
+        },
+        {
+            "EN":"seek new leadership",
+            "IT":"a cercare una nuova leadership"
+        },
+        {
+            "EN":"spread a belief",
+            "IT":"a diffondere un credo"
+        }
+      ],
+      "obstacles": [
+        {
+            "EN":"a geographic barrier or impassable terrain",
+            "IT":"una barriera geografica o un terreno impraticabile"
+        },
+        {
+            "EN":"a key piece of information must first be discovered",
+            "IT":"un'informazione chiave deve essere prima scoperta"
+        },
+        {
+            "EN":"a powerful figure or foe must be eliminated",
+            "IT":"una figura potente o un nemico deve essere eliminato"
+        },
+        {
+            "EN":"a rare but necessary resource must first be acquired",
+            "IT":"una risorsa rara ma necessaria deve essere prima acquisita"
+        },
+        {
+            "EN":"an internal schism threatens to tear the faction apart",
+            "IT":"uno scisma interno minaccia di fare a pezzi la fazione"
+        },
+        {
+            "EN":"another faction has the same goal",
+            "IT":"un'altra fazione ha lo stesso obiettivo"
+        },
+        {
+            "EN":"another faction stands in opposition",
+            "IT":"un'altra fazione si oppone"
+        },
+        {
+            "EN":"commoners stand openly in opposition",
+            "IT":"i cittadini comuni si oppongono apertamente"
+        },
+        {
+            "EN":"considerable capital is required",
+            "IT":"necessita di un capitale considerevole"
+        },
+        {
+            "EN":"is hindered by cultural taboos",
+            "IT":"è ostacolato da tabù culturali"
+        },
+        {
+            "EN":"must be carried out in absolute secrecy",
+            "IT":"deve farlo in assoluta segretezza"
+        },
+        {
+            "EN":"the outcome would lead to unavoidable war",
+            "IT":"il risultato porterebbe a una guerra inevitabile"
+        }
+      ]
+    },
+    "advantages":[
+        {
+            "EN":"is the alliances",
+            "IT":"sono le alleanze"
+        },
+        {
+            "EN":"is the anonymity",
+            "IT":"è l'anonimato"
+        },
+        {
+            "EN":"is the apparatus",
+            "IT":"sono le strutture"
+        },
+        {
+            "EN":"is the charisma",
+            "IT":"è il carisma"
+        },
+        {
+            "EN":"is the conviction",
+            "IT":"sono le convinzioni"
+        },
+        {
+            "EN":"is the fealty",
+            "IT":"è la fedeltà"
+        },
+        {
+            "EN":"is the force",
+            "IT":"è la forza"
+        },
+        {
+            "EN":"is the information",
+            "IT":"sono le informazioni"
+        },
+        {
+            "EN":"is the lineage",
+            "IT":"è le stirpe"
+        },
+        {
+            "EN":"is the magic",
+            "IT":"è le magia"
+        },
+        {
+            "EN":"is the members",
+            "IT":"sono i suoi membri"
+        },
+        {
+            "EN":"is popularity",
+            "IT":"è la popolarità"
+        },
+        {
+            "EN":"is their position",
+            "IT":"è la loro posizione"
+        },
+        {
+            "EN":"is to be renowned",
+            "IT":"è la fama"
+        },
+        {
+            "EN":"is the resources",
+            "IT":"sono le risorse"
+        },
+        {
+            "EN":"is the subterfuges",
+            "IT":"sono i sotterfugi"
+        },
+        {
+            "EN":"is the wealth",
+            "IT":"è la ricchezza"
+        }
+    ],
+    "names":{
+        "formulas":[
+            {
+                "EN":[
+                    { "label":"The" },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[ "Il", "La", "L'" ], "atIndex":[ [ "group", 2 ] ]  },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label":[ "dello", "della", "dell'", "del" ], "atIndex":[ [ "noun", 2 ] ]  },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ]
+            },{
+                "EN":[
+                    { "label":"The" },
+                    { "table":"adjective", "atIndex":[ 0 ] },
+                    { "table":"group", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[
+                        [ "Il", "L'" ],
+                        [ "La", "L'" ]
+                    ], "atIndex":[ [ "group", 1 ], [ "adjective", 2 ] ]  },
+                    { "table":"adjective", "atIndex":[ [ "group", 1 ] ] },
+                    { "table":"group", "atIndex":[ 0 ] }
+                ]
+            },{
+                "EN":[
+                    { "label":"The" },
+                    { "table":"adjective", "atIndex":[ 0 ] },
+                    { "table":"group", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[ "Il", "La", "L'" ], "atIndex":[ [ "group", 2 ] ]  },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "table":"adjective", "atIndex":[ [ "group", 1 ] ] }
+                ]
+            },{
+                "EN":[
+                    { "label":"The" },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label": "of The" },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[ "Il", "La", "L'" ], "atIndex":[ [ "group", 2 ] ]  },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label":[ "dello", "della", "dell'", "del" ], "atIndex":[ [ "noun", 2 ] ]  },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ]
+            },{
+                "EN":[
+                    { "table":"adjective", "atIndex":[ 0 ] },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label": "of The" },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[
+                        [ "Il", "L'" ],
+                        [ "La", "L'" ]
+                    ], "atIndex":[ [ "group", 1 ], [ "adjective", 2 ] ]  },
+                    { "table":"adjective", "atIndex":[ [ "group", 1 ] ] },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label":[ "dello", "della", "dell'", "del" ], "atIndex":[ [ "noun", 2 ] ]  },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ]
+            },{
+                "EN":[
+                    { "label": "The" },
+                    { "table":"noun", "atIndex":[ 0 ] },
+                    { "table":"adjective", "atIndex":[ 0 ] },
+                    { "table":"group", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[ "Lo", "La", "L'", "Il" ], "atIndex":[ [ "noun", 2 ] ]  },
+                    { "table":"noun", "atIndex":[ 0 ] },
+                    { "label":[
+                        [ "del", "dell'" ],
+                        [ "della", "dell'" ]
+                    ], "atIndex":[ [ "group", 1 ], [ "adjective", 2 ] ]  },
+                    { "table":"adjective", "atIndex":[ [ "group", 1 ] ] },
+                    { "table":"group", "atIndex":[ 0 ] }
+                ]
+            },{
+                "EN":[
+                    { "label": "The" },
+                    { "table":"noun", "atIndex":[ 0 ] },
+                    { "table":"adjective", "atIndex":[ 0 ] },
+                    { "table":"group", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[ "Lo", "La", "L'", "Il" ], "atIndex":[ [ "noun", 2 ] ]  },
+                    { "table":"noun", "atIndex":[ 0 ] },
+                    { "label":[ "del", "della", "dell'" ], "atIndex":[ [ "group", 2 ] ]  },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "table":"adjective", "atIndex":[ [ "group", 1 ] ] }
+                ]
+            },{
+                "EN":[
+                    { "label": "The" },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label": "of The" },
+                    { "table":"adjective", "atIndex":[ 0 ] },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[ "Il", "La", "L'" ], "atIndex":[ [ "group", 2 ] ]  },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label":[
+                        [ "del", "dell'" ],
+                        [ "della", "dell'" ]
+                    ], "atIndex":[ [ "noun", 1 ], [ "adjective", 2 ] ]  },
+                    { "table":"adjective", "atIndex":[ [ "noun", 1 ] ] },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ]
+            },{
+                "EN":[
+                    { "label": "The" },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label": "of The" },
+                    { "table":"adjective", "atIndex":[ 0 ] },
+                    { "table":"noun", "atIndex":[ 0 ] }
+                ],
+                "IT":[
+                    { "label":[ "Il", "La", "L'" ], "atIndex":[ [ "group", 2 ] ]  },
+                    { "table":"group", "atIndex":[ 0 ] },
+                    { "label":[ "dello", "della", "dell'", "del" ], "atIndex":[ [ "noun", 2 ] ]  },
+                    { "table":"noun", "atIndex":[ 0 ] },
+                    { "table":"adjective", "atIndex":[ [ "noun", 1 ] ] }
+                ]
+            }
+        ],
+        "groups":[
+            {
+                "EN":[ "Assembly", 0 ],
+                "IT":[ "Assemblea", 1,2 ]
+            },
+            {
+                "EN":[ "Brotherhood", 0 ],
+                "IT":[ "Fratellanza", 1,1 ]
+            },
+            {
+                "EN":[ "Circle", 0 ],
+                "IT":[ "Circolo", 0,0 ]
+            },
+            {
+                "EN":[ "Clan", 0 ],
+                "IT":[ "Clan", 0,0 ]
+            },
+            {
+                "EN":[ "Coalition", 0 ],
+                "IT":[ "Coalizione", 1,1 ]
+            },
+            {
+                "EN":[ "Collective", 0 ],
+                "IT":[ "Collettivo", 0,0 ]
+            },
+            {
+                "EN":[ "Covenant", 0 ],
+                "IT":[ "Patto", 0,0 ]
+            },
+            {
+                "EN":[ "Enclave", 0 ],
+                "IT":[ "Enclave", 0,2 ]
+            },
+            {
+                "EN":[ "Fellowship", 0 ],
+                "IT":[ "Compagnia", 1,1 ]
+            },
+            {
+                "EN":[ "Guild", 0 ],
+                "IT":[ "Gilda", 1,1 ]
+            },
+            {
+                "EN":[ "Horde", 0 ],
+                "IT":[ "Orda", 1,2 ]
+            },
+            {
+                "EN":[ "League", 1 ],
+                "IT":[ "Lega", 1,1 ]
+            },
+            {
+                "EN":[ "Legion", 0 ],
+                "IT":[ "Legione", 1, 1 ]
+            },
+            {
+                "EN":[ "Order", 0 ],
+                "IT":[ "Ordine", 0, 2 ]
+            },
+            {
+                "EN":[ "Pact", 0 ],
+                "IT":[ "Patto", 0, 0 ]
+            },
+            {
+                "EN":[ "Syndicate", 0 ],
+                "IT":[ "Sindacato", 0, 0 ]
+            }
+        ],
+        "nouns":[
+            {
+                "EN":["Abyss", 0 ],
+                "IT":["Abisso", 0, 2]
+            },
+            {
+                "EN":["Alliance", 0 ],
+                "IT":["Alleanza", 1,2]
+            },
+            {
+                "EN":["Amber", 0 ],
+                "IT":["Ambra", 1,2]
+            },
+            {
+                "EN":["Ambition", 0 ],
+                "IT":["Ambizione", 1,2]
+            },
+            {
+                "EN":["Aurora", 0 ],
+                "IT":["Aurora", 1,2]
+            },
+            {
+                "EN":["Blight", 0 ],
+                "IT":["Corruzione", 1,1]
+            },
+            {
+                "EN":["Bone", 0 ],
+                "IT":["Osso", 0,2]
+            },
+            {
+                "EN":["Chasm", 0 ],
+                "IT":["Abisso", 0,2]
+            },
+            {
+                "EN":["Copper", 0 ],
+                "IT":["Rame", 0,3]
+            },
+            {
+                "EN":["Crack", 0 ],
+                "IT":["Frattura", 1,1]
+            },
+            {
+                "EN":["Crimson", 0 ],
+                "IT":["Rosso", 0,3]
+            },
+            {
+                "EN":["Dawn", 0 ],
+                "IT":["Alba", 1,2]
+            },
+            {
+                "EN":["Decay", 0 ],
+                "IT":["Caduta", 1,1]
+            },
+            {
+                "EN":["Desolation", 0 ],
+                "IT":["Desolazione", 1,1]
+            },
+            {
+                "EN":["Echo", 0 ],
+                "IT":["Eco", 0,2]
+            },
+            {
+                "EN":["Ember", 0 ],
+                "IT":["Brace", 1,1]
+            },
+            {
+                "EN":["Fear", 0 ],
+                "IT":["Paura", 1,1]
+            },
+            {
+                "EN":["Flame", 0 ],
+                "IT":["Fiamma", 1,1]
+            },
+            {
+                "EN":["Frost", 0 ],
+                "IT":["Gelo", 0,3]
+            },
+            {
+                "EN":["Fury", 0 ],
+                "IT":["Furia", 1,1]
+            },
+            {
+                "EN":["Ghost", 0 ],
+                "IT":["Spettro", 0,0]
+            },
+            {
+                "EN":["Harvest", 0 ],
+                "IT":["Raccolto", 0,3]
+            },
+            {
+                "EN":["Honor", 0 ],
+                "IT":["Onore", 0,2]
+            },
+            {
+                "EN":["Hope", 0 ],
+                "IT":["Speranza", 1,1]
+            },
+            {
+                "EN":["Iron", 0 ],
+                "IT":["Ferro", 0,3]
+            },
+            {
+                "EN":["Life", 0 ],
+                "IT":["Vita", 1,1]
+            },
+            {
+                "EN":["Mist", 0 ],
+                "IT":["Nebbia", 1,1]
+            },
+            {
+                "EN":["Moon", 0 ],
+                "IT":["Luna", 1,1]
+            },
+            {
+                "EN":["Nightmare", 0 ],
+                "IT":["Incubo", 0,2]
+            },
+            {
+                "EN":["Peril", 0 ],
+                "IT":["Pericolo", 0,3]
+            },
+            {
+                "EN":["Radiance", 0 ],
+                "IT":["Radianza", 1,1]
+            },
+            {
+                "EN":["Rain", 0 ],
+                "IT":["Pioggia", 1,1]
+            },
+            {
+                "EN":["Ruin", 0 ],
+                "IT":["Rovina", 1,1]
+            },
+            {
+                "EN":["Shadow", 0 ],
+                "IT":["Ombra", 1,2]
+            },
+            {
+                "EN":["Spark", 0 ],
+                "IT":["Scintilla", 1,1]
+            },
+            {
+                "EN":["Stone", 0 ],
+                "IT":["Pietra", 1,1]
+            },
+            {
+                "EN":["Tempest", 0 ],
+                "IT":["Tempesta", 1,1]
+            },
+            {
+                "EN":["Skull", 0 ],
+                "IT":["Teschio", 0,3]
+            },
+            {
+                "EN":["Sky", 0 ],
+                "IT":["Cielo", 0,3]
+            },
+            {
+                "EN":["Smoke", 0 ],
+                "IT":["Fumo", 0,3]
+            },
+            {
+                "EN":["Sorrow", 0 ],
+                "IT":["Dolore", 0,3]
+            },
+            {
+                "EN":["Storm", 0 ],
+                "IT":["Tempesta", 1,1]
+            },
+            {
+                "EN":["Sun", 0 ],
+                "IT":["Sole", 0,3]
+            },
+            {
+                "EN":["Terror", 0 ],
+                "IT":["Terrore", 0,3]
+            },
+            {
+                "EN":["Thorn", 0 ],
+                "IT":["Spina", 1,1]
+            },
+            {
+                "EN":["Thunder", 0 ],
+                "IT":["Tuono", 0,3]
+            },
+            {
+                "EN":["Valor", 0 ],
+                "IT":["Valore", 0,3]
+            },
+            {
+                "EN":["Whisper", 0 ],
+                "IT":["Sussurro", 0,3]
+            },
+            {
+                "EN":["Zephyr", 0 ],
+                "IT":["Zaffiro", 0,0]
+            }
+        ],
+        "adjectives":[
+            {
+                "EN":[ "Aging" ],
+                "IT":[ "Invecchiato", "Invecchiata", 1 ]
+            },
+            {
+                "EN":[ "Ancient" ],
+                "IT":[ "Antico", "Antica", 1 ]
+            },
+            {
+                "EN":[ "Angry" ],
+                "IT":[ "Arrabbiato", "Arrabbiata", 1 ]
+            },
+            {
+                "EN":[ "Ashen" ],
+                "IT":[ "Cinereo", "Cinerea", 0 ]
+            },
+            {
+                "EN":[ "Bare" ],
+                "IT":[ "Nudo", "Nuda", 0 ]
+            },
+            {
+                "EN":[ "Battered" ],
+                "IT":[ "Logoro", "Logora", 0 ]
+            },
+            {
+                "EN":[ "Bitter" ],
+                "IT":[ "Amaro", "Amara", 1 ]
+            },
+            {
+                "EN":[ "Blackened" ],
+                "IT":[ "Oscuro", "Oscura", 1 ]
+            },
+            {
+                "EN":[ "Blazing" ],
+                "IT":[ "Ardente", "Ardente", 1 ]
+            },
+            {
+                "EN":[ "Bleak" ],
+                "IT":[ "Tetro", "Tetra", 0 ]
+            },
+            {
+                "EN":[ "Blighted" ],
+                "IT":[ "Corrotto", "Corrotta", 0 ]
+            },
+            {
+                "EN":[ "Bright" ],
+                "IT":[ "Luminoso", "Luminosa", 0 ]
+            },
+            {
+                "EN":[ "Celestial" ],
+                "IT":[ "Celestiale", "Celestiale", 0 ]
+            },
+            {
+                "EN":[ "Cold" ],
+                "IT":[ "Freddo", "Fredda", 0 ]
+            },
+            {
+                "EN":[ "Colorful" ],
+                "IT":[ "Cromatico", "Cromatica", 0 ]
+            },
+            {
+                "EN":[ "Cracked" ],
+                "IT":[ "Spezzato", "Spezzata", 0 ]
+            },
+            {
+                "EN":[ "Crumbling" ],
+                "IT":[ "Cadente", "Cadente", 0 ]
+            },
+            {
+                "EN":[ "Curved" ],
+                "IT":[ "Ricurvo", "Ricurva", 0 ]
+            },
+            {
+                "EN":[ "Dark" ],
+                "IT":[ "Scuro", "Scura", 0 ]
+            },
+            {
+                "EN":[ "Dead" ],
+                "IT":[ "Morto", "Morta", 0 ]
+            },
+            {
+                "EN":[ "Dismal" ],
+                "IT":[ "Tetro", "Tetra", 0 ]
+            },
+            {
+                "EN":[ "Dreary" ],
+                "IT":[ "Triste", "Triste", 0 ]
+            },
+            {
+                "EN":[ "Endless" ],
+                "IT":[ "Infinito", "Infinita", 1 ]
+            },
+            {
+                "EN":[ "Fierce" ],
+                "IT":[ "Feroce", "Feroce", 0 ]
+            },
+            {
+                "EN":[ "Foggy" ],
+                "IT":[ "Nebbioso", "Nebbiosa", 0 ]
+            },
+            {
+                "EN":[ "Forgotten" ],
+                "IT":[ "Dimenticato", "Dimenticata", 0 ]
+            },
+            {
+                "EN":[ "Fragile" ],
+                "IT":[ "Fragile", "Fragile", 0 ]
+            },
+            {
+                "EN":[ "Frozen" ],
+                "IT":[ "Ghiacciato", "Ghiacciata", 0 ]
+            },
+            {
+                "EN":[ "Furious" ],
+                "IT":[ "Furioso", "Furiosa", 0]
+            },
+            {
+                "EN":[ "Gleaming" ],
+                "IT":[ "Splendente", "Splendente", 0 ]
+            },
+            {
+                "EN":[ "Grim" ],
+                "IT":[ "Cupo", "Cupa", 0 ]
+            },
+            {
+                "EN":[ "Grizzled" ],
+                "IT":[ "Lacrimoso", "Lacrimosa", 0 ]
+            },
+            {
+                "EN":[ "Hazy" ],
+                "IT":[ "Oscurato", "Oscurata", 1 ]
+            },
+            {
+                "EN":[ "Heated" ],
+                "IT":[ "Acceso", "Accesa", 1 ]
+            },
+            {
+                "EN":[ "Hellish" ],
+                "IT":[ "Infernale", "Infernale", 1 ]
+            },
+            {
+                "EN":[ "Hideous" ],
+                "IT":[ "Terribile", "Terribile", 0 ]
+            },
+            {
+                "EN":[ "Jagged" ],
+                "IT":[ "Dentato", "Dentata", 0 ]
+            },
+            {
+                "EN":[ "Lonely" ],
+                "IT":[ "Solitario", "Solitaria", 0 ]
+            },
+            {
+                "EN":[ "Miserable" ],
+                "IT":[ "Miserabile", "Miserabile", 0 ]
+            },
+            {
+                "EN":[ "Mournful" ],
+                "IT":[ "Addolorato", "Addolorata", 1 ]
+            },
+            {
+                "EN":[ "Muddy" ],
+                "IT":[ "Fangoso", "Fangosa", 0 ]
+            },
+            {
+                "EN":[ "Ominous" ],
+                "IT":[ "Nefasto", "Nefasta", 0 ]
+            },
+            {
+                "EN":[ "Overgrown" ],
+                "IT":[ "Incolto", "Incolta", 1 ]
+            },
+            {
+                "EN":[ "Ragged" ],
+                "IT":[ "Lacero", "Lacera", 0 ]
+            },
+            {
+                "EN":[ "Rotting" ],
+                "IT":[ "Putrefatto", "Putrefatta", 0 ]
+            },
+            {
+                "EN":[ "Savage" ],
+                "IT":[ "Selvaggio", "Selvaggia", 0 ]
+            },
+            {
+                "EN":[ "Shifting" ],
+                "IT":[ "Mutevole", "Mutevole", 0 ]
+            },
+            {
+                "EN":[ "Shimmering" ],
+                "IT":[ "Lucente", "Lucente", 0 ]
+            },
+            {
+                "EN":[ "Smoky" ],
+                "IT":[ "Fumoso", "Fumosa", 0 ]
+            },
+            {
+                "EN":[ "Soggy" ],
+                "IT":[ "Fradicio", "Fradicia", 0 ]
+            },
+            {
+                "EN":[ "Sunken" ],
+                "IT":[ "Sommerso", "Sommersa", 0 ]
+            },
+            {
+                "EN":[ "Withered" ],
+                "IT":[ "Appassito", "Appassita", 1 ]
+            }
+        ]
+    },
+    "conflitcs":[
+        "neutral", "action"
+    ],
+    "links":[
+        "neutral", "affiliate", "affiliate", "against"
+    ],
+    "actions":[
+        {
+          "consequence": {
+            "EN":"failed",
+            "IT":"ha fallito"
+          },
+          "impact":{
+            "EN":"a new Obstacle is introduced, and an Advantage is lost",
+            "IT":"un nuovo Ostacolo viene introdotto e un Vantaggio è stato perso"
+          }
+        },
+        {
+          "consequence": {
+            "EN":"had a setback",
+            "IT":"ha subito una battuta d'arresto"
+          },
+          "impact":{
+            "EN":"an Advantage is lost",
+            "IT":"un Vantaggio è stato perso"
+          }
+        },
+        {
+          "consequence": {
+            "EN":"managed to keep the status quo",
+            "IT":"&egrave; riuscita a mantenere lo status quo"
+          },
+          "impact":{
+            "EN":"nothing is gained, but nothing is lost",
+            "IT":"nulla è stato guadagnato ma nulla è stato perso"
+          }
+        },
+        {
+          "consequence": {
+            "EN":"had a mixed success",
+            "IT":"ha ottuenuto fortune alterne"
+          },
+          "impact":{
+            "EN":"a goal is achieved, but an Advantage is lost",
+            "IT":"un obiettivo è stato raggiunto ma un Vantaggio è stato perso"
+          }
+        },
+        {
+          "consequence": {
+            "EN":"achieved a success",
+            "IT":"ha ottenuto un successo"
+          },
+          "impact":{
+            "EN":"a goal is achieved, and no Advantages are lost",
+            "IT":"un obiettivo è sato raggiunto e nessun Vantaggio è stato perso"
+          }
+        },
+        {
+          "consequence": {
+            "EN":"achieved a major success",
+            "IT":"ha ottenuto un grande successo"
+          },
+          "impact":{
+            "EN":"a goal is achieved, and a new Advantage is found",
+            "IT":"un obiettivo è stato raggiunto e un nuovo Vantaggio è stato trovato"
+          }
+        }
+      ]
+}
