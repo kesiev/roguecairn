@@ -16,7 +16,8 @@ function Frontend() {
         seed,
         optionSymbolMap = {},
         currentOptions = [],
-        optionsHash;
+        optionsHash,
+        seedInput;
 
     function loadLanguage() {
         let
@@ -59,7 +60,7 @@ function Frontend() {
                 "</div>"+
                 "<nav id='site-nav' class='site-nav'>"+
                     "<ul class='nav-list'>"+
-                        "<li id='option-generate' class='nav-list-item'><a id='option-link-generate' href='#"+seed+"' class='nav-list-link'>"+data.tags.labels.generateWorld[language]+"</a></li>"+
+                        "<li id='option-generate' class='nav-list-item'><a id='option-link-generate' href='#"+seed+(optionsHash ? "-"+optionsHash : "")+"' class='nav-list-link'>"+data.tags.labels.generateWorld[language]+"</a></li>"+
                         "<li id='option-options' class='nav-list-item'><a id='option-link-options' href='#options' class='nav-list-link'>"+data.tags.labels.options[language]+"</a></li>"+
                         "<li id='option-about' class='nav-list-item'><a id='option-link-about' href='#about' class='nav-list-link'>"+data.tags.labels.about[language]+"</a></li>"+
                     "</ul>"+
@@ -96,12 +97,13 @@ function Frontend() {
             menuButton = document.getElementById('menu-button'),
             siteNav = document.getElementById('site-nav'),
             header = document.getElementById('main-header'),
-            seedInput = document.getElementById('seed'),
             generateButton = document.getElementById('generate'),
             randomButton = document.getElementById('randomseed'),
             fakeLinks = document.getElementsByClassName('fake-link'),
             collapsers = document.getElementsByClassName('collapse-section'),
             selectedLanguage;
+
+        seedInput = document.getElementById('seed');
 
         data.tags.languages.forEach((languagedata,id)=>{
             let
@@ -242,10 +244,11 @@ function Frontend() {
         currentOptions = [];
 
         data.options.forEach((option,oid)=>{
-            option.options.forEach((suboption,soid)=>{
-                if (suboption.default)
-                    currentOptions[oid] = soid;
-            })
+            if (option.options)
+                option.options.forEach((suboption,soid)=>{
+                    if (suboption.default)
+                        currentOptions[oid] = soid;
+                })
         });
 
         if (hash)
@@ -267,7 +270,7 @@ function Frontend() {
             let
                 subOption = data.options[oid].options[option];
             
-            if (subOption && !subOption.default)
+            if (subOption && !subOption.default && subOption.symbol)
                 out += subOption.symbol;
         });
 
@@ -284,51 +287,95 @@ function Frontend() {
             }
             case "#options":{
                 let
+                    buttonsContainer = document.createElement("div"),
+                    okButton = document.createElement("input"),
+                    cancelButton = document.createElement("input"),
                     optionsContainer;
                 
-                renderPage("<h1>"+data.tags.labels.options[language]+"</h1><div id='options-container'></div>","options",true);
+                renderPage("<div id='options-container'></div>","options",true);
 
                 optionsContainer = document.getElementById("options-container");
 
                 data.options.forEach((option,oid)=>{
-                    let
-                        optionContainer = document.createElement("div"),
-                        label = document.createElement("div");
 
-                    optionContainer.className = "option-container";
-                    optionsContainer.appendChild(optionContainer);
-                    
-                    label.innerHTML = option.label[language];
-                    optionContainer.appendChild(label);
+                    if (option.title) {
 
-                    switch (option.type) {
-                        case "combo":{
+                        let
+                            title = document.createElement("h2");
+                        title.innerHTML = option.title[language];
+                        optionsContainer.appendChild(title);
+
+                    } else {
+                            
+                        let
+                            optionContainer = document.createElement("div"),
+                            label = document.createElement("div");
+
+                        optionContainer.className = "option-container";
+                        optionsContainer.appendChild(optionContainer);
+                        
+                        label.className = "option-label";
+                        label.innerHTML = option.label[language];
+                        optionContainer.appendChild(label);
+
+                        if (option.description) {
                             let
-                                combo = document.createElement("select");
-
-                            option.options.forEach((option,id)=>{
-                                let
-                                    comboOption = document.createElement("option");
-                                
-                                comboOption.setAttribute("value",id);
-                                if (currentOptions[oid] == id)
-                                    comboOption.setAttribute("selected","selected");
-                                comboOption.innerHTML = option.label[language];
-
-                                combo.appendChild(comboOption);
-
-                            });
-
-                            combo.onchange = ()=>{
-                                currentOptions[oid] = combo.selectedIndex;
-                            }
-
-                            optionContainer.appendChild(combo);
-                            break;
+                                description = document.createElement("div");
+                            description.className = "option-description";
+                            description.innerHTML = option.description[language];
+                            optionContainer.appendChild(description);
                         }
+
+                        switch (option.type) {
+                            case "combo":{
+                                let
+                                    combo = document.createElement("select");
+
+                                option.options.forEach((option,id)=>{
+                                    let
+                                        comboOption = document.createElement("option");
+                                    
+                                    comboOption.setAttribute("value",id);
+                                    if (currentOptions[oid] == id)
+                                        comboOption.setAttribute("selected","selected");
+                                    comboOption.innerHTML = option.label[language];
+
+                                    combo.appendChild(comboOption);
+
+                                });
+
+                                combo.onchange = ()=>{
+                                    currentOptions[oid] = combo.selectedIndex;
+                                }
+
+                                optionContainer.appendChild(combo);
+                                break;
+                            }
+                        }
+
                     }
                     
                 })
+
+                buttonsContainer.className = "option-buttons";
+
+                okButton.value = data.tags.labels.ok[language];
+                okButton.type = "button";
+                okButton.onclick = ()=>{
+                    updatePage("#"+parseInt(seedInput.value),true);
+                    updatePage()
+                }
+                buttonsContainer.appendChild(okButton);
+
+                cancelButton.value = data.tags.labels.cancel[language];
+                cancelButton.type = "button";
+                cancelButton.onclick = ()=>{
+                    updatePage("#"+parseInt(seedInput.value)+(optionsHash ? "-"+optionsHash : ""));
+                }
+                buttonsContainer.appendChild(cancelButton);
+
+                optionsContainer.appendChild(buttonsContainer);
+
                 break;
             }
             default:{
@@ -445,12 +492,14 @@ function Frontend() {
                 notice = loadNotice();
 
                 data.options.forEach((option,oid)=>{
-                    option.options.forEach((suboption,soid)=>{
-                        if (optionSymbolMap[suboption.symbol])
-                            console.log("Conflicting option symbol",suboption.symbol);
-                        else
-                            optionSymbolMap[suboption.symbol] = [ oid, soid ];
-                    })
+                    if (option.options)
+                        option.options.forEach((suboption,soid)=>{
+                            if (suboption.symbol)
+                                if (optionSymbolMap[suboption.symbol])
+                                    console.log("Conflicting option symbol",suboption.symbol);
+                                else
+                                    optionSymbolMap[suboption.symbol] = [ oid, soid ];
+                        })
                 });
 
                 loadOptions();
