@@ -4,7 +4,7 @@
 
 ---
 
-<div align="center"><a href="https://www.kesiev.com/roguecairn/">Generate a quest</a></div>
+<div align="center"><a href="https://www.kesiev.com/roguecairn/">Generate a world</a></div>
 
 ---
 
