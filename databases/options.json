@@ -214,5 +214,75 @@
                 }
             }
         ]
+    },
+    {
+        "title":{
+            "EN":"NPCs",
+            "IT":"NPC"
+        }
+    },
+    {
+        "label":{
+            "EN":"Name",
+            "IT":"Nome"
+        },
+        "description":{
+            "IT":"Assegna un nome agli NPC.",
+            "EN":"Give the NPCs a name."
+        },
+        "type":"combo",
+        "options":[
+            {
+                "set":{
+                    "npcNames":false
+                },
+                "label":{
+                    "EN":"No",
+                    "IT":"No"
+                }
+            },
+            {
+                "symbol":"w",
+                "set":{
+                    "npcNames":true
+                },
+                "label":{
+                    "EN":"Yes",
+                    "IT":"Si"
+                }
+            }
+        ]
+    },
+    {
+        "label":{
+            "EN":"Style",
+            "IT":"Stile"
+        },
+        "description":{
+            "IT":"Stabilisce le regole da usare per creare le caratteristiche degli NPC.",
+            "EN":"Establishes the rules to use when creating NPC traits."
+        },
+        "type":"combo",
+        "options":[
+            {
+                "set":{
+                    "npcStyle":0
+                },
+                "label":{
+                    "EN":"RogueCairn",
+                    "IT":"RogueCairn"
+                }
+            },
+            {
+                "symbol":"W",
+                "set":{
+                    "npcStyle":1
+                },
+                "label":{
+                    "EN":"2nd edition",
+                    "IT":"2&deg; edizione"
+                }
+            }
+        ]
     }
 ]

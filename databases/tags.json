@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"version":"0.3b",
+		"version":"0.31b",
 		"author":"KesieV",
 		"authorUrl":"https://www.kesiev.com",
 		"sourcesUrl":"https://github.com/kesiev/roguecairn",
@@ -275,6 +275,10 @@
 		"weatherSpecial":{
 			"EN":[ "The weather is ", " (", "). ","." ],
 			"IT":[ "Il clima &egrave; ", " (", "). ","." ]
+		},
+		"npcGoal":{
+			"EN":"Goal: ",
+			"IT":"Obiettivo: "
 		},
 		"kettlewrightDownload":{
 			"IT":"Esporta JSON per Kettlewright",

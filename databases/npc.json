@@ -1,0 +1,474 @@
+{
+    "name": [
+        "Alaric",
+        "Carver",
+        "Cleaver",
+        "Darnel",
+        "Eoin",
+        "Evander",
+        "Glyph",
+        "Hemlock",
+        "Herald",
+        "Lisbeth",
+        "Lucian",
+        "Luna",
+        "Lysander",
+        "Marius",
+        "Mend",
+        "Milo",
+        "Neria",
+        "Pan",
+        "Quill",
+        "Seraphine",
+        "Ainsley",
+        "Azura",
+        "Brave",
+        "Callan",
+        "Cedric",
+        "Crow",
+        "Finch",
+        "Gunnar",
+        "Harper",
+        "Liora",
+        "Lira",
+        "Lorelai",
+        "Lysandra",
+        "Marcellus",
+        "Shade",
+        "Shroud",
+        "Spade",
+        "Spike",
+        "Tanner",
+        "Thyme",
+        "Alder",
+        "Alistair",
+        "Caius",
+        "Dain",
+        "Dax",
+        "Dorian",
+        "Godric",
+        "Harkin",
+        "Hildred",
+        "Kael",
+        "Kavi",
+        "Mariner",
+        "Nazira",
+        "Onyx",
+        "Rolan",
+        "Rush",
+        "Sky",
+        "Storm",
+        "Taros",
+        "Thaddeus"
+    ],
+    "background": [
+        {
+            "EN": "Academic",
+            "IT": "Accademico"
+        },
+        {
+            "EN": "Assassin",
+            "IT": "Assassino"
+        },
+        {
+            "EN": "Blacksmith",
+            "IT": "Fabbro"
+        },
+        {
+            "EN": "Farmer",
+            "IT": "Contadino"
+        },
+        {
+            "EN": "General",
+            "IT": "Generale"
+        },
+        {
+            "EN": "Gravedigger",
+            "IT": "Becchino"
+        },
+        {
+            "EN": "Guard",
+            "IT": "Guardia"
+        },
+        {
+            "EN": "Healer",
+            "IT": "Guaritore"
+        },
+        {
+            "EN": "Jailer",
+            "IT": "Carceriere"
+        },
+        {
+            "EN": "Laborer",
+            "IT": "Lavoratore"
+        },
+        {
+            "EN": "Lord",
+            "IT": "Lord"
+        },
+        {
+            "EN": "Merchant",
+            "IT": "Mercante"
+        },
+        {
+            "EN": "Monk",
+            "IT": "Monaco"
+        },
+        {
+            "EN": "Mystic",
+            "IT": "Mistico"
+        },
+        {
+            "EN": "Outlander",
+            "IT": "Straniero"
+        },
+        {
+            "EN": "Peddler",
+            "IT": "Venditore ambulante"
+        },
+        {
+            "EN": "Politician",
+            "IT": "Politico"
+        },
+        {
+            "EN": "Spy",
+            "IT": "Spia"
+        },
+        {
+            "EN": "Thief",
+            "IT": "Ladro"
+        },
+        {
+            "EN": "Thug",
+            "IT": "Teppista"
+        }
+    ],
+    "virtue": [
+        {
+            "EN": "Cautious",
+            "IT": "Cauto"
+        },
+        {
+            "EN": "Compassionate",
+            "IT": "Compassionevole"
+        },
+        {
+            "EN": "Connected",
+            "IT": "Connesso"
+        },
+        {
+            "EN": "Courageous",
+            "IT": "Coraggioso"
+        },
+        {
+            "EN": "Disciplined",
+            "IT": "Disciplinato"
+        },
+        {
+            "EN": "Discreet",
+            "IT": "Discreto"
+        },
+        {
+            "EN": "Honest",
+            "IT": "Onesto"
+        },
+        {
+            "EN": "Intelligent",
+            "IT": "Intelligente"
+        },
+        {
+            "EN": "Judicious",
+            "IT": "Giudizioso"
+        },
+        {
+            "EN": "Loyal",
+            "IT": "Leale"
+        },
+        {
+            "EN": "Methodical",
+            "IT": "Metodico"
+        },
+        {
+            "EN": "Meticulous",
+            "IT": "Meticoloso"
+        },
+        {
+            "EN": "Polite",
+            "IT": "Educato"
+        },
+        {
+            "EN": "Popular",
+            "IT": "Popolare"
+        },
+        {
+            "EN": "Pragmatic",
+            "IT": "Pragmatico"
+        },
+        {
+            "EN": "Resourceful",
+            "IT": "Intraprendente"
+        },
+        {
+            "EN": "Suave",
+            "IT": "Sofisticato"
+        },
+        {
+            "EN": "Shrewd",
+            "IT": "Astuto"
+        },
+        {
+            "EN": "Tenacious",
+            "IT": "Tenace"
+        },
+        {
+            "EN": "Witty",
+            "IT": "Spiritoso"
+        }
+    ],
+    "vice": [
+        {
+            "EN": "Aloof",
+            "IT": "Distaccato"
+        },
+        {
+            "EN": "Corrupt",
+            "IT": "Corrotto"
+        },
+        {
+            "EN": "Craven",
+            "IT": "Coglione"
+        },
+        {
+            "EN": "Cruel",
+            "IT": "Crudele"
+        },
+        {
+            "EN": "Cynical",
+            "IT": "Cinico"
+        },
+        {
+            "EN": "Deceptive",
+            "IT": "Ingannevole"
+        },
+        {
+            "EN": "Greedy",
+            "IT": "Avido"
+        },
+        {
+            "EN": "Impulsive",
+            "IT": "Impulsivo"
+        },
+        {
+            "EN": "Incompetent",
+            "IT": "Incompetente"
+        },
+        {
+            "EN": "Inflexible",
+            "IT": "Inflessibile"
+        },
+        {
+            "EN": "Manipulative",
+            "IT": "Manipolativo"
+        },
+        {
+            "EN": "Mercurial",
+            "IT": "Lunatico"
+        },
+        {
+            "EN": "Naive",
+            "IT": "Ingenuo"
+        },
+        {
+            "EN": "Pedantic",
+            "IT": "Pedante"
+        },
+        {
+            "EN": "Ruthless",
+            "IT": "Spietato"
+        },
+        {
+            "EN": "Sarcastic",
+            "IT": "Sarcastico"
+        },
+        {
+            "EN": "Selfish",
+            "IT": "Egoista"
+        },
+        {
+            "EN": "Stubborn",
+            "IT": "Testardo"
+        },
+        {
+            "EN": "Vain",
+            "IT": "Vanitoso"
+        },
+        {
+            "EN": "Xenophobic",
+            "IT": "Xenofobo"
+        }
+    ],
+    "quirk": [
+        {
+            "EN": "Alert",
+            "IT": "Attento"
+        },
+        {
+            "EN": "Bald",
+            "IT": "Calvo"
+        },
+        {
+            "EN": "Bright Eyes",
+            "IT": "Occhi luminosi"
+        },
+        {
+            "EN": "Broad Face",
+            "IT": "Viso largo"
+        },
+        {
+            "EN": "Crooked Teeth",
+            "IT": "Denti storti"
+        },
+        {
+            "EN": "Gaunt",
+            "IT": "Scarno"
+        },
+        {
+            "EN": "Good Posture",
+            "IT": "Buona postura"
+        },
+        {
+            "EN": "Grimy",
+            "IT": "Sporco"
+        },
+        {
+            "EN": "Harsh Voice",
+            "IT": "Voce aspra"
+        },
+        {
+            "EN": "Heavy Brow",
+            "IT": "Sopracciglia folta"
+        },
+        {
+            "EN": "Limps",
+            "IT": "Zoppica"
+        },
+        {
+            "EN": "Missing Ear",
+            "IT": "Orecchio mancante"
+        },
+        {
+            "EN": "Muscular",
+            "IT": "Muscoloso"
+        },
+        {
+            "EN": "Notable Hair",
+            "IT": "Capelli notevoli"
+        },
+        {
+            "EN": "Pleasant Voice",
+            "IT": "Voce piacevole"
+        },
+        {
+            "EN": "Squints",
+            "IT": "Striscia gli occhi"
+        },
+        {
+            "EN": "Strong",
+            "IT": "Forte"
+        },
+        {
+            "EN": "Thick Eyebrows",
+            "IT": "Sopracciglia folte"
+        },
+        {
+            "EN": "Tired",
+            "IT": "Stanco"
+        },
+        {
+            "EN": "Young",
+            "IT": "Giovane"
+        }
+    ],
+    "goal": [
+        {
+            "EN": "Ascension",
+            "IT": "Ascensione"
+        },
+        {
+            "EN": "Cleansing",
+            "IT": "Purificazione"
+        },
+        {
+            "EN": "Conservation",
+            "IT": "Conservazione"
+        },
+        {
+            "EN": "Defense",
+            "IT": "Difesa"
+        },
+        {
+            "EN": "Domination",
+            "IT": "Dominio"
+        },
+        {
+            "EN": "Enrichment",
+            "IT": "Arricchimento"
+        },
+        {
+            "EN": "Expansion",
+            "IT": "Espansione"
+        },
+        {
+            "EN": "Freedom",
+            "IT": "Libertà"
+        },
+        {
+            "EN": "Healing",
+            "IT": "Guarigione"
+        },
+        {
+            "EN": "Integration",
+            "IT": "Integrazione"
+        },
+        {
+            "EN": "Justice",
+            "IT": "Giustizia"
+        },
+        {
+            "EN": "Peace",
+            "IT": "Pace"
+        },
+        {
+            "EN": "Power",
+            "IT": "Potere"
+        },
+        {
+            "EN": "Preservation",
+            "IT": "Conservazione"
+        },
+        {
+            "EN": "Purification",
+            "IT": "Purificazione"
+        },
+        {
+            "EN": "Redemption",
+            "IT": "Redenzione"
+        },
+        {
+            "EN": "Revenge",
+            "IT": "Vendetta"
+        },
+        {
+            "EN": "Survival",
+            "IT": "Sopravvivenza"
+        },
+        {
+            "EN": "Unity",
+            "IT": "Unità"
+        },
+        {
+            "EN": "Wealth",
+            "IT": "Ricchezza"
+        }
+    ]
+}

@@ -262,7 +262,7 @@ function Generator() {
 
     }
 
-    function generateNpc(random) {
+    function generateNpc(settings,random,bags) {
         let
             entity = {
                 type:"person",
@@ -283,25 +283,62 @@ function Generator() {
             entity.wil += 1+random.integer(6);
         }
 
+        if (settings.npcNames) {
+            let
+                name = bags.npcName.pick();
+
+            entity.name = {};
+            data.tags.languages.forEach(languagedata=>{
+                entity.name[languagedata.id] = name;
+            });
+        }
+
         return entity;
     }
 
-    function addAttributes(random,data,bags,entity,attributes) {
-        let
-            count = 0,
-            attribute,
-            doneAttributes = {};
+    function addAttributes(settings,random,data,bags,entity,attributes) {
 
-        do {
+        switch (settings.npcStyle) {
+            case 1:{
+                // 2ed style
 
-            attribute = bags[attributes].pick();
-            if (!doneAttributes[attribute]) {
-                doneAttributes[attribute] = 1;
-                entity.attributes.push(random.element(data.characters.attributes[attribute]).attribute);
-                count++;
+                let
+                    selectedGoal = random.element(data.npc.goal),
+                    goal = {};
+
+                for (let k in data.tags.labels.npcGoal)
+                    goal[k] = data.tags.labels.npcGoal[k]+selectedGoal[k];
+
+                entity.attributes.push(random.element(data.npc.virtue));
+                entity.attributes.push(random.element(data.npc.vice));
+                entity.attributes.push(random.element(data.npc.quirk));
+                entity.attributes.push(goal);
+                break;
             }
+            default: {
+                // RogueCairn style
 
-        } while (count < NPC_ATTRIBUTES)
+                let
+                    count = 0,
+                    attribute,
+                    doneAttributes = {};
+
+                do {
+
+                    attribute = bags[attributes].pick();
+                    if (!doneAttributes[attribute]) {
+                        doneAttributes[attribute] = 1;
+                        entity.attributes.push(random.element(data.characters.attributes[attribute]).attribute);
+                        count++;
+                    }
+
+                } while (count < NPC_ATTRIBUTES)
+                    
+                break;
+            }
+        }
+
+        
 
     }
 
@@ -323,7 +360,7 @@ function Generator() {
         }
     }
 
-    function addEvents(random,data,bonds,entities,bags,ids,count,tags) {
+    function addEvents(settings,random,npcRandom,data,bonds,entities,bags,ids,count,tags) {
         
         let
             availableEvents = [],
@@ -455,31 +492,44 @@ function Generator() {
                                     let
                                         picked = clone(bags[pick].pick(event.tags));
 
-                                    entity = generateNpc(random);
+                                    entity = generateNpc(settings,random,bags);
 
                                     for (let k in picked)
                                         entity[k] = picked[k];
 
-                                    addAttributes(random,data,bags,entity,"personAttributes");
+                                    addAttributes(settings,npcRandom,data,bags,entity,"personAttributes");
                                     assignFaction(data,bags,entity);
 
                                     break;
                                 }
                                 case "commoner":{
-                                    
-                                    let
-                                        picked = clone(bags[pick].pick(event.tags));
 
-                                    entity = generateNpc(random);
-                                    addAttributes(random,data,bags,entity,"personAttributes");
+                                    let
+                                        picked;
+
+                                    switch (settings.npcStyle) {
+                                        case 1:{
+                                            // 2ed style
+                                            picked = clone(bags.npcBackground.pick());
+                                            break;
+                                        }
+                                        default:{
+                                            // RogueCairn style
+                                            picked = clone(bags[pick].pick(event.tags).attribute);
+                                            break;
+                                        }
+                                    }
+                                    
+                                    entity = generateNpc(settings,random,bags);
+                                    addAttributes(settings,npcRandom,data,bags,entity,"personAttributes");
                                     assignFaction(data,bags,entity);
 
                                     entity.tags.push("person");
                                     entity.tags.push("item-commoner");
-                                    entity.name = {};
+                                    entity.className = {};
                                     
-                                    for (let k in picked.attribute)
-                                        entity.name[k] = capitalize(picked.attribute[k]);
+                                    for (let k in picked)
+                                        entity.className[k] = capitalize(picked[k]);
 
                                     break;
                                 }
@@ -792,6 +842,7 @@ function Generator() {
         let
             random = new Random(seed),
             charactersRandom = new Random(seed),
+            npcRandom = new Random(seed),
             difficultyDensities = new random.Bag(DIFFICULTY_DENSITY),
             encountersDensities = new random.Bag(ENCOUNTERS_DENSITY),
             world = new HexMap(MAP_WIDTH,MAP_HEIGHT),
@@ -806,7 +857,9 @@ function Generator() {
                 spell:new random.Bag(data.spells),
                 professional:new random.Bag(data.people),
                 commoner:new random.Bag(data.characters.attributes.background),
-                item:new random.Bag(data.items)
+                item:new random.Bag(data.items),
+                npcName:new npcRandom.Bag(data.npc.name),
+                npcBackground:new npcRandom.Bag(data.npc.background)
             },
             ids={
                 key:1,
@@ -1218,17 +1271,17 @@ function Generator() {
         // --- Apply events
 
         if (DEBUG.events) console.log("::","Buildings")
-        addEvents(random,data,allBonds,entities,bags,ids,BUILDINGS_EVENTS,[ "event-buildings" ]);
+        addEvents(settings,random,npcRandom,data,allBonds,entities,bags,ids,BUILDINGS_EVENTS,[ "event-buildings" ]);
         if (DEBUG.events) console.log("::","Preparation")
-        addEvents(random,data,allBonds,entities,bags,ids,PREPARATION_EVENTS,[ "event-preparation" ]);
+        addEvents(settings,random,npcRandom,data,allBonds,entities,bags,ids,PREPARATION_EVENTS,[ "event-preparation" ]);
         if (DEBUG.events) console.log("::","Initial")
-        addEvents(random,data,allBonds,entities,bags,ids,INITIAL_EVENTS,[ "event-initial" ]);
+        addEvents(settings,random,npcRandom,data,allBonds,entities,bags,ids,INITIAL_EVENTS,[ "event-initial" ]);
         if (DEBUG.events) console.log("::","Once")
-        addEvents(random,data,allBonds,entities,bags,ids,1,[ "event-once" ]);
+        addEvents(settings,random,npcRandom,data,allBonds,entities,bags,ids,1,[ "event-once" ]);
         if (DEBUG.events) console.log("::","EVENTS")
-        addEvents(random,data,allBonds,entities,bags,ids,EVENTS,[ "event-base" ]);
+        addEvents(settings,random,npcRandom,data,allBonds,entities,bags,ids,EVENTS,[ "event-base" ]);
         if (DEBUG.events) console.log("::","Final")
-        addEvents(random,data,allBonds,entities,bags,ids,0,[ "event-finalizer" ]);
+        addEvents(settings,random,npcRandom,data,allBonds,entities,bags,ids,0,[ "event-finalizer" ]);
         
         // --- Characters
 
@@ -1379,6 +1432,10 @@ function Generator() {
                         id:"weather",
                         type:"json",
                         file:"databases/weather.json"
+                    },{
+                        id:"npc",
+                        type:"json",
+                        file:"databases/npc.json"
                     },{
                         id:"about",
                         type:"text",

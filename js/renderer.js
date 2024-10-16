@@ -245,7 +245,13 @@ function Renderer() {
                 case "person":
                 case "relic":
                 case "beast":{
-                    out += element.name[language];
+                    if (element.name)
+                        if (element.className)
+                            out += element.name[language]+" ("+element.className[language]+")";
+                        else
+                            out += element.name[language];
+                    else
+                        out += element.className[language];
                     break;
                 }
                 case "spellbook":{
@@ -467,7 +473,12 @@ function Renderer() {
                 let
                     notes = [];
                 
-                out += "<b>"+element.name[language]+"</b>";
+                if (element.name) {
+                    out += "<b>"+element.name[language]+"</b>";
+                    if (element.className)
+                        notes.push(element.className[language]);
+                } else
+                    out += "<b>"+element.className[language]+"</b> ";
 
                 if ((!isOwned || short.beast) && element.hp) {
                     let

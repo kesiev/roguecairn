@@ -1,7 +1,7 @@
 [
     {
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Alchemist",
 			"IT": "Alchimista"
 		},
@@ -19,7 +19,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Animal trainer",
 			"IT": "Addestratore di animali"
 		},
@@ -37,7 +37,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Armorer",
 			"IT": "Armaiolo"
 		},
@@ -55,7 +55,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Assistant armorer",
 			"IT": "Assistente Armaiolo"
 		},
@@ -73,7 +73,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Blacksmith",
 			"IT": "Fabbro"
 		},
@@ -91,7 +91,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Engineer",
 			"IT": "Ingegnere"
 		},
@@ -109,7 +109,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Navigator",
 			"IT": "Navigatore"
 		},
@@ -127,7 +127,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Oarsman",
 			"IT": "Rematore"
 		},
@@ -145,7 +145,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Sage",
 			"IT": "Saggio"
 		},
@@ -163,7 +163,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Sailor",
 			"IT": "Marinaio"
 		},
@@ -181,7 +181,7 @@
 	},
 	{
 		"type":"person",
-		"name": {
+		"className": {
 			"EN": "Ship’s captain",
 			"IT": "Capitano di nave"
 		},
