@@ -1,3 +1,28 @@
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -24px;
+    margin-left: -24px;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #f5f6fa;
+    border-bottom-color: #7253ed;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+    
 .diceroll {
     white-space: nowrap;
     text-align: center;
@@ -150,7 +175,6 @@ H2 .cell-id {
     cursor: pointer;
     width: 20px;
     height:20px;
-    background-color: red;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
