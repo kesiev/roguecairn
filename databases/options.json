@@ -185,6 +185,38 @@
     },
     {
         "label":{
+            "EN":"People",
+            "IT":"Persone"
+        },
+        "description":{
+            "IT":"Aggiunge una descrizione che spiega come vive la popolazione locale di ogni regione.",
+            "EN":"Adds a description explaining how the local population of each region lives."
+        },
+        "type":"combo",
+        "options":[
+            {
+                "set":{
+                    "settingPeople":false
+                },
+                "label":{
+                    "EN":"No",
+                    "IT":"No"
+                }
+            },
+            {
+                "symbol":"Y",
+                "set":{
+                    "settingPeople":true
+                },
+                "label":{
+                    "EN":"Yes",
+                    "IT":"Si"
+                }
+            }
+        ]
+    },
+    {
+        "label":{
             "EN":"Weather",
             "IT":"Clima"
         },

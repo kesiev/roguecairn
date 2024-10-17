@@ -843,6 +843,7 @@ function Generator() {
             random = new Random(seed),
             charactersRandom = new Random(seed),
             npcRandom = new Random(seed),
+            settingRandom = new Random(seed),
             difficultyDensities = new random.Bag(DIFFICULTY_DENSITY),
             encountersDensities = new random.Bag(ENCOUNTERS_DENSITY),
             world = new HexMap(MAP_WIDTH,MAP_HEIGHT),
@@ -859,7 +860,10 @@ function Generator() {
                 commoner:new random.Bag(data.characters.attributes.background),
                 item:new random.Bag(data.items),
                 npcName:new npcRandom.Bag(data.npc.name),
-                npcBackground:new npcRandom.Bag(data.npc.background)
+                npcBackground:new npcRandom.Bag(data.npc.background),
+                settingCharacter:new settingRandom.Bag(data.theme.people.character),
+                settingAmbition:new settingRandom.Bag(data.theme.people.ambition),
+                settingResource:new settingRandom.Bag(data.theme.resources)
             },
             ids={
                 key:1,
@@ -1145,7 +1149,6 @@ function Generator() {
 
         });
 
-        
         // --- Factions
 
         if (settings.factions) {
@@ -1267,6 +1270,18 @@ function Generator() {
             };
 
         }
+
+        // --- Setting (People)
+
+        if (settings.settingPeople)
+            world.cells.forEach(cell=>{
+                cell.settingPeople = {
+                    character:bags.settingCharacter.pick(),
+                    ambition:bags.settingAmbition.pick(),
+                    abundance:bags.settingResource.pick(),
+                    scarcity:bags.settingResource.pick()
+                }
+            });
 
         // --- Apply events
 
@@ -1436,6 +1451,10 @@ function Generator() {
                         id:"npc",
                         type:"json",
                         file:"databases/npc.json"
+                    },{
+                        id:"theme",
+                        type:"json",
+                        file:"databases/theme.json"
                     },{
                         id:"about",
                         type:"text",

@@ -1,0 +1,250 @@
+{
+    "people": {
+        "character": [
+            {
+                "EN":"altruistic",
+                "IT":"altruista"
+            },
+            {
+                "EN":"artistic",
+                "IT":"artistica"
+            },
+            {
+                "EN":"curious",
+                "IT":"curiosa"
+            },
+            {
+                "EN":"devious",
+                "IT":"subdola"
+            },
+            {
+                "EN":"enlightened",
+                "IT":"illuminata"
+            },
+            {
+                "EN":"hardy",
+                "IT":"resistente"
+            },
+            {
+                "EN":"harmonious",
+                "IT":"armoniosa"
+            },
+            {
+                "EN":"inventive",
+                "IT":"inventiva"
+            },
+            {
+                "EN":"mercantile",
+                "IT":"mercantile"
+            },
+            {
+                "EN":"nomadic",
+                "IT":"nomade"
+            },
+            {
+                "EN":"reclusive",
+                "IT":"reclusiva"
+            },
+            {
+                "EN":"religious",
+                "IT":"religiosa"
+            },
+            {
+                "EN":"resilient",
+                "IT":"resiliente"
+            },
+            {
+                "EN":"scholarly",
+                "IT":"erudita"
+            },
+            {
+                "EN":"stoic",
+                "IT":"stoica"
+            },
+            {
+                "EN":"struggling",
+                "IT":"in difficoltà"
+            },
+            {
+                "EN":"traditional",
+                "IT":"tradizionale"
+            },
+            {
+                "EN":"war-like",
+                "IT":"bellicosa"
+            },
+            {
+                "EN":"wealthy",
+                "IT":"ricca"
+            },
+            {
+                "EN":"xenophobic",
+                "IT":"xenofoba"
+            }
+        ],
+        "ambition": [
+            {
+                "EN":"a good bounty",
+                "IT":"a una buona ricompensa"
+            },
+            {
+                "EN":"conquest",
+                "IT":"alla conquista"
+            },
+            {
+                "EN":"control",
+                "IT":"al controllo"
+            },
+            {
+                "EN":"conversion",
+                "IT":"alla conversione"
+            },
+            {
+                "EN":"division",
+                "IT":"alla divisione"
+            },
+            {
+                "EN":"dominance",
+                "IT":"al dominio"
+            },
+            {
+                "EN":"exploration",
+                "IT":"all'esplorazione"
+            },
+            {
+                "EN":"fealty",
+                "IT":"alla fedeltà"
+            },
+            {
+                "EN":"independence",
+                "IT":"all'indipendenza"
+            },
+            {
+                "EN":"knowledge",
+                "IT":"alla conoscenza"
+            },
+            {
+                "EN":"natural harmony",
+                "IT":"all'armonia con la natura"
+            },
+            {
+                "EN":"peace",
+                "IT":"alla pace"
+            },
+            {
+                "EN":"power",
+                "IT":"al potere"
+            },
+            {
+                "EN":"purity",
+                "IT":"alla purezza"
+            },
+            {
+                "EN":"recognition",
+                "IT":"al riconoscimento"
+            },
+            {
+                "EN":"return",
+                "IT":"al ritorno"
+            },
+            {
+                "EN":"security",
+                "IT":"alla sicurezza"
+            },
+            {
+                "EN":"stability",
+                "IT":"alla stabilità"
+            },
+            {
+                "EN":"unification",
+                "IT":"all'unificazione"
+            },
+            {
+                "EN":"wealth",
+                "IT":"alla ricchezza"
+            }
+        ]
+    },
+    "resources": [
+        {
+            "EN":[ "food", 0 ],
+            "IT":[ "il cibo", 0 ]
+        },
+        {
+            "EN":[ "fuel", 0 ],
+            "IT":[ "il carburante", 0 ]
+        },
+        {
+            "EN":[ "gemstones", 1 ],
+            "IT":[ "le pietre preziose", 1 ]
+        },
+        {
+            "EN":[ "herbs", 1 ],
+            "IT":[ "le erbe", 1 ]
+        },
+        {
+            "EN":[ "horses", 1 ],
+            "IT":[ "i cavalli", 1 ]
+        },
+        {
+            "EN":[ "knowledge", 0 ],
+            "IT":[ "la conoscenza", 0 ]
+        },
+        {
+            "EN":[ "land", 0 ],
+            "IT":[ "la terra", 0 ]
+        },
+        {
+            "EN":[ "livestock", 0 ],
+            "IT":[ "il bestiame", 0 ]
+        },
+        {
+            "EN":[ "medicines", 1 ],
+            "IT":[ "le medicine", 1 ]
+        },
+        {
+            "EN":[ "ore", 0 ],
+            "IT":[ "il minerale", 0 ]
+        },
+        {
+            "EN":[ "skilled  labor", 0 ],
+            "IT":[ "la manodopera qualificata", 0 ]
+        },
+        {
+            "EN":[ "spices", 1 ],
+            "IT":[ "le spezie", 1 ]
+        },
+        {
+            "EN":[ "stone", 0 ],
+            "IT":[ "la pietra", 0 ]
+        },
+        {
+            "EN":[ "textiles", 1 ],
+            "IT":[ "i tessuti", 1 ]
+        },
+        {
+            "EN":[ "tools", 1 ],
+            "IT":[ "gli utensili", 1 ]
+        },
+        {
+            "EN":[ "trade goods", 1 ],
+            "IT":[ "i beni commerciali", 1 ]
+        },
+        {
+            "EN":[ "vessels", 1 ],
+            "IT":[ "i vasi", 1 ]
+        },
+        {
+            "EN":[ "water", 0 ],
+            "IT":[ "l'acqua", 0 ]
+        },
+        {
+            "EN":[ "weapons", 1 ],
+            "IT":[ "le armi", 1 ]
+        },
+        {
+            "EN":[ "wood", 0 ],
+            "IT":[ "il legno", 0 ]
+        }
+    ]
+}

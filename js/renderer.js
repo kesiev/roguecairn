@@ -1163,6 +1163,24 @@ function Renderer() {
                         "</p>";
 
             }
+
+            // --- People
+
+            if (cell.settingPeople) {
+
+                html += "<p>"+
+                    data.tags.labels.settingPeople[language][0]+
+                    "<b>"+cell.settingPeople.character[language]+"</b>"+
+                    data.tags.labels.settingPeople[language][1]+
+                    "<b>"+cell.settingPeople.ambition[language]+"</b>"+
+                    data.tags.labels.settingPeople[language][2]+
+                    "<b>"+cell.settingPeople.abundance[language][0]+"</b>"+
+                    data.tags.labels.settingPeople[language][3+cell.settingPeople.abundance[language][1]]+
+                    "<b>"+cell.settingPeople.scarcity[language][0]+"</b>"+
+                    data.tags.labels.settingPeople[language][5+cell.settingPeople.scarcity[language][1]]+
+                    "</p>";
+
+            }
             
             // --- Factions
 

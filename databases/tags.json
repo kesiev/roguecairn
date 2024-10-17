@@ -280,6 +280,10 @@
 			"EN":"Goal: ",
 			"IT":"Obiettivo: "
 		},
+		"settingPeople":{
+			"EN":[ "The locals are "," and their ambition is often ",". In this region, "," is abundant, but "," are abundant but "," is scarce.", " are scarce." ],
+			"IT":[ "La gente del posto &egrave; "," e spesso ambisce ",". In questa regione "," abbonda ma ", " abbondano ma ", " scarseggia."," scarseggiano." ]
+		},
 		"kettlewrightDownload":{
 			"IT":"Esporta JSON per Kettlewright",
 			"EN":"Export Kettlewright JSON"
