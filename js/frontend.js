@@ -71,6 +71,8 @@ function Frontend() {
                     " &dash; "+
                     "<a target=_blank href='"+data.tags.metadata.sourcesUrl+"'>"+data.tags.labels.sources[language]+"</a>"+
                     " &dash; "+
+                    "<a target=_blank href='"+data.tags.metadata.discordUrl+"'>"+data.tags.labels.discord[language]+"</a>"+
+                    " &dash; "+
                     data.tags.labels.footer[language]+
                 "</footer>"+
             "</div>"+

@@ -4,7 +4,7 @@
 
 ---
 
-<div align="center"><a href="https://www.kesiev.com/roguecairn/">Generate a world</a></div>
+<div align="center"><a href="https://www.kesiev.com/roguecairn/">Generate a world</a> | <a href="https://discord.gg/TeAWvnuGku">Discord</a></div>
 
 ---
 

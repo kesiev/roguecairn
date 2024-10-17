@@ -4,6 +4,7 @@
 		"author":"KesieV",
 		"authorUrl":"https://www.kesiev.com",
 		"sourcesUrl":"https://github.com/kesiev/roguecairn",
+		"discordUrl":"https://discord.gg/TeAWvnuGku",
 		"projectName":"RogueCairn"
 	},
 	"languages":[
@@ -123,6 +124,10 @@
 		"sources":{
 			"IT":"Codice sorgente",
 			"EN":"Source code"
+		},
+		"discord":{
+			"IT":"Discord",
+			"EN":"Discord"
 		},
 		"world":{
 			"IT":"Mondo",
