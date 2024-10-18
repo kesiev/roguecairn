@@ -844,10 +844,12 @@ function Generator() {
             charactersRandom = new Random(seed),
             npcRandom = new Random(seed),
             settingRandom = new Random(seed),
+            monsterRandom = new Random(seed),
             difficultyDensities = new random.Bag(DIFFICULTY_DENSITY),
             encountersDensities = new random.Bag(ENCOUNTERS_DENSITY),
             world = new HexMap(MAP_WIDTH,MAP_HEIGHT),
             usedBiomes = [],
+            monsterNames = {},
             bags={
                 personAttributes:new random.Bag(PERSON_ATTRIBUTES),
                 personTypes:new random.Bag(PERSON_TYPES),
@@ -863,7 +865,17 @@ function Generator() {
                 npcBackground:new npcRandom.Bag(data.npc.background),
                 settingCharacter:new settingRandom.Bag(data.theme.people.character),
                 settingAmbition:new settingRandom.Bag(data.theme.people.ambition),
-                settingResource:new settingRandom.Bag(data.theme.resources)
+                settingResource:new settingRandom.Bag(data.theme.resources),
+                monsterType:new monsterRandom.Bag(data.monsters.rarity[settings.monsterStyle]),
+                monsterAttack:new monsterRandom.Bag(data.monsters.attack),
+                monsterName:new monsterRandom.Bag(data.monsters.name),
+                monsterPhysique:new monsterRandom.Bag(data.monsters.physique),
+                monsterFeature:new monsterRandom.Bag(data.monsters.feature),
+                monsterQuirk:new monsterRandom.Bag(data.monsters.quirk),
+                monsterWeakness:new monsterRandom.Bag(data.monsters.weakness),
+                monsterCritical:new monsterRandom.Bag(data.monsters.critical),
+                monsterAbility:new monsterRandom.Bag(data.monsters.ability),
+                monsterTarget:new monsterRandom.Bag(data.monsters.target)
             },
             ids={
                 key:1,
@@ -1103,7 +1115,8 @@ function Generator() {
             for (let k in difficulty) {
                 cell[k] = difficulty[k].map(set=>{
                     let
-                        beast;
+                        beast,
+                        type = bags.monsterType.pick();
 
                     beast = clone(bags.beast.pick([
                         [
@@ -1127,6 +1140,70 @@ function Generator() {
                             ]
                         ]
                     ]));
+
+                    switch (type) {
+                        case "rare":{
+                            let
+                                name = bags.monsterName.pick(),
+                                physique = bags.monsterPhysique.pick(),
+                                feature = bags.monsterFeature.pick(),
+                                quirk = bags.monsterQuirk.pick(),
+                                weakness = bags.monsterWeakness.pick(),
+                                critical = bags.monsterCritical.pick(),
+                                ability = bags.monsterAbility.pick(),
+                                target = bags.monsterTarget.pick(),
+                                description = {};
+
+                            beast = {
+                                type:beast.type,
+                                armor:beast.armor,
+                                dex:beast.dex,
+                                str:beast.str,
+                                wil:beast.wil,
+                                hp:beast.hp,
+                                tags:beast.tags,
+                                weapon:beast.weapon.map(weapon=>{
+                                    let
+                                        rareAttack = bags.monsterAttack.pick();
+                                    for (let k in weapon)
+                                        weapon[k] = weapon[k].replace(/.*(\([^)]+\)).*/,(m,m1)=>rareAttack[k]+" "+m1);
+                                    return weapon;
+                                }),
+                                references:[],
+                                notes:[],
+                                name:{},
+                                critical:[ critical ],
+                                description:[]
+                            }
+                            
+                            if (!monsterNames[name.EN])
+                                monsterNames[name.EN] = 1;
+                            else
+                                monsterNames[name.EN]++;
+
+                            for (let k in name) {
+                                description[k] = data.tags.labels.monsterDescription[k][0]+
+                                    physique[k]+
+                                    data.tags.labels.monsterDescription[k][1]+
+                                    feature[k]+
+                                    data.tags.labels.monsterDescription[k][2]+
+                                    quirk[k]+
+                                    data.tags.labels.monsterDescription[k][3]+
+                                    weakness[k]+
+                                    data.tags.labels.monsterDescription[k][4]+
+                                    ability[k]+
+                                    data.tags.labels.monsterDescription[k][5]+
+                                    target[k]+
+                                    data.tags.labels.monsterDescription[k][6];
+                                beast.name[k] = name[k]+( monsterNames[name.EN]>1 ? " "+monsterNames[name.EN] : "");
+                            }
+
+                            beast.description.push(description);
+
+                            break;
+                        }
+                    }
+
                     beast.foundAt = cell;
                     entities.push(beast);
                     return beast;
@@ -1455,6 +1532,10 @@ function Generator() {
                         id:"theme",
                         type:"json",
                         file:"databases/theme.json"
+                    },{
+                        id:"monsters",
+                        type:"json",
+                        file:"databases/monsters.json"
                     },{
                         id:"about",
                         type:"text",

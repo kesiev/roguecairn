@@ -163,6 +163,7 @@
         "type":"combo",
         "options":[
             {
+                "default":true,
                 "set":{
                     "factions":false
                 },
@@ -195,6 +196,7 @@
         "type":"combo",
         "options":[
             {
+                "default":true,
                 "set":{
                     "settingPeople":false
                 },
@@ -227,6 +229,7 @@
         "type":"combo",
         "options":[
             {
+                "default":true,
                 "set":{
                     "weather":false
                 },
@@ -265,6 +268,7 @@
         "type":"combo",
         "options":[
             {
+                "default":true,
                 "set":{
                     "npcNames":false
                 },
@@ -297,6 +301,7 @@
         "type":"combo",
         "options":[
             {
+                "default":true,
                 "set":{
                     "npcStyle":0
                 },
@@ -313,6 +318,75 @@
                 "label":{
                     "EN":"2nd edition",
                     "IT":"2&deg; edizione"
+                }
+            }
+        ]
+    },
+    {
+        "title":{
+            "EN":"Beasts",
+            "IT":"Bestie"
+        }
+    },
+    {
+        "label":{
+            "EN":"Style",
+            "IT":"Stile"
+        },
+        "description":{
+            "IT":"Stabilisce le regole da usare per creare le bestie.",
+            "EN":"Establishes the rules to use when creating beasts."
+        },
+        "type":"combo",
+        "options":[
+            {
+                "default":true,
+                "set":{
+                    "monsterStyle":0
+                },
+                "label":{
+                    "EN":"From the bestiary",
+                    "IT":"Dal bestiario"
+                }
+            },
+            {
+                "symbol":"u",
+                "set":{
+                    "monsterStyle":1
+                },
+                "label":{
+                    "EN":"From the bestiary with rare unknown monsters",
+                    "IT":"Dal bestiario con rari mostri sconosciuti"
+                }
+            },
+            {
+                "symbol":"U",
+                "set":{
+                    "monsterStyle":2
+                },
+                "label":{
+                    "EN":"From the bestiary with common unknown monsters",
+                    "IT":"Dal bestiario con alcuni mostri sconosciuti"
+                }
+            },
+            {
+                "symbol":"v",
+                "set":{
+                    "monsterStyle":3
+                },
+                "label":{
+                    "EN":"From the bestiary with frequent unknown monsters",
+                    "IT":"Dal bestiario con frequenti mostri sconosciuti"
+                }
+            },
+            {
+                "symbol":"V",
+                "set":{
+                    "monsterStyle":4
+                },
+                "label":{
+                    "EN":"Unknown monsters only",
+                    "IT":"Solo mostri sconosciuti"
                 }
             }
         ]

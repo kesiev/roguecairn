@@ -1,6 +1,6 @@
 {
 	"metadata":{
-		"version":"0.31b",
+		"version":"0.32b",
 		"author":"KesieV",
 		"authorUrl":"https://www.kesiev.com",
 		"sourcesUrl":"https://github.com/kesiev/roguecairn",
@@ -288,6 +288,10 @@
 		"settingPeople":{
 			"EN":[ "The locals are "," and their ambition is often ",". In this region, "," is abundant, but "," are abundant but "," is scarce.", " are scarce." ],
 			"IT":[ "La gente del posto &egrave; "," e spesso ambisce ",". In questa regione "," abbonda ma ", " abbondano ma ", " scarseggia."," scarseggiano." ]
+		},
+		"monsterDescription":{
+			"IT":[ "Un mostro ", " con ", ". "," ed &egrave; debole ", ". &Egrave; capace di "," ed il suo obiettivo ","."],
+			"EN":[ "A ", " monster with ", ". "," and is weak to ",". It "," and targets ","."]
 		},
 		"kettlewrightDownload":{
 			"IT":"Esporta JSON per Kettlewright",

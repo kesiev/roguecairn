@@ -1,0 +1,708 @@
+{
+    "rarity":[
+        [ "beast" ],
+        [ "beast", "beast", "beast", "beast", "beast", "beast", "rare" ],
+        [ "beast", "beast", "beast", "rare" ],
+        [ "beast", "rare" ],
+        [ "rare" ]
+    ],
+    "name":[
+        {
+            "EN":"Mysterious Creature",
+            "IT":"Creatura Misteriosa"
+        },{
+            "EN":"Unknown Creature",
+            "IT":"Creatura Sconosciuta"
+        },{
+            "EN":"Unnamed Creature",
+            "IT":"Creatura Senza Nome"
+        },{
+            "EN":"Unidentified Creature",
+            "IT":"Creatura non Identificata"
+        },{
+            "EN":"Mysterious Beast",
+            "IT":"Bestia Misteriosa"
+        },{
+            "EN":"Unknown Beast",
+            "IT":"Bestia Sconosciuta"
+        },{
+            "EN":"Unnamed Beast",
+            "IT":"Bestia Senza Nome"
+        },{
+            "EN":"Unidentified Beast",
+            "IT":"Bestia non Identificata"
+        },{
+            "EN":"Mysterious Monster",
+            "IT":"Mostro Misterioso"
+        },{
+            "EN":"Unknown Monster",
+            "IT":"Mostro Sconosciuto"
+        },{
+            "EN":"Unnamed Monster",
+            "IT":"Mostro Senza Nome"
+        },{
+            "EN":"Unidentified Monster",
+            "IT":"Mostro non Identificato"
+        },{
+            "EN":"Mysterious Being",
+            "IT":"Essere Misterioso"
+        },{
+            "EN":"Unknown Being",
+            "IT":"Essere Sconosciuto"
+        },{
+            "EN":"Unnamed Being",
+            "IT":"Essere Senza Nome"
+        },{
+            "EN":"Unidentified Being",
+            "IT":"Essere non Identificato"
+        }
+    ],
+    "physique": [
+        {
+            "EN":"albino",
+            "IT":"albino"
+        },
+        {
+            "EN":"black",
+            "IT":"nero"
+        },
+        {
+            "EN":"crystalline",
+            "IT":"cristallino"
+        },
+        {
+            "EN":"emaciated",
+            "IT":"emaciato"
+        },
+        {
+            "EN":"eyeless",
+            "IT":"senza occhi"
+        },
+        {
+            "EN":"feathered",
+            "IT":"piumato"
+        },
+        {
+            "EN":"gelatinous",
+            "IT":"gelatinoso"
+        },
+        {
+            "EN":"glowing",
+            "IT":"luminoso"
+        },
+        {
+            "EN":"hardened",
+            "IT":"indurito"
+        },
+        {
+            "EN":"headless",
+            "IT":"senza testa"
+        },
+        {
+            "EN":"horned",
+            "IT":"cornuto"
+        },
+        {
+            "EN":"hunched",
+            "IT":"gobbo"
+        },
+        {
+            "EN":"iridescent",
+            "IT":"iridescente"
+        },
+        {
+            "EN":"polyocular",
+            "IT":"polioculare"
+        },
+        {
+            "EN":"scaled",
+            "IT":"squamato"
+        },
+        {
+            "EN":"segmented",
+            "IT":"segmentato"
+        },
+        {
+            "EN":"skeletal",
+            "IT":"scheletrico"
+        },
+        {
+            "EN":"slimy",
+            "IT":"viscioso"
+        },
+        {
+            "EN":"translucent",
+            "IT":"traslucido"
+        },
+        {
+            "EN":"twisted",
+            "IT":"contorto"
+        }
+    ],
+    "feature":[
+        {
+            "EN":"antennae",
+            "IT":"le antenne"
+        },
+        {
+            "EN":"beak",
+            "IT":"il becco"
+        },
+        {
+            "EN":"carapace",
+            "IT":"un carapace"
+        },
+        {
+            "EN":"claws",
+            "IT":"gli artigli"
+        },
+        {
+            "EN":"fangs",
+            "IT":"le zanne"
+        },
+        {
+            "EN":"feathers",
+            "IT":"le piume"
+        },
+        {
+            "EN":"fur",
+            "IT":"la pelliccia"
+        },
+        {
+            "EN":"gilled",
+            "IT":"le branchie"
+        },
+        {
+            "EN":"horns",
+            "IT":"le corna"
+        },
+        {
+            "EN":"markings",
+            "IT":"dei segni"
+        },
+        {
+            "EN":"scales",
+            "IT":"le squame"
+        },
+        {
+            "EN":"shell",
+            "IT":"il guscio"
+        },
+        {
+            "EN":"snout",
+            "IT":"il muso"
+        },
+        {
+            "EN":"tail",
+            "IT":"la coda"
+        },
+        {
+            "EN":"talons",
+            "IT":"gli artigli"
+        },
+        {
+            "EN":"tentacles",
+            "IT":"i tentacoli"
+        },
+        {
+            "EN":"trunk",
+            "IT":"la proboscide"
+        },
+        {
+            "EN":"tusks",
+            "IT":"le zanne"
+        },
+        {
+            "EN":"voice",
+            "IT":"parlante"
+        },
+        {
+            "EN":"wings",
+            "IT":"le ali"
+        }
+    ],
+    "quirk":[
+        {
+            "EN":"Alters its size at will",
+            "IT":"Modifica le sue dimensioni a piacimento"
+        },
+        {
+            "EN":"Changes color at will",
+            "IT":"Cambia colore a piacimento"
+        },
+        {
+            "EN":"Collects rare flowers",
+            "IT":"Colleziona fiori rari"
+        },
+        {
+            "EN":"Collects trophies",
+            "IT":"Colleziona trofei"
+        },
+        {
+            "EN":"Does not die of old age",
+            "IT":"Non muore di vecchiaia"
+        },
+        {
+            "EN":"Draws symbols",
+            "IT":"Disegna simboli"
+        },
+        {
+            "EN":"Fascinated by fire",
+            "IT":"È affascinato dal fuoco"
+        },
+        {
+            "EN":"Hoards books",
+            "IT":"Accumula libri"
+        },
+        {
+            "EN":"Loves a specific color",
+            "IT":"Ama un colore specifico"
+        },
+        {
+            "EN":"Reborn each day",
+            "IT":"Rinasce ogni giorno"
+        },
+        {
+            "EN":"Loves shiny objects",
+            "IT":"Ama gli oggetti luccicanti"
+        },
+        {
+            "EN":"Mimics voices",
+            "IT":"Imita le voci"
+        },
+        {
+            "EN":"Moves in a straight line",
+            "IT":"Si muove in linea retta"
+        },
+        {
+            "EN":"Narrates everything",
+            "IT":"Racconta tutto"
+        },
+        {
+            "EN":"Obsessively cleans",
+            "IT":"Pulisce ossessivamente"
+        },
+        {
+            "EN":"Plants grow in its wake",
+            "IT":"Le piante crescono al suo passaggio"
+        },
+        {
+            "EN":"Sleeps upside down",
+            "IT":"Dorme a testa in giù"
+        },
+        {
+            "EN":"Speaks in rhymes",
+            "IT":"Parla in rima"
+        },
+        {
+            "EN":"Sweats rare minerals",
+            "IT":"Suda minerali rari"
+        },
+        {
+            "EN":"Reproduces asexually",
+            "IT":"Si riproduce asessualmente"
+        }
+    ],
+    "weakness":[
+        {
+            "EN":"alcohol",
+            "IT":"all'alcol"
+        },
+        {
+            "EN":"cold",
+            "IT":"al freddo"
+        },
+        {
+            "EN":"conversation",
+            "IT":"alla conversazione"
+        },
+        {
+            "EN":"flattery",
+            "IT":"all'adulazione"
+        },
+        {
+            "EN":"games",
+            "IT":"ai giochi"
+        },
+        {
+            "EN":"gifts",
+            "IT":"ai regali"
+        },
+        {
+            "EN":"iron",
+            "IT":"al ferro"
+        },
+        {
+            "EN":"loud noises",
+            "IT":"ai rumori forti"
+        },
+        {
+            "EN":"mirrors",
+            "IT":"agli specchi"
+        },
+        {
+            "EN":"bright colors",
+            "IT":"ai colori vivaci"
+        },
+        {
+            "EN":"moonlight",
+            "IT":"al chiaro di luna"
+        },
+        {
+            "EN":"music",
+            "IT":"alla musica"
+        },
+        {
+            "EN":"prepared meals",
+            "IT":"ai pasti preparati"
+        },
+        {
+            "EN":"puzzles",
+            "IT":"ai puzzle"
+        },
+        {
+            "EN":"religious icons",
+            "IT":"alle icone religiose"
+        },
+        {
+            "EN":"salt",
+            "IT":"al sale"
+        },
+        {
+            "EN":"silver",
+            "IT":"all'argento"
+        },
+        {
+            "EN":"sunlight",
+            "IT":"alla luce del sole"
+        },
+        {
+            "EN":"its true name",
+            "IT":"al suo vero nome"
+        },
+        {
+            "EN":"a spot",
+            "IT":"in un punto"
+        }
+    ],
+    "attack":[
+        {
+            "EN":"bite",
+            "IT":"morso"
+        },
+        {
+            "EN":"blunt",
+            "IT":"urto"
+        },
+        {
+            "EN":"burn",
+            "IT":"bruciatura"
+        },
+        {
+            "EN":"freeze",
+            "IT":"congelamento"
+        },
+        {
+            "EN":"gas",
+            "IT":"gas"
+        },
+        {
+            "EN":"kick",
+            "IT":"calcio"
+        },
+        {
+            "EN":"punch",
+            "IT":"pugno"
+        },
+        {
+            "EN":"shoot",
+            "IT":"colpo"
+        },
+        {
+            "EN":"slam",
+            "IT":"urto"
+        },
+        {
+            "EN":"slash",
+            "IT":"taglio"
+        },
+        {
+            "EN":"slice",
+            "IT":"affetta"
+        },
+        {
+            "EN":"smash",
+            "IT":"schiacciata"
+        },
+        {
+            "EN":"spray",
+            "IT":"spruzzo"
+        },
+        {
+            "EN":"squeeze",
+            "IT":"stretta"
+        },
+        {
+            "EN":"stab",
+            "IT":"pugnalata"
+        },
+        {
+            "EN":"sting",
+            "IT":"puntura"
+        },
+        {
+            "EN":"throw",
+            "IT":"lancio"
+        },
+        {
+            "EN":"touch",
+            "IT":"tocco"
+        },
+        {
+            "EN":"whip",
+            "IT":"frustata"
+        },
+        {
+            "EN":"zap",
+            "IT":"fulmine"
+        }
+    ],
+    "critical":[
+        {
+            "EN":"Asphyxiates",
+            "IT":"Asfissia"
+        },
+        {
+            "EN":"Bleeds",
+            "IT":"Sanguina"
+        },
+        {
+            "EN":"Blinds",
+            "IT":"Acceca"
+        },
+        {
+            "EN":"Breaks",
+            "IT":"Rottura"
+        },
+        {
+            "EN":"Crushes",
+            "IT":"Schiaccia"
+        },
+        {
+            "EN":"Decays",
+            "IT":"Degrada"
+        },
+        {
+            "EN":"Dissolves",
+            "IT":"Dissolve"
+        },
+        {
+            "EN":"Ensnares",
+            "IT":"Intrappola"
+        },
+        {
+            "EN":"Explodes",
+            "IT":"Esplode"
+        },
+        {
+            "EN":"Grapples",
+            "IT":"Afferra"
+        },
+        {
+            "EN":"Incapacitates",
+            "IT":"Debilita"
+        },
+        {
+            "EN":"Lacerates",
+            "IT":"Lacera"
+        },
+        {
+            "EN":"Liquefies",
+            "IT":"Liquefa"
+        },
+        {
+            "EN":"Paralyzes",
+            "IT":"Paralizza"
+        },
+        {
+            "EN":"Petrifies",
+            "IT":"Pietrifica"
+        },
+        {
+            "EN":"Poisons",
+            "IT":"Avvelena"
+        },
+        {
+            "EN":"Punctures",
+            "IT":"Perfora"
+        },
+        {
+            "EN":"Severs",
+            "IT":"Recide"
+        },
+        {
+            "EN":"Tramples",
+            "IT":"Calpesta"
+        },
+        {
+            "EN":"Weakens",
+            "IT":"Indebolisce"
+        }
+    ],
+    "ability":[
+        {
+            "EN":"absorbs",
+            "IT":"assorbire"
+        },
+        {
+            "EN":"amplifies",
+            "IT":"amplificare"
+        },
+        {
+            "EN":"attracts",
+            "IT":"attirare"
+        },
+        {
+            "EN":"binds",
+            "IT":"legare"
+        },
+        {
+            "EN":"camouflages",
+            "IT":"mimetizzare"
+        },
+        {
+            "EN":"conjures",
+            "IT":"evocare"
+        },
+        {
+            "EN":"controls",
+            "IT":"controllare"
+        },
+        {
+            "EN":"disables",
+            "IT":"debilitare"
+        },
+        {
+            "EN":"duplicates",
+            "IT":"duplicare"
+        },
+        {
+            "EN":"grows",
+            "IT":"crescere"
+        },
+        {
+            "EN":"manipulates",
+            "IT":"manipolare"
+        },
+        {
+            "EN":"reflects",
+            "IT":"riflettere"
+        },
+        {
+            "EN":"regenerates",
+            "IT":"rigenerare"
+        },
+        {
+            "EN":"resists",
+            "IT":"resistere"
+        },
+        {
+            "EN":"reverses",
+            "IT":"invertire"
+        },
+        {
+            "EN":"shapes",
+            "IT":"modellare"
+        },
+        {
+            "EN":"shrinks",
+            "IT":"restringere"
+        },
+        {
+            "EN":"transforms",
+            "IT":"trasformare"
+        },
+        {
+            "EN":"traps",
+            "IT":"intrappolare"
+        }
+    ],
+    "target":[
+        {
+            "EN":"the body",
+            "IT":"&egrave; il corpo"
+        },
+        {
+            "EN":"the dreams",
+            "IT":"sono i sogni"
+        },
+        {
+            "EN":"the element",
+            "IT":"&egrave; l'elemento"
+        },
+        {
+            "EN":"the emotions",
+            "IT":"sono le emozioni"
+        },
+        {
+            "EN":"the energy",
+            "IT":"&egrave; l'energia"
+        },
+        {
+            "EN":"the health",
+            "IT":"&egrave; la salute"
+        },
+        {
+            "EN":"the hearing",
+            "IT":"&egrave; l'udito"
+        },
+        {
+            "EN":"the illusions",
+            "IT":"sono le illusioni"
+        },
+        {
+            "EN":"the light",
+            "IT":"&egrave; la luce"
+        },
+        {
+            "EN":"the memory",
+            "IT":"&egrave; la memoria"
+        },
+        {
+            "EN":"the metal",
+            "IT":"&egrave; il metallo"
+        },
+        {
+            "EN":"the plants",
+            "IT":"sono le piante"
+        },
+        {
+            "EN":"the spirit",
+            "IT":"&egrave; lo spirito"
+        },
+        {
+            "EN":"the stone",
+            "IT":"&egrave; la pietra"
+        },
+        {
+            "EN":"the surroundings",
+            "IT":"sono i dintorni"
+        },
+        {
+            "EN":"the time",
+            "IT":"&egrave; il tempo"
+        },
+        {
+            "EN":"the vision",
+            "IT":"&egrave; la vista"
+        },
+        {
+            "EN":"the water",
+            "IT":"&egrave; l'acqua"
+        },
+        {
+            "EN":"the weather",
+            "IT":"&egrave; il meteo"
+        }
+    ]
+}
